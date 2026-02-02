@@ -37,16 +37,16 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: preview
+          HUGO_RELATIVEURLS: true
           TZ: America/Los_Angeles
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/${{ github.event.number }}/"
+            --baseURL "/"
 
       - name: Deploy to preview branch
         run: |
-          # Save built site
           cp -r public /tmp/pr-preview-${{ github.event.number }}
 
           git config --local user.email "action@github.com"
@@ -61,16 +61,13 @@ jobs:
           git rm -rf . 2>/dev/null || true
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
 
-          # Restore any existing previews from the branch
+          # Restore existing previews from the branch
           git checkout pr-previews -- . 2>/dev/null || true
 
           # Replace this PR's preview
-          rm -rf "pr-preview/${{ github.event.number }}"
-          mkdir -p "pr-preview/${{ github.event.number }}"
-          cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview/${{ github.event.number }}/"
-
-          # Add .nojekyll so GitHub Pages serves the files as-is
-          touch .nojekyll
+          rm -rf "pr-preview-${{ github.event.number }}"
+          mkdir -p "pr-preview-${{ github.event.number }}"
+          cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview-${{ github.event.number }}/"
 
           git add -A
           git commit -m "Update PR #${{ github.event.number }} preview" || exit 0
@@ -90,15 +87,15 @@ jobs:
               comment.user.type === 'Bot' && comment.body.includes('Site Preview')
             );
 
-            const previewUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/pr-preview/${{ github.event.number }}/`;
+            const previewUrl = `https://htmlpreview.github.io/?https://github.com/${{ github.repository }}/blob/pr-previews/pr-preview-${{ github.event.number }}/index.html`;
 
             const body = `## Site Preview
 
             **Preview:** [View site preview](${previewUrl})
             **Commit:** \`${{ github.event.pull_request.head.sha }}\`
 
-            > Preview deploys to the \`pr-previews\` branch and is served via GitHub Pages.
-            > It may take a minute for the preview to update after this comment appears.`;
+            > Preview rendered via htmlpreview.github.io from the \`pr-previews\` branch.
+            > Navigation between pages won't work in preview -- this is a visual check of the homepage.`;
 
             if (botComment) {
               await github.rest.issues.updateComment({
