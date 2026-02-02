@@ -1,0 +1,15 @@
+{
+  "name": "Seattle Urbanism Guide",
+  "short_name": "Seattle Urbanism Guide",
+  "start_url": "/urbanism-guide/pr-preview/1/",
+  "scope": "/urbanism-guide/pr-preview/1/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/urbanism-guide/pr-preview/1/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
