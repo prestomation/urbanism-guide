@@ -37,41 +37,40 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: preview
-          HUGO_RELATIVEURLS: true
           TZ: America/Los_Angeles
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "/"
+            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/${{ github.event.number }}/"
 
-      - name: Deploy to preview branch
+      - name: Deploy preview to gh-pages branch
         run: |
           cp -r public /tmp/pr-preview-${{ github.event.number }}
 
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # Fetch preview branch or create orphan
-          git fetch origin pr-previews 2>/dev/null && \
-            git checkout pr-previews || \
-            git checkout --orphan pr-previews
+          # Fetch gh-pages or create orphan
+          git fetch origin gh-pages 2>/dev/null && \
+            git checkout gh-pages || \
+            git checkout --orphan gh-pages
 
-          # Clean working tree (keep .git)
+          # Clean working tree
           git rm -rf . 2>/dev/null || true
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
 
-          # Restore existing previews from the branch
-          git checkout pr-previews -- . 2>/dev/null || true
+          # Restore everything from gh-pages
+          git checkout gh-pages -- . 2>/dev/null || true
 
-          # Replace this PR's preview
-          rm -rf "pr-preview-${{ github.event.number }}"
-          mkdir -p "pr-preview-${{ github.event.number }}"
-          cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview-${{ github.event.number }}/"
+          # Replace just this PR's preview dir
+          rm -rf "pr-preview/${{ github.event.number }}"
+          mkdir -p "pr-preview/${{ github.event.number }}"
+          cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview/${{ github.event.number }}/"
 
           git add -A
           git commit -m "Update PR #${{ github.event.number }} preview" || exit 0
-          git push origin pr-previews --force
+          git push origin gh-pages --force
 
       - name: Comment PR with preview link
         uses: actions/github-script@v7
@@ -87,15 +86,9 @@ jobs:
               comment.user.type === 'Bot' && comment.body.includes('Site Preview')
             );
 
-            const previewUrl = `https://htmlpreview.github.io/?https://github.com/${{ github.repository }}/blob/pr-previews/pr-preview-${{ github.event.number }}/index.html`;
+            const previewUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/pr-preview/${{ github.event.number }}/`;
 
-            const body = `## Site Preview
-
-            **Preview:** [View site preview](${previewUrl})
-            **Commit:** \`${{ github.event.pull_request.head.sha }}\`
-
-            > Preview rendered via htmlpreview.github.io from the \`pr-previews\` branch.
-            > Navigation between pages won't work in preview -- this is a visual check of the homepage.`;
+            const body = `## Site Preview\n\n**Preview:** ${previewUrl}\n**Commit:** \`${{ github.event.pull_request.head.sha }}\`\n\n> It may take a minute for GitHub Pages to update after this comment appears.`;
 
             if (botComment) {
               await github.rest.issues.updateComment({

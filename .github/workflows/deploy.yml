@@ -6,12 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: "pages"
+  group: "pages-deploy"
   cancel-in-progress: false
 
 defaults:
@@ -19,7 +17,7 @@ defaults:
     shell: bash
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: "0.147.0"
@@ -38,10 +36,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
-
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
@@ -54,20 +48,31 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+      - name: Deploy to gh-pages branch
+        run: |
+          cp -r public /tmp/site-build
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Fetch gh-pages or create orphan
+          git fetch origin gh-pages 2>/dev/null && \
+            git checkout gh-pages || \
+            git checkout --orphan gh-pages
+
+          # Clean working tree
+          git rm -rf . 2>/dev/null || true
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+
+          # Restore existing PR preview dirs from the branch
+          git checkout gh-pages -- pr-preview 2>/dev/null || true
+
+          # Copy built site to root
+          cp -r /tmp/site-build/* .
+          touch .nojekyll
+
+          git add -A
+          git commit -m "Deploy site from ${{ github.sha }}" || exit 0
+          git push origin gh-pages --force
