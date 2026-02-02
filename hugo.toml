@@ -3,8 +3,6 @@ languageCode = "en-us"
 title = "Seattle Urbanism Guide"
 theme = "hugo-book"
 
-# Keep URLs clean and portable
-relativeURLs = true
 uglyURLs = false
 
 enableGitInfo = true
