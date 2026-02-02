@@ -18,7 +18,7 @@ Seattle is changing fast. New transit lines, zoning reforms, bike lanes, housing
 
 ## How to use this guide
 
-{{< columns >}}
+{{% columns %}}
 
 ### [Quick Start](/quick-start/)
 Start here. A plain-language overview of Seattle's urban landscape -- who decides what, what's being built, and what the big debates are.
@@ -28,9 +28,9 @@ Start here. A plain-language overview of Seattle's urban landscape -- who decide
 ### [Glossary](/glossary/)
 Look up urbanist terms you've heard but can't quite define. ADU, SEPA, TOD, Complete Streets -- we break them all down.
 
-{{< /columns >}}
+{{% /columns %}}
 
-{{< columns >}}
+{{% columns %}}
 
 ### [Timeline](/timeline/)
 Seattle's urbanism story didn't start yesterday. See the key decisions, plans, and turning points that shaped the city.
@@ -40,7 +40,7 @@ Seattle's urbanism story didn't start yesterday. See the key decisions, plans, a
 ### [Blog](/blog/)
 Deeper dives, analysis, and updates on what's happening now.
 
-{{< /columns >}}
+{{% /columns %}}
 
 ## What this is *not*
 
