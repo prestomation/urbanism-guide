@@ -13,6 +13,8 @@ A city's long-range plan for growth, land use, transportation, parks, and utilit
 
 **See also:** GMA, Zoning
 
+**Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle Planning Commission: Comp Plan Recommendations](https://seattle.gov/planningcommission/our-work/one-seattle-comprehensive-plan)
+
 ---
 
 ## EIS (Environmental Impact Statement)
@@ -22,6 +24,8 @@ A detailed study of a project's or plan's environmental effects, required under 
 **Why it matters:** EIS processes can add years and millions of dollars to projects. They're an important environmental protection but also get used strategically to delay development or infrastructure. Understanding when an EIS is required helps you follow major project timelines.
 
 **See also:** SEPA
+
+**Learn more:** [WA Ecology: Overview of SEPA](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview)
 
 ---
 
@@ -33,6 +37,8 @@ Washington state law (1990) requiring urban areas to plan for growth, protect ru
 
 **See also:** Comprehensive Plan, Urban Growth Boundary
 
+**Learn more:** [MRSC: Growth Management Act Basics](https://mrsc.org/explore-topics/planning/gma/growth-management-act-basics) | [WA Commerce: Growth Management](https://www.commerce.wa.gov/growth-management/)
+
 ---
 
 ## SEPA (State Environmental Policy Act)
@@ -42,6 +48,8 @@ Washington's environmental review law. Requires government agencies to evaluate 
 **Why it matters:** SEPA review is a common step in development and planning that can significantly affect timelines. It's also a tool that community members can use to raise concerns about projects. Knowing what SEPA covers helps you participate meaningfully in public comment periods.
 
 **See also:** EIS
+
+**Learn more:** [WA Ecology: SEPA Overview](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview) | [MRSC: State Environmental Policy Act](https://mrsc.org/explore-topics/environment/regulations/state-environmental-policy-act)
 
 ---
 
@@ -53,6 +61,8 @@ A line on the map separating urban areas (where growth is directed) from rural a
 
 **See also:** GMA, Comprehensive Plan
 
+**Learn more:** [King County: Urban Growth Capacity Report](https://kingcounty.gov/en/dept/executive/governance-leadership/performance-strategy-budget/regional-planning/urban-growth-capacity-report) | [MRSC: Growth Management Act Basics](https://mrsc.org/explore-topics/planning/gma/growth-management-act-basics)
+
 ---
 
 ## Urban Village
@@ -63,6 +73,8 @@ Seattle's planning designation for neighborhood centers that are targeted for gr
 
 **See also:** Comprehensive Plan
 
+**Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle 2035 Comprehensive Plan](https://www.seattle.gov/opcd/current-projects/seattle-2035-comprehensive-plan)
+
 ---
 
 ## Zoning
@@ -72,6 +84,8 @@ Government rules that dictate what can be built where -- building height, densit
 **Why it matters:** Zoning is the fundamental tool that shapes what Seattle looks like. Almost every land use debate comes down to zoning. If you understand zoning basics, you can follow most development controversies.
 
 **See also:** FAR, Upzoning, Comprehensive Plan
+
+**Learn more:** [Seattle SDCI: Zoning](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/zoning) | [Seattle Interactive Maps (includes zoning layers)](https://maps.seattle.gov/)
 
 ---
 
