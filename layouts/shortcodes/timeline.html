@@ -12,10 +12,14 @@
       {{ with .legacy }}
       <p class="timeline-legacy"><strong>Legacy:</strong> {{ . }}</p>
       {{ end }}
-      {{ with .tags }}
-      <div class="timeline-tags">
-        {{ range . }}
-        <span class="timeline-tag">{{ . }}</span>
+      {{ with .sources }}
+      <div class="timeline-sources">
+        <span class="timeline-sources-label">Sources:</span>
+        {{ with .primary }}
+        <a href="{{ .url }}" class="timeline-source timeline-source-primary" target="_blank" rel="noopener">{{ .name }}</a>
+        {{ end }}
+        {{ with .secondary }}
+        <a href="{{ .url }}" class="timeline-source timeline-source-secondary" target="_blank" rel="noopener">{{ .name }}</a>
         {{ end }}
       </div>
       {{ end }}

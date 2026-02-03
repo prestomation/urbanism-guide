@@ -77,21 +77,42 @@
   opacity: 0.85;
 }
 
-.timeline-tags {
+.timeline-sources {
   margin-top: 0.75rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
 }
 
-.timeline-tag {
+.timeline-sources-label {
+  font-weight: 600;
+  color: var(--body-font-color, #333);
+  opacity: 0.7;
+}
+
+.timeline-source {
   display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.timeline-source:hover {
+  opacity: 0.8;
+}
+
+.timeline-source-primary {
   background: var(--color-link, #05b);
   color: white;
-  padding: 0.1rem 0.5rem;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  opacity: 0.8;
+}
+
+.timeline-source-secondary {
+  background: #2d7d46;
+  color: white;
 }
 
 /* Blog list styles */

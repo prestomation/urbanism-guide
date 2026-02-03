@@ -1,101 +1,203 @@
-- year: 1907
-  title: "The Bogue Plan"
-  description: "Virgil Bogue proposes a grand civic plan for Seattle including a civic center, park system, and arterial highways. Voters reject it in 1912."
-  legacy: "The rejection set a pattern: Seattle repeatedly struggles with big, centralized planning visions vs. incremental, neighborhood-driven change."
-  tags: ["planning"]
-
-- year: 1928
-  title: "First Comprehensive Zoning Ordinance"
-  description: "Seattle adopts its first citywide zoning code, separating residential, commercial, and industrial areas. Single-family zones cover the vast majority of residential land."
-  legacy: "This zoning framework -- with single-family dominance -- persisted largely unchanged for nearly a century and is the root of many current housing debates."
-  tags: ["zoning", "housing"]
-
-- year: 1941
-  title: "Yesler Terrace Opens"
-  description: "Seattle's first public housing project opens. It was notably one of the first racially integrated public housing projects in the US."
-  legacy: "Yesler Terrace was eventually redeveloped starting in 2013 into a mixed-income community, illustrating the evolution of public housing philosophy."
-  tags: ["housing", "equity"]
-
-- year: 1962
-  title: "Century 21 Exposition (World's Fair)"
-  description: "The Seattle World's Fair transforms Lower Queen Anne with the Space Needle, Monorail, and what becomes Seattle Center. The Monorail was intended as the start of a citywide system."
-  legacy: "The Monorail's legacy is complicated -- it showed Seattle could build transit, but the 1.3-mile line became a symbol of unfulfilled transit ambitions. Subsequent monorail proposals failed."
-  tags: ["transit", "planning"]
-
-- year: 1968
-  title: "Forward Thrust Transit Plan"
-  description: "King County voters approve a regional transit plan including a 47-mile rail system. But it needed 60% approval for federal matching funds and got only 50.8%. The federal money went to Atlanta's MARTA instead."
-  legacy: "Arguably the most consequential urbanist vote in Seattle's history. If Forward Thrust had passed, Seattle would have had a rail system decades earlier. The city's car-dependent development patterns of the 1970s-90s can be partially traced to this failure."
-  tags: ["transit"]
-
-- year: 1970
-  title: "Freeway Revolts"
-  description: "Community activism stops planned freeways through the Central District, Ravenna, and along the waterfront (R.H. Thomson Expressway and Bay Freeway). Seattle removes the planned routes from its plans."
-  legacy: "The freeway revolts saved several neighborhoods from destruction and established a pattern of community resistance to highway expansion that continues today (see: waterfront tunnel, I-5 lid proposals)."
-  tags: ["transit", "planning", "community"]
-
-- year: 1990
-  title: "Growth Management Act (GMA)"
-  description: "Washington State passes the Growth Management Act, requiring cities to plan for growth within urban growth boundaries and protect rural land."
-  legacy: "The GMA is why Seattle must grow *up* rather than *out*. It's the legal foundation for comprehensive planning, urban growth boundaries, and the density debates that define Seattle urbanism."
-  tags: ["planning", "housing"]
-
-- year: 1994
-  title: "Seattle's Comprehensive Plan & Urban Villages"
-  description: "Seattle adopts a comprehensive plan organizing growth around 'urban villages' -- designated neighborhood centers where density is directed. Most residential land remains single-family."
-  legacy: "The urban village strategy shaped 30 years of development, concentrating apartments and mixed-use in corridors while protecting single-family neighborhoods. The 2024 comp plan update finally moves away from this framework."
-  tags: ["planning", "zoning"]
-
-- year: 1996
-  title: "Sound Transit Created"
-  description: "Voters approve Sound Move (later called ST1), creating Sound Transit and funding the first light rail line, commuter rail (Sounder), and express buses."
-  legacy: "After decades of failed transit proposals, this vote finally committed the region to building rail. Everything in Seattle's current transit expansion traces back to this decision."
-  tags: ["transit"]
-
-- year: 2003
-  title: "Seattle Monorail Project Approved and Collapsed"
-  description: "Voters approve a citywide monorail plan for the fourth time, but the Seattle Monorail Project collapses in 2005 due to cost overruns and financing problems."
-  legacy: "The monorail failure made Seattle voters skeptical of transit proposals for years and reinforced Sound Transit's position as the region's transit builder."
-  tags: ["transit"]
-
-- year: 2009
-  title: "Link Light Rail Opens"
-  description: "Sound Transit's Central Link light rail opens between downtown Seattle and Sea-Tac Airport. The first segment of what would become the region's rail backbone."
-  legacy: "Link light rail fundamentally changed development patterns along its route. The Rainier Valley, Capitol Hill, and University District all saw significant development driven by station access."
-  tags: ["transit"]
-
-- year: 2014
-  title: "$15 Minimum Wage"
-  description: "Seattle passes a landmark $15/hour minimum wage, the first major US city to do so."
-  legacy: "While not strictly an urbanism issue, the minimum wage law reflected Seattle's progressive politics and its grappling with affordability as a growing, expensive city."
-  tags: ["equity", "policy"]
-
-- year: 2015
-  title: "Vision Zero Adopted"
-  description: "Seattle commits to eliminating traffic deaths and serious injuries by 2030. The plan prioritizes investments on high-crash corridors and emphasizes engineering over enforcement."
-  legacy: "Despite the commitment, traffic deaths have increased since adoption. Vision Zero remains important as a policy framework advocates use to push for safer streets."
-  tags: ["transit", "safety"]
-
-- year: 2016
-  title: "ST3 Approved"
-  description: "Voters approve Sound Transit 3, a $54 billion expansion including light rail to Ballard, West Seattle, Tacoma, Everett, and Issaquah."
-  legacy: "ST3 will define the region's urban form for decades. Station locations are already driving development patterns and zoning discussions, even before lines open."
-  tags: ["transit"]
-
-- year: 2019
-  title: "MHA and ADU Reforms"
-  description: "Seattle implements Mandatory Housing Affordability (MHA) with upzones in many neighborhoods. ADU/DADU rules are also loosened, allowing backyard cottages on most single-family lots."
-  legacy: "MHA was the first significant upzoning across Seattle in decades. Combined with ADU reforms, it began to chip away at single-family exclusivity -- a process the 2024 comp plan accelerated dramatically."
-  tags: ["housing", "zoning"]
+- year: 2024
+  title: "One Seattle Comprehensive Plan Update"
+  description: "Seattle adopts a major update to its comprehensive plan, allowing more housing types across the city, strengthening TOD requirements, and moving away from the urban village framework."
+  legacy: "This is the biggest change to Seattle's land use framework in 30 years. It opens formerly single-family areas to duplexes, triplexes, and more, and sets the stage for station area planning around new light rail."
+  sources:
+    primary:
+      name: "Seattle OPCD - One Seattle Plan"
+      url: "https://www.seattle.gov/opcd/one-seattle-plan"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2024/03/05/seattle-releases-comprehensive-plan-with-growth-target-lower-than-bellevue/"
 
 - year: 2023
   title: "Social Housing Initiative (I-135)"
   description: "Seattle voters approve Initiative 135, creating a new public development authority to build mixed-income social housing (not means-tested, cross-subsidized)."
   legacy: "The Social Housing Developer represents a new model for Seattle -- publicly developed housing that serves a range of incomes. It's still early, but it could become a significant housing tool."
-  tags: ["housing", "equity"]
+  sources:
+    primary:
+      name: "Seattle City Council"
+      url: "https://council.seattle.gov/2023/02/21/councilmember-morales-state-leaders-celebrate-passage-of-social-housing-initiative-in-seattle/"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2023/02/22/seattle-social-housing-initiatives-recipe-for-success/"
 
-- year: 2024
-  title: "One Seattle Comprehensive Plan Update"
-  description: "Seattle adopts a major update to its comprehensive plan, allowing more housing types across the city, strengthening TOD requirements, and moving away from the urban village framework."
-  legacy: "This is the biggest change to Seattle's land use framework in 30 years. It opens formerly single-family areas to duplexes, triplexes, and more, and sets the stage for station area planning around new light rail."
-  tags: ["planning", "zoning", "housing"]
+- year: 2019
+  title: "MHA and ADU Reforms"
+  description: "Seattle implements Mandatory Housing Affordability (MHA) with upzones in many neighborhoods. ADU/DADU rules are also loosened, allowing backyard cottages on most single-family lots."
+  legacy: "MHA was the first significant upzoning across Seattle in decades. Combined with ADU reforms, it began to chip away at single-family exclusivity -- a process the 2024 comp plan accelerated dramatically."
+  sources:
+    primary:
+      name: "Seattle SDCI - MHA Program"
+      url: "https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/mandatory-housing-affordability-(mha)-program"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/"
+
+- year: 2016
+  title: "ST3 Approved"
+  description: "Voters approve Sound Transit 3, a $54 billion expansion including light rail to Ballard, West Seattle, Tacoma, Everett, and Issaquah."
+  legacy: "ST3 will define the region's urban form for decades. Station locations are already driving development patterns and zoning discussions, even before lines open."
+  sources:
+    primary:
+      name: "Sound Transit"
+      url: "https://www.soundtransit.org/get-to-know-us/news-events/news-releases/voters-approve-historic-sound-transit-3-measure"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2016/11/09/st3-passed-heres-how-and-whats-next/"
+
+- year: 2015
+  title: "Vision Zero Adopted"
+  description: "Seattle commits to eliminating traffic deaths and serious injuries by 2030. The plan prioritizes investments on high-crash corridors and emphasizes engineering over enforcement."
+  legacy: "Despite the commitment, traffic deaths have increased since adoption. Vision Zero remains important as a policy framework advocates use to push for safer streets."
+  sources:
+    primary:
+      name: "Seattle DOT - Vision Zero"
+      url: "https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2015/02/17/seattle-adopts-aggressive-vision-for-zero-traffic-deaths/"
+
+- year: 2014
+  title: "$15 Minimum Wage"
+  description: "Seattle passes a landmark $15/hour minimum wage, the first major US city to do so."
+  legacy: "While not strictly an urbanism issue, the minimum wage law reflected Seattle's progressive politics and its grappling with affordability as a growing, expensive city."
+  sources:
+    primary:
+      name: "Seattle City Council"
+      url: "https://council.seattle.gov/2014/06/02/city-council-approves-15hour-minimum-wage-in-seattle/"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2014/05/01/casual-disregard-the-unspoken-case-for-15/"
+
+- year: 2009
+  title: "Link Light Rail Opens"
+  description: "Sound Transit's Central Link light rail opens between downtown Seattle and Sea-Tac Airport. The first segment of what would become the region's rail backbone."
+  legacy: "Link light rail fundamentally changed development patterns along its route. The Rainier Valley, Capitol Hill, and University District all saw significant development driven by station access."
+  sources:
+    primary:
+      name: "Sound Transit"
+      url: "https://www.soundtransit.org/get-to-know-us/news-events/news-releases/journey-begins-link-light-rail-opens-service-saturday"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/20711"
+
+- year: 2003
+  title: "Seattle Monorail Project Approved and Collapsed"
+  description: "Voters approve a citywide monorail plan for the fourth time, but the Seattle Monorail Project collapses in 2005 due to cost overruns and financing problems."
+  legacy: "The monorail failure made Seattle voters skeptical of transit proposals for years and reinforced Sound Transit's position as the region's transit builder."
+  sources:
+    primary:
+      name: "Seattle City Council Blog"
+      url: "https://council.seattle.gov/2013/06/03/urban-politics-337-the-rise-and-fall-of-seattles-monorail-movement/"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/2524"
+
+- year: 1996
+  title: "Sound Transit Created"
+  description: "Voters approve Sound Move (later called ST1), creating Sound Transit and funding the first light rail line, commuter rail (Sounder), and express buses."
+  legacy: "After decades of failed transit proposals, this vote finally committed the region to building rail. Everything in Seattle's current transit expansion traces back to this decision."
+  sources:
+    primary:
+      name: "Sound Transit - Our History"
+      url: "https://www.soundtransit.org/get-to-know-us/our-history"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/8002"
+
+- year: 1994
+  title: "Seattle's Comprehensive Plan & Urban Villages"
+  description: "Seattle adopts a comprehensive plan organizing growth around 'urban villages' -- designated neighborhood centers where density is directed. Most residential land remains single-family."
+  legacy: "The urban village strategy shaped 30 years of development, concentrating apartments and mixed-use in corridors while protecting single-family neighborhoods. The 2024 comp plan update finally moves away from this framework."
+  sources:
+    primary:
+      name: "Seattle City Archives"
+      url: "https://www.seattle.gov/cityarchives/search-collections/research-tips-and-tools/guide-to-the-comprehensive-plan-in-seattle"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2015/02/04/measuring-success-on-the-urban-villages-strategy-part-1-what-its-all-about/"
+
+- year: 1990
+  title: "Growth Management Act (GMA)"
+  description: "Washington State passes the Growth Management Act, requiring cities to plan for growth within urban growth boundaries and protect rural land."
+  legacy: "The GMA is why Seattle must grow *up* rather than *out*. It's the legal foundation for comprehensive planning, urban growth boundaries, and the density debates that define Seattle urbanism."
+  sources:
+    primary:
+      name: "WA Dept. of Commerce"
+      url: "https://www.commerce.wa.gov/growth-management/"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2016/02/07/sunday-video-25-years-of-the-growth-management-act/"
+
+- year: 1970
+  title: "Freeway Revolts"
+  description: "Community activism stops planned freeways through the Central District, Ravenna, and along the waterfront (R.H. Thomson Expressway and Bay Freeway). Seattle removes the planned routes from its plans."
+  legacy: "The freeway revolts saved several neighborhoods from destruction and established a pattern of community resistance to highway expansion that continues today (see: waterfront tunnel, I-5 lid proposals)."
+  sources:
+    primary:
+      name: "Seattle City Archives"
+      url: "https://www.seattle.gov/cityarchives/exhibits-and-education/seattle-voices/rh-thomson-expressway"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2018/10/02/new-documentary-tells-the-story-of-seattles-freeway-revolt/"
+
+- year: 1968
+  title: "Forward Thrust Transit Plan"
+  description: "King County voters approve a regional transit plan including a 47-mile rail system. But it needed 60% approval for federal matching funds and got only 50.8%. The federal money went to Atlanta's MARTA instead."
+  legacy: "Arguably the most consequential urbanist vote in Seattle's history. If Forward Thrust had passed, Seattle would have had a rail system decades earlier. The city's car-dependent development patterns of the 1970s-90s can be partially traced to this failure."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/2168"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2018/05/02/forward-thrust-part-1-no-city-island/"
+
+- year: 1962
+  title: "Century 21 Exposition (World's Fair)"
+  description: "The Seattle World's Fair transforms Lower Queen Anne with the Space Needle, Monorail, and what becomes Seattle Center. The Monorail was intended as the start of a citywide system."
+  legacy: "The Monorail's legacy is complicated -- it showed Seattle could build transit, but the 1.3-mile line became a symbol of unfulfilled transit ambitions. Subsequent monorail proposals failed."
+  sources:
+    primary:
+      name: "Seattle City Archives"
+      url: "https://www.seattle.gov/cityarchives/exhibits-and-education/online-exhibits/the-city-and-the-worlds-fair"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/2524"
+
+- year: 1941
+  title: "Yesler Terrace Opens"
+  description: "Seattle's first public housing project opens. It was notably one of the first racially integrated public housing projects in the US."
+  legacy: "Yesler Terrace was eventually redeveloped starting in 2013 into a mixed-income community, illustrating the evolution of public housing philosophy."
+  sources:
+    primary:
+      name: "Seattle Housing Authority"
+      url: "https://www.seattlehousing.org/about-us/redevelopment/yesler-redevelopment/history-yesler"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/2105"
+
+- year: 1928
+  title: "First Comprehensive Zoning Ordinance"
+  description: "Seattle adopts its first citywide zoning code, separating residential, commercial, and industrial areas. Single-family zones cover the vast majority of residential land."
+  legacy: "This zoning framework -- with single-family dominance -- persisted largely unchanged for nearly a century and is the root of many current housing debates."
+  sources:
+    primary:
+      name: "Seattle City Archives"
+      url: "https://www.seattle.gov/cityarchives/search-collections/research-tips-and-tools/researching-land-use-and-zoning"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2015/06/18/maps-of-the-day-historic-seattle-zoning/"
+
+- year: 1907
+  title: "The Bogue Plan"
+  description: "Virgil Bogue proposes a grand civic plan for Seattle including a civic center, park system, and arterial highways. Voters reject it in 1912."
+  legacy: "The rejection set a pattern: Seattle repeatedly struggles with big, centralized planning visions vs. incremental, neighborhood-driven change."
+  sources:
+    primary:
+      name: "Seattle City Archives"
+      url: "https://www.seattle.gov/cityarchives/search-collections/research-tips-and-tools/guide-to-the-comprehensive-plan-in-seattle"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/160"
