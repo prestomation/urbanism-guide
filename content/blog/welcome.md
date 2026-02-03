@@ -23,6 +23,9 @@ This guide is that missing baseline. It's a **reference**, not a news source. Th
 - **[Quick Start](/quick-start/)** -- A plain-language overview of Seattle's urban landscape
 - **[Glossary](/glossary/)** -- Definitions of terms you'll encounter in urbanist discussions
 - **[Timeline](/timeline/)** -- Key events that shaped Seattle's built environment
+- **[Get Involved](/get-involved/)** -- Advocacy organizations you can join to make a difference
+- **[Recommended Reading](/recommended-reading/)** -- Publications and writers covering Seattle urbanism
+- **[Data](/data/)** -- Dashboards and reports for evidence-based arguments
 - **Blog** -- You're reading it. Longer-form pieces on specific topics.
 
 ## How you can help
