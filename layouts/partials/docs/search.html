@@ -3,11 +3,19 @@
 </div>
 <script>
   window.addEventListener('DOMContentLoaded', function() {
-    new PagefindUI({
-      element: "#pagefind-search",
-      showSubResults: true,
-      showImages: false,
-      bundlePath: "{{ "pagefind/" | relURL }}"
-    });
+    if (typeof PagefindUI === 'undefined') {
+      console.error('PagefindUI not loaded');
+      return;
+    }
+    try {
+      new PagefindUI({
+        element: "#pagefind-search",
+        showSubResults: true,
+        showImages: false,
+        bundlePath: "{{ "pagefind/" | relURL }}"
+      });
+    } catch (e) {
+      console.error('Pagefind init error:', e);
+    }
   });
 </script>
