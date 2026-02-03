@@ -37,14 +37,29 @@ Seattle's urbanism story didn't start yesterday. See the key decisions, plans, a
 
 <--->
 
-### [Blog](/blog/)
-Deeper dives, analysis, and updates on what's happening now.
+### [Get Involved](/get-involved/)
+Find advocacy organizations working on transit, housing, and walkability. Join groups like Seattle Neighborhood Greenways, Transit Riders Union, and Seattle Subway.
 
 {{% /columns %}}
 
+{{% columns %}}
+
+### [Recommended Reading](/recommended-reading/)
+Stay informed with publications and writers covering Seattle urbanism -- The Urbanist, Seattle Transit Blog, and more.
+
+<--->
+
+### [Data](/data/)
+Access public dashboards and reports on transportation, housing, and planning from city, county, regional, and state sources.
+
+{{% /columns %}}
+
+### [Blog](/blog/)
+Deeper dives, analysis, and updates on what's happening now.
+
 ## What this is *not*
 
-This isn't a news source (read [The Urbanist](https://www.theurbanist.org/) for that). It's not an advocacy org (check out [Seattle Neighborhood Greenways](https://seattlegreenways.org/) or [Seattle Subway](https://www.seattlesubway.org/)). This is a **reference guide** -- a place to build your understanding so you can engage with those resources and your community more effectively.
+This isn't a news source (see [Recommended Reading](/recommended-reading/) for those). It's not an advocacy org (see [Get Involved](/get-involved/) for those). This is a **reference guide** -- a place to build your understanding so you can engage with those resources and your community more effectively.
 
 ---
 
