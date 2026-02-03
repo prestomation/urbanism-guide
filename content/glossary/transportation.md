@@ -17,6 +17,18 @@ An urban planning concept where residents can reach daily necessities -- work, s
 
 ---
 
+## BAT Lane (Business Access and Transit)
+
+A dedicated lane that prioritizes buses while still allowing other vehicles to use it briefly for right turns and to access adjacent driveways. BAT lanes are less restrictive than fully bus-only lanes, making them politically easier to implement in commercial corridors.
+
+**Why it matters:** BAT lanes are King County Metro's primary tool for speeding up RapidRide service in suburban corridors. Debates around corridors like Route 40, RapidRide K Line, and RapidRide I Line frequently center on whether BAT lanes will be implemented or watered down due to business and driver opposition. Understanding BAT lanes helps advocates push for meaningful transit priority.
+
+**See also:** [RapidRide](#rapidride), [Transit Signal Priority](#transit-signal-priority-tsp)
+
+**Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/rider-tools/rapidride) | [The Urbanist: Push to Water Down Route 40 Transit Upgrades](https://www.theurbanist.org/2025/08/21/push-to-water-down-route-40-upgrades/)
+
+---
+
 ## Bicycle Master Plan
 
 Seattle's long-range plan for building a citywide network of bike infrastructure, including protected bike lanes, neighborhood greenways, and trail connections. The plan envisions 100+ miles of protected lanes and 250 miles of greenways.
@@ -119,9 +131,21 @@ The $54 billion regional transit expansion plan approved by voters in 2016. Incl
 
 **Why it matters:** ST3 is the biggest infrastructure investment in the region's history. Delays and cost overruns have been controversial. Understanding the project timeline and station locations is essential for following development patterns.
 
-**See also:** [TOD](#tod-transit-oriented-development)
+**See also:** [TOD](#tod-transit-oriented-development), [Stride](#stride)
 
 **Learn more:** [Sound Transit: ST3 Plan](https://www.soundtransit.org/get-to-know-us/documents-reports/sound-transit-3) | [Sound Transit: Realignment](https://www.soundtransit.org/system-expansion/realignment)
+
+---
+
+## Stride
+
+Sound Transit's bus rapid transit (BRT) brand, consisting of three lines (S1, S2, S3) running along I-405 and SR-522 corridors. Stride features battery-electric buses, off-board fare payment, all-door boarding, and 10-15 minute frequencies. The combined program budget is $2.35 billion.
+
+**Why it matters:** Stride represents the next major Sound Transit opening after the 2 Line light rail, with lines scheduled to open between 2028-2029. The S1 connects Burien to Bellevue, the S2 connects Bellevue to Lynnwood, and the S3 connects Shoreline to Bothell. These lines provide a faster alternative to ST Express buses and integrate with Link light rail. Understanding Stride helps track regional transit expansion beyond Seattle city limits.
+
+**See also:** [ST3](#st3-sound-transit-3), [RapidRide](#rapidride)
+
+**Learn more:** [Sound Transit: Stride Bus Rapid Transit](https://www.soundtransit.org/system-expansion/stride-bus-rapid-transit) | [The Urbanist: Sound Transit Breaks Ground on Stride Bus Base](https://www.theurbanist.org/2025/08/16/sound-transit-breaks-ground-on-stride-bus-base-in-bothell/)
 
 ---
 
@@ -131,9 +155,21 @@ Higher-density, mixed-use development concentrated near transit stations. The id
 
 **Why it matters:** With Link light rail expanding, TOD around new stations is one of the biggest development opportunities in Seattle's history. Station area planning shapes whether these areas become walkable, mixed-use neighborhoods.
 
-**See also:** [ST3](#st3-sound-transit-3), [Upzoning](/glossary/housing-zoning/#upzoning)
+**See also:** [ST3](#st3-sound-transit-3), [HB 1491](/glossary/housing-zoning/#hb-1491-transit-oriented-development), [Upzoning](/glossary/housing-zoning/#upzoning)
 
 **Learn more:** [Sound Transit: Transit-Oriented Development](https://www.soundtransit.org/system-expansion/creating-vibrant-stations/transit-oriented-development) | [Seattle OPCD: Equitable TOD](https://www.seattle.gov/opcd/current-projects/equitable-transit-oriented-development)
+
+---
+
+## Transit Signal Priority (TSP)
+
+A traffic signal control strategy that gives priority to transit vehicles at intersections. When a bus approaches an intersection, the system can extend a green light or shorten a red light to reduce delay. TSP is a key component of bus rapid transit and RapidRide service.
+
+**Why it matters:** Transit signal priority is one of the most cost-effective ways to speed up bus service without building dedicated lanes. Seattle and King County Metro have been expanding TSP along RapidRide corridors, though implementation has been slower than planned. Advocates push for TSP because even small time savings at each intersection add up to significant trip time reductions across a route.
+
+**See also:** [RapidRide](#rapidride), [BAT Lane](#bat-lane-business-access-and-transit)
+
+**Learn more:** [SDOT: Transit Program](https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program) | [The Urbanist: King County Metro Wants to Speed Up Buses](https://www.theurbanist.org/2024/07/19/king-county-metro-wants-to-speed-up-buses-heres-how/)
 
 ---
 

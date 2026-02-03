@@ -29,6 +29,18 @@ A Growth Management Act requirement that infrastructure (roads, water, sewer, sc
 
 ---
 
+## Displacement Risk Index
+
+A composite mapping tool created by Seattle's Office of Planning and Community Development (OPCD) that forecasts which neighborhoods face elevated risk of displacing marginalized populations. The index combines five categories of indicators: socio-demographics, transportation qualities, neighborhood characteristics, housing market pressures, and civic engagement levels.
+
+**Why it matters:** The Displacement Risk Index directly shapes Seattle's zoning decisions. During the One Seattle Comprehensive Plan debates, the Harrell administration initially proposed using the index to justify lower-density zoning (triplexes instead of fourplexes) in "high displacement risk" areas like the Central District, Rainier Valley, and Lake City. This sparked controversy over whether limiting housing supply actually prevents displacement. The index was updated from its original 2016 version to a 2022 version with improved methodology and responds to House Bill 1220's requirement that cities evaluate displacement risk and implement anti-displacement policies.
+
+**See also:** [Comprehensive Plan](#comprehensive-plan), [Equitable Development Initiative](/glossary/funding-policy/#equitable-development-initiative-edi)
+
+**Learn more:** [Seattle OPCD: Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk) | [The Urbanist: Seattle Releases Comprehensive Plan Less Ambitious Than Bellevue](https://www.theurbanist.org/2024/03/05/seattle-releases-comprehensive-plan-with-growth-target-lower-than-bellevue/)
+
+---
+
 ## EIS (Environmental Impact Statement)
 
 A detailed study of a project's or plan's environmental effects, required under SEPA for major actions. Covers traffic, noise, shadow, displacement, and more.
@@ -38,6 +50,18 @@ A detailed study of a project's or plan's environmental effects, required under 
 **See also:** [SEPA](#sepa-state-environmental-policy-act)
 
 **Learn more:** [WA Ecology: Overview of SEPA](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview)
+
+---
+
+## Equitable Transit-Oriented Development (ETOD)
+
+A planning approach that combines transit-oriented development with explicit anti-displacement and community ownership strategies. Unlike conventional TOD, which focuses primarily on density near transit, ETOD prioritizes removing speculative pressures, banking land for community ownership early, and ensuring existing residents benefit from transit investments.
+
+**Why it matters:** Seattle launched an ETOD initiative in response to displacement pressures that followed light rail expansion through the Rainier Valley. The City is leveraging a $1.75 million Federal Transit Administration grant to apply ETOD principles to the West Seattle and Ballard Link Extension corridors. ETOD represents a shift in how Seattle approaches station area planning -- rather than letting the market determine who benefits from transit investments, ETOD seeks to proactively acquire land for affordable housing and community facilities before speculation drives up prices.
+
+**See also:** [TOD](/glossary/transportation/#tod-transit-oriented-development), [Displacement Risk Index](#displacement-risk-index), [Equitable Development Initiative](/glossary/funding-policy/#equitable-development-initiative-edi)
+
+**Learn more:** [Seattle OPCD: Equitable Transit Oriented Development](https://www.seattle.gov/opcd/current-projects/equitable-transit-oriented-development) | [The Urbanist: State Must Pass Transit-Oriented Housing Rules Prioritizing Equity](https://www.theurbanist.org/2024/01/02/state-must-pass-transit-oriented-development-rules-that-prioritize-equity-and-affordability/)
 
 ---
 
@@ -74,6 +98,18 @@ Seattle's combined land use permit that bundles zoning approvals, environmental 
 **See also:** [Design Review](/glossary/housing-zoning/#design-review), [SEPA](#sepa-state-environmental-policy-act)
 
 **Learn more:** [Seattle SDCI: Master Use Permit](https://www.seattle.gov/sdci/permits/permits-we-issue-(a-z)/master-use-permit) | [Seattle SDCI: Permit Process](https://www.seattle.gov/sdci/permits/permit-process)
+
+---
+
+## Middle Housing Model Ordinance
+
+A state-created zoning code developed by the Washington Department of Commerce that automatically supersedes local regulations if cities fail to comply with HB 1110's middle housing requirements by their deadline. The model ordinance establishes development standards for duplexes through sixplexes, townhouses, courtyard apartments, cottage housing, and stacked flats.
+
+**Why it matters:** The model ordinance acts as a "default" code that creates a floor for housing capacity statewide. For Seattle, the compliance deadline was June 30, 2025. If the city hadn't adopted compliant regulations, Commerce's model code would have automatically taken effect -- and housing advocates noted it was actually more generous than Seattle's initial proposals. The final 2024 model code allows buildings roughly 80% larger than what Seattle proposed, with more flexible setbacks, lot coverage, and floor area ratios. This dynamic -- where the state's backstop code is more permissive than local proposals -- has reshaped negotiations between cities and housing advocates.
+
+**See also:** [HB 1110](/glossary/housing-zoning/#hb-1110), [Missing Middle Housing](/glossary/housing-zoning/#missing-middle-housing), [GMA](#gma-growth-management-act)
+
+**Learn more:** [WA Commerce: Planning for Middle Housing](https://www.commerce.wa.gov/growth-management/housing-planning/middle-housing/) | [The Urbanist: State Improves Model Code to Promote Middle Housing](https://www.theurbanist.org/2024/02/06/state-improves-model-code-to-promote-middle-housing/)
 
 ---
 
