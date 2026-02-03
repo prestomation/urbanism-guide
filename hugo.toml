@@ -49,6 +49,10 @@ enableEmoji = true
     name = "Recommended Reading"
     url = "/recommended-reading/"
     weight = 6
+  [[menu.before]]
+    name = "Data"
+    url = "/data/"
+    weight = 7
 
 [markup]
   [markup.goldmark]
