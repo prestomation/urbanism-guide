@@ -59,7 +59,7 @@ Deeper dives, analysis, and updates on what's happening now.
 
 ## What this is *not*
 
-This isn't a news source (read [The Urbanist](https://www.theurbanist.org/) for that). It's not an advocacy org (check out [Seattle Neighborhood Greenways](https://seattlegreenways.org/) or [Seattle Subway](https://www.seattlesubway.org/)). This is a **reference guide** -- a place to build your understanding so you can engage with those resources and your community more effectively.
+This isn't a news source (see [Recommended Reading](/recommended-reading/) for those). It's not an advocacy org (see [Get Involved](/get-involved/) for those). This is a **reference guide** -- a place to build your understanding so you can engage with those resources and your community more effectively.
 
 ---
 
