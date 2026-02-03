@@ -10,6 +10,8 @@ enableEmoji = true
 
 [params]
   description = "A practical guide for Seattle urbanists and advocates. Understand the issues, learn the terms, and show up ready to contribute."
+  # GoatCounter analytics - set your GoatCounter code (e.g., "mysite" for mysite.goatcounter.com)
+  goatCounterCode = "urbanism-guide"
   BookTheme = "auto"
   BookToC = true
   BookSection = "quick-start"
