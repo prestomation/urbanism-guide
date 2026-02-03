@@ -81,14 +81,3 @@ The City of Seattle's Transportation Equity Program works to ensure equitable ac
 Key initiatives include Title VI compliance, the Race and Social Justice Ordinance, and contracting equity efforts for disadvantaged businesses.
 
 **Learn more:** [seattle.gov Transportation Equity](https://www.seattle.gov/transportation/projects-and-programs/programs/transportation-equity-program/equity-framework) — Understand how the city approaches transportation equity in planning and projects.
-
----
-
-## How to Get Started
-
-1. **Pick one organization** that aligns with your interests — whether that's biking, transit, or equity work
-2. **Sign up for their newsletter** to stay informed about campaigns and events
-3. **Attend a meeting or event** to meet other advocates and learn about current issues
-4. **Show up when it counts** — public comment periods, city council meetings, and community events are where change happens
-
-Your voice matters. These organizations amplify individual concerns into collective action that shapes Seattle's future.

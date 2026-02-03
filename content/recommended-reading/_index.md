@@ -49,16 +49,3 @@ The site also features CascadiaCast, a podcast with interviews with activists, p
 Ryan Packer is a contributing editor at The Urbanist focused on pedestrian reporting and transportation issues in the Puget Sound region. They attend and cover local government meetings related to pedestrian and transit matters, providing detailed coverage of policy developments as they happen.
 
 **Follow:** [Ryan Packer on Bluesky](https://bsky.app/profile/typewriteralley.bsky.social)
-
----
-
-## Why These Sources?
-
-These publications and writers provide:
-
-- **Depth** — They cover stories that mainstream media often overlooks or summarizes too briefly
-- **Local expertise** — Writers who attend meetings, know the players, and understand Seattle's specific context
-- **Advocacy perspective** — They're clear about their values while maintaining factual accuracy
-- **Timeliness** — Regular coverage of ongoing developments, not just major announcements
-
-Reading these sources regularly will help you understand the issues before they come to public comment, so you can show up prepared.
