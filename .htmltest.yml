@@ -10,17 +10,22 @@ CheckInternal: true
 CheckExternal: true
 
 # Don't fail on external link errors (sites may be temporarily down)
-# but DO fail on internal link errors
 IgnoreExternalBrokenLinks: true
 
 # Timeout for external link checks
 ExternalTimeout: 15
 
-# Ignore mailto links
+# Ignore URLs matching these patterns
+# Theme-generated assets use absolute URLs with baseURL prefix
+# which htmltest can't resolve against the local public/ directory
 IgnoreURLs:
   - "^mailto:"
+  - "/urbanism-guide.*\\.(css|js|png|ico|json|svg|woff2?)$"
+  - "/pr-preview/.*\\.(css|js|png|ico|json|svg|woff2?)$"
+  - "^/urbanism-guide/(favicon|manifest|apple-touch)"
+  - "^/urbanism-guide/pr-preview/\\d+/(favicon|manifest|apple-touch)"
 
-# Ignore specific domains that may block automated requests
+# Ignore PR preview directories (they reference other PR builds)
 IgnoreDirs:
   - "^pr-preview/"
 
