@@ -129,7 +129,7 @@ Washington's environmental review law. Requires government agencies to evaluate 
 
 A line on the map separating urban areas (where growth is directed) from rural areas (which are preserved). King County's UGB limits sprawl and concentrates development.
 
-**Why it matters:** The UGB is why Seattle *must* grow up rather than out. It's one of the strongest anti-sprawl tools in the country and directly drives the density debates within city limits.
+**Why it matters:** The UGB directs growth into urban areas rather than allowing outward sprawl. It directly shapes the density debates within city limits.
 
 **See also:** [GMA](#gma-growth-management-act), [Comprehensive Plan](#comprehensive-plan)
 

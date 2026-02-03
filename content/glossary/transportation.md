@@ -45,7 +45,7 @@ A street design approach that considers all users -- pedestrians, cyclists, tran
 
 The phenomenon where adding road capacity generates additional traffic, typically erasing congestion benefits within a few years. Research shows a 10% increase in lane capacity correlates with roughly 9% more traffic.
 
-**Why it matters:** Induced demand is a core urbanist argument against highway expansion. Seattle's $4 billion SR-99 tunnel didn't reduce congestion, and proposals to widen I-5 face criticism on these grounds. Understanding induced demand reframes transportation debates from "how do we reduce congestion" to "how do we reduce driving."
+**Why it matters:** Induced demand is frequently cited in debates about highway expansion, including proposals to widen I-5. Understanding induced demand reframes transportation debates from "how do we reduce congestion" to "how do we reduce driving."
 
 **See also:** [VMT](#vmt-vehicle-miles-traveled), [Mode Share](#mode-share)
 
@@ -129,7 +129,7 @@ The $54 billion regional transit expansion plan approved by voters in 2016. Incl
 
 Higher-density, mixed-use development concentrated near transit stations. The idea is that people living/working near good transit will drive less.
 
-**Why it matters:** With Link light rail expanding, TOD around new stations is one of the biggest development opportunities in Seattle's history. Station area planning determines whether these areas become walkable neighborhoods or park-and-ride wastelands.
+**Why it matters:** With Link light rail expanding, TOD around new stations is one of the biggest development opportunities in Seattle's history. Station area planning shapes whether these areas become walkable, mixed-use neighborhoods.
 
 **See also:** [ST3](#st3-sound-transit-3), [Upzoning](/glossary/housing-zoning/#upzoning)
 
@@ -141,7 +141,7 @@ Higher-density, mixed-use development concentrated near transit stations. The id
 
 A policy commitment to eliminate all traffic fatalities and serious injuries. Seattle adopted Vision Zero in 2015.
 
-**Why it matters:** Despite the commitment, Seattle's traffic deaths have been *increasing*. Vision Zero gives advocates a framework to demand safer street design, lower speed limits, and enforcement -- the city has committed to this goal and can be held accountable.
+**Why it matters:** Vision Zero gives advocates a framework to demand safer street design, lower speed limits, and enforcement. The city has committed to this goal and can be held accountable for progress toward eliminating traffic deaths.
 
 **See also:** [Complete Streets](#complete-streets)
 
