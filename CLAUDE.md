@@ -75,7 +75,13 @@ Brief definition in plain language.
 **Why it matters:** Explain relevance to Seattle urbanists.
 
 **See also:** [Related Term](#related-term)
+
+**Learn more:** [Primary Source](url) | [Secondary Source](url)
 ```
+
+**Source requirements for glossary terms:**
+- **Primary source (required):** Must be a governmental or official institutional source (e.g., seattle.gov, soundtransit.org, wsdot.wa.gov, mrsc.org, commerce.wa.gov)
+- **Secondary source (preferred):** The Urbanist (theurbanist.org) when relevant coverage exists, or other reputable local journalism/policy sources (Sightline, Publicola, Seattle Times)
 
 ### Timeline Entries (`data/timeline.yaml`)
 
@@ -154,7 +160,8 @@ Front matter includes:
 ### Adding a glossary term
 1. Identify the correct category file in `content/glossary/`
 2. Add the term in alphabetical order within the file
-3. Follow the "Term Name / Definition / Why it matters / See also" format
+3. Follow the "Term Name / Definition / Why it matters / See also / Learn more" format
+4. Include a primary governmental source and secondary source (preferably The Urbanist) in the "Learn more" section
 
 ### Adding a timeline event
 1. Edit `data/timeline.yaml`
