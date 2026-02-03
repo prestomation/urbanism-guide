@@ -151,6 +151,43 @@
   }
 }
 
+/* Pagefind search styles */
+.book-search {
+  margin-bottom: 1rem;
+}
+
+.pagefind-ui {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: var(--color-link, #05b);
+  --pagefind-ui-text: var(--body-font-color, #333);
+  --pagefind-ui-background: var(--body-background, #fff);
+  --pagefind-ui-border: var(--gray-200, #eee);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-font: inherit;
+}
+
+.pagefind-ui .pagefind-ui__search-input {
+  font-size: 1rem;
+}
+
+.pagefind-ui .pagefind-ui__result-link {
+  color: var(--color-link, #05b);
+}
+
+.pagefind-ui .pagefind-ui__result-excerpt {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pagefind-ui {
+    --pagefind-ui-text: var(--body-font-color, #ccc);
+    --pagefind-ui-background: var(--body-background, #1a1a1a);
+    --pagefind-ui-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .timeline::before {
