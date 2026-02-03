@@ -175,7 +175,7 @@ Required distances between buildings and lot lines (front, side, and rear). Seat
 
 Zoning that only allows one house per lot. Seattle had roughly 75% of its residential land zoned single-family until recent reforms. The city has been gradually renaming and reforming these zones (now called "Neighborhood Residential") to allow more housing types.
 
-**Why it matters:** Single-family zoning is the legacy framework that restricted density across most of Seattle. Understanding it is key to understanding why housing is so expensive and why reform is contentious.
+**Why it matters:** Single-family zoning is the legacy framework that restricted density across most of Seattle. Understanding its history and recent reforms is essential for following current zoning debates.
 
 **See also:** [Missing Middle Housing](#missing-middle-housing), [Upzoning](#upzoning)
 
