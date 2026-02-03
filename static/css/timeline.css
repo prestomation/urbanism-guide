@@ -107,12 +107,12 @@
 
 .timeline-source-primary {
   background: var(--color-link, #05b);
-  color: white;
+  color: white !important;
 }
 
 .timeline-source-secondary {
   background: #2d7d46;
-  color: white;
+  color: white !important;
 }
 
 /* Blog list styles */
