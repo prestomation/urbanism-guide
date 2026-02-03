@@ -16,7 +16,7 @@ enableEmoji = true
   BookRepo = "https://github.com/prestomation/urbanism-guide"
   BookEditPath = "edit/main/content"
   BookDateFormat = "January 2, 2006"
-  BookSearch = true
+  BookSearch = false
   BookComments = false
   BookPortableLinks = true
 
