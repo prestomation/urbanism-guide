@@ -31,6 +31,8 @@ urbanism-guide/
 ├── static/               # Static assets served as-is
 │   └── css/timeline.css # Custom styling for timeline and blog
 ├── themes/hugo-book/     # External theme (git submodule - DO NOT EDIT)
+├── scripts/              # Build and validation scripts
+│   └── validate-timeline.py  # Ensures timeline is in reverse chronological order
 ├── .github/workflows/    # CI/CD automation
 │   ├── deploy.yml       # Production deployment to gh-pages
 │   ├── pr-preview.yml   # PR preview builds
@@ -48,6 +50,9 @@ hugo server -D
 
 # Production build
 hugo --gc --minify
+
+# Validate timeline order (run before committing timeline changes)
+python3 scripts/validate-timeline.py
 
 # Create new blog post
 hugo new blog/my-post-title.md
@@ -127,9 +132,12 @@ Front matter includes:
 ## Build and Deployment
 
 ### Automated (GitHub Actions)
-- **Push to main**: Builds, validates links via htmltest, deploys to gh-pages
-- **Pull requests**: Creates preview at `/pr-preview/{PR_NUMBER}/`
+- **Push to main**: Validates timeline order, builds, validates links via htmltest, deploys to gh-pages
+- **Pull requests**: Validates timeline order, creates preview at `/pr-preview/{PR_NUMBER}/`
 - **PR close**: Cleans up preview directory
+
+### Timeline Validation
+`scripts/validate-timeline.py` runs before every build to ensure timeline entries are in reverse chronological order. The build will fail if entries are out of order.
 
 ### Link Validation
 `.htmltest.yml` checks internal and external links. External link failures don't block builds (15s timeout).
@@ -167,6 +175,7 @@ Front matter includes:
 1. Edit `data/timeline.yaml`
 2. Insert at the correct position (reverse chronological - newer entries first)
 3. Include year, title, description, legacy, and at least one source
+4. Run `python3 scripts/validate-timeline.py` to verify order before committing
 
 ### Creating a blog post
 1. Run `hugo new blog/post-title.md` or manually create file
