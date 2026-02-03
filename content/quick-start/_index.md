@@ -13,7 +13,7 @@ You want to understand what's going on with urban development in Seattle. Here's
 
 Seattle uses a **mayor-council** form of government. The Mayor runs city departments like SDOT, SDCI, and the Office of Housing, and proposes the budget each year. The City Council, made up of seven district seats and two at-large positions, passes laws, approves the budget, and confirms mayoral appointments. The Planning Commission advises on long-range planning but doesn't have binding authority.
 
-Most of the urbanist action happens through a handful of key agencies. **SDOT** (Seattle Department of Transportation) handles streets, bikes, and transit priority. **SDCI** (Seattle Department of Construction & Inspections) manages building permits and code enforcement. The **Office of Planning & Community Development (OPCD)** shapes comprehensive planning and zoning policy, while the **Office of Housing** runs affordable housing programs and funding. It's worth noting that **Sound Transit**—which operates Link light rail, Sounder commuter rail, and ST Express buses—is a *regional* agency, not a city one.
+Most of the urbanist action happens through a handful of key agencies. **SDOT** (Seattle Department of Transportation) handles streets, bikes, and transit priority. **SDCI** (Seattle Department of Construction & Inspections) manages building permits and code enforcement. The **Office of Planning & Community Development (OPCD)** shapes comprehensive planning and zoning policy, while the **Office of Housing** runs affordable housing programs and funding. It's worth noting that **Sound Transit**—which operates Link light rail, Sounder commuter rail, and ST Express buses—is a *regional* agency, not a city one. Similarly, **King County Metro** operates the region's bus network at the county level.
 
 ## The big picture: Seattle's growth story
 
@@ -45,7 +45,7 @@ Seattle adopted Vision Zero in 2015 with the goal of eliminating traffic deaths,
 
 ### Attending meetings
 
-Several venues exist for public participation. City Council meetings have open public comment periods, with agendas posted on [seattle.gov](https://seattle.gov/council). SDOT holds open houses for specific projects like bike lanes and transit corridors. Sound Transit Board meetings are the place to weigh in on regional transit decisions. For major development projects in your neighborhood, Design Review Board meetings offer a chance to comment. Neighborhood District Councils vary in their activity level depending on the area, but can be another entry point.
+Several venues exist for public participation. City Council meetings have open public comment periods, with agendas posted on [seattle.gov](https://seattle.gov/council). SDOT holds open houses for specific projects like bike lanes and transit corridors. Sound Transit Board meetings are the place to weigh in on regional transit decisions. For major development projects in your neighborhood, Design Review Board meetings offer a chance to comment. Neighborhood District Councils vary in their activity level depending on the area, but can be another entry point. That said, joining your voice with a local advocacy group is often more effective than showing up alone—see [Get Involved](/get-involved/) for organizations working on these issues.
 
 ### Tracking what's going on
 
@@ -53,7 +53,7 @@ Several outlets cover Seattle urbanism in depth. [The Urbanist](https://www.theu
 
 ### Making your voice heard
 
-Most city processes have formal comment periods, and written comments count—you don't always need to show up in person. Contacting your councilmember directly can be effective, as district representatives tend to be responsive to constituent input, especially on land use issues. Joining an organization like Seattle Subway, The Urbanist, Futurewise, or Seattle Greenways is another way to amplify your voice and find community. And when you can, showing up in person at meetings gets noticed by decision-makers in a way that emails sometimes don't.
+Most city processes have formal comment periods, and written comments count—you don't always need to show up in person. Contacting your councilmember directly can be effective, as district representatives tend to be responsive to constituent input, especially on land use issues. The most effective approach, though, is joining a local advocacy organization that aligns with your goals. These groups coordinate action, amplify individual voices, and know how to navigate city processes. Check out [Get Involved](/get-involved/) to find the group that most resonates with what you care about.
 
 ---
 
