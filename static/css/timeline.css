@@ -149,6 +149,15 @@
   .timeline-marker::after {
     border-color: var(--body-background, #1a1a1a);
   }
+
+  .timeline-source {
+    background: #3b82f6;
+    color: #ffffff !important;
+  }
+
+  .timeline-source:hover {
+    background: #60a5fa;
+  }
 }
 
 /* Responsive */
