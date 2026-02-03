@@ -46,6 +46,18 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2016/11/09/st3-passed-heres-how-and-whats-next/"
 
+- year: 2016
+  title: "First Hill Streetcar Opens"
+  description: "Seattle's second modern streetcar line opens on January 23, connecting Capitol Hill, First Hill, and the International District. The 2.5-mile line was conceived as mitigation after Sound Transit eliminated a planned First Hill light rail station to save costs."
+  legacy: "After a 76-year absence, streetcars returned to Capitol Hill and First Hill. Despite criticism for sharing lanes with cars and slow speeds, the line exceeded ridership projections within two years, averaging over 3,000 daily riders."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20867"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2016/01/26/first-hill-streetcar-opens-with-lessons-for-future-lines/"
+
 - year: 2015
   title: "Vision Zero Adopted"
   description: "Seattle commits to eliminating traffic deaths and serious injuries by 2030. The plan prioritizes investments on high-crash corridors and emphasizes engineering over enforcement."
@@ -70,6 +82,18 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2014/05/01/casual-disregard-the-unspoken-case-for-15/"
 
+- year: 2012
+  title: "Parking Minimums Removed Near Transit"
+  description: "Seattle eliminates off-street parking requirements for multifamily housing in urban centers (downtown, Capitol Hill, South Lake Union, Uptown, U District) and urban villages near high-frequency transit. Reduced requirements apply elsewhere."
+  legacy: "Over five years, developers built 40% less parking than would otherwise have been required—nearly 18,000 fewer spaces across 26,300 units. The reform saved an estimated $537 million in construction costs and became a national model for parking reform."
+  sources:
+    primary:
+      name: "Seattle City Council"
+      url: "https://council.seattle.gov/2012/05/10/removing-minimum-parking-requirements-where-unneeded/"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2017/09/19/sdci-takes-stab-parking-reform/"
+
 - year: 2009
   title: "Link Light Rail Opens"
   description: "Sound Transit's Central Link light rail opens between downtown Seattle and Sea-Tac Airport. The first segment of what would become the region's rail backbone."
@@ -81,6 +105,18 @@
     secondary:
       name: "HistoryLink"
       url: "https://www.historylink.org/file/20711"
+
+- year: 2007
+  title: "South Lake Union Streetcar Opens"
+  description: "Seattle's first modern streetcar since 1941 begins service on December 12. The 1.3-mile line connects Westlake Center to the South Lake Union neighborhood, which was transforming into a tech hub anchored by Amazon."
+  legacy: "The South Lake Union Streetcar marked Seattle's return to streetcar transit after 66 years. It was part of a national streetcar revival inspired by Portland's success and helped catalyze billions in development in the neighborhood."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/8421"
+    secondary:
+      name: "Seattle DOT"
+      url: "https://www.seattle.gov/transportation/getting-around/transit/streetcar/south-lake-union-line"
 
 - year: 2003
   title: "Seattle Monorail Project Approved and Collapsed"
@@ -154,6 +190,30 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2018/05/02/forward-thrust-part-1-no-city-island/"
 
+- year: 1967
+  title: "Interstate 5 Opens Through Seattle"
+  description: "On January 31, the final Seattle segment of I-5 opens, completing the freeway connection from Everett to Tacoma. Construction displaced 4,500 parcels of land along 20.5 miles, devastating neighborhoods including Chinatown-International District and the Central District."
+  legacy: "I-5 left a 'big gash' through Seattle that separated the densest residential areas from the largest job centers. Protests had begun in 1961 with marchers carrying signs reading 'Block the Ditch' and 'Let's Have a Lid on It.' Today's lid proposals trace back to this resistance."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/9393"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2024/01/23/interstate-5-was-born-in-protest/"
+
+- year: 1963
+  title: "Evergreen Point Floating Bridge Opens"
+  description: "The SR 520 floating bridge opens on August 28, connecting Seattle's Montlake neighborhood to Medina on the Eastside. At 7,578 feet, it was the longest floating bridge in the world—a title it held until its replacement opened in 2016."
+  legacy: "The 520 bridge enabled suburban development on the Eastside and fundamentally changed regional commute patterns. Combined with I-90, it established the car-dependent cross-lake transportation system that persists today."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://historylink.org/File/690"
+    secondary:
+      name: "WSDOT"
+      url: "https://wsdot.wa.gov/construction-planning/search-projects/sr-520-bridge-replacement-and-hov-program"
+
 - year: 1962
   title: "Century 21 Exposition (World's Fair)"
   description: "The Seattle World's Fair transforms Lower Queen Anne with the Space Needle, Monorail, and what becomes Seattle Center. The Monorail was intended as the start of a citywide system."
@@ -167,6 +227,18 @@
       url: "https://www.historylink.org/File/2524"
 
 - year: 1941
+  title: "Seattle Streetcar Era Ends"
+  description: "On April 13, Seattle's last streetcar completes its final run along 8th Avenue NW in Ballard and rolls into the Fremont car barn. The city replaces 48 miles of streetcar lines with trackless trolleys and diesel buses after a federal loan paid off debts to private operators."
+  legacy: "Seattle became the first U.S. city to rely largely on trackless trolleys. The streetcar tracks were torn up and sold for scrap. Had the system survived a few more months, WWII might have saved it—but the decision shaped 66 years of bus-only transit until the 2007 streetcar revival."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/2536"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2022/03/04/honor-wallingfords-streetcar-history-by-building-transit-and-dense-affordable-housing/"
+
+- year: 1941
   title: "Yesler Terrace Opens"
   description: "Seattle's first public housing project opens. It was notably one of the first racially integrated public housing projects in the US."
   legacy: "Yesler Terrace was eventually redeveloped starting in 2013 into a mixed-income community, illustrating the evolution of public housing philosophy."
@@ -177,6 +249,42 @@
     secondary:
       name: "HistoryLink"
       url: "https://www.historylink.org/File/2105"
+
+- year: 1940
+  title: "Lake Washington Floating Bridge Opens"
+  description: "On July 2, the world's first floating bridge using reinforced-concrete pontoons opens, connecting Seattle to Mercer Island and the Eastside. Engineer Homer Hadley first proposed the concept in 1921; Highway Director Lacey V. Murrow championed construction."
+  legacy: "The Lacey V. Murrow Bridge pioneered floating bridge technology that would be used for all Lake Washington crossings. It enabled Eastside suburban development and established Seattle's cross-lake transportation pattern. Eight pontoons sank in 1990 but the bridge was rebuilt."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/682"
+    secondary:
+      name: "HistoryLink - Bridge Overview"
+      url: "https://www.historylink.org/file/21298"
+
+- year: 1940
+  title: "Queen Anne Counterbalance Ends"
+  description: "On August 11, the Queen Anne Counterbalance streetcar makes its final run, ending 39 years of the ingenious system where underground rail cars loaded with iron and concrete acted as 16-ton counterweights to help electric trolleys up the steep 19% grade."
+  legacy: "The Counterbalance name lives on in the Queen Anne neighborhood. The tunnels remained briefly in case of blizzards, but the tracks were removed in 1943. Today 'the Counterbalance' refers to the steep section of Queen Anne Avenue North and several local businesses."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/20746"
+    secondary:
+      name: "Queen Anne Historical Society"
+      url: "https://www.qahistory.org/articles/counterbalance-streetcars"
+
+- year: 1932
+  title: "Aurora Bridge Opens"
+  description: "On February 22—the bicentennial of George Washington's birth—15,000 people attend the dedication of the George Washington Memorial Bridge (Aurora Bridge). President Hoover triggered the ceremony by telegraph from Washington D.C. The nearly 3,000-foot cantilever bridge completed the final link of Highway 99 from Canada to Mexico."
+  legacy: "Within a month, 11,000 vehicles per day were using the bridge. It enabled development in north Seattle and established Aurora Avenue as a major commercial corridor. A time capsule installed by Judge Thomas Burke's widow is planned to be opened in 2032."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/5418"
+    secondary:
+      name: "Seattle Times"
+      url: "https://www.seattletimes.com/pacific-nw-magazine/to-open-seattles-aurora-bridge-the-president-and-a-telegraph-were-key/"
 
 - year: 1928
   title: "First Comprehensive Zoning Ordinance"
@@ -201,3 +309,51 @@
     secondary:
       name: "HistoryLink"
       url: "https://www.historylink.org/file/160"
+
+- year: 1901
+  title: "Queen Anne Counterbalance Opens"
+  description: "The Seattle Electric Company converts the Queen Anne cable car line to electric operation, adding an ingenious counterbalance system for the steep five blocks between Roy Street and Comstock Street. Underground tunnels housed 16-ton rail cars that assisted trolleys up the 19% grade."
+  legacy: "The Counterbalance was a unique engineering solution that operated for 39 years. It enabled dense development on Queen Anne Hill by making the steep grade accessible to transit—a lesson in how infrastructure shapes neighborhoods."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/20746"
+    secondary:
+      name: "Queen Anne Historical Society"
+      url: "https://www.qahistory.org/articles/counterbalance-streetcars"
+
+- year: 1889
+  title: "Seattle's First Electric Streetcars"
+  description: "On March 31, the Seattle Electric Railway and Power Company inaugurates Seattle's first electric streetcar service along 2nd Avenue. Frank Osgood tested the cars the day before, with investor Addie Burns as the first passenger. Seattle was among the first cities in the nation to adopt electric streetcar technology."
+  legacy: "Electric streetcars sparked a construction boom. By 1892, Seattle had 48 miles of streetcar lines and 22 miles of cable car lines. These routes established much of Seattle's urban fabric, promoting new neighborhoods in Ballard, Greenwood, Rainier Valley, and West Seattle."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/2691"
+    secondary:
+      name: "HistoryLink - Street Railways"
+      url: "https://www.historylink.org/File/2707"
+
+- year: 1887
+  title: "Cable Cars Enter Service"
+  description: "On September 28, the Lake Washington Cable Railway inaugurates Seattle's first cable car service, running from Pioneer Square to Leschi Park via Yesler Way and Jackson Street. The line featured a spectacular 500-foot wooden trestle, with cars traveling 200 feet above the ground."
+  legacy: "The cable car linked Elliott Bay steamers with Lake Washington ferries, creating the region's first intermodal transit connection. The Yesler cable car—Seattle's last cable line—made its final run on August 9, 1940. Other cable lines served Madison Street, James Street, and Queen Anne Hill."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/2690"
+    secondary:
+      name: "HistoryLink - Street Railways"
+      url: "https://www.historylink.org/File/2707"
+
+- year: 1884
+  title: "Seattle's First Streetcar"
+  description: "On September 23, Frank Osgood inaugurates Seattle's first streetcar line—horse-drawn cars running down 2nd Avenue. For a nickel, passengers could ride the region's first mass transit system. Construction was financed by leading citizens including Arthur Denny, Thomas Burke, and George Kinnear."
+  legacy: "Seattle's muddy, treacherous roads made the streetcar an instant success. Downtown retailers had feared streetcars would frighten horse traffic, forcing Osgood to select 2nd Avenue instead of 1st. This began Seattle's streetcar era, which would last 57 years and shape the city's neighborhoods."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://historylink.org/File/2688"
+    secondary:
+      name: "HistoryLink - Street Railways"
+      url: "https://www.historylink.org/File/2707"
