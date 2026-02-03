@@ -153,11 +153,11 @@
 
 /* Pagefind search styles */
 .book-search {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .pagefind-ui {
-  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-scale: 0.7;
   --pagefind-ui-primary: var(--color-link, #05b);
   --pagefind-ui-text: var(--body-font-color, #333);
   --pagefind-ui-background: var(--body-background, #fff);
@@ -168,7 +168,13 @@
 }
 
 .pagefind-ui .pagefind-ui__search-input {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  padding: 0.4rem 0.6rem;
+  height: auto;
+}
+
+.pagefind-ui .pagefind-ui__search-clear {
+  padding: 0 0.5rem;
 }
 
 .pagefind-ui .pagefind-ui__result-link {
@@ -176,8 +182,8 @@
 }
 
 .pagefind-ui .pagefind-ui__result-excerpt {
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
 @media (prefers-color-scheme: dark) {
