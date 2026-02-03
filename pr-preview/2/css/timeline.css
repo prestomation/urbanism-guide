@@ -94,25 +94,17 @@
 
 .timeline-source {
   display: inline-block;
-  padding: 0.15rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
+  background: var(--color-link, #05b);
+  color: white;
+  padding: 0.1rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  opacity: 0.8;
   text-decoration: none;
-  transition: opacity 0.2s;
 }
 
 .timeline-source:hover {
-  opacity: 0.8;
-}
-
-.timeline-source-primary {
-  background: var(--color-link, #05b);
-  color: white !important;
-}
-
-.timeline-source-secondary {
-  background: #2d7d46;
-  color: white !important;
+  opacity: 1;
 }
 
 /* Blog list styles */
