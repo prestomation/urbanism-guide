@@ -1,9 +1,13 @@
 # Hugo build output
 public/
 resources/_gen/
+.hugo_build.lock
 
 # Hugo cache
 hugo_cache/
+
+# htmltest output
+.htmltest/
 
 # OS files
 .DS_Store
