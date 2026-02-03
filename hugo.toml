@@ -41,6 +41,14 @@ enableEmoji = true
     name = "Blog"
     url = "/blog/"
     weight = 4
+  [[menu.before]]
+    name = "Get Involved"
+    url = "/get-involved/"
+    weight = 5
+  [[menu.before]]
+    name = "Recommended Reading"
+    url = "/recommended-reading/"
+    weight = 6
 
 [markup]
   [markup.goldmark]
