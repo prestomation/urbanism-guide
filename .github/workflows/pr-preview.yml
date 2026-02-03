@@ -1,0 +1,112 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: pr-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-and-deploy-preview:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.147.0"
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Build with Hugo
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: preview
+          TZ: America/Los_Angeles
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/${{ github.event.number }}/"
+
+      - name: Validate links
+        run: |
+          curl -sSL https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz | tar xz -C /tmp
+          /tmp/htmltest --conf .htmltest.yml
+
+      - name: Deploy preview to gh-pages branch
+        run: |
+          cp -r public /tmp/pr-preview-${{ github.event.number }}
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # Fetch gh-pages or create orphan
+          git fetch origin gh-pages 2>/dev/null && \
+            git checkout gh-pages || \
+            git checkout --orphan gh-pages
+
+          # Clean working tree
+          git rm -rf . 2>/dev/null || true
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+
+          # Restore everything from gh-pages
+          git checkout gh-pages -- . 2>/dev/null || true
+
+          # Replace just this PR's preview dir
+          rm -rf "pr-preview/${{ github.event.number }}"
+          mkdir -p "pr-preview/${{ github.event.number }}"
+          cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview/${{ github.event.number }}/"
+
+          git add -A
+          git commit -m "Update PR #${{ github.event.number }} preview" || exit 0
+          git push origin gh-pages --force
+
+      - name: Comment PR with preview link
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' && comment.body.includes('Site Preview')
+            );
+
+            const previewUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/pr-preview/${{ github.event.number }}/`;
+
+            const body = `## Site Preview\n\n**Preview:** ${previewUrl}\n**Commit:** \`${{ github.event.pull_request.head.sha }}\`\n\n> It may take a minute for GitHub Pages to update after this comment appears.`;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: body
+              });
+            }

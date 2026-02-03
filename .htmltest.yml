@@ -1,0 +1,33 @@
+# htmltest configuration
+# https://github.com/wjdp/htmltest
+
+DirectoryPath: "public"
+
+# Check internal links (anchors, relative paths)
+CheckInternal: true
+
+# Check external links
+CheckExternal: true
+
+# Don't fail on external link errors (sites may be temporarily down)
+IgnoreExternalBrokenLinks: true
+
+# Timeout for external link checks
+ExternalTimeout: 15
+
+# Ignore URLs matching these patterns
+# Hugo generates all internal links with the full baseURL prefix
+# (e.g., /urbanism-guide/pr-preview/1/glossary/), but htmltest checks
+# against the local public/ directory where files are at /glossary/.
+# Hugo validates internal links during build, so we skip them here
+# and focus on validating external links.
+IgnoreURLs:
+  - "^mailto:"
+  - "^/urbanism-guide/"
+
+# Ignore PR preview directories (they reference other PR builds)
+IgnoreDirs:
+  - "^pr-preview/"
+
+# Output format
+OutputDir: ".htmltest"

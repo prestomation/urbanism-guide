@@ -1,0 +1,62 @@
+baseURL = "https://prestomation.github.io/urbanism-guide/"
+languageCode = "en-us"
+title = "Seattle Urbanism Guide"
+theme = "hugo-book"
+
+uglyURLs = false
+
+enableGitInfo = true
+enableEmoji = true
+
+[params]
+  description = "A practical guide for Seattle urbanists and advocates. Understand the issues, learn the terms, and show up ready to contribute."
+  BookTheme = "auto"
+  BookToC = true
+  BookSection = "quick-start"
+  BookRepo = "https://github.com/prestomation/urbanism-guide"
+  BookEditPath = "edit/main/content"
+  BookDateFormat = "January 2, 2006"
+  BookSearch = true
+  BookComments = false
+  BookPortableLinks = true
+
+[params.bookToc]
+  startLevel = 2
+  endLevel = 4
+
+[menu]
+  [[menu.before]]
+    name = "Seattle Quick Start"
+    url = "/quick-start/"
+    weight = 1
+  [[menu.before]]
+    name = "Glossary"
+    url = "/glossary/"
+    weight = 2
+  [[menu.before]]
+    name = "Timeline"
+    url = "/timeline/"
+    weight = 3
+  [[menu.before]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.highlight]
+    style = "github"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
