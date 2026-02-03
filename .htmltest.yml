@@ -16,14 +16,14 @@ IgnoreExternalBrokenLinks: true
 ExternalTimeout: 15
 
 # Ignore URLs matching these patterns
-# Theme-generated assets use absolute URLs with baseURL prefix
-# which htmltest can't resolve against the local public/ directory
+# Hugo generates all internal links with the full baseURL prefix
+# (e.g., /urbanism-guide/pr-preview/1/glossary/), but htmltest checks
+# against the local public/ directory where files are at /glossary/.
+# Hugo validates internal links during build, so we skip them here
+# and focus on validating external links.
 IgnoreURLs:
   - "^mailto:"
-  - "/urbanism-guide.*\\.(css|js|png|ico|json|svg|woff2?)$"
-  - "/pr-preview/.*\\.(css|js|png|ico|json|svg|woff2?)$"
-  - "^/urbanism-guide/(favicon|manifest|apple-touch)"
-  - "^/urbanism-guide/pr-preview/\\d+/(favicon|manifest|apple-touch)"
+  - "^/urbanism-guide/"
 
 # Ignore PR preview directories (they reference other PR builds)
 IgnoreDirs:
