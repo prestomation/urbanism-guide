@@ -10,7 +10,7 @@
       <h3>{{ .title }}</h3>
       <p>{{ .description }}</p>
       {{ with .legacy }}
-      <p class="timeline-legacy"><strong>Legacy:</strong> {{ . }}</p>
+      <p class="timeline-legacy">{{ . }}</p>
       {{ end }}
       {{ with .sources }}
       <div class="timeline-sources">
