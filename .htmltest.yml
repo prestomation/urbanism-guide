@@ -1,0 +1,28 @@
+# htmltest configuration
+# https://github.com/wjdp/htmltest
+
+DirectoryPath: "public"
+
+# Check internal links (anchors, relative paths)
+CheckInternal: true
+
+# Check external links
+CheckExternal: true
+
+# Don't fail on external link errors (sites may be temporarily down)
+# but DO fail on internal link errors
+IgnoreExternalBrokenLinks: true
+
+# Timeout for external link checks
+ExternalTimeout: 15
+
+# Ignore mailto links
+IgnoreURLs:
+  - "^mailto:"
+
+# Ignore specific domains that may block automated requests
+IgnoreDirs:
+  - "^pr-preview/"
+
+# Output format
+OutputDir: ".htmltest"

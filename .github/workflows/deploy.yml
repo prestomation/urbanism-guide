@@ -50,6 +50,11 @@ jobs:
             --minify \
             --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
 
+      - name: Validate links
+        run: |
+          curl -sSL https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz | tar xz -C /tmp
+          /tmp/htmltest --conf .htmltest.yml
+
       - name: Deploy to gh-pages branch
         run: |
           cp -r public /tmp/site-build

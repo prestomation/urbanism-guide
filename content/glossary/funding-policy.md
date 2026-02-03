@@ -21,7 +21,7 @@ A city program that gives property tax breaks to developers who include affordab
 
 **Why it matters:** MFTE is one of Seattle's main tools for getting affordable units built in market-rate projects. When MFTE buildings' exemptions expire, those affordable units can go to market rate -- creating a slow-motion affordability cliff.
 
-**See also:** MHA, Affordable Housing
+**See also:** [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability), [Affordable Housing](/glossary/housing-zoning/#affordable-housing)
 
 **Learn more:** [Seattle Office of Housing: MFTE Program](https://www.seattle.gov/housing/housing-developers/multifamily-tax-exemption) | [Seattle Office of Housing: MFTE Program 7](https://www.seattle.gov/housing/housing-developers/multifamily-tax-exemption/mfte-program-7)
 
