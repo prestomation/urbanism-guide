@@ -169,7 +169,7 @@ A traffic signal control strategy that gives priority to transit vehicles at int
 
 **See also:** [RapidRide](#rapidride), [BAT Lane](#bat-lane-business-access-and-transit)
 
-**Learn more:** [SDOT: Transit Program](https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program) | [The Urbanist: King County Metro Wants to Speed Up Buses](https://www.theurbanist.org/2024/07/19/king-county-metro-wants-to-speed-up-buses-heres-how/)
+**Learn more:** [SDOT: Transit Program](https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program) | [The Urbanist: Buses Slowed by Traffic](https://www.theurbanist.org/2022/12/01/as-king-county-focuses-on-metro-fleet-turnover-buses-are-getting-slowed-down-by-traffic/)
 
 ---
 
