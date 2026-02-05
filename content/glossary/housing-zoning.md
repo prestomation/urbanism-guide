@@ -99,6 +99,30 @@ Washington's 2023 statewide middle housing law requiring cities to allow duplexe
 
 ---
 
+## HB 1337 (ADU Reform)
+
+Washington's 2023 statewide ADU law requiring cities to allow at least two accessory dwelling units (one attached, one detached) on any residential lot within urban growth areas. The law eliminates many local barriers including owner-occupancy requirements, excessive setbacks, and parking mandates for ADUs near transit.
+
+**Why it matters:** HB 1337 is one of the most sweeping ADU reforms in any state, making it significantly easier to add "gentle density" across Washington. The law enables homeowners to build backyard cottages or convert garages into housing without many of the restrictions that previously made ADUs expensive or infeasible. Combined with HB 1110's middle housing requirements, this fundamentally expands what can be built on residential lots.
+
+**See also:** [ADU](#adu-accessory-dwelling-unit), [DADU](#dadu-detached-accessory-dwelling-unit), [HB 1110](#hb-1110)
+
+**Learn more:** [WA Legislature: HB 1337](https://app.leg.wa.gov/billsummary?BillNumber=1337&Initiative=false&Year=2023) | [The Urbanist: ADU and Design Review Reforms Pass](https://www.theurbanist.org/2023/04/12/missing-middle-housing-adu-and-design-review-reforms-pass-second-chamber/)
+
+---
+
+## HB 1491 (Transit-Oriented Development)
+
+Washington's 2025 transit-oriented development law requiring cities to allow midrise housing near major transit stations. Within a half-mile of light rail, commuter rail, and streetcar stations, cities must permit at least 3.5 Floor Area Ratio (FAR). Within a quarter-mile of bus rapid transit stops, cities must allow at least 2.5 FAR. The law includes affordability requirements (10% of units at 60% AMI or 20% at 80% AMI) paired with a 20-year property tax exemption.
+
+**Why it matters:** HB 1491 is one of the largest state-mandated upzones in U.S. history, requiring significant density increases around every major transit station in the Puget Sound region. The law ensures that billions invested in Link light rail expansion will be paired with housing capacity around stations -- addressing past failures where transit investments didn't produce expected ridership or housing growth. Compliant buildings must maintain affordability for 50 years.
+
+**See also:** [TOD](/glossary/transportation/#tod-transit-oriented-development), [FAR](#far-floor-area-ratio), [ST3](/glossary/transportation/#st3-sound-transit-3)
+
+**Learn more:** [WA Legislature: HB 1491](https://app.leg.wa.gov/billsummary?BillNumber=1491&Year=2025&Initiative=false) | [The Urbanist: State Senate Greenlights TOD Housing Bill](https://www.theurbanist.org/2025/04/16/state-senate-greenlights-sweeping-tod-housing-bill/)
+
+---
+
 ## Lot Coverage
 
 The percentage of a lot that can be covered by buildings and structures. Seattle's neighborhood residential zones typically have lot coverage limits of 35-50% depending on the zone and housing type.
@@ -159,6 +183,18 @@ Zoning rules that require developers to build a minimum number of off-street par
 
 ---
 
+## SB 5184 (Parking Reform)
+
+Washington's 2025 statewide parking reform law that caps the minimum parking requirements cities can impose on new development. Cities cannot require more than 0.5 parking spaces per residential unit. The law also prohibits any parking minimums near frequent transit, for senior housing, childcare facilities, small units, and existing buildings undergoing a change of use.
+
+**Why it matters:** Parking mandates have been one of the biggest hidden costs in housing development, adding $30,000-$50,000 per stall for structured parking. By capping how much parking cities can require, SB 5184 allows developers to build more housing on the same land at lower cost. This is one of the most comprehensive statewide parking reforms in the country and directly addresses a key barrier that has inflated Seattle-area housing costs for decades.
+
+**See also:** [Parking Minimums](#parking-minimums), [TOD](/glossary/transportation/#tod-transit-oriented-development)
+
+**Learn more:** [WA Legislature: SB 5184](https://app.leg.wa.gov/billsummary?BillNumber=5184&Year=2025&Initiative=false) | [The Urbanist: Parking Reforms Become Law](https://www.theurbanist.org/2025/05/08/rent-stabilization-parking-reforms-become-law-in-washington/)
+
+---
+
 ## Setbacks
 
 Required distances between buildings and lot lines (front, side, and rear). Seattle's neighborhood residential zones typically require 20-foot front setbacks, 5-foot side setbacks, and rear setbacks of 20% of lot depth or 25 feet (whichever is less).
@@ -180,6 +216,18 @@ Zoning that only allows one house per lot. Seattle had roughly 75% of its reside
 **See also:** [Missing Middle Housing](#missing-middle-housing), [Upzoning](#upzoning)
 
 **Learn more:** [Seattle OPCD: Neighborhood Residential Zoning](https://one-seattle-plan-zoning-implementation-seattlecitygis.hub.arcgis.com/pages/neighborhood-residential) | [Cascade PBS: Seattle shares plan for more housing density](https://www.cascadepbs.org/politics/2024/03/seattle-shares-plan-more-housing-density-every-neighborhood)
+
+---
+
+## Stacked Flats
+
+A middle housing type consisting of dwelling units stacked vertically in a building of no more than three stories, where each unit occupies a single floor. Unlike townhouses where units are side-by-side, stacked flats place units on top of each other, often sharing a central entrance or having individual street-level entries.
+
+**Why it matters:** Stacked flats were historically common in Seattle but became difficult to build due to zoning restrictions and financing challenges. Washington's HB 1110 explicitly includes stacked flats in the definition of middle housing that cities must allow. Seattle's 2025 zoning reforms created incentives for stacked flats, including FAR bonuses (up to 1.4 on larger lots near transit). Because stacked flats can provide more units than townhouses on the same lot size, they're a key housing type for meeting density goals while maintaining neighborhood scale.
+
+**See also:** [Missing Middle Housing](#missing-middle-housing), [HB 1110](#hb-1110), [FAR](#far-floor-area-ratio)
+
+**Learn more:** [WA Commerce: Middle Housing Model Ordinances](https://www.commerce.wa.gov/commerce-publishes-model-ordinances-to-support-the-development-of-middle-housing/) | [The Urbanist: The Deck is Stacked Against Stacked Flats](https://www.theurbanist.org/2025/05/09/the-deck-is-stacked-against-stacked-flats-in-seattle/)
 
 ---
 

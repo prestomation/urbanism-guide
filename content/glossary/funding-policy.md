@@ -17,6 +17,18 @@ The median household income for a metropolitan area, calculated annually by HUD.
 
 ---
 
+## BEPS (Building Emissions Performance Standard)
+
+Seattle's policy requiring large commercial and multifamily buildings (over 20,000 square feet) to meet greenhouse gas emissions performance targets by 2050, with interim milestones. Buildings must either reduce emissions or pay an alternative compliance fee. It's one of the first building performance standards in the nation.
+
+**Why it matters:** BEPS is a major climate policy that affects how buildings are designed, renovated, and operated in Seattle. Building operations account for a significant portion of Seattle's carbon emissions, and BEPS targets the largest emitters. The policy creates both compliance costs and incentives for energy efficiency upgrades. Understanding BEPS helps advocates follow debates about balancing climate goals with housing affordability.
+
+**See also:** [Social Housing](#social-housing), [Housing Levy](#housing-levy)
+
+**Learn more:** [Seattle OSE: Building Emissions Performance Standard](https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard) | [The Urbanist: Seattle Considers Building Emissions Performance Standard](https://www.theurbanist.org/2022/05/25/seattle-considers-building-emissions-performance-standard-as-fossil-fuel-ban-looms/)
+
+---
+
 ## Community Land Trust (CLT)
 
 A nonprofit organization that owns land permanently and leases it to homeowners or developers, keeping housing affordable in perpetuity. The trust controls resale prices to maintain long-term affordability while still allowing residents to build equity.
@@ -60,6 +72,30 @@ One-time charges on new development to pay for infrastructure (roads, parks, sch
 **Why it matters:** Impact fees are a perpetual debate in Seattle. Developers argue they raise housing costs. Advocates say new development should pay for the infrastructure it requires. Whether and how Seattle implements impact fees affects both housing affordability and public services.
 
 **Learn more:** [MRSC: Impact Fees](https://mrsc.org/explore-topics/planning/administration/impact-fees) | [MRSC: Impact Fees Do's and Don'ts](https://mrsc.org/stay-informed/mrsc-insight/march-2023/impact-fees-local-government-dos-and-donts)
+
+---
+
+## Incentive Zoning (IZ)
+
+A zoning tool that grants developers additional building capacity (more height or floor area) in exchange for providing public benefits, typically affordable housing. Unlike mandatory requirements like MHA, incentive zoning is voluntary -- developers choose whether to take the extra capacity.
+
+**Why it matters:** Incentive zoning was Seattle's primary affordable housing strategy before MHA made inclusionary requirements mandatory. The program still operates in some zones and is used in combination with MHA in others. Understanding how incentive zoning works helps advocates evaluate whether developers are maximizing affordable housing contributions when they take bonus capacity.
+
+**See also:** [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability), [FAR](/glossary/housing-zoning/#far-floor-area-ratio), [Linkage Fees](#linkage-fees)
+
+**Learn more:** [Seattle Office of Housing: Incentive Zoning](https://www.seattle.gov/housing/housing-developers/incentive-zoning) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
+
+---
+
+## JumpStart Payroll Expense Tax
+
+Seattle's tax on large businesses (payroll over $8.6 million) that pay employees more than $180,000 annually. Passed in 2020, JumpStart was initially dedicated to COVID response but is now the city's primary progressive revenue source, funding affordable housing, economic development, and the Green New Deal.
+
+**Why it matters:** JumpStart generates approximately $300 million annually and represents a significant policy shift toward taxing large corporations and high earners. The tax has been politically contested, with some business groups and council members seeking to redirect funds or weaken the tax. For housing advocates, JumpStart is a crucial funding stream for affordable housing production that's at risk in each budget cycle.
+
+**See also:** [Housing Levy](#housing-levy), [Equitable Development Initiative](#equitable-development-initiative-edi)
+
+**Learn more:** [Seattle Office of Economic Development: JumpStart](https://www.seattle.gov/office-of-economic-development/jumpstart-seattle) | [The Urbanist: JumpStart Tax Faces Budget Pressure](https://www.theurbanist.org/2024/10/17/how-seattle-can-make-its-jumpstart-tax-work-harder/)
 
 ---
 
