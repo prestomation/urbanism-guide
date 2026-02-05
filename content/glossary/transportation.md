@@ -93,7 +93,7 @@ A signal phase that stops all vehicle traffic and allows pedestrians to cross an
 
 A pedestrian-activated traffic control device used at uncontrolled crosswalks, officially called a "High-Intensity Activated crossWalK beacon." When a pedestrian presses the button, the beacon progresses through a sequence of flashing and solid red lights that require drivers to stop.
 
-**Why it matters:** HAWK beacons are more effective than standard crosswalk markings at getting drivers to yield. FHWA research shows they reduce pedestrian crashes by up to 69%. They're typically installed at mid-block crossings or intersections where a full traffic signal isn't warranted but pedestrian volumes or safety concerns require more than paint. Seattle uses HAWKs on arterials where crossing opportunities are limited.
+**Why it matters:** HAWK beacons are more effective than standard crosswalk markings at getting drivers to yield. FHWA research shows they reduce pedestrian crashes by up to 69% and driver yielding rates exceed 90% (compared to ~30% at traditional crosswalks). They're typically installed at mid-block crossings or intersections where a full traffic signal isn't warranted but pedestrian volumes or speeds (often 35+ mph) require more than paint. Seattle primarily uses RRFBs for uncontrolled crossings, but HAWKs are an option for higher-speed arterials.
 
 **See also:** [Rectangular Rapid Flashing Beacon](#rectangular-rapid-flashing-beacon-rrfb), [Vision Zero](#vision-zero)
 
