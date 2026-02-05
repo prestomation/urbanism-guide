@@ -156,6 +156,11 @@ Front matter includes:
 
 6. **No node_modules by default**: The project is pure Hugo unless package.json is added for asset processing.
 
+7. **Verify links before adding**: Always use WebFetch to verify that external URLs are valid before adding them to content. The CI runs `python3 scripts/check-external-links.py` which will fail the build on broken links. To check all links locally, run:
+   ```bash
+   python3 scripts/check-external-links.py
+   ```
+
 ## Git Workflow
 
 - Main branch: `main`
@@ -169,13 +174,15 @@ Front matter includes:
 1. Identify the correct category file in `content/glossary/`
 2. Add the term in alphabetical order within the file
 3. Follow the "Term Name / Definition / Why it matters / See also / Learn more" format
-4. Include a primary governmental source and secondary source (preferably The Urbanist) in the "Learn more" section
+4. **Verify all URLs using WebFetch before adding them** to ensure they return valid content (not 404s)
+5. Include a primary governmental source and secondary source (preferably The Urbanist) in the "Learn more" section
 
 ### Adding a timeline event
 1. Edit `data/timeline.yaml`
 2. Insert at the correct position (reverse chronological - newer entries first)
 3. Include year, title, description, legacy, and at least one source
-4. Run `python3 scripts/validate-timeline.py` to verify order before committing
+4. **Verify all source URLs using WebFetch before adding them** to ensure they return valid content (not 404s)
+5. Run `python3 scripts/validate-timeline.py` to verify order before committing
 
 ### Creating a blog post
 1. Run `hugo new blog/post-title.md` or manually create file

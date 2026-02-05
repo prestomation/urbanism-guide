@@ -133,7 +133,7 @@ A traffic signal timing strategy that gives pedestrians a 3-7 second head start 
 
 **See also:** [Vision Zero](#vision-zero), [Diagonal Crossing](#diagonal-crossing-pedestrian-scramble)
 
-**Learn more:** [Seattle SDOT: Leading Pedestrian Intervals](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero/leading-pedestrian-intervals) | [The Urbanist: Vision Zero Accelerates LPI Rollout](https://www.theurbanist.org/2023/09/01/seattle-accelerates-leading-pedestrian-interval-rollout/)
+**Learn more:** [Seattle SDOT: Leading Pedestrian Intervals](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero/leading-pedestrian-intervals) | [SDOT Blog: LPI Rollout Acceleration](https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/)
 
 ---
 
@@ -217,7 +217,7 @@ A street redesign that reduces the number of travel lanes, typically converting 
 
 **See also:** [High Injury Network](#high-injury-network), [Vision Zero](#vision-zero), [Complete Streets](#complete-streets)
 
-**Learn more:** [FHWA: Seattle Stone Way Road Diet Case Study](https://highways.dot.gov/safety/other/road-diets/road-diet-case-studies/seattle-washington-stone-way) | [The Urbanist: Road Safety Projects and Business Sales](https://www.theurbanist.org/2024/02/28/uw-study-finds-vision-zero-projects-dont-hurt-business/)
+**Learn more:** [FHWA: Seattle Stone Way Road Diet Case Study](https://highways.dot.gov/safety/other/road-diets/road-diet-case-studies/seattle-washington-stone-way) | [The Urbanist: Rainier Ave Road Diet Data](https://www.theurbanist.org/2017/08/31/rainier-ave-road-diet-data/)
 
 ---
 
