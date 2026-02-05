@@ -83,7 +83,7 @@ A zoning tool that grants developers additional building capacity (more height o
 
 **See also:** [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability), [FAR](/glossary/housing-zoning/#far-floor-area-ratio), [Linkage Fees](#linkage-fees)
 
-**Learn more:** [Seattle Office of Housing: Incentive Zoning](https://www.seattle.gov/housing/housing-developers/incentive-zoning) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
+**Learn more:** [Seattle Office of Housing: Incentive Programs](https://www.seattle.gov/housing/property-managers/incentive-programs) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
 
 ---
 
@@ -95,7 +95,7 @@ Seattle's tax on large businesses (payroll over $8.6 million) that pay employees
 
 **See also:** [Housing Levy](#housing-levy), [Equitable Development Initiative](#equitable-development-initiative-edi)
 
-**Learn more:** [Seattle Office of Economic Development: JumpStart](https://www.seattle.gov/office-of-economic-development/jumpstart-seattle) | [The Urbanist: Seattle Leaders Eye JumpStart Funds](https://www.theurbanist.org/2024/03/12/seattle-leaders-eye-jumpstart-housing-funds-to-close-230-million-budget-hole/)
+**Learn more:** [Seattle City Council: JumpStart Seattle](https://council.seattle.gov/2020/07/06/council-passes-mosquedas-jumpstart-seattle-progressive-revenue-plan-to-address-covid-response-essential-city-services-affordable-housing/) | [The Urbanist: Seattle Leaders Eye JumpStart Funds](https://www.theurbanist.org/2024/03/12/seattle-leaders-eye-jumpstart-housing-funds-to-close-230-million-budget-hole/)
 
 ---
 

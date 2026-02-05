@@ -25,7 +25,7 @@ A dedicated lane that prioritizes buses while still allowing other vehicles to u
 
 **See also:** [RapidRide](#rapidride), [Transit Signal Priority](#transit-signal-priority-tsp)
 
-**Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/rider-tools/rapidride) | [The Urbanist: Push to Water Down Route 40 Transit Upgrades](https://www.theurbanist.org/2025/08/21/push-to-water-down-route-40-upgrades/)
+**Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride) | [The Urbanist: Push to Water Down Route 40 Transit Upgrades](https://www.theurbanist.org/2025/08/21/push-to-water-down-route-40-upgrades/)
 
 ---
 
@@ -37,7 +37,7 @@ Seattle's long-range plan for building a citywide network of bike infrastructure
 
 **See also:** [Protected Bike Lane](#protected-bike-lane-pbl), [Neighborhood Greenways](#neighborhood-greenways), [Vision Zero](#vision-zero)
 
-**Learn more:** [Seattle SDOT: Bicycle Master Plan](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-master-plan) | [The Urbanist: Five Key Takeaways from Updated Bike Master Plan](https://www.theurbanist.org/2019/06/18/five-key-takeaways-from-the-updated-bike-master-plan/)
+**Learn more:** [Seattle SDOT: Bicycle Master Plan](https://www.seattle.gov/transportation/document-library/citywide-plans/modal-plans/bicycle-master-plan) | [The Urbanist: Five Key Takeaways from Updated Bike Master Plan](https://www.theurbanist.org/2019/06/18/five-key-takeaways-from-the-updated-bike-master-plan/)
 
 ---
 
@@ -61,7 +61,7 @@ The phenomenon where adding road capacity generates additional traffic, typicall
 
 **See also:** [VMT](#vmt-vehicle-miles-traveled), [Mode Share](#mode-share)
 
-**Learn more:** [WSDOT: Congestion Report](https://wsdot.wa.gov/about/transportation-data/travel-data/congestion-report) | [The Urbanist: The Law of Induced Demand](https://www.theurbanist.org/2019/11/12/the-law-of-induced-demand-road-widening-and-i-976-invites-congestion/)
+**Learn more:** [WSDOT: Congestion & Mobility Reports](https://wsdot.wa.gov/about/transportation-data/travel-data/congestion-multimodal-mobility-reports) | [The Urbanist: The Law of Induced Demand](https://www.theurbanist.org/2019/11/12/the-law-of-induced-demand-road-widening-and-i-976-invites-congestion/)
 
 ---
 
@@ -97,7 +97,7 @@ A network of residential streets with traffic calming, wayfinding signs, and cro
 
 **See also:** [Bicycle Master Plan](#bicycle-master-plan), [Complete Streets](#complete-streets)
 
-**Learn more:** [Seattle SDOT: Neighborhood Greenways](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/neighborhood-greenways) | [The Urbanist: Seattle Bike Network Popularity](https://www.theurbanist.org/2023/12/01/seattle-is-building-a-citywide-bike-network-that-cannot-handle-its-own-popularity/)
+**Learn more:** [Seattle SDOT: Greenways Program](https://www.seattle.gov/transportation/projects-and-programs/programs/greenways-program) | [The Urbanist: Seattle Bike Network Popularity](https://www.theurbanist.org/2023/12/01/seattle-is-building-a-citywide-bike-network-that-cannot-handle-its-own-popularity/)
 
 ---
 
@@ -121,7 +121,7 @@ King County Metro's bus rapid transit (BRT) network featuring frequent service (
 
 **See also:** [TOD](#tod-transit-oriented-development), [HB 1110](/glossary/housing-zoning/#hb-1110)
 
-**Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/rider-tools/rapidride) | [The Urbanist: Metro Launches RapidRide G](https://www.theurbanist.org/2024/09/13/metro-launches-rapidride-g/)
+**Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride) | [The Urbanist: Metro Launches RapidRide G](https://www.theurbanist.org/2024/09/13/metro-launches-rapidride-g/)
 
 ---
 

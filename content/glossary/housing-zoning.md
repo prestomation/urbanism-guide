@@ -131,7 +131,7 @@ The percentage of a lot that can be covered by buildings and structures. Seattle
 
 **See also:** [FAR](#far-floor-area-ratio), [Setbacks](#setbacks), [Zoning](/glossary/land-use/#zoning)
 
-**Learn more:** [Seattle SDCI: Lot Coverage Standards (PDF)](https://www.seattle.gov/dpd/Publications/cam/cam220.pdf) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
+**Learn more:** [Seattle SDCI: Lot Coverage Standards (Tip 220)](https://web.seattle.gov/dpd/cams/CamDetail.aspx?cn=220) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
 
 ---
 
@@ -179,7 +179,7 @@ Zoning rules that require developers to build a minimum number of off-street par
 
 **See also:** [TOD](/glossary/transportation/#tod-transit-oriented-development)
 
-**Learn more:** [Seattle SDCI: Parking Requirements](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/parking) | [The Urbanist: Seattle Passes Parking Reform](https://www.theurbanist.org/2018/04/04/shoupistas-rejoice-seattle-passes-parking-reform/)
+**Learn more:** [Seattle SDCI: Parking Rules](https://www.seattle.gov/sdci/codes/common-code-questions/parking-and-car-storage-rules) | [The Urbanist: Seattle Passes Parking Reform](https://www.theurbanist.org/2018/04/04/shoupistas-rejoice-seattle-passes-parking-reform/)
 
 ---
 
@@ -203,7 +203,7 @@ Required distances between buildings and lot lines (front, side, and rear). Seat
 
 **See also:** [Lot Coverage](#lot-coverage), [Zoning](/glossary/land-use/#zoning)
 
-**Learn more:** [Seattle SDCI: Lot Coverage, Height and Yard Standards (PDF)](https://www.seattle.gov/dpd/Publications/cam/cam220.pdf) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
+**Learn more:** [Seattle SDCI: Lot Coverage, Height and Yard Standards (Tip 220)](https://web.seattle.gov/dpd/cams/CamDetail.aspx?cn=220) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
 
 ---
 

@@ -25,7 +25,7 @@ A Growth Management Act requirement that infrastructure (roads, water, sewer, sc
 
 **See also:** [GMA](#gma-growth-management-act), [Comprehensive Plan](#comprehensive-plan)
 
-**Learn more:** [MRSC: Concurrency](https://mrsc.org/explore-topics/planning/transportation/concurrency) | [WA Commerce: Growth Management Act](https://www.commerce.wa.gov/serving-communities/growth-management/)
+**Learn more:** [MRSC: Concurrency](https://mrsc.org/explore-topics/planning/gma/concurrency) | [WA Commerce: Growth Management Act](https://www.commerce.wa.gov/serving-communities/growth-management/)
 
 ---
 
@@ -73,7 +73,7 @@ A zoning approach that regulates building form (height, setbacks, facade design)
 
 **See also:** [Zoning](#zoning), [Design Review](/glossary/housing-zoning/#design-review)
 
-**Learn more:** [MRSC: Form-Based Codes](https://mrsc.org/explore-topics/planning/land-use-administration/form-based-codes) | [Form-Based Codes Institute](https://formbasedcodes.org/)
+**Learn more:** [MRSC: Development Regulations and Zoning](https://mrsc.org/explore-topics/planning/zoning/development-regulations-and-zoning) | [Form-Based Codes Institute](https://formbasedcodes.org/)
 
 ---
 
@@ -97,7 +97,7 @@ Seattle's combined land use permit that bundles zoning approvals, environmental 
 
 **See also:** [Design Review](/glossary/housing-zoning/#design-review), [SEPA](#sepa-state-environmental-policy-act)
 
-**Learn more:** [Seattle SDCI: Master Use Permit](https://www.seattle.gov/sdci/permits/permits-we-issue-(a-z)/master-use-permit) | [Seattle SDCI: Permit Process](https://www.seattle.gov/sdci/permits/permit-process)
+**Learn more:** [Seattle SDCI: Master Use Permit Overview](https://www.seattle.gov/sdci/permits/permits-we-issue-(a-z)/land-use--master-use-permit---overview-of-mup) | [Seattle SDCI: How to Get a Permit](https://www.seattle.gov/sdci/permits/how-do-you-get-a-permit)
 
 ---
 
@@ -193,7 +193,7 @@ Government rules that dictate what can be built where -- building height, densit
 
 **See also:** [FAR](/glossary/housing-zoning/#far-floor-area-ratio), [Upzoning](/glossary/housing-zoning/#upzoning), [Comprehensive Plan](#comprehensive-plan)
 
-**Learn more:** [Seattle SDCI: Zoning](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/zoning) | [Seattle Interactive Maps (includes zoning layers)](https://maps.seattle.gov/)
+**Learn more:** [Seattle SDCI: Codes](https://www.seattle.gov/sdci/codes) | [Seattle Interactive Maps (includes zoning layers)](https://maps.seattle.gov/)
 
 ---
 
