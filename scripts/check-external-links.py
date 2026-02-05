@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Check for broken links to The Urbanist (theurbanist.org).
+Check for broken external links in content files.
 
-The Urbanist sometimes returns soft 404s (HTTP 200 with "Page Not Found" content)
-instead of proper HTTP 404 responses. This script checks both.
+Detects both HTTP 404 responses and soft 404s (HTTP 200 with "Page Not Found" content).
 """
 
 import re
@@ -14,14 +13,32 @@ from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 
 
-def find_urbanist_urls(repo_root: Path) -> dict[str, list[tuple[int, str]]]:
+# Domains to skip (internal, always valid, or known to block bots)
+SKIP_DOMAINS = {
+    'localhost',
+    '127.0.0.1',
+    'example.com',
+    'example.org',
+    # GitHub - their bot detection causes false positives
+    'github.com',
+    'raw.githubusercontent.com',
+    # Social media sites that block bots
+    'twitter.com',
+    'x.com',
+    'facebook.com',
+    'linkedin.com',
+}
+
+
+def find_external_urls(repo_root: Path) -> dict[str, list[tuple[int, str]]]:
     """
-    Find all Urbanist URLs in the repository.
+    Find all external URLs in the repository.
 
     Returns:
         dict mapping file paths to list of (line_number, url) tuples
     """
-    url_pattern = re.compile(r'https?://(?:www\.)?theurbanist\.org[^\s"\'<>\)]*')
+    # Match http/https URLs, stopping at whitespace, quotes, or markdown/html delimiters
+    url_pattern = re.compile(r'https?://[^\s"\'<>\)\]]+')
     results = {}
 
     # Search in content and data directories
@@ -51,13 +68,23 @@ def find_urbanist_urls(repo_root: Path) -> dict[str, list[tuple[int, str]]]:
             for line_num, line in enumerate(content.splitlines(), 1):
                 for match in url_pattern.finditer(line):
                     url = match.group(0).rstrip('.,;:')
-                    file_urls.append((line_num, url))
+                    # Skip internal/problematic domains
+                    if not should_skip_url(url):
+                        file_urls.append((line_num, url))
 
             if file_urls:
                 rel_path = str(file_path.relative_to(repo_root))
                 results[rel_path] = file_urls
 
     return results
+
+
+def should_skip_url(url: str) -> bool:
+    """Check if URL should be skipped based on domain."""
+    for domain in SKIP_DOMAINS:
+        if domain in url:
+            return True
+    return False
 
 
 def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
@@ -101,7 +128,10 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
 
         except HTTPError as e:
             if e.code == 404:
-                return False, f"HTTP 404 Not Found"
+                return False, "HTTP 404 Not Found"
+            elif e.code == 403:
+                # Some sites block bots - treat as OK
+                return True, ""
             elif e.code in (429, 503):  # Rate limited or service unavailable
                 if attempt < retries:
                     time.sleep(2 ** attempt)  # Exponential backoff
@@ -126,14 +156,14 @@ def main():
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent
 
-    print("Checking Urbanist links for broken URLs...")
+    print("Checking external links for broken URLs...")
     print()
 
     # Find all URLs
-    url_map = find_urbanist_urls(repo_root)
+    url_map = find_external_urls(repo_root)
 
     if not url_map:
-        print("No Urbanist URLs found in the repository.")
+        print("No external URLs found in the repository.")
         sys.exit(0)
 
     # Deduplicate URLs while tracking their locations
@@ -144,7 +174,7 @@ def main():
                 unique_urls[url] = []
             unique_urls[url].append((file_path, line_num))
 
-    print(f"Found {len(unique_urls)} unique Urbanist URLs across {len(url_map)} files")
+    print(f"Found {len(unique_urls)} unique external URLs across {len(url_map)} files")
     print()
 
     # Check each URL
@@ -153,7 +183,9 @@ def main():
 
     for url, locations in unique_urls.items():
         checked += 1
-        print(f"  [{checked}/{len(unique_urls)}] Checking: {url[:70]}...")
+        # Truncate URL for display
+        display_url = url[:70] + "..." if len(url) > 70 else url
+        print(f"  [{checked}/{len(unique_urls)}] Checking: {display_url}")
 
         is_valid, error = check_url(url)
 
@@ -163,8 +195,8 @@ def main():
         else:
             print(f"    OK")
 
-        # Rate limiting - be nice to the server
-        time.sleep(0.5)
+        # Rate limiting - be nice to servers
+        time.sleep(0.3)
 
     print()
 
@@ -185,7 +217,7 @@ def main():
 
         sys.exit(1)
     else:
-        print(f"All {len(unique_urls)} Urbanist links are valid!")
+        print(f"All {len(unique_urls)} external links are valid!")
         sys.exit(0)
 
 
