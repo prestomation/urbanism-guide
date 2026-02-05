@@ -13,7 +13,7 @@ A city's long-range plan for growth, land use, transportation, parks, and utilit
 
 **See also:** [GMA](#gma-growth-management-act), [Zoning](#zoning)
 
-**Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle Planning Commission: Comp Plan Recommendations](https://seattle.gov/planningcommission/our-work/one-seattle-comprehensive-plan)
+**Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle City Council: 2025 Comprehensive Plan](https://www.seattle.gov/council/topics/2025-comprehensive-plan)
 
 ---
 
@@ -97,7 +97,7 @@ Seattle's combined land use permit that bundles zoning approvals, environmental 
 
 **See also:** [Design Review](/glossary/housing-zoning/#design-review), [SEPA](#sepa-state-environmental-policy-act)
 
-**Learn more:** [Seattle SDCI: Master Use Permit Overview](https://www.seattle.gov/sdci/permits/permits-we-issue-(a-z)/land-use--master-use-permit---overview-of-mup) | [Seattle SDCI: How to Get a Permit](https://www.seattle.gov/sdci/permits/how-do-you-get-a-permit)
+**Learn more:** [Seattle SDCI: Land Use Division](https://www.seattle.gov/sdci/about-us/who-we-are/land-use) | [Seattle SDCI: How to Get a Permit](https://www.seattle.gov/sdci/permits/how-do-you-get-a-permit)
 
 ---
 

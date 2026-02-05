@@ -37,8 +37,14 @@ def find_external_urls(repo_root: Path) -> dict[str, list[tuple[int, str]]]:
     Returns:
         dict mapping file paths to list of (line_number, url) tuples
     """
-    # Match http/https URLs, stopping at whitespace, quotes, or markdown/html delimiters
-    url_pattern = re.compile(r'https?://[^\s"\'<>\)\]]+')
+    # Two patterns to catch URLs:
+    # 1. Markdown links: [text](url) - handles URLs with balanced parens like (a-z)
+    # 2. YAML urls: url: "https://..." - captures URL inside quotes
+    # 3. Bare URLs ending at whitespace
+    # For markdown, match URL chars including balanced parens: (text) groups
+    markdown_link = re.compile(r'\]\((https?://(?:[^()\s]|\([^)]*\))+)\)')
+    yaml_url = re.compile(r'url:\s*["\']?(https?://[^\s"\']+)["\']?')
+    bare_url = re.compile(r'(?<![(\["\'])(https?://[^\s"\'<>\)\]]+)')
     results = {}
 
     # Search in content and data directories
@@ -66,8 +72,24 @@ def find_external_urls(repo_root: Path) -> dict[str, list[tuple[int, str]]]:
 
             file_urls = []
             for line_num, line in enumerate(content.splitlines(), 1):
-                for match in url_pattern.finditer(line):
-                    url = match.group(0).rstrip('.,;:')
+                urls_found = []
+                # Try markdown links first (highest priority, captures full URL in parens)
+                for match in markdown_link.finditer(line):
+                    urls_found.append(match.group(1).rstrip('.,;:'))
+                # Try YAML url fields
+                for match in yaml_url.finditer(line):
+                    urls_found.append(match.group(1).rstrip('.,;:'))
+                # Fall back to bare URLs for anything not caught by markdown/yaml
+                for match in bare_url.finditer(line):
+                    url = match.group(1).rstrip('.,;:')
+                    # Skip if this URL is a prefix of an already-found URL
+                    # (means markdown pattern got the full URL with parens)
+                    if not any(found_url.startswith(url) and found_url != url for found_url in urls_found):
+                        # Also skip if already found
+                        if url not in urls_found:
+                            urls_found.append(url)
+
+                for url in urls_found:
                     # Skip internal/problematic domains
                     if not should_skip_url(url):
                         file_urls.append((line_num, url))
