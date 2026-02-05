@@ -36,6 +36,9 @@ jobs:
       - name: Validate timeline order
         run: python3 scripts/validate-timeline.py
 
+      - name: Check for broken external links
+        run: python3 scripts/check-external-links.py
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache

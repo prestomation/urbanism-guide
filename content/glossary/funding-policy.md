@@ -25,7 +25,7 @@ Seattle's policy requiring large commercial and multifamily buildings (over 20,0
 
 **See also:** [Social Housing](#social-housing), [Housing Levy](#housing-levy)
 
-**Learn more:** [Seattle OSE: Building Emissions Performance Standard](https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard) | [The Urbanist: Seattle Considers Building Emissions Performance Standard](https://www.theurbanist.org/2022/05/25/seattle-considers-building-emissions-performance-standard-as-fossil-fuel-ban-looms/)
+**Learn more:** [Seattle OSE: Building Emissions Performance Standard](https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard) | [The Urbanist: Harrell Signs Building Emissions Standard Into Law](https://www.theurbanist.org/2023/12/14/harrell-signs-building-emissions-standard-into-law-queuing-up-green-retrofits/)
 
 ---
 
@@ -83,7 +83,7 @@ A zoning tool that grants developers additional building capacity (more height o
 
 **See also:** [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability), [FAR](/glossary/housing-zoning/#far-floor-area-ratio), [Linkage Fees](#linkage-fees)
 
-**Learn more:** [Seattle Office of Housing: Incentive Zoning](https://www.seattle.gov/housing/housing-developers/incentive-zoning) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
+**Learn more:** [Seattle Office of Housing: Incentive Programs](https://www.seattle.gov/housing/property-managers/incentive-programs) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
 
 ---
 
@@ -95,7 +95,7 @@ Seattle's tax on large businesses (payroll over $8.6 million) that pay employees
 
 **See also:** [Housing Levy](#housing-levy), [Equitable Development Initiative](#equitable-development-initiative-edi)
 
-**Learn more:** [Seattle Office of Economic Development: JumpStart](https://www.seattle.gov/office-of-economic-development/jumpstart-seattle) | [The Urbanist: JumpStart Tax Faces Budget Pressure](https://www.theurbanist.org/2024/10/17/how-seattle-can-make-its-jumpstart-tax-work-harder/)
+**Learn more:** [Seattle City Council: JumpStart Seattle](https://council.seattle.gov/2020/07/06/council-passes-mosquedas-jumpstart-seattle-progressive-revenue-plan-to-address-covid-response-essential-city-services-affordable-housing/) | [The Urbanist: Seattle Leaders Eye JumpStart Funds](https://www.theurbanist.org/2024/03/12/seattle-leaders-eye-jumpstart-housing-funds-to-close-230-million-budget-hole/)
 
 ---
 
