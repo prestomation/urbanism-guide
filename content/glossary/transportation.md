@@ -53,6 +53,66 @@ A street design approach that considers all users -- pedestrians, cyclists, tran
 
 ---
 
+## Curb Extension (Bulb-out)
+
+A traffic calming measure that extends the sidewalk into the street at intersections or mid-block crossings, shortening the distance pedestrians must cross and making them more visible to drivers. Also called neckdowns, bump-outs, or curb bulbs.
+
+**Why it matters:** Seattle uses curb extensions as a core Vision Zero tool. They reduce pedestrian crossing distance, slow turning vehicles by tightening the turning radius, and prevent illegal parking near crosswalks that blocks sightlines. SDOT installs curb bulbs as part of intersection safety improvements, with costs ranging from $2,000 to $20,000 per corner depending on drainage needs.
+
+**See also:** [Daylighting](#daylighting), [Vision Zero](#vision-zero), [Complete Streets](#complete-streets)
+
+**Learn more:** [Seattle SDOT: Crosswalks and Curb Bulbs](https://www.seattle.gov/transportation/projects-and-programs/programs/pedestrian-program/crosswalks-and-curb-bulbs) | [FHWA: Curb Extensions](https://safety.fhwa.dot.gov/saferjourney1/Library/countermeasures/23.htm)
+
+---
+
+## Daylighting
+
+The practice of restricting parking near intersections and crosswalks to improve visibility between pedestrians and drivers. Typically involves "no parking" signs, painted or concrete curb extensions, bike corrals, or other infrastructure within 20-30 feet of intersections.
+
+**Why it matters:** According to FHWA, restricting parking near intersections is one of the most effective and low-cost ways to reduce pedestrian crashes. Seattle's daylighting program is funded by the Transportation Levy, with plans to daylight over 20 intersections in 2025. Daylighting doesn't remove legal parking -- it enforces existing laws that prohibit parking within 30 feet of stop signs.
+
+**See also:** [Curb Extension](#curb-extension-bulb-out), [Vision Zero](#vision-zero)
+
+**Learn more:** [Seattle SDOT: Intersection Daylighting Safety Improvements](https://sdotblog.seattle.gov/2025/08/22/intersection-daylighting-safety-improvements/) | [FHWA: Curb Extensions](https://safety.fhwa.dot.gov/saferjourney1/Library/countermeasures/23.htm)
+
+---
+
+## Diagonal Crossing (Pedestrian Scramble)
+
+A signal phase that stops all vehicle traffic and allows pedestrians to cross an intersection in any direction, including diagonally. Also called a "Barnes Dance" after traffic engineer Henry Barnes, who popularized the concept in the 1950s and 60s.
+
+**Why it matters:** Pedestrian scrambles eliminate conflicts between turning vehicles and crossing pedestrians -- a leading cause of pedestrian injuries. They're most effective at high-pedestrian-volume intersections where turning conflicts are common. While Seattle has some pedestrian scrambles, they're less common than Leading Pedestrian Intervals, which are easier to implement at existing signals.
+
+**See also:** [Leading Pedestrian Interval](#leading-pedestrian-interval-lpi), [Vision Zero](#vision-zero)
+
+**Learn more:** [FHWA: Pedestrian Safety Guide](https://safety.fhwa.dot.gov/ped_bike/tools_solve/ped_tsp/ch2.cfm) | [SSTI: Return of the Barnes Dance](https://ssti.us/2017/06/05/return-of-the-barnes-dance/)
+
+---
+
+## HAWK Beacon
+
+A pedestrian-activated traffic control device used at uncontrolled crosswalks, officially called a "High-Intensity Activated crossWalK beacon." When a pedestrian presses the button, the beacon progresses through a sequence of flashing and solid red lights that require drivers to stop.
+
+**Why it matters:** HAWK beacons are more effective than standard crosswalk markings at getting drivers to yield. FHWA research shows they reduce pedestrian crashes by up to 69% and driver yielding rates exceed 90% (compared to ~30% at traditional crosswalks). They're typically installed at mid-block crossings or intersections where a full traffic signal isn't warranted but pedestrian volumes or speeds (often 35+ mph) require more than paint. Seattle primarily uses RRFBs for uncontrolled crossings, but HAWKs are an option for higher-speed arterials.
+
+**See also:** [Rectangular Rapid Flashing Beacon](#rectangular-rapid-flashing-beacon-rrfb), [Vision Zero](#vision-zero)
+
+**Learn more:** [FHWA: HAWK Signals](https://highways.dot.gov/safety/proven-safety-countermeasures/pedestrian-hybrid-beacons) | [Seattle SDOT: Vision Zero](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero)
+
+---
+
+## High Injury Network
+
+The subset of streets where the most serious and fatal traffic crashes are concentrated. In Seattle, about 12% of streets account for over 50% of serious injury and fatal crashes. These corridors are the focus of Vision Zero investments.
+
+**Why it matters:** Seattle's High Injury Network is heavily concentrated in South Seattle, with Rainier Avenue, Aurora Avenue (SR 99), Lake City Way (SR 522), and MLK Jr Way being the deadliest corridors. 56% of fatal and serious pedestrian crashes occur in Council District 2 (Rainier Beach, Columbia City, Beacon Hill, Chinatown-ID). SDOT uses the High Injury Network alongside the city's Race and Social Equity Index to prioritize safety investments.
+
+**See also:** [Vision Zero](#vision-zero), [Road Diet](#road-diet-rechannelization)
+
+**Learn more:** [Seattle SDOT: Vision Zero](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero) | [The Urbanist: Accountability in Vision Zero](https://www.theurbanist.org/2023/04/04/accountability-in-vision-zero-a-map-of-recent-road-deaths/)
+
+---
+
 ## Induced Demand
 
 The phenomenon where adding road capacity generates additional traffic, typically erasing congestion benefits within a few years. Research shows a 10% increase in lane capacity correlates with roughly 9% more traffic.
@@ -62,6 +122,18 @@ The phenomenon where adding road capacity generates additional traffic, typicall
 **See also:** [VMT](#vmt-vehicle-miles-traveled), [Mode Share](#mode-share)
 
 **Learn more:** [WSDOT: Congestion & Mobility Reports](https://wsdot.wa.gov/about/transportation-data/travel-data/congestion-multimodal-mobility-reports) | [The Urbanist: The Law of Induced Demand](https://www.theurbanist.org/2019/11/12/the-law-of-induced-demand-road-widening-and-i-976-invites-congestion/)
+
+---
+
+## Leading Pedestrian Interval (LPI)
+
+A traffic signal timing strategy that gives pedestrians a 3-7 second head start to enter the crosswalk before vehicles get a green light. The walk signal activates while all vehicle signals remain red, making pedestrians more visible to turning drivers.
+
+**Why it matters:** LPIs are one of Seattle's most effective and widely-deployed pedestrian safety tools. At intersections where LPIs were installed from 2009-2018, Seattle saw a 48% reduction in turning collisions involving pedestrians and a 34% reduction in serious injury and fatal pedestrian crashes. By 2024, Seattle had installed LPIs at over 700 signalized intersections -- nearly three-quarters of traffic signals citywide. SDOT continues to expand LPIs with federal, state, and local funding.
+
+**See also:** [Vision Zero](#vision-zero), [Diagonal Crossing](#diagonal-crossing-pedestrian-scramble)
+
+**Learn more:** [Seattle SDOT: Leading Pedestrian Intervals](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero/leading-pedestrian-intervals) | [SDOT Blog: LPI Rollout Acceleration](https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/)
 
 ---
 
@@ -122,6 +194,30 @@ King County Metro's bus rapid transit (BRT) network featuring frequent service (
 **See also:** [TOD](#tod-transit-oriented-development), [HB 1110](/glossary/housing-zoning/#hb-1110)
 
 **Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride) | [The Urbanist: Metro Launches RapidRide G](https://www.theurbanist.org/2024/09/13/metro-launches-rapidride-g/)
+
+---
+
+## Rectangular Rapid Flashing Beacon (RRFB)
+
+A pedestrian-activated warning device installed at crosswalks, featuring two rectangular amber LED lights that flash in an alternating "wig-wag" pattern when a pedestrian presses the button. RRFBs are mounted on crosswalk signs at uncontrolled crossings.
+
+**Why it matters:** RRFBs dramatically increase driver yielding rates at crosswalks -- from around 15-20% with standard signs to 80-95% with RRFBs. FHWA research shows they reduce pedestrian crashes by up to 47%. They're a cost-effective tool for improving safety at crosswalks that don't warrant full traffic signals or HAWK beacons, and were added to the federal Manual on Uniform Traffic Control Devices (MUTCD) in 2023.
+
+**See also:** [HAWK Beacon](#hawk-beacon), [Vision Zero](#vision-zero)
+
+**Learn more:** [FHWA: Rectangular Rapid Flashing Beacons](https://highways.dot.gov/safety/proven-safety-countermeasures/rectangular-rapid-flashing-beacons-rrfb) | [Seattle SDOT: Vision Zero](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero)
+
+---
+
+## Road Diet (Rechannelization)
+
+A street redesign that reduces the number of travel lanes, typically converting a four-lane road to three lanes (one in each direction plus a center turn lane), with the reclaimed space used for bike lanes, wider sidewalks, or parking. Also called "rechannelization" or "lane reduction."
+
+**Why it matters:** Seattle has implemented 26+ road diets since the 1970s, with documented safety improvements. The Stone Way road diet (2007) reduced pedestrian collisions by 80% and top speeders by over 80%. The Nickerson Street road diet (2010) reduced aggressive speeding by 93%. FHWA considers road diets a "proven safety countermeasure" with crash reductions of 19-47%. Seattle's deadliest corridors (Rainier Ave, Aurora Ave) are frequently cited as candidates for road diets.
+
+**See also:** [High Injury Network](#high-injury-network), [Vision Zero](#vision-zero), [Complete Streets](#complete-streets)
+
+**Learn more:** [FHWA: Seattle Stone Way Road Diet Case Study](https://highways.dot.gov/safety/other/road-diets/road-diet-case-studies/seattle-washington-stone-way) | [The Urbanist: Rainier Ave Road Diet Data](https://www.theurbanist.org/2017/08/31/rainier-ave-road-diet-data/)
 
 ---
 

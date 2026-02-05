@@ -22,6 +22,18 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2023/02/22/seattle-social-housing-initiatives-recipe-for-success/"
 
+- year: 2023
+  title: "Leading Pedestrian Interval Expansion"
+  description: "SDOT accelerates the rollout of Leading Pedestrian Intervals (LPIs) -- signals that give pedestrians a 3-7 second head start before vehicles get a green light. By late 2023, over 50% of Seattle's signalized intersections had LPIs, with 100 more installations planned that year."
+  legacy: "LPIs became Seattle's most widely-deployed pedestrian safety tool. At locations with LPIs installed 2009-2018, pedestrian turning collisions dropped 48% and serious/fatal pedestrian crashes dropped 34%. By 2024, nearly three-quarters of Seattle traffic signals had LPIs."
+  sources:
+    primary:
+      name: "Seattle SDOT"
+      url: "https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero/leading-pedestrian-intervals"
+    secondary:
+      name: "SDOT Blog"
+      url: "https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/"
+
 - year: 2019
   title: "MHA and ADU Reforms"
   description: "Seattle implements Mandatory Housing Affordability (MHA) with upzones in many neighborhoods. ADU/DADU rules are also loosened, allowing backyard cottages on most single-family lots."
@@ -105,6 +117,18 @@
     secondary:
       name: "HistoryLink"
       url: "https://www.historylink.org/file/20711"
+
+- year: 2007
+  title: "Stone Way Road Diet"
+  description: "As part of a repaving project, SDOT converts Stone Way N from four lanes to three (one each direction plus center turn lane), adding bike lanes with the reclaimed space. It was Seattle's 23rd lane reduction project since 1972, but the first to be rigorously studied for safety outcomes."
+  legacy: "SDOT's 2010 before-and-after study found pedestrian collisions dropped 80%, injury collisions dropped 33%, and top speeders (10+ mph over limit) decreased over 80%. The documented results made Stone Way a national model for road diets and influenced FHWA's designation of road diets as a 'proven safety countermeasure.'"
+  sources:
+    primary:
+      name: "FHWA"
+      url: "https://highways.dot.gov/safety/other/road-diets/road-diet-case-studies/seattle-washington-stone-way"
+    secondary:
+      name: "Walking in Seattle"
+      url: "https://walkinginseattle.org/?p=3661"
 
 - year: 2007
   title: "South Lake Union Streetcar Opens"
