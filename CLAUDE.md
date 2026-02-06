@@ -215,7 +215,7 @@ Front matter includes:
 
 ## Important Conventions
 
-1. **Every factual claim needs a source**: All claims, facts, statistics, dates, and assertions in content must have an inline linked source. No unsourced statements -- if you can't find a source for a claim, don't include it. Use inline Markdown links (not footnotes) to cite sources directly where the claim appears.
+1. **Every factual claim needs a source**: All claims, facts, statistics, dates, and assertions in content must have an inline linked source. No unsourced statements -- if you can't find a source for a claim, don't include it. Use inline Markdown links (not footnotes) to cite sources directly where the claim appears. **Avoid subjective or editorial language** (e.g., "tried harder than almost any city," "one of the best," "remarkably") -- stick to verifiable facts and let readers draw their own conclusions.
 
 2. **Theme is read-only**: Never edit files in `themes/hugo-book/`. Override via `layouts/` or `static/`.
 

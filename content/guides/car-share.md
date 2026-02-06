@@ -6,7 +6,7 @@ bookToc: true
 
 # Car Share in Seattle
 
-Between 2012 and 2024, Seattle tried harder than almost any U.S. city to make free-floating car sharing work. At its peak in 2016-2017, three operators ran more than 1,750 vehicles on city streets, and over 100,000 residents held memberships. By early 2025, every free-floating service had left. This guide covers what happened, why it failed, and what remains.
+Between 2012 and 2024, Seattle hosted six different free-floating car-sharing operators. At its peak in 2016-2017, three ran simultaneously with more than 1,750 vehicles on city streets, and over 100,000 residents held memberships. By early 2025, every free-floating service had left. This guide covers what happened, why it failed, and what remains.
 
 ## What is car sharing?
 
