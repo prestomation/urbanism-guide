@@ -21,6 +21,7 @@ urbanism-guide/
 │   ├── _index.md        # Homepage
 │   ├── quick-start/     # Seattle governance & context
 │   ├── glossary/        # Terminology by category (4 files)
+│   ├── guides/          # In-depth topic guides (bike network, micro mobility, etc.)
 │   ├── timeline/        # Historical events section
 │   └── blog/            # Analysis posts
 ├── data/                 # Structured data files
@@ -106,6 +107,76 @@ Entries are in **reverse chronological order** (newest first). Each entry:
       url: "https://..."
 ```
 
+### Topic Guides (`content/guides/`)
+
+Guides are in-depth pages covering a specific urbanism topic in Seattle. Each guide lives as a single Markdown file in `content/guides/`.
+
+**Existing guides:**
+- `micro-mobility.md` - E-scooters, bike share, operators, permits, data
+- `bike-network.md` - Protected bike lanes, neighborhood greenways, trails
+
+**Front matter:**
+```yaml
+---
+title: "Guide Title"
+weight: 3          # Controls sidebar order (1 = first)
+bookToc: true      # Enables right-side table of contents
+---
+```
+
+**Standard section structure** (follow this order; omit sections that don't apply):
+
+```markdown
+# Topic Name in Seattle
+
+Introductory paragraph: what this is and why it matters. 1-3 sentences.
+
+## Current state / types / operators
+Overview of how things work today. Use ### subheadings for categories.
+
+## History
+Chronological ### subheadings (e.g., "### 2014: Bicycle Master Plan update").
+Cover key milestones from origin to present. Include inline source links.
+
+## How the city manages / plans / funds it
+Permitting, planning frameworks, funding sources, selection criteria.
+
+## Advocacy organizations (if applicable)
+Bullet list of key orgs with links and one-line descriptions.
+
+## Data sources
+Where to find official data: city dashboards, open data portals, APIs, maps.
+
+## Key statistics
+Markdown table with current metrics. Cite sources below the table.
+
+## Related resources
+Cross-links to other guides (use relref) and relevant external pages.
+
+---
+
+*Last updated: Month Year*
+```
+
+**Writing style:**
+- Practical and factual; write for someone preparing for a public hearing or community meeting
+- Use **bold** for program names, organization names, and key terms on first mention
+- Inline source citations as Markdown links, not footnotes
+- Prefer seattle.gov, sdotblog.seattle.gov, soundtransit.org, mrsc.org as primary sources
+- Use The Urbanist (theurbanist.org) or other local journalism as secondary sources
+- Every claim with a number or date should have a source link
+
+**Source requirements for guides:**
+- **Primary sources (required):** Government or official institutional sources (seattle.gov, sdotblog.seattle.gov, wsdot.wa.gov, mrsc.org, commerce.wa.gov, soundtransit.org)
+- **Secondary sources (preferred):** The Urbanist, Seattle Bike Blog, Cascade PBS, Sightline, GeekWire, Publicola
+- **Advocacy/org sources (acceptable for org-specific claims):** cascade.org, seattlegreenways.org, etc.
+- **Verify every URL** with WebFetch or the link checker before committing
+
+**After creating a new guide**, update `content/guides/_index.md` to add an entry under "Available Guides":
+```markdown
+- [Guide Title]({{< relref "file-name" >}}) -- Short description
+```
+
 ### Blog Posts (`content/blog/`)
 
 Use the archetype: `hugo new blog/post-title.md`
@@ -183,6 +254,16 @@ Front matter includes:
 3. Include year, title, description, legacy, and at least one source
 4. **Verify all source URLs using WebFetch before adding them** to ensure they return valid content (not 404s)
 5. Run `python3 scripts/validate-timeline.py` to verify order before committing
+
+### Creating a new topic guide
+1. Read an existing guide (e.g., `content/guides/micro-mobility.md` or `content/guides/bike-network.md`) to match the tone and structure
+2. Create a new file at `content/guides/topic-name.md` with the standard front matter (`title`, `weight`, `bookToc: true`)
+3. Follow the standard section structure: current state, history, city management/planning, advocacy orgs, data sources, key statistics table, related resources
+4. Research content using WebSearch; aim for a mix of government sources and journalism
+5. **Verify every external URL** using WebFetch or `python3 scripts/check-external-links.py` before committing
+6. Add cross-links: link to related glossary pages using `{{< relref "/glossary/category" >}}` and to other guides using `{{< relref "guide-name" >}}`
+7. Update `content/guides/_index.md` to add the new guide under "Available Guides"
+8. End the page with `*Last updated: Month Year*`
 
 ### Creating a blog post
 1. Run `hugo new blog/post-title.md` or manually create file

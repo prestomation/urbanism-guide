@@ -14,6 +14,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 ## Available Guides
 
 - [Micro Mobility]({{< relref "micro-mobility" >}}) -- E-scooters, bike share, and how they work in Seattle
+- [Bike Network]({{< relref "bike-network" >}}) -- Protected bike lanes, neighborhood greenways, and trails
 
 ---
 
