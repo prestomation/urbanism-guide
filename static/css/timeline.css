@@ -6,11 +6,17 @@
 /* --------------------------------------------------------------------------
    1. Color palette & CSS variable overrides
    -------------------------------------------------------------------------- */
+/* Seattle official brand colors:
+   Seattle Blue #0046AD | Flag Teal #00839A | Light Blue #63B1E5
+   Green #A3D559 | Gold #FECB00
+   Sources: seattle.gov brand guidelines, flagcolorcodes.com/seattle */
 :root {
-  --color-link: #0369a1;
-  --accent-teal: #0e7490;
-  --accent-emerald: #059669;
-  --accent-gradient: linear-gradient(135deg, #0369a1, #0e7490);
+  --color-link: #0046AD;
+  --accent-teal: #00839A;
+  --accent-emerald: #A3D559;
+  --accent-gold: #FECB00;
+  --accent-light-blue: #63B1E5;
+  --accent-gradient: linear-gradient(135deg, #0046AD, #00839A);
   --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
   --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
   --border-radius: 0.5rem;
@@ -18,10 +24,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-link: #38bdf8;
-    --accent-teal: #22d3ee;
-    --accent-emerald: #34d399;
-    --accent-gradient: linear-gradient(135deg, #0284c7, #0891b2);
+    --color-link: #63B1E5;
+    --accent-teal: #2CC8D9;
+    --accent-emerald: #B8E07C;
+    --accent-gold: #FFD84D;
+    --accent-light-blue: #8DC8ED;
+    --accent-gradient: linear-gradient(135deg, #3D7FCC, #2DAABB);
     --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
     --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -228,7 +236,7 @@ body.book-kind-home .book-columns > .flex-even p {
 
 @media (prefers-color-scheme: dark) {
   .markdown table tr th {
-    background: rgba(56, 189, 248, 0.15);
+    background: rgba(99, 177, 229, 0.15);
     color: var(--body-font-color);
     border-color: var(--gray-200);
   }
@@ -525,7 +533,7 @@ body.book-kind-home .book-columns > .flex-even p {
 
   /* Gradient text for dark mode */
   body.book-kind-home .markdown > h1:first-child {
-    background: linear-gradient(135deg, #38bdf8, #22d3ee);
+    background: linear-gradient(135deg, #63B1E5, #2CC8D9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -664,12 +672,12 @@ body.book-kind-home .markdown > hr + p {
    20. Smooth scroll & selection
    -------------------------------------------------------------------------- */
 ::selection {
-  background: rgba(14, 116, 144, 0.2);
+  background: rgba(0, 70, 173, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
   ::selection {
-    background: rgba(56, 189, 248, 0.25);
+    background: rgba(99, 177, 229, 0.25);
   }
 }
 
