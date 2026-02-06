@@ -16,6 +16,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Micro Mobility]({{< relref "micro-mobility" >}}) -- E-scooters, bike share, and how they work in Seattle
 - [Bike Network]({{< relref "bike-network" >}}) -- Protected bike lanes, neighborhood greenways, and trails
 - [Mass Transit]({{< relref "mass-transit" >}}) -- Light rail, buses, commuter rail, ferries, and how the region funds transit
+- [Car Share]({{< relref "car-share" >}}) -- The rise and fall of free-floating car sharing in Seattle
 
 ---
 
