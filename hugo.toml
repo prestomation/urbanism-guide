@@ -32,29 +32,33 @@ enableEmoji = true
     url = "/quick-start/"
     weight = 1
   [[menu.before]]
+    name = "Guides"
+    url = "/guides/"
+    weight = 2
+  [[menu.before]]
     name = "Glossary"
     url = "/glossary/"
-    weight = 2
+    weight = 3
   [[menu.before]]
     name = "Timeline"
     url = "/timeline/"
-    weight = 3
+    weight = 4
   [[menu.before]]
     name = "Get Involved"
     url = "/get-involved/"
-    weight = 4
+    weight = 5
   [[menu.before]]
     name = "Recommended Reading"
     url = "/recommended-reading/"
-    weight = 5
+    weight = 6
   [[menu.before]]
     name = "Data"
     url = "/data/"
-    weight = 6
+    weight = 7
   [[menu.before]]
     name = "Blog"
     url = "/blog/"
-    weight = 7
+    weight = 8
 
 [markup]
   [markup.goldmark]

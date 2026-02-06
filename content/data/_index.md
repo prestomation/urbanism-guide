@@ -36,6 +36,14 @@ Real-time and historical counts from permanent bike/ped counters across Seattle,
 
 ---
 
+### Scooter & Bike Share Data
+
+Trip counts, fleet sizes, registered users, and other metrics for Seattle's shared micro mobility program (Lime, Bird). Includes permit compliance data and real-time GBFS API feeds.
+
+**Access:** [Scooter and Bike Share Data](https://www.seattle.gov/transportation/projects-and-programs/programs/new-mobility-program/scooter-bike-share-data)
+
+---
+
 ### Building Permits Stats
 
 Monthly summaries of issued building permits from SDCI. Track new construction, ADUs, and development trends by neighborhood and building type.
