@@ -6,14 +6,8 @@ DirectoryPath: "public"
 # Check internal links (anchors, relative paths)
 CheckInternal: true
 
-# Check external links
-CheckExternal: true
-
-# Don't fail on external link errors (sites may be temporarily down)
-IgnoreExternalBrokenLinks: true
-
-# Timeout for external link checks
-ExternalTimeout: 15
+# Skip external links (checked by scripts/check-external-links.py instead)
+CheckExternal: false
 
 # Ignore URLs matching these patterns
 # Hugo generates all internal links with the full baseURL prefix

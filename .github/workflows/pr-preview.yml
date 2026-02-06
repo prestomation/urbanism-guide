@@ -53,11 +53,6 @@ jobs:
       - name: Build search index with Pagefind
         run: npx pagefind --site public
 
-      - name: Validate links
-        run: |
-          curl -sSL https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz | tar xz -C /tmp
-          /tmp/htmltest --conf .htmltest.yml
-
       - name: Deploy preview to gh-pages branch
         run: |
           cp -r public /tmp/pr-preview-${{ github.event.number }}
