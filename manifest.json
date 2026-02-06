@@ -1,14 +1,14 @@
 {
   "name": "Seattle Urbanism Guide",
   "short_name": "Seattle Urbanism Guide",
-  "start_url": "/urbanism-guide/",
-  "scope": "/urbanism-guide/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/urbanism-guide/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]
