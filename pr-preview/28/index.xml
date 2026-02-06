@@ -6,7 +6,48 @@
 &lt;h2 id="current-operators">Current operators&lt;a class="anchor" href="#current-operators">#&lt;/a>&lt;/h2>
 &lt;p>As of 2025, two companies operate shared micro mobility services in Seattle. (&lt;a href="https://www.seattle.gov/transportation/projects-and-programs/programs/new-mobility-program/scooter-bike-share-data">SDOT Data&lt;/a>)&lt;/p>
 &lt;h3 id="lime">Lime&lt;a class="anchor" href="#lime">#&lt;/a>&lt;/h3>
-&lt;p>&lt;a href="https://www.li.me/">Lime&lt;/a> is the dominant provider, accounting for about 95% of all shared micro mobility trips in Seattle. Lime operates:&lt;/p></description></item><item><title>Bike Network</title><link>https://seattle.urbanism-guide.com/pr-preview/28/guides/bike-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/28/guides/bike-network/</guid><description>&lt;h1 id="seattles-bike-network">Seattle&amp;rsquo;s Bike Network&lt;a class="anchor" href="#seattles-bike-network">#&lt;/a>&lt;/h1>
+&lt;p>&lt;a href="https://www.li.me/">Lime&lt;/a> is the dominant provider, accounting for about 95% of all shared micro mobility trips in Seattle. Lime operates:&lt;/p></description></item><item><title>Pedestrian Collision Analysis</title><link>https://seattle.urbanism-guide.com/pr-preview/28/data/ped-collisions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/28/data/ped-collisions/</guid><description>&lt;h1 id="pedestrian-collision-analysis">Pedestrian Collision Analysis&lt;a class="anchor" href="#pedestrian-collision-analysis">#&lt;/a>&lt;/h1>
+&lt;p>Interactive charts built from &lt;a href="https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-all-years">SDOT&amp;rsquo;s collision dataset&lt;/a>, filtered to pedestrian-involved incidents (&lt;code>PEDCOUNT &amp;gt;= 1&lt;/code>). Data is fetched live from Seattle&amp;rsquo;s ArcGIS open data API each time you load this page.&lt;/p>
+&lt;p>See also: &lt;a href="https://seattle.urbanism-guide.com/pr-preview/28/guides/pedestrian/">Pedestrian Safety &amp;amp; Infrastructure guide&lt;/a> | &lt;a href="https://seattle.urbanism-guide.com/pr-preview/28/data/">Data Dashboards&lt;/a>&lt;/p>
+
+&lt;div id="ped-analysis">
+
+ 
+ &lt;div id="pa-loading" style="text-align:center;padding:3rem 0">
+ &lt;p style="font-size:1.1rem">Loading pedestrian collision data from SDOT&amp;hellip;&lt;/p>
+ &lt;p style="color:var(--gray-500,#6b7280);font-size:.9rem" id="pa-progress">Fetching records&amp;hellip;&lt;/p>
+ &lt;/div>
+ &lt;div id="pa-error" style="display:none;padding:2rem;border:1px solid #dc2626;border-radius:8px;background:#fef2f2;color:#991b1b">
+ &lt;strong>Could not load data.&lt;/strong>
+ &lt;span id="pa-error-msg">&lt;/span>
+ &lt;p style="margin-top:.5rem">You can still view the &lt;a href="https://seattle.urbanism-guide.com/pr-preview/28/analysis/01-annual-trend.png">static charts&lt;/a> generated from the same dataset.&lt;/p>
+ &lt;/div>
+
+ 
+ &lt;div id="pa-summary" style="display:none" class="pa-cards">
+ &lt;div class="pa-card">
+ &lt;div class="pa-card-value" id="pa-total">–&lt;/div>
+ &lt;div class="pa-card-label">Pedestrian Collisions&lt;/div>
+ &lt;/div>
+ &lt;div class="pa-card">
+ &lt;div class="pa-card-value" id="pa-fatalities" style="color:#dc2626">–&lt;/div>
+ &lt;div class="pa-card-label">Fatalities&lt;/div>
+ &lt;/div>
+ &lt;div class="pa-card">
+ &lt;div class="pa-card-value" id="pa-serious" style="color:#ea580c">–&lt;/div>
+ &lt;div class="pa-card-label">Serious Injuries&lt;/div>
+ &lt;/div>
+ &lt;div class="pa-card">
+ &lt;div class="pa-card-value" id="pa-daterange">–&lt;/div>
+ &lt;div class="pa-card-label">Date Range&lt;/div>
+ &lt;/div>
+ &lt;/div>
+
+ 
+ &lt;div id="pa-charts" style="display:none">
+ &lt;div class="pa-chart-wrap">
+ &lt;h3>Annual Trend&lt;/h3>
+ &lt;p class="pa-chart-desc">Total pedestrian-involved collisions per year with fatalities and serious injuries overlaid.&lt;/p></description></item><item><title>Bike Network</title><link>https://seattle.urbanism-guide.com/pr-preview/28/guides/bike-network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/28/guides/bike-network/</guid><description>&lt;h1 id="seattles-bike-network">Seattle&amp;rsquo;s Bike Network&lt;a class="anchor" href="#seattles-bike-network">#&lt;/a>&lt;/h1>
 &lt;p>Seattle is building a citywide network of protected bike lanes, neighborhood greenways, and trails designed for people of all ages and abilities. This guide covers the types of bike infrastructure, the history of the network, how the city plans and funds it, and where to find data.&lt;/p>
 &lt;h2 id="types-of-bike-infrastructure">Types of bike infrastructure&lt;a class="anchor" href="#types-of-bike-infrastructure">#&lt;/a>&lt;/h2>
 &lt;p>Seattle&amp;rsquo;s bike network uses three main facility types that work together to create connected routes across the city.&lt;/p></description></item><item><title>Transportation</title><link>https://seattle.urbanism-guide.com/pr-preview/28/glossary/transportation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/28/glossary/transportation/</guid><description>&lt;h1 id="transportation-terms">Transportation Terms&lt;a class="anchor" href="#transportation-terms">#&lt;/a>&lt;/h1>
