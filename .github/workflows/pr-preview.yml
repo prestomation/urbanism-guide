@@ -48,7 +48,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview/${{ github.event.number }}/"
+            --baseURL "https://seattle.urbanism-guide.com/pr-preview/${{ github.event.number }}/"
 
       - name: Build search index with Pagefind
         run: npx pagefind --site public
@@ -100,7 +100,7 @@ jobs:
               comment.user.type === 'Bot' && comment.body.includes('Site Preview')
             );
 
-            const previewUrl = `https://${context.repo.owner}.github.io/${context.repo.repo}/pr-preview/${{ github.event.number }}/`;
+            const previewUrl = `https://seattle.urbanism-guide.com/pr-preview/${{ github.event.number }}/`;
 
             const body = `## Site Preview\n\n**Preview:** ${previewUrl}\n**Commit:** \`${{ github.event.pull_request.head.sha }}\`\n\n> It may take a minute for GitHub Pages to update after this comment appears.`;
 
