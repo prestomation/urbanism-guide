@@ -273,9 +273,28 @@ Front matter includes:
 3. Set `draft: false` when ready to publish
 
 ### Modifying styles
-1. Edit `static/css/timeline.css` for timeline/blog styling
+1. Edit `static/css/timeline.css` — this is the single custom stylesheet for the entire site
 2. Dark mode: Use `@media (prefers-color-scheme: dark)` queries
 3. Mobile: Breakpoint at 600px width
+
+**Color palette:** The site uses official City of Seattle brand colors defined as CSS variables in `:root`. Always use these variables — never hardcode colors.
+
+| Variable | Light | Dark | Source |
+|---|---|---|---|
+| `--color-link` | `#0046AD` Seattle Blue | `#63B1E5` Light Blue | City brand guidelines |
+| `--accent-teal` | `#00839A` Flag Teal | `#2CC8D9` | City flag |
+| `--accent-emerald` | `#A3D559` Green | `#B8E07C` | OED style guide |
+| `--accent-gold` | `#FECB00` Gold | `#FFD84D` | OED style guide |
+| `--accent-gradient` | Blue → Teal | Lightened | Both |
+
+Additional variables: `--card-shadow`, `--card-shadow-hover`, `--border-radius` (0.5rem).
+
+**Visual conventions:**
+- Homepage sections use card-style `.book-columns` with shadows and hover lift
+- Timeline and blog entries are styled as cards with `--card-shadow`
+- Table headers use `--color-link` as background color
+- The homepage h1 uses a gradient text effect (`--accent-gradient`)
+- Bold labels like "Why it matters:" are colored with `--color-link` via `p > strong:first-child`
 
 ### Testing locally
 ```bash
