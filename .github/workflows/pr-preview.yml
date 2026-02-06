@@ -112,5 +112,11 @@ jobs:
               });
             }
 
+      - name: Re-checkout PR branch for link check
+        uses: actions/checkout@v4
+        with:
+          submodules: false
+          fetch-depth: 1
+
       - name: Check for broken external links
         run: python3 scripts/check-external-links.py
