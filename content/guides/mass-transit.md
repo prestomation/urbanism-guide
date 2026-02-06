@@ -12,13 +12,13 @@ The Seattle region operates one of the most extensive public transit networks on
 
 ### Link light rail
 
-**Link light rail** is the backbone of the region's transit system, operated by [Sound Transit](https://www.soundtransit.org/). As of early 2026, the system has three lines, 48 stations, and approximately 55 miles of track. Link is the 4th-highest ridership light rail system in the United States.
+**Link light rail** is the backbone of the region's transit system, operated by [Sound Transit](https://www.soundtransit.org/). As of early 2026, the system has three lines, 48 stations, and approximately 55 miles of track. Link is the 4th-highest ridership light rail system in the United States. ([The Urbanist](https://www.theurbanist.org/2024/12/13/link-light-rail-smashes-ridership-record-in-october/))
 
 **[1 Line](https://www.soundtransit.org/ride-with-us/routes-schedules/1-line)** (Lynnwood -- Federal Way): The original and busiest line runs 41 miles through 26 stations, connecting Lynnwood City Center in Snohomish County to Federal Way Downtown in south King County. Key stops include Northgate, the University District, Capitol Hill, downtown Seattle (Westlake, Symphony, Pioneer Square), the International District, Beacon Hill, the Rainier Valley, SeaTac Airport, and Federal Way. Service runs approximately every 6 minutes at peak. ([Sound Transit 1 Line](https://www.soundtransit.org/ride-with-us/routes-schedules/1-line))
 
 **[2 Line](https://www.soundtransit.org/system-expansion/east-link-extension)** (Downtown Redmond -- Lynnwood via Seattle): The 2 Line currently operates 10 stations on the Eastside from South Bellevue to Downtown Redmond. On **March 28, 2026**, the cross-lake segment opens, extending the 2 Line across the I-90 floating bridge -- the first light rail line on a floating bridge anywhere in the world -- with new stations at Mercer Island and Judkins Park. The 2 Line will then run from Redmond to Lynnwood, sharing tracks with the 1 Line north of International District/Chinatown. Combined headways between Lynnwood and downtown Seattle will be approximately every 4 minutes. ([The Urbanist](https://www.theurbanist.org/2026/01/23/sound-transits-2-line-will-finally-connect-across-i-90-on-march-28/))
 
-**T Line** (Tacoma): A streetcar-style line connecting downtown Tacoma, the Hilltop neighborhood, and Tacoma Dome Station.
+**[T Line](https://www.soundtransit.org/ride-with-us/routes-schedules/t-line)** (Tacoma): A streetcar-style line connecting downtown Tacoma, the Hilltop neighborhood, and Tacoma Dome Station.
 
 ### King County Metro buses
 
@@ -57,7 +57,7 @@ The **[Seattle Streetcar](https://www.seattle.gov/transportation/getting-around/
 
 **First Hill Line** (opened 2016): 2.5 miles connecting Pioneer Square through the International District, First Hill, and Capitol Hill on Broadway. Carries the bulk of streetcar ridership (1.27 million in 2024) and is the more productive of the two lines at 52 riders per revenue hour. The First Hill line was built as mitigation after Sound Transit decided not to build a light rail station on First Hill. ([The Urbanist](https://www.theurbanist.org/2026/01/23/seattle-streetcar-faces-uncertain-future-as-newest-line-turns-ten))
 
-**South Lake Union Line** (opened 2007): 1.3 miles connecting Westlake Hub to Fred Hutchinson Cancer Research Center via Westlake Avenue, Seattle's first modern streetcar line. Ridership has declined significantly since its 2013 peak and the line faces potential multi-year shutdown when Ballard Link Extension construction closes a section of Westlake Avenue.
+**South Lake Union Line** (opened 2007): 1.3 miles connecting Westlake Hub to Fred Hutchinson Cancer Research Center via Westlake Avenue, Seattle's first modern streetcar line. Ridership has declined significantly since its 2013 peak and the line faces a potential **eight-year shutdown** when Ballard Link Extension construction closes a section of Westlake Avenue for station construction at Westlake and Denny Way, expected to begin toward the end of the decade. ([The Urbanist](https://www.theurbanist.org/2026/01/23/seattle-streetcar-faces-uncertain-future-as-newest-line-turns-ten))
 
 A planned **Center City Connector** (later renamed **Culture Connector**) would have linked the two lines along 1st Avenue through downtown, but the project was halted by Mayor Durkan in 2018 due to cost overruns and is effectively dead as of 2026. ([SDOT Culture Connector](https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program/culture-connector))
 
@@ -78,6 +78,18 @@ The **[King County Water Taxi](https://kingcounty.gov/en/dept/metro/travel-optio
 - **Vashon Island**: Launched midday service in July 2024 (the first-ever midday sailings), resulting in a 55% ridership increase; Saturday service pilot began October 2025
 
 ([King County Metro Blog](https://kingcountymetro.blog/2025/10/07/west-seattle-water-taxi-sails-into-fall-after-busy-summer/))
+
+### Seattle Center Monorail
+
+The **[Seattle Center Monorail](https://www.seattlemonorail.com/)** is a 0.9-mile elevated line running along 5th Avenue between Westlake Center in downtown Seattle and Seattle Center (home of the Space Needle and Climate Pledge Arena). Built in just eight months for the **1962 World's Fair**, the monorail is one of Seattle's most iconic transit links and a city-designated historic landmark since 2003. ([Seattle Monorail](https://www.seattlemonorail.com/about-the-monorail/))
+
+The system retains its original two Alweg trains -- the Blue Train and Red Train -- each carrying up to 450 passengers on a 2-minute ride. The monorail carried approximately **2.16 million passengers** in 2024, averaging 5,157 weekday riders and 7,885 weekend riders, boosted by Climate Pledge Arena events where tickets include free transit.
+
+**Operator and funding:** Unlike every other transit service in the region, the monorail operates at a **profit with no taxpayer operating subsidy**. A private contractor, **Seattle Monorail Services**, has operated the system since 1994. Revenue comes entirely from fares and federal capital grants.
+
+**Fares:** $4 adults, $2 youth/seniors/reduced fare. The monorail began accepting **ORCA cards** in 2019 and youth ride free. As of January 2026, ORCA E-purse riders no longer receive free transfers, though PugetPass and Regional Day Pass holders are unaffected. ([Seattle Monorail ORCA Policy](https://www.seattlemonorail.com/2026-orca-transfer-policy/))
+
+**Failed expansion:** In 1997, Seattle voters approved a ballot initiative to build a citywide monorail network. The **Seattle Monorail Project** advanced through planning but collapsed in 2005 after cost estimates ballooned to $11 billion, and voters rejected further funding.
 
 ### Regional bus agencies
 
