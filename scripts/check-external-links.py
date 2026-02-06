@@ -117,7 +117,9 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
         tuple: (is_valid, error_message or empty string)
     """
     headers = {
-        'User-Agent': 'Mozilla/5.0 (compatible; urbanism-guide-link-checker/1.0)'
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
     }
 
     for attempt in range(retries + 1):
@@ -154,7 +156,7 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
             elif e.code == 403:
                 # Some sites block bots - treat as OK
                 return True, ""
-            elif e.code in (429, 503):  # Rate limited or service unavailable
+            elif e.code in (406, 429, 503):  # Not acceptable, rate limited, or unavailable
                 if attempt < retries:
                     time.sleep(2 ** attempt)  # Exponential backoff
                     continue
