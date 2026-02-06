@@ -79,6 +79,22 @@ The **[King County Water Taxi](https://kingcounty.gov/en/dept/metro/travel-optio
 
 ([King County Metro Blog](https://kingcountymetro.blog/2025/10/07/west-seattle-water-taxi-sails-into-fall-after-busy-summer/))
 
+### Kitsap Fast Ferries
+
+**[Kitsap Fast Ferries](https://www.kitsaptransit.com/service/fast-ferry)**, operated by Kitsap Transit, provide high-speed passenger-only service from three Kitsap Peninsula communities to downtown Seattle's **Pier 50**. The catamarans travel at roughly twice the speed of Washington State Ferries car ferries, making them a competitive commute option.
+
+| Route | Crossing Time | Launched |
+|-------|---------------|----------|
+| Bremerton -- Seattle | 30 minutes | 2017 |
+| Kingston -- Seattle | 40 minutes | 2018 |
+| Southworth -- Seattle | 26 minutes | 2021 |
+
+Kitsap Fast Ferries carried a record **854,529 passengers** in 2024, an 11% increase over 2023. Including Kitsap Transit's local foot ferries (Bremerton--Port Orchard and Annapolis), the system carried **1.22 million total passengers** in 2024. The Bremerton route -- the busiest -- saw ridership 68% higher than in 2022 after service expanded to 40 weekday sailings in December 2022. System-wide reliability was 99% and on-time performance was 97% in 2024. ([Kitsap Daily News](https://www.kitsapdailynews.com/news/kt-ferries-carry-record-1-22-million-riders-in-24/))
+
+**Fares (as of October 2025):** $2 eastbound (Kitsap to Seattle), $13 westbound (Seattle to Kitsap). Monthly passes are available for $210 ($105 reduced). ORCA cards are accepted, though PugetPass and transfers are no longer valid on fast ferries as of October 2025. ([Kitsap Transit Fares](https://www.kitsaptransit.com/fare-changes))
+
+**Terminal expansion:** The current Pier 50 terminal can only accommodate two vessels at a time, limiting peak-hour capacity. Kitsap Transit has selected **Pier 48** as the preferred site for a new Seattle terminal with capacity for four vessels and electric vessel charging infrastructure. An environmental impact statement is underway with a target completion of mid-2027. ([The Urbanist](https://www.theurbanist.org/2025/07/04/kitsap-transit-new-seattle-fast-ferry-terminal/))
+
 ### Seattle Center Monorail
 
 The **[Seattle Center Monorail](https://www.seattlemonorail.com/)** is a 0.9-mile elevated line running along 5th Avenue between Westlake Center in downtown Seattle and Seattle Center (home of the Space Needle and Climate Pledge Arena). Built in just eight months for the **1962 World's Fair**, the monorail is one of Seattle's most iconic transit links and a city-designated historic landmark since 2003. ([Seattle Monorail](https://www.seattlemonorail.com/about-the-monorail/))
@@ -100,6 +116,24 @@ The system retains its original two Alweg trains -- the Blue Train and Red Train
 **Community Transit**: Serves Snohomish County with local buses and three **Swift** BRT lines. Restructured its entire network in September 2024 to feed Lynnwood Link light rail stations instead of running express buses to downtown Seattle.
 
 **Pierce Transit**: Serves Tacoma and Pierce County. Launched the **Stream Community Line** in 2024, a limited-stop service between Spanaway and Tacoma Dome Station.
+
+### Amtrak intercity rail
+
+Two Amtrak routes serve Seattle from **King Street Station** in Pioneer Square, providing intercity connections north to Vancouver, BC, south to Portland and Eugene, and along the entire West Coast to Los Angeles.
+
+**[Amtrak Cascades](https://amtrakcascades.com/)** operates the Pacific Northwest corridor between Vancouver, BC, and Eugene, OR, with 18 station stops. Service through Seattle includes six daily round-trips to Portland (3.5 hours) and two daily round-trips to Vancouver, BC (roughly 4 hours). Washington stations include Bellingham, Mount Vernon, Stanwood, Everett, Edmonds, Seattle, Tukwila, Tacoma, Olympia-Lacey, Centralia, Kelso-Longview, and Vancouver, WA. Cascades set a ridership record of approximately **941,000 passengers** in 2024, a 41% increase from 2023, driven by the December 2023 expansion from four to six daily Seattle--Portland round-trips. Youth 18 and under ride free on trips within Washington, a first-of-its-kind program launched in May 2024. The service is funded by the states of Washington (WSDOT) and Oregon (ODOT), not by Amtrak's national network. ([WSDOT Amtrak Cascades Performance Report](https://wsdot.wa.gov/sites/default/files/2025-04/2024-Amtrak-Cascades-Annual-Performance-Report.pdf) | [The Urbanist](https://www.theurbanist.org/2025/11/24/amtrak-breaks-ridership-records-nationally-and-in-pacific-northwest/))
+
+On-time performance remains a challenge: only 48% of Cascades trains arrived within the 10-minute on-time window in 2024, largely due to freight rail conflicts on BNSF-owned tracks. In 2025, Washington enacted **HB 1837**, which sets 2035 targets of 14 daily Seattle--Portland round-trips (more than double current service), 5 daily Seattle--Vancouver round-trips, 88% on-time performance, and reduced travel times of 2.5 hours to Portland and 2.75 hours to Vancouver. New **Amtrak Airo** trainsets are expected to enter Cascades service beginning in 2026. ([The Urbanist](https://www.theurbanist.org/2025/05/15/washington-legislature-greenlights-framework-for-amtrak-improvements/))
+
+**[Amtrak Coast Starlight](https://www.amtrak.com/coast-starlight-train)** runs daily between Seattle and Los Angeles (1,377 miles, approximately 35 hours), with stops at Tacoma, Olympia-Lacey, Centralia, Kelso-Longview, Vancouver WA, Portland, Salem, Eugene, and points south through California. The Coast Starlight carried **359,432 passengers** in fiscal year 2024, a 6.3% increase from the prior year. On-time performance averaged 63.4% in the 12 months ending November 2025. ([Axios Seattle](https://www.axios.com/local/seattle/2025/11/19/amtrak-ridership-seattle-cascades-train-airo-coast-starlight))
+
+### FRS Clipper (Victoria ferry)
+
+**[FRS Clipper](https://www.clippervacations.com/)** (formerly Victoria Clipper) operates the only high-speed passenger ferry between downtown Seattle and downtown Victoria, BC. The service departs from the **Seattle Clipper Terminal at Pier 69** (2701 Alaskan Way) and arrives at Victoria's Inner Harbour, with a crossing time of approximately 2 hours and 45 minutes.
+
+The company launched in 1986 as Clipper Navigation and has carried over **8 million passengers** since inception. In 2016, it was acquired by German ferry operator **Förde Reederei Seetouristik (FRS)** and rebranded as FRS Clipper. The current primary vessel, **MV Victoria Clipper V**, carries up to 525 passengers. Service operates year-round with one daily round-trip (two in peak summer), excluding a winter dry-dock period (typically January--early March). ([FRS Clipper](https://www.clippervacations.com/seattle-victoria-ferry/))
+
+FRS Clipper is a private, unsubsidized service -- not part of the regional transit network. ORCA cards are not accepted; fares start at approximately $126 one-way (2026 pricing). The service is primarily used for tourism and day trips rather than daily commuting.
 
 ## History
 
@@ -238,6 +272,8 @@ These restructures create tension between **frequency** (running fewer routes mo
 - **[Seattle Open Data Portal](https://data.seattle.gov/):** Transportation datasets including transit ridership
 - **[ORCA Ridership Reports](https://info.myorca.com/):** Regional ridership across all ORCA-participating agencies
 - **[WSDOT Ferry Ridership Data](https://wsdot.wa.gov/travel/washington-state-ferries):** Route-level ferry ridership and performance
+- **[Kitsap Transit Ferry Performance Indicators](https://www.kitsaptransit.com/fast-ferries-performance-indicators):** Route-level fast ferry ridership, reliability, and on-time data
+- **[WSDOT Amtrak Cascades Reports](https://wsdot.wa.gov/sites/default/files/2025-04/2024-Amtrak-Cascades-Annual-Performance-Report.pdf):** Annual ridership, on-time performance, and revenue data for Cascades service
 
 ## Key statistics
 
@@ -249,6 +285,9 @@ These restructures create tension between **frequency** (running fewer routes mo
 | Sounder commuter rail annual ridership (2024) | 1.92 million |
 | Seattle Streetcar annual ridership (2024) | 1.49 million |
 | Washington State Ferries annual ridership (2025) | 20.1 million |
+| Kitsap Fast Ferries annual ridership (2024) | 854,529 |
+| Amtrak Cascades annual ridership (2024) | ~941,000 |
+| Amtrak Coast Starlight annual ridership (FY 2024) | 359,432 |
 | Regional ORCA ridership (2024) | 151 million trips |
 | Link stations (early 2026) | 48 |
 | RapidRide lines operating | 8 |

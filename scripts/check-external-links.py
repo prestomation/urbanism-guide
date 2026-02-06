@@ -31,6 +31,7 @@ SKIP_DOMAINS = {
     'facebook.com',
     'linkedin.com',
     # Org sites that block automated requests (503)
+    'amtrak.com',
     'commuteseattle.com',
     'urbanleague.org',
     'feetfirst.org',
