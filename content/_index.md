@@ -44,18 +44,27 @@ Find advocacy organizations working on transit, housing, and walkability. Join g
 
 {{% columns %}}
 
+### [Guides](/guides/)
+In-depth guides on micro mobility, the bike network, mass transit, and other urbanism topics -- with history, data, and resources.
+
+<--->
+
 ### [Recommended Reading](/recommended-reading/)
 Stay informed with publications and writers covering Seattle urbanism -- The Urbanist, Seattle Transit Blog, and more.
 
-<--->
+{{% /columns %}}
+
+{{% columns %}}
 
 ### [Data](/data/)
 Access public dashboards and reports on transportation, housing, and planning from city, county, regional, and state sources.
 
-{{% /columns %}}
+<--->
 
 ### [Blog](/blog/)
 Deeper dives, analysis, and updates on what's happening now.
+
+{{% /columns %}}
 
 ## What this is *not*
 

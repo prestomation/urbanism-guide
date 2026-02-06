@@ -215,19 +215,21 @@ Front matter includes:
 
 ## Important Conventions
 
-1. **Theme is read-only**: Never edit files in `themes/hugo-book/`. Override via `layouts/` or `static/`.
+1. **Every factual claim needs a source**: All claims, facts, statistics, dates, and assertions in content must have an inline linked source. No unsourced statements -- if you can't find a source for a claim, don't include it. Use inline Markdown links (not footnotes) to cite sources directly where the claim appears.
 
-2. **Content format**: All content is Markdown with YAML front matter. Keep it portable.
+2. **Theme is read-only**: Never edit files in `themes/hugo-book/`. Override via `layouts/` or `static/`.
 
-3. **Timeline sources required**: New timeline entries should include at least a primary source with URL.
+3. **Content format**: All content is Markdown with YAML front matter. Keep it portable.
 
-4. **Chronology**: Timeline entries in `data/timeline.yaml` are ordered newest-first.
+4. **Timeline sources required**: New timeline entries should include at least a primary source with URL.
 
-5. **Draft content**: Set `draft: true` in front matter for work-in-progress. Use `hugo server -D` to preview.
+5. **Chronology**: Timeline entries in `data/timeline.yaml` are ordered newest-first.
 
-6. **No node_modules by default**: The project is pure Hugo unless package.json is added for asset processing.
+6. **Draft content**: Set `draft: true` in front matter for work-in-progress. Use `hugo server -D` to preview.
 
-7. **Verify links before adding**: Always use WebFetch to verify that external URLs are valid before adding them to content. The CI runs `python3 scripts/check-external-links.py` which will fail the build on broken links. To check all links locally, run:
+7. **No node_modules by default**: The project is pure Hugo unless package.json is added for asset processing.
+
+8. **Verify links before adding**: Always use WebFetch to verify that external URLs are valid before adding them to content. The CI runs `python3 scripts/check-external-links.py` which will fail the build on broken links. To check all links locally, run:
    ```bash
    python3 scripts/check-external-links.py
    ```
