@@ -211,7 +211,7 @@ Front matter includes:
 `scripts/validate-timeline.py` runs before every build to ensure timeline entries are in reverse chronological order. The build will fail if entries are out of order.
 
 ### Link Validation
-`.htmltest.yml` checks internal and external links. External link failures don't block builds (15s timeout).
+`.htmltest.yml` checks internal and external links. External link failures don't block builds (30s timeout).
 
 ## Important Conventions
 

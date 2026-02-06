@@ -131,7 +131,7 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
     for attempt in range(retries + 1):
         try:
             req = Request(url, headers=headers)
-            with urlopen(req, timeout=15) as response:
+            with urlopen(req, timeout=30) as response:
                 content = response.read().decode('utf-8', errors='ignore')
 
                 # Check for soft 404 indicators in the page content
