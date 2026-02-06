@@ -89,7 +89,7 @@ The system retains its original two Alweg trains -- the Blue Train and Red Train
 
 **Fares:** $4 adults, $2 youth/seniors/reduced fare. The monorail began accepting **ORCA cards** in 2019 and youth ride free. As of January 2026, ORCA E-purse riders no longer receive free transfers, though PugetPass and Regional Day Pass holders are unaffected. ([Seattle Monorail ORCA Policy](https://www.seattlemonorail.com/2026-orca-transfer-policy/))
 
-**Failed expansion:** In 1997, Seattle voters approved a ballot initiative to build a citywide monorail network. The **Seattle Monorail Project** advanced through planning but collapsed in 2005 after cost estimates ballooned to $11 billion, and voters rejected further funding.
+**Failed expansion:** In 1997, Seattle voters approved Initiative 41, calling for a citywide monorail network. Voters reaffirmed support in three more elections (2000, 2002, 2004), creating the **Seattle Monorail Project** to build a 14-mile "Green Line" from Ballard to West Seattle. But the project's financing plan revealed that interest charges would push the total cost of the $2.1 billion project to over $11 billion. In November 2005, voters rejected the project by a 64.5-35.5% margin. ([HistoryLink: Initiative 41](https://www.historylink.org/File/2525) | [HistoryLink: 2005 Defeat](https://www.historylink.org/File/7638))
 
 ### Regional bus agencies
 
