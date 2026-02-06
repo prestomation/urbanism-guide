@@ -10,14 +10,13 @@ CheckInternal: true
 CheckExternal: false
 
 # Ignore URLs matching these patterns
-# Hugo generates all internal links with the full baseURL prefix
-# (e.g., /urbanism-guide/pr-preview/1/glossary/), but htmltest checks
-# against the local public/ directory where files are at /glossary/.
-# Hugo validates internal links during build, so we skip them here
-# and focus on validating external links.
+# In PR preview builds, Hugo generates internal links prefixed with
+# /pr-preview/N/ (matching the baseURL override). These don't resolve
+# against the local public/ directory, so we skip them here. Hugo
+# validates internal links during build anyway.
 IgnoreURLs:
   - "^mailto:"
-  - "^/urbanism-guide/"
+  - "^/pr-preview/"
 
 # Ignore PR preview directories (they reference other PR builds)
 IgnoreDirs:
