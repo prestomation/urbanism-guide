@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-weight: 4
+weight: 8
 bookFlatSection: true
 bookToc: false
 ---
