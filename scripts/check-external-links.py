@@ -3,15 +3,18 @@
 Check for broken external links in content files.
 
 Detects both HTTP 404 responses and soft 404s (HTTP 200 with "Page Not Found" content).
+Uses concurrent requests for faster checking.
 """
 
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 
+MAX_WORKERS = 10
 
 # Domains to skip (internal, always valid, or known to block bots)
 SKIP_DOMAINS = {
@@ -202,28 +205,33 @@ def main():
             unique_urls[url].append((file_path, line_num))
 
     print(f"Found {len(unique_urls)} unique external URLs across {len(url_map)} files")
+    print(f"Checking with {MAX_WORKERS} concurrent workers...")
     print()
 
-    # Check each URL
+    # Check URLs concurrently
     broken_links = []
     checked = 0
+    total = len(unique_urls)
 
-    for url, locations in unique_urls.items():
-        checked += 1
-        # Truncate URL for display
-        display_url = url[:70] + "..." if len(url) > 70 else url
-        print(f"  [{checked}/{len(unique_urls)}] Checking: {display_url}")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_url = {
+            executor.submit(check_url, url): (url, locations)
+            for url, locations in unique_urls.items()
+        }
 
-        is_valid, error = check_url(url)
+        for future in as_completed(future_to_url):
+            url, locations = future_to_url[future]
+            checked += 1
+            display_url = url[:70] + "..." if len(url) > 70 else url
 
-        if not is_valid:
-            broken_links.append((url, error, locations))
-            print(f"    BROKEN: {error}")
-        else:
-            print(f"    OK")
+            is_valid, error = future.result()
 
-        # Rate limiting - be nice to servers
-        time.sleep(0.3)
+            if not is_valid:
+                broken_links.append((url, error, locations))
+                print(f"  [{checked}/{total}] BROKEN: {display_url}")
+                print(f"           {error}")
+            else:
+                print(f"  [{checked}/{total}] OK: {display_url}")
 
     print()
 
