@@ -1,4 +1,4 @@
-baseURL = "https://prestomation.github.io/urbanism-guide/"
+baseURL = "https://seattle.urbanism-guide.com/"
 languageCode = "en-us"
 title = "Seattle Urbanism Guide"
 theme = "hugo-book"

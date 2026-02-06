@@ -4,7 +4,7 @@
 
 This is a **Hugo static site** serving as a practical reference guide for Seattle urbanists and advocates. It helps people understand urban planning issues, learn terminology, and prepare for community participation.
 
-- **Site URL**: https://prestomation.github.io/urbanism-guide/
+- **Site URL**: https://seattle.urbanism-guide.com/
 - **Theme**: hugo-book (git submodule at `themes/hugo-book/`)
 - **Hugo Version**: 0.147.0 (extended)
 - **License**: MIT
@@ -187,7 +187,7 @@ Front matter includes:
 
 ## Key Configuration (hugo.toml)
 
-- **Base URL**: `https://prestomation.github.io/urbanism-guide/`
+- **Base URL**: `https://seattle.urbanism-guide.com/`
 - **Theme settings**: Auto dark/light mode, TOC enabled, search enabled
 - **Markup**: Goldmark with unsafe HTML allowed (for shortcodes)
 - **Menu weights**: Quick Start (1), Glossary (2), Timeline (3), Blog (4)
@@ -279,7 +279,7 @@ Front matter includes:
 
 ### Testing locally
 ```bash
-hugo server -D  # Starts at http://localhost:1313/urbanism-guide/
+hugo server -D  # Starts at http://localhost:1313/
 ```
 
 ## File Size Reference
