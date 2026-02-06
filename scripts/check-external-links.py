@@ -33,6 +33,7 @@ SKIP_DOMAINS = {
     # Org sites that block automated requests (503)
     'commuteseattle.com',
     'urbanleague.org',
+    'feetfirst.org',
 }
 
 
