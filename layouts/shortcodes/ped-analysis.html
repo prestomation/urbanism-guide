@@ -1,0 +1,422 @@
+{{/* Pedestrian Collision Analysis – live from SDOT ArcGIS open data */}}
+<div id="ped-analysis">
+
+  {{/* ── Loading / Error states ──────────────────────────────── */}}
+  <div id="pa-loading" style="text-align:center;padding:3rem 0">
+    <p style="font-size:1.1rem">Loading pedestrian collision data from SDOT&hellip;</p>
+    <p style="color:var(--gray-500,#6b7280);font-size:.9rem" id="pa-progress">Fetching records&hellip;</p>
+  </div>
+  <div id="pa-error" style="display:none;padding:2rem;border:1px solid #dc2626;border-radius:8px;background:#fef2f2;color:#991b1b">
+    <strong>Could not load data.</strong>
+    <span id="pa-error-msg"></span>
+    <p style="margin-top:.5rem">You can still view the <a href="/analysis/01-annual-trend.png">static charts</a> generated from the same dataset.</p>
+  </div>
+
+  {{/* ── Summary cards ───────────────────────────────────────── */}}
+  <div id="pa-summary" style="display:none" class="pa-cards">
+    <div class="pa-card">
+      <div class="pa-card-value" id="pa-total">–</div>
+      <div class="pa-card-label">Pedestrian Collisions</div>
+    </div>
+    <div class="pa-card">
+      <div class="pa-card-value" id="pa-fatalities" style="color:#dc2626">–</div>
+      <div class="pa-card-label">Fatalities</div>
+    </div>
+    <div class="pa-card">
+      <div class="pa-card-value" id="pa-serious" style="color:#ea580c">–</div>
+      <div class="pa-card-label">Serious Injuries</div>
+    </div>
+    <div class="pa-card">
+      <div class="pa-card-value" id="pa-daterange">–</div>
+      <div class="pa-card-label">Date Range</div>
+    </div>
+  </div>
+
+  {{/* ── Chart containers ────────────────────────────────────── */}}
+  <div id="pa-charts" style="display:none">
+    <div class="pa-chart-wrap">
+      <h3>Annual Trend</h3>
+      <p class="pa-chart-desc">Total pedestrian-involved collisions per year with fatalities and serious injuries overlaid.</p>
+      <canvas id="pa-chart-annual"></canvas>
+    </div>
+
+    <div class="pa-chart-wrap">
+      <h3>Collision Severity by Year</h3>
+      <p class="pa-chart-desc">Stacked breakdown showing how collision severity has shifted over time.</p>
+      <canvas id="pa-chart-severity"></canvas>
+    </div>
+
+    <div class="pa-chart-wrap">
+      <h3>Time of Day</h3>
+      <p class="pa-chart-desc">When pedestrian collisions happen. The evening commute (3–6 PM) is consistently the most dangerous window.</p>
+      <canvas id="pa-chart-hour"></canvas>
+    </div>
+
+    <div class="pa-chart-wrap">
+      <h3>Day of Week</h3>
+      <p class="pa-chart-desc">Collision volume and fatalities by day of week.</p>
+      <canvas id="pa-chart-dow"></canvas>
+    </div>
+
+    <div class="pa-chart-wrap">
+      <h3>Monthly Seasonality</h3>
+      <p class="pa-chart-desc">October–December are the deadliest months, coinciding with shorter daylight and wetter conditions.</p>
+      <canvas id="pa-chart-month"></canvas>
+    </div>
+
+    <div class="pa-chart-wrap">
+      <h3>Weather &amp; Light Conditions</h3>
+      <p class="pa-chart-desc">Conditions at the time of collision. "Dark – Street Lights On" accounts for roughly a third of all incidents.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:1.5rem">
+        <div style="flex:1;min-width:280px"><canvas id="pa-chart-weather"></canvas></div>
+        <div style="flex:1;min-width:280px"><canvas id="pa-chart-light"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  {{/* ── Data attribution ────────────────────────────────────── */}}
+  <div id="pa-footer" style="display:none;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--gray-200,#e5e7eb);font-size:.85rem;color:var(--gray-500,#6b7280)">
+    <p>
+      <strong>Data source:</strong>
+      <a href="https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-all-years" target="_blank" rel="noopener">
+        SDOT Collisions All Years</a> via Seattle ArcGIS Open Data
+      (filtered to <code>PEDCOUNT &ge; 1</code>).
+      Data is updated weekly by SDOT and fetched live each time you load this page.
+    </p>
+  </div>
+</div>
+
+{{/* ── Styles ──────────────────────────────────────────────── */}}
+<style>
+.pa-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin:1.5rem 0}
+.pa-card{background:var(--body-background,#fff);border:1px solid var(--gray-200,#e5e7eb);border-radius:8px;padding:1.2rem;text-align:center}
+.pa-card-value{font-size:1.8rem;font-weight:700;line-height:1.2}
+.pa-card-label{font-size:.85rem;color:var(--gray-500,#6b7280);margin-top:.25rem}
+.pa-chart-wrap{margin:2.5rem 0;padding:1.5rem;border:1px solid var(--gray-200,#e5e7eb);border-radius:8px;background:var(--body-background,#fff)}
+.pa-chart-wrap h3{margin-top:0}
+.pa-chart-desc{font-size:.9rem;color:var(--gray-500,#6b7280);margin-bottom:1rem}
+@media(prefers-color-scheme:dark){
+  .pa-card{border-color:#374151;background:#1f2937}
+  .pa-chart-wrap{border-color:#374151;background:#1f2937}
+  .pa-card-label,.pa-chart-desc{color:#9ca3af}
+  #pa-footer{border-color:#374151;color:#9ca3af}
+}
+</style>
+
+{{/* ── Chart.js from CDN ──────────────────────────────────── */}}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+
+<script>
+(function(){
+"use strict";
+
+const API = "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/ArcGIS/rest/services/SDOT_Collisions_All_Years/FeatureServer/0/query";
+const FIELDS = [
+  "INCKEY","SEVERITYDESC","PEDCOUNT","INJURIES","SERIOUSINJURIES",
+  "FATALITIES","INCDATE","INCDTTM","WEATHER","LIGHTCOND"
+];
+const BATCH = 2000;
+
+/* ── Fetch all pedestrian records in batches ────────────── */
+async function fetchAll(){
+  const rows = [];
+  let offset = 0;
+  const progress = document.getElementById("pa-progress");
+  while(true){
+    const params = new URLSearchParams({
+      where: "PEDCOUNT>=1",
+      outFields: FIELDS.join(","),
+      f: "json",
+      resultRecordCount: BATCH,
+      resultOffset: offset,
+      orderByFields: "INCDATE ASC"
+    });
+    const resp = await fetch(API + "?" + params);
+    if(!resp.ok) throw new Error("HTTP " + resp.status);
+    const data = await resp.json();
+    const feats = data.features || [];
+    if(!feats.length) break;
+    for(const f of feats) rows.push(f.attributes);
+    if(progress) progress.textContent = rows.length.toLocaleString() + " records loaded\u2026";
+    if(feats.length < BATCH) break;
+    offset += BATCH;
+  }
+  return rows;
+}
+
+/* ── Parse rows ─────────────────────────────────────────── */
+function parse(rows){
+  const out = [];
+  for(const r of rows){
+    const d = new Date(r.INCDATE);
+    const y = d.getUTCFullYear();
+    if(y < 2004 || y > 2030) continue;
+    let hour = null;
+    if(r.INCDTTM){
+      const m = r.INCDTTM.match(/(\d+):(\d+):(\d+)\s*(AM|PM)/i);
+      if(m){
+        let h = parseInt(m[1],10);
+        const ampm = m[4].toUpperCase();
+        if(ampm === "PM" && h !== 12) h += 12;
+        if(ampm === "AM" && h === 12) h = 0;
+        hour = h;
+      }
+    }
+    out.push({
+      year: y,
+      month: d.getUTCMonth(), // 0-indexed
+      dow: d.getUTCDay(),     // 0=Sun
+      hour: hour,
+      severity: r.SEVERITYDESC || "Unknown",
+      fatalities: r.FATALITIES || 0,
+      serious: r.SERIOUSINJURIES || 0,
+      injuries: r.INJURIES || 0,
+      weather: r.WEATHER || "Unknown",
+      light: r.LIGHTCOND || "Unknown"
+    });
+  }
+  return out;
+}
+
+/* ── Aggregation helpers ────────────────────────────────── */
+function groupBy(arr, keyFn){
+  const m = {};
+  for(const x of arr){ const k = keyFn(x); (m[k] = m[k]||[]).push(x); }
+  return m;
+}
+function countBy(arr, keyFn){
+  const m = {};
+  for(const x of arr){ const k = keyFn(x); m[k] = (m[k]||0) + 1; }
+  return m;
+}
+function sumBy(arr, fn){ let s = 0; for(const x of arr) s += fn(x); return s; }
+function range(a,b){ const r=[]; for(let i=a;i<=b;i++) r.push(i); return r; }
+
+/* ── Chart defaults ─────────────────────────────────────── */
+const isDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
+const GRID = isDark ? "#374151" : "#e5e7eb";
+const TEXT = isDark ? "#d1d5db" : "#1f2937";
+const C = {
+  primary: "#2563eb", fatal: "#dc2626", serious: "#ea580c",
+  injury: "#f59e0b", property: "#6b7280", accent: "#059669"
+};
+
+function baseOpts(title){
+  return {
+    responsive: true,
+    plugins:{
+      legend:{labels:{color:TEXT,font:{size:11}}},
+    },
+    scales:{
+      x:{ticks:{color:TEXT,font:{size:10}},grid:{color:GRID}},
+      y:{ticks:{color:TEXT,font:{size:10}},grid:{color:GRID},beginAtZero:true}
+    }
+  };
+}
+
+/* ── Render charts ──────────────────────────────────────── */
+function render(data){
+  const years = [...new Set(data.map(d=>d.year))].sort();
+  const byYear = groupBy(data, d=>d.year);
+
+  /* 1 — Annual trend */
+  const annualTotal = years.map(y=>(byYear[y]||[]).length);
+  const annualFatal = years.map(y=>sumBy(byYear[y]||[],d=>d.fatalities));
+  const annualSerious = years.map(y=>sumBy(byYear[y]||[],d=>d.serious));
+  new Chart(document.getElementById("pa-chart-annual"),{
+    type:"bar",
+    data:{
+      labels:years,
+      datasets:[
+        {label:"Total collisions",data:annualTotal,backgroundColor:C.primary+"b3",order:2},
+        {label:"Fatalities",data:annualFatal,type:"line",borderColor:C.fatal,
+         backgroundColor:C.fatal,pointRadius:3,borderWidth:2.5,yAxisID:"y1",order:1},
+        {label:"Serious injuries",data:annualSerious,type:"line",borderColor:C.serious,
+         backgroundColor:C.serious,pointRadius:3,borderWidth:2,borderDash:[6,3],yAxisID:"y1",order:1}
+      ]
+    },
+    options:{
+      ...baseOpts(),
+      scales:{
+        x:{ticks:{color:TEXT},grid:{color:GRID}},
+        y:{position:"left",ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true,
+           title:{display:true,text:"Collisions",color:TEXT}},
+        y1:{position:"right",ticks:{color:TEXT},grid:{drawOnChartArea:false},beginAtZero:true,
+            title:{display:true,text:"Fatalities / Serious Injuries",color:TEXT}}
+      }
+    }
+  });
+
+  /* 2 — Severity stacked */
+  const sevOrder = ["Property Damage Only Collision","Injury Collision",
+                    "Serious Injury Collision","Fatality Collision"];
+  const sevColors = [C.property, C.injury, C.serious, C.fatal];
+  const sevDatasets = sevOrder.map((sev,i)=>({
+    label: sev.replace(" Collision",""),
+    data: years.map(y=>(byYear[y]||[]).filter(d=>d.severity===sev).length),
+    backgroundColor: sevColors[i]+"cc"
+  }));
+  // Add "Unknown/Other" bucket
+  const knownSev = new Set(sevOrder);
+  const otherDs = {
+    label:"Other/Unknown",
+    data: years.map(y=>(byYear[y]||[]).filter(d=>!knownSev.has(d.severity)).length),
+    backgroundColor:"#9ca3af99"
+  };
+  if(otherDs.data.some(v=>v>0)) sevDatasets.push(otherDs);
+  new Chart(document.getElementById("pa-chart-severity"),{
+    type:"bar",
+    data:{labels:years, datasets:sevDatasets},
+    options:{...baseOpts(), scales:{
+      x:{stacked:true,ticks:{color:TEXT},grid:{color:GRID}},
+      y:{stacked:true,ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true}
+    }}
+  });
+
+  /* 3 — Time of day */
+  const withHour = data.filter(d=>d.hour!==null);
+  const hourCounts = range(0,23).map(h=>withHour.filter(d=>d.hour===h).length);
+  const hourFatal = range(0,23).map(h=>withHour.filter(d=>d.hour===h && (d.fatalities+d.serious)>0).length);
+  const hourOther = hourCounts.map((v,i)=>v - hourFatal[i]);
+  new Chart(document.getElementById("pa-chart-hour"),{
+    type:"bar",
+    data:{
+      labels: range(0,23).map(h=>h.toString().padStart(2,"0")+":00"),
+      datasets:[
+        {label:"Other collisions",data:hourOther,backgroundColor:C.primary+"99"},
+        {label:"Fatal / serious injury",data:hourFatal,backgroundColor:C.fatal+"cc"}
+      ]
+    },
+    options:{...baseOpts(), scales:{
+      x:{stacked:true,ticks:{color:TEXT,font:{size:9}},grid:{color:GRID}},
+      y:{stacked:true,ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true}
+    }}
+  });
+
+  /* 4 — Day of week */
+  const dayNames = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  const byDow = groupBy(data, d=>d.dow);
+  const dowTotal = range(0,6).map(d=>(byDow[d]||[]).length);
+  const dowFatal = range(0,6).map(d=>sumBy(byDow[d]||[],x=>x.fatalities));
+  new Chart(document.getElementById("pa-chart-dow"),{
+    type:"bar",
+    data:{
+      labels:dayNames,
+      datasets:[
+        {label:"Total collisions",data:dowTotal,backgroundColor:C.primary+"b3",order:2},
+        {label:"Fatalities",data:dowFatal,type:"line",borderColor:C.fatal,
+         backgroundColor:C.fatal,pointRadius:4,borderWidth:2.5,yAxisID:"y1",order:1}
+      ]
+    },
+    options:{
+      ...baseOpts(),
+      scales:{
+        x:{ticks:{color:TEXT},grid:{color:GRID}},
+        y:{position:"left",ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true,
+           title:{display:true,text:"Collisions",color:TEXT}},
+        y1:{position:"right",ticks:{color:TEXT},grid:{drawOnChartArea:false},beginAtZero:true,
+            title:{display:true,text:"Fatalities",color:TEXT}}
+      }
+    }
+  });
+
+  /* 5 — Monthly seasonality */
+  const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const byMonth = groupBy(data, d=>d.month);
+  const mTotal = range(0,11).map(m=>(byMonth[m]||[]).length);
+  const mFatal = range(0,11).map(m=>sumBy(byMonth[m]||[],x=>x.fatalities));
+  new Chart(document.getElementById("pa-chart-month"),{
+    type:"bar",
+    data:{
+      labels:monthNames,
+      datasets:[
+        {label:"Total collisions",data:mTotal,backgroundColor:C.primary+"b3",order:2},
+        {label:"Fatalities",data:mFatal,type:"line",borderColor:C.fatal,
+         backgroundColor:C.fatal,pointRadius:4,borderWidth:2.5,yAxisID:"y1",order:1}
+      ]
+    },
+    options:{
+      ...baseOpts(),
+      scales:{
+        x:{ticks:{color:TEXT},grid:{color:GRID}},
+        y:{position:"left",ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true,
+           title:{display:true,text:"Collisions",color:TEXT}},
+        y1:{position:"right",ticks:{color:TEXT},grid:{drawOnChartArea:false},beginAtZero:true,
+            title:{display:true,text:"Fatalities",color:TEXT}}
+      }
+    }
+  });
+
+  /* 6 — Weather & Light horizontal bars */
+  function topN(arr, keyFn, n){
+    const counts = countBy(arr, keyFn);
+    return Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,n);
+  }
+  const weatherTop = topN(data, d=>d.weather, 8);
+  new Chart(document.getElementById("pa-chart-weather"),{
+    type:"bar",
+    data:{
+      labels:weatherTop.map(x=>x[0]),
+      datasets:[{label:"Collisions",data:weatherTop.map(x=>x[1]),backgroundColor:C.primary+"99"}]
+    },
+    options:{...baseOpts(), indexAxis:"y",
+      plugins:{legend:{display:false},title:{display:true,text:"By Weather",color:TEXT}},
+      scales:{
+        x:{ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true},
+        y:{ticks:{color:TEXT,font:{size:10}},grid:{display:false}}
+      }
+    }
+  });
+
+  const lightTop = topN(data, d=>d.light, 8);
+  new Chart(document.getElementById("pa-chart-light"),{
+    type:"bar",
+    data:{
+      labels:lightTop.map(x=>x[0]),
+      datasets:[{label:"Collisions",data:lightTop.map(x=>x[1]),backgroundColor:C.accent+"99"}]
+    },
+    options:{...baseOpts(), indexAxis:"y",
+      plugins:{legend:{display:false},title:{display:true,text:"By Light Condition",color:TEXT}},
+      scales:{
+        x:{ticks:{color:TEXT},grid:{color:GRID},beginAtZero:true},
+        y:{ticks:{color:TEXT,font:{size:10}},grid:{display:false}}
+      }
+    }
+  });
+}
+
+/* ── Main ───────────────────────────────────────────────── */
+async function init(){
+  try{
+    const rows = await fetchAll();
+    const data = parse(rows);
+
+    // Summary cards
+    document.getElementById("pa-total").textContent = data.length.toLocaleString();
+    document.getElementById("pa-fatalities").textContent = sumBy(data,d=>d.fatalities).toLocaleString();
+    document.getElementById("pa-serious").textContent = sumBy(data,d=>d.serious).toLocaleString();
+    const yrs = data.map(d=>d.year);
+    document.getElementById("pa-daterange").textContent = Math.min(...yrs) + " – " + Math.max(...yrs);
+
+    // Show UI
+    document.getElementById("pa-loading").style.display = "none";
+    document.getElementById("pa-summary").style.display = "";
+    document.getElementById("pa-charts").style.display = "";
+    document.getElementById("pa-footer").style.display = "";
+
+    render(data);
+  } catch(err){
+    document.getElementById("pa-loading").style.display = "none";
+    document.getElementById("pa-error").style.display = "";
+    document.getElementById("pa-error-msg").textContent = " " + err.message;
+  }
+}
+
+if(document.readyState === "loading"){
+  document.addEventListener("DOMContentLoaded", init);
+} else {
+  init();
+}
+
+})();
+</script>
