@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Transit Theme System
+   Color palettes inspired by Seattle-area transit organizations.
+   ========================================================================== */
+
+/* --- Link Light Rail (Sound Transit) --- */
+html[data-transit-theme="link"] {
+  --color-link: #008751;
+  --color-visited-link: #005c37;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-transit-theme="link"] {
+    --color-link: #5ce0a8;
+    --color-visited-link: #3ec48e;
+  }
+}
+
+/* --- King County Metro --- */
+html[data-transit-theme="metro"] {
+  --color-link: #003DA5;
+  --color-visited-link: #1a2e6e;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-transit-theme="metro"] {
+    --color-link: #7daaff;
+    --color-visited-link: #a0b8ff;
+  }
+}
+
+/* --- Sounder Commuter Rail --- */
+html[data-transit-theme="sounder"] {
+  --color-link: #6D2077;
+  --color-visited-link: #4c1654;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-transit-theme="sounder"] {
+    --color-link: #c88dd4;
+    --color-visited-link: #d4a8dd;
+  }
+}
+
+/* --- WA State Ferries --- */
+html[data-transit-theme="ferries"] {
+  --color-link: #006747;
+  --color-visited-link: #004832;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-transit-theme="ferries"] {
+    --color-link: #5cc8a8;
+    --color-visited-link: #42b094;
+  }
+}
+
+/* --- Seattle Streetcar --- */
+html[data-transit-theme="streetcar"] {
+  --color-link: #C8102E;
+  --color-visited-link: #9e0c24;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-transit-theme="streetcar"] {
+    --color-link: #ff7a87;
+    --color-visited-link: #ff9ca5;
+  }
+}
+
+/* ==========================================================================
+   Theme Picker UI
+   ========================================================================== */
+
+.theme-picker {
+  padding: 0.75rem 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--gray-200, #e9ecef);
+}
+
+.theme-picker-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gray-500, #adb5bd);
+  margin-bottom: 0.5rem;
+}
+
+.theme-picker-swatches {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.theme-swatch {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: var(--swatch-color);
+  cursor: pointer;
+  padding: 0;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  position: relative;
+}
+
+.theme-swatch:hover {
+  transform: scale(1.15);
+}
+
+.theme-swatch.active {
+  border-color: var(--body-font-color, #333);
+  box-shadow: 0 0 0 2px var(--body-background, white), 0 0 0 4px var(--swatch-color);
+}
+
+.theme-picker-name {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--gray-500, #adb5bd);
+  margin-top: 0.4rem;
+  min-height: 1em;
+}
+
+/* Screen reader only text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Smooth color transitions when switching themes */
+html {
+  transition: --color-link 0.2s ease;
+}
+
+a,
+.timeline-year,
+.timeline-source,
+.timeline::before,
+.timeline-marker::after,
+.timeline-content {
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
