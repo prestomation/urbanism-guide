@@ -15,6 +15,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 
 - [Link Light Rail]({{< relref "light-rail" >}}) -- Link system details, regional transit timeline, future expansion, and Sound Transit funding
 - [Mass Transit]({{< relref "mass-transit" >}}) -- Buses, commuter rail, streetcars, ferries, and how the region funds transit
+- [Station Area Planning & TOD]({{< relref "station-area-planning" >}}) -- Transit-oriented development, station area plans, Sound Transit's TOD program, and state zoning law
 - [Micro Mobility]({{< relref "micro-mobility" >}}) -- E-scooters, bike share, and how they work in Seattle
 - [Bike Network]({{< relref "bike-network" >}}) -- Protected bike lanes, neighborhood greenways, and trails
 - [Car Share]({{< relref "car-share" >}}) -- The rise and fall of free-floating car sharing in Seattle
