@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
+# Run asynchronously in the background during session startup
+echo '{"async": true, "asyncTimeout": 300000}'
+
 # Only run in remote (Claude Code on the web) environments
 if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
