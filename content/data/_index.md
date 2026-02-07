@@ -68,6 +68,14 @@ Over 500 datasets across all city departments including transportation, permits,
 
 ---
 
+### Renting in Seattle Portal
+
+Central resource for tenant rights, landlord obligations, and rental regulations in Seattle. Available in 13 languages. Covers just cause eviction, rent increase rules, relocation assistance, and fair housing protections.
+
+**Access:** [seattle.gov/rentinginseattle](https://www.seattle.gov/rentinginseattle)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -167,6 +175,14 @@ Statewide bicycle and pedestrian count data from jurisdictions across Washington
 Statewide comparison tool showing how different cities zone for housing. See which cities allow duplexes, ADUs, and multifamily housing and where.
 
 **Access:** [WA Zoning Atlas (Commerce)](https://www.commerce.wa.gov/growth-management/housing-planning/)
+
+---
+
+### HB 1217 Landlord Resource Center
+
+Department of Commerce resource center for Washington's rent stabilization law. Includes annual rent cap calculations, compliance guidance, and tools for landlords and tenants.
+
+**Access:** [HB 1217 Landlord Resource Center](https://www.commerce.wa.gov/housing-policy/hb1217-landlord-resource-center/)
 
 ---
 

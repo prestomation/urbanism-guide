@@ -63,6 +63,18 @@ The ratio of a building's total floor area to the size of its lot. A FAR of 1.0 
 
 ---
 
+## Cost Burden / Rent Burden
+
+A household is **cost-burdened** when it spends more than 30% of its gross income on housing costs (rent or mortgage plus utilities). A household spending more than 50% is considered **severely cost-burdened**. These thresholds are set by HUD and used across federal, state, and local housing programs.
+
+**Why it matters:** About 46% of renter households in Seattle are cost-burdened, according to the National Low Income Housing Coalition. Cost burden is the standard metric for measuring housing affordability at the household level and is used to justify investments in affordable housing production, rental assistance, and tenant protections. When advocates say Seattle has an affordability crisis, cost burden data is typically the evidence.
+
+**See also:** [Affordable Housing](#affordable-housing), [AMI](/glossary/funding-policy/#ami-area-median-income)
+
+**Learn more:** [Seattle Office of Housing: Data and Reports](https://www.seattle.gov/housing/data-and-reports) | [NLIHC: Housing Needs in Washington](https://nlihc.org/housing-needs-by-state/washington)
+
+---
+
 ## Grand Bargain
 
 The 2015 agreement between Seattle developers, affordable housing advocates, and labor groups that created the framework for Mandatory Housing Affordability (MHA). Developers agreed not to oppose inclusionary zoning requirements in exchange for upzones allowing additional building height and density.
@@ -120,6 +132,18 @@ Washington's 2025 transit-oriented development law requiring cities to allow mid
 **See also:** [TOD](/glossary/transportation/#tod-transit-oriented-development), [FAR](#far-floor-area-ratio), [ST3](/glossary/transportation/#st3-sound-transit-3)
 
 **Learn more:** [WA Legislature: HB 1491](https://app.leg.wa.gov/billsummary?BillNumber=1491&Year=2025&Initiative=false) | [The Urbanist: State Senate Greenlights TOD Housing Bill](https://www.theurbanist.org/2025/04/16/state-senate-greenlights-sweeping-tod-housing-bill/)
+
+---
+
+## Just Cause Eviction
+
+A legal framework that prohibits landlords from terminating a tenancy or evicting a tenant without one of the specific reasons enumerated in law. Seattle's Just Cause Eviction Ordinance (SMC 22.206.160C), passed in 1980, lists 16 permitted reasons including nonpayment of rent, lease violations, owner occupancy, and demolition. Washington State enacted statewide just cause eviction through HB 1236 in 2021 (RCW 59.18.650).
+
+**Why it matters:** Just cause eviction is the foundation of tenant stability in Seattle. Without it, landlords could end tenancies for any reason or no reason, leaving renters vulnerable to retaliation or displacement. Seattle's ordinance was one of the earliest in the country and has been expanded over time — most recently in 2021, when landlords became required to offer lease renewals unless they have just cause not to. Understanding what qualifies as just cause helps renters know their rights and helps advocates evaluate proposed changes to eviction law.
+
+**See also:** [Displacement](#displacement), [Rent Stabilization](#rent-stabilization)
+
+**Learn more:** [Seattle SDCI: Just Cause Eviction Ordinance](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/just-cause-eviction-ordinance) | [Tenants Union: Just Cause Eviction Protection](https://tenantsunion.org/rights/just-cause-eviction-protection)
 
 ---
 
@@ -204,6 +228,18 @@ The practice of denying or restricting mortgage lending, insurance, and other fi
 **See also:** [Racially Restrictive Covenants](#racially-restrictive-covenants), [Displacement](#displacement)
 
 **Learn more:** [Seattle City Archives: Redlining in Seattle](https://www.seattle.gov/cityarchives/exhibits-and-education/online-exhibits/redlining-in-seattle) | [The Urbanist: Seven Maps That Capture Seattle's Segregation](https://www.theurbanist.org/2022/06/03/seven-maps-that-capture-seattles-segregation/)
+
+---
+
+## Rent Stabilization
+
+A policy that limits how much landlords can increase rent within a defined period. Washington's HB 1217, signed into law on May 7, 2025, caps annual rent increases for existing tenants at 7% plus the Consumer Price Index (CPI), or 10%, whichever is lower. Manufactured home rents are capped at 5% per year. The law exempts new construction for 12 years and owner-occupied small properties.
+
+**Why it matters:** Washington became the third state (after Oregon and California) to enact statewide rent stabilization, ending a 1981 ban on local rent caps. The law establishes a ceiling on annual rent increases statewide, giving renters more predictability. Seattle layers additional local protections on top, including a 180-day notice requirement for rent increases (vs. 90 days statewide) and Economic Displacement Relocation Assistance for increases of 10% or more. The residential rent caps sunset after 15 years; manufactured home caps are permanent.
+
+**See also:** [Just Cause Eviction](#just-cause-eviction), [Displacement](#displacement), [Affordable Housing](#affordable-housing)
+
+**Learn more:** [WA Legislature: HB 1217](https://app.leg.wa.gov/billsummary?billnumber=1217&year=2025) | [The Urbanist: Rent Stabilization Becomes Law](https://www.theurbanist.org/2025/05/08/rent-stabilization-parking-reforms-become-law-in-washington/)
 
 ---
 

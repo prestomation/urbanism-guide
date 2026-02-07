@@ -24,6 +24,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Parks, Open Space & Urban Tree Canopy]({{< relref "parks-tree-canopy" >}}) -- Park District funding, open space planning, tree canopy loss, and green infrastructure
 - [Public Housing & the Seattle Housing Authority]({{< relref "public-housing" >}}) -- SHA's portfolio, HOPE VI redevelopments, Yesler Terrace, Section 8 vouchers, and mixed-income strategy
 - [Environmental Justice & Equitable Development]({{< relref "environmental-justice" >}}) -- Redlining history, Duwamish Valley, equity frameworks, and anti-displacement tools
+- [Renter Protections & Tenant Rights]({{< relref "renter-protections" >}}) -- Just cause eviction, rent stabilization, RRIO, relocation assistance, and right to counsel
 
 ---
 
