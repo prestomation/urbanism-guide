@@ -2,11 +2,6 @@
 
 Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
-## Tier 1: High-Impact Guides
-
-### Environmental Justice & Equitable Development
-Redlining history, environmental racism (Duwamish Valley, Georgetown), the city's equity frameworks, and anti-displacement tools. Expands on existing displacement and EDI glossary entries.
-
 ## Tier 2: Valuable Additions
 
 ### Regional Governance & Agency Coordination
