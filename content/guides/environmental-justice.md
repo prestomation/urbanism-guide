@@ -6,7 +6,7 @@ bookToc: true
 
 # Environmental Justice & Equitable Development in Seattle
 
-Seattle's history of racially restrictive covenants, federal redlining, and discriminatory land use patterns created environmental and health disparities that persist today. This guide covers the history of segregation and environmental racism, the neighborhoods most affected, the city and state equity frameworks designed to address these harms, and the anti-displacement tools being used to prevent further damage.
+Seattle's history of [racially restrictive covenants]({{< relref "/glossary/housing-zoning#racially-restrictive-covenants" >}}), federal [redlining]({{< relref "/glossary/housing-zoning#redlining" >}}), and discriminatory land use patterns created environmental and health disparities that persist today. This guide covers the history of segregation and [environmental racism]({{< relref "/glossary/land-use#environmental-racism" >}}), the neighborhoods most affected, the city and state equity frameworks designed to address these harms, and the anti-displacement tools being used to prevent further damage.
 
 ## Redlining and racial segregation
 
@@ -42,7 +42,7 @@ In 2014, the EPA issued a final cleanup plan prescribing a two-decade, **$342 mi
 
 ### Health disparities
 
-A 2013 **Cumulative Health Impacts Analysis (CHIA)**, co-authored by Just Health Action and the Duwamish River Cleanup Coalition, documented stark disparities in Georgetown and South Park:
+A 2013 **[Cumulative Health Impacts Analysis]({{< relref "/glossary/land-use#cumulative-impacts" >}}) (CHIA)**, co-authored by Just Health Action and the Duwamish River Cleanup Coalition, documented stark disparities in Georgetown and South Park:
 
 - **Life expectancy:** 73.3 years — 8 years shorter than the Seattle average and 13 years shorter than Laurelhurst
 - **Asthma:** Double the rate of youth asthma hospitalizations compared to the rest of King County
@@ -80,7 +80,7 @@ The **Seattle Chinatown International District Preservation and Development Auth
 
 ### Race and Social Justice Initiative (RSJI)
 
-Seattle established the **Race and Social Justice Initiative** in 2004 under Mayor Greg Nickels — the first municipal government initiative of its kind in the United States. RSJI existed only by executive order until April 2023, when the City Council permanently codified it into law through Council Bill 120525. ([Seattle.gov: RSJI](https://www.seattle.gov/rsji) | [Seattle.gov: RSJI History](https://www.seattle.gov/rsji/about/history))
+Seattle established the **[Race and Social Justice Initiative]({{< relref "/glossary/funding-policy#rsji-race-and-social-justice-initiative" >}})** in 2004 under Mayor Greg Nickels — the first municipal government initiative of its kind in the United States. RSJI existed only by executive order until April 2023, when the City Council permanently codified it into law through Council Bill 120525. ([Seattle.gov: RSJI](https://www.seattle.gov/rsji) | [Seattle.gov: RSJI History](https://www.seattle.gov/rsji/about/history))
 
 RSJI's core tools include **Racial Equity Toolkits (RETs)**, which help departments analyze the racial equity impacts of policies, programs, and budget proposals, and **Change Teams** — staff-led groups within departments that advocate for equity.
 
@@ -94,9 +94,9 @@ In 2016, the City Council passed Resolution 31567 directing an interdepartmental
 
 ### Equitable Development Initiative (EDI)
 
-The **Equitable Development Initiative**, launched in 2016 and administered by the Office of Planning and Community Development, provides capacity-building grants and capital funding for affordable housing, community centers, cultural spaces, and environmental remediation in neighborhoods with high displacement risk. Initial focus neighborhoods were the Chinatown-International District, Central District, Othello, and Rainier Beach. ([Seattle.gov: EDI](https://www.seattle.gov/opcd/current-projects/equitable-development-initiative))
+The **[Equitable Development Initiative]({{< relref "/glossary/funding-policy#equitable-development-initiative-edi" >}})**, launched in 2016 and administered by the Office of Planning and Community Development, provides capacity-building grants and capital funding for affordable housing, community centers, cultural spaces, and environmental remediation in neighborhoods with high displacement risk. Initial focus neighborhoods were the Chinatown-International District, Central District, Othello, and Rainier Beach. ([Seattle.gov: EDI](https://www.seattle.gov/opcd/current-projects/equitable-development-initiative))
 
-EDI has funded more than **$116 million** in grants since inception, with revenue primarily from the **JumpStart Payroll Expense Tax**. Notable funded projects include:
+EDI has funded more than **$116 million** in grants since inception, with revenue primarily from the **[JumpStart Payroll Expense Tax]({{< relref "/glossary/funding-policy#jumpstart-payroll-expense-tax" >}})**. Notable funded projects include:
 
 - **Africatown Plaza** — 130 units of affordable housing at 23rd and Spring in the Central District
 - **Liberty Bank Building** — 115 units of affordable housing with retail space for Black-owned businesses, on the site of the first African American-owned bank in the Pacific Northwest
@@ -108,7 +108,7 @@ EDI has funded more than **$116 million** in grants since inception, with revenu
 
 ### Community Preference Policy
 
-In 2019, Mayor Durkan issued Executive Order 2019-02 establishing a **Community Preference Policy** for City-funded affordable housing in high-displacement-risk areas. The policy allows nonprofit affordable housing developers to prioritize applicants who are current residents, former residents, family members of former residents, or people with community ties to the neighborhood. The policy is currently voluntary. ([Seattle Office of Housing: Community Preference](https://www.seattle.gov/housing/programs-and-initiatives/community-preference))
+In 2019, Mayor Durkan issued Executive Order 2019-02 establishing a **[Community Preference Policy]({{< relref "/glossary/housing-zoning#community-preference-policy" >}})** for City-funded affordable housing in high-displacement-risk areas. The policy allows nonprofit affordable housing developers to prioritize applicants who are current residents, former residents, family members of former residents, or people with community ties to the neighborhood. The policy is currently voluntary. ([Seattle Office of Housing: Community Preference](https://www.seattle.gov/housing/programs-and-initiatives/community-preference))
 
 ### Anti-displacement spending
 
@@ -128,7 +128,7 @@ The **One Seattle Plan**, adopted by the City Council in December 2025, integrat
 
 ### HEAL Act (2021)
 
-The **Healthy Environment for All (HEAL) Act** (SB 5141), signed into law in 2021, is Washington's first statewide environmental justice law. It requires seven state agencies — Ecology, Health, Agriculture, Commerce, Natural Resources, Transportation, and Puget Sound Partnership — to incorporate environmental justice into strategic plans, budget decisions, and significant agency actions. The law created an **Environmental Justice Council** (14 members appointed by the Governor) to provide oversight and recommendations. ([WA Dept. of Ecology: HEAL](https://ecology.wa.gov/about-us/who-we-are/environmental-justice/heal) | [Front and Centered: HEAL Act](https://frontandcentered.org/heal-act/))
+The **[Healthy Environment for All (HEAL) Act]({{< relref "/glossary/funding-policy#heal-act-healthy-environment-for-all" >}})** (SB 5141), signed into law in 2021, is Washington's first statewide environmental justice law. It requires seven state agencies — Ecology, Health, Agriculture, Commerce, Natural Resources, Transportation, and Puget Sound Partnership — to incorporate environmental justice into strategic plans, budget decisions, and significant agency actions. The law created an **Environmental Justice Council** (14 members appointed by the Governor) to provide oversight and recommendations. ([WA Dept. of Ecology: HEAL](https://ecology.wa.gov/about-us/who-we-are/environmental-justice/heal) | [Front and Centered: HEAL Act](https://frontandcentered.org/heal-act/))
 
 ### Washington Environmental Health Disparities Map
 
@@ -173,8 +173,9 @@ The **Environmental Health Disparities Map**, developed by UW and the Department
 
 ## Related resources
 
-- [Housing & Zoning Glossary]({{< relref "/glossary/housing-zoning" >}}) — Displacement, MHA, community land trusts, and other equity-related terms
-- [Funding & Policy Glossary]({{< relref "/glossary/funding-policy" >}}) — Equitable Development Initiative, community land trusts, JumpStart tax
+- [Housing & Zoning Glossary]({{< relref "/glossary/housing-zoning" >}}) — Redlining, racially restrictive covenants, displacement, community preference policy
+- [Land Use & Planning Glossary]({{< relref "/glossary/land-use" >}}) — Environmental racism, cumulative impacts, displacement risk index
+- [Funding & Policy Glossary]({{< relref "/glossary/funding-policy" >}}) — EDI, RSJI, HEAL Act, JumpStart tax, community land trusts
 - [Public Housing & the Seattle Housing Authority]({{< relref "public-housing" >}}) — SHA's mixed-income strategy and HOPE VI redevelopments
 - [Seattle City Archives: Redlining in Seattle](https://www.seattle.gov/cityarchives/exhibits-and-education/online-exhibits/redlining-in-seattle) — Primary source exhibit with original HOLC maps
 - [UW Civil Rights & Labor History Project: Segregated Seattle](https://depts.washington.edu/civilr/segregated.htm) — Comprehensive history of racial segregation in Seattle

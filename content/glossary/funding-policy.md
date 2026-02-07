@@ -65,6 +65,18 @@ Seattle's voter-approved property tax levy dedicated to affordable housing produ
 
 ---
 
+## HEAL Act (Healthy Environment for All)
+
+Washington's first statewide environmental justice law (SB 5141), signed in 2021. The HEAL Act requires seven state agencies — Ecology, Health, Agriculture, Commerce, Natural Resources, Transportation, and Puget Sound Partnership — to incorporate environmental justice into strategic plans, budget decisions, and significant agency actions. The law created a 14-member Environmental Justice Council appointed by the Governor.
+
+**Why it matters:** The HEAL Act establishes a legal framework for addressing the cumulative environmental and health burdens borne by communities of color and low-income communities. It mandates use of the Washington Environmental Health Disparities Map to identify overburdened communities and requires agencies to conduct environmental justice assessments before taking significant actions. For Seattle urbanists, the HEAL Act means state transportation, housing, and land use decisions must now formally consider equity impacts — a lever that advocates can use to push for better outcomes in communities like the Duwamish Valley, where state highway and port decisions have historically compounded local pollution.
+
+**See also:** [JumpStart Payroll Expense Tax](#jumpstart-payroll-expense-tax), [Equitable Development Initiative](#equitable-development-initiative-edi)
+
+**Learn more:** [WA Dept. of Ecology: HEAL Act](https://ecology.wa.gov/about-us/who-we-are/environmental-justice/heal) | [Front and Centered: HEAL Act](https://frontandcentered.org/heal-act/)
+
+---
+
 ## Impact Fees
 
 One-time charges on new development to pay for infrastructure (roads, parks, schools) needed to serve new residents. Seattle has been slow to adopt impact fees compared to other cities.
@@ -140,6 +152,18 @@ A tax on property sales that funds affordable housing, parks, and infrastructure
 **Why it matters:** REET is a significant funding source for affordable housing in Seattle. Changes to how REET revenue can be used directly affect the city's ability to build and preserve affordable units.
 
 **Learn more:** [MRSC: Real Estate Excise Taxes](https://mrsc.org/explore-topics/finance/revenues/real-estate-excise-tax) | [WA Dept. of Revenue: REET](https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax)
+
+---
+
+## RSJI (Race and Social Justice Initiative)
+
+Seattle's citywide initiative to end racial disparities and achieve racial equity in city government operations. Established in 2004 under Mayor Greg Nickels — the first municipal government initiative of its kind in the United States — RSJI existed only by executive order until April 2023, when the City Council permanently codified it into law (Council Bill 120525). RSJI is a division of the Seattle Office for Civil Rights.
+
+**Why it matters:** RSJI is the institutional framework through which Seattle applies racial equity analysis to policy, budgets, and programs. Its core tools — Racial Equity Toolkits (RETs) and departmental Change Teams — shape decisions across every city agency. For urbanists, RSJI is the reason equity considerations appear in transportation plans, zoning decisions, and infrastructure investments. Understanding RSJI helps explain why the city conducts displacement risk analyses, funds the Equitable Development Initiative, and requires departments to assess racial impacts before making major decisions.
+
+**See also:** [Equitable Development Initiative](#equitable-development-initiative-edi), [HEAL Act](#heal-act-healthy-environment-for-all)
+
+**Learn more:** [Seattle.gov: Race and Social Justice Initiative](https://www.seattle.gov/rsji) | [The Urbanist: Seattle EDI Grants](https://www.theurbanist.org/2025/02/26/seattle-equitable-development-grants/)
 
 ---
 

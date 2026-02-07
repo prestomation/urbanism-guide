@@ -183,6 +183,30 @@ Zoning rules that require developers to build a minimum number of off-street par
 
 ---
 
+## Racially Restrictive Covenants
+
+Private deed restrictions that barred non-white residents (and sometimes Jewish residents) from purchasing or occupying homes. The University of Washington's Racial Restrictive Covenants Project has documented more than 50,000 such covenants in western Washington. The first known Seattle covenant was written in 1923; organized campaigns on Capitol Hill added racial restrictions to nearly 1,000 existing deeds in the late 1920s.
+
+**Why it matters:** Covenants were the primary mechanism of residential segregation in Seattle after the Supreme Court struck down explicit racial zoning in 1917. They confined Black, Asian, and Native American families to narrow corridors — primarily the Central District and Chinatown-International District — while white-only neighborhoods accumulated wealth through homeownership. Though unenforceable after 1948 (*Shelley v. Kraemer*) and prohibited by the 1968 Fair Housing Act, the demographic and wealth patterns they created persist today. Washington passed the Covenant Homeownership Account Act (HB 1474) in 2023 to provide homeownership assistance to affected families.
+
+**See also:** [Redlining](#redlining), [Displacement](#displacement), [Single-Family Zoning](#single-family-zoning)
+
+**Learn more:** [UW Racial Restrictive Covenants Project](https://depts.washington.edu/civilr/covenants_report.htm) | [The Urbanist: Seven Maps That Capture Seattle's Segregation](https://www.theurbanist.org/2022/06/03/seven-maps-that-capture-seattles-segregation/)
+
+---
+
+## Redlining
+
+The practice of denying or restricting mortgage lending, insurance, and other financial services in neighborhoods based on racial or ethnic composition. In 1936, the federal Home Owners' Loan Corporation (HOLC) drew "residential security maps" for Seattle, grading neighborhoods from A ("Best") to D ("Hazardous"). Race was a central factor — the Central District received a D grade and was described as the "Negro area of Seattle."
+
+**Why it matters:** Redlining systematically denied wealth-building opportunities to communities of color for decades, and its effects are measurable today. A 2023 University of Washington study found that modern air pollution disparities in Seattle mirror the 1936 redlining maps, with previously redlined areas showing ultrafine particle concentrations 49% above average. The neighborhoods that received the lowest HOLC grades — Georgetown, South Park, the Central District — remain among Seattle's most environmentally burdened and lowest-income areas. Understanding redlining is essential context for current equity frameworks, displacement patterns, and environmental justice work.
+
+**See also:** [Racially Restrictive Covenants](#racially-restrictive-covenants), [Displacement](#displacement)
+
+**Learn more:** [Seattle City Archives: Redlining in Seattle](https://www.seattle.gov/cityarchives/exhibits-and-education/online-exhibits/redlining-in-seattle) | [The Urbanist: Seven Maps That Capture Seattle's Segregation](https://www.theurbanist.org/2022/06/03/seven-maps-that-capture-seattles-segregation/)
+
+---
+
 ## SB 5184 (Parking Reform)
 
 Washington's 2025 statewide parking reform law that caps the minimum parking requirements cities can impose on new development. Cities cannot require more than 0.5 parking spaces per residential unit. The law also prohibits any parking minimums near frequent transit, for senior housing, childcare facilities, small units, and existing buildings undergoing a change of use.
@@ -252,6 +276,18 @@ Housing where residents pay no more than 30% of their income on rent/mortgage. I
 **See also:** [MHA](#mha-mandatory-housing-affordability)
 
 **Learn more:** [Seattle Office of Housing: Programs and Initiatives](https://www.seattle.gov/housing/programs-and-initiatives) | [Seattle Office of Housing: Income & Rent Limits](https://www.seattle.gov/housing/property-managers/income-and-rent-limits)
+
+---
+
+## Community Preference Policy
+
+A voluntary policy (established by Executive Order 2019-02) that allows developers of City-funded affordable housing in high-displacement-risk areas to prioritize applicants with ties to the neighborhood — current residents, former residents, family members of former residents, or people with documented community connections.
+
+**Why it matters:** Community Preference is one of Seattle's primary tools for ensuring that new affordable housing serves the communities most affected by displacement. It was developed in response to advocacy by organizations including Interim CDA and El Centro de la Raza starting in 2015, and is designed to complement the Equitable Development Initiative. The policy must comply with federal, state, and local fair housing laws, and eligible areas are defined by the Office of Housing's Geographic Boundary Map.
+
+**See also:** [Displacement](#displacement), [Equitable Development Initiative](/glossary/funding-policy/#equitable-development-initiative-edi)
+
+**Learn more:** [Seattle Office of Housing: Community Preference](https://www.seattle.gov/housing/programs-and-initiatives/community-preference) | [The Urbanist: Community Resident Preference Policy](https://www.theurbanist.org/2018/07/23/community-resident-preference-policy-and-the-fight-against-displacement-in-seattle/)
 
 ---
 

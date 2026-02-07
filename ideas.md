@@ -35,7 +35,7 @@ Commercial gentrification, commercial affordability programs, community benefit 
 
 ## Glossary Expansions
 
-- **Environmental justice terms:** redlining, environmental racism, cumulative impacts, green gentrification
+- **Environmental justice terms:** green gentrification
 - **Real estate terms:** rent burden, cost burden, housing production, absorption rate
 - **Governance terms:** PSRC, Growth Plan Committee (GPC), council districts, community planning committees
 - **Climate terms:** embodied carbon, building electrification, urban heat island
