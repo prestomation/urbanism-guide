@@ -47,18 +47,6 @@
       url: "https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/"
 
 - year: 2016
-  title: "ST3 Approved"
-  description: "Voters approve Sound Transit 3, a $54 billion expansion including light rail to Ballard, West Seattle, Tacoma, Everett, and Issaquah."
-  legacy: "ST3 will define the region's urban form for decades. Station locations are already driving development patterns and zoning discussions, even before lines open."
-  sources:
-    primary:
-      name: "Sound Transit"
-      url: "https://www.soundtransit.org/get-to-know-us/news-events/news-releases/voters-approve-historic-sound-transit-3-measure"
-    secondary:
-      name: "The Urbanist"
-      url: "https://www.theurbanist.org/2016/11/09/st3-passed-heres-how-and-whats-next/"
-
-- year: 2016
   title: "First Hill Streetcar Opens"
   description: "Seattle's second modern streetcar line opens on January 23, connecting Capitol Hill, First Hill, and the International District. The 2.5-mile line was conceived as mitigation after Sound Transit eliminated a planned First Hill light rail station to save costs."
   legacy: "After a 76-year absence, streetcars returned to Capitol Hill and First Hill. Despite criticism for sharing lanes with cars and slow speeds, the line exceeded ridership projections within two years, averaging over 3,000 daily riders."
@@ -106,18 +94,6 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2017/09/19/sdci-takes-stab-parking-reform/"
 
-- year: 2009
-  title: "Link Light Rail Opens"
-  description: "Sound Transit's Central Link light rail opens between downtown Seattle and Sea-Tac Airport. The first segment of what would become the region's rail backbone."
-  legacy: "Link light rail fundamentally changed development patterns along its route. The Rainier Valley, Capitol Hill, and University District all saw significant development driven by station access."
-  sources:
-    primary:
-      name: "Sound Transit"
-      url: "https://www.soundtransit.org/get-to-know-us/news-events/news-releases/journey-begins-link-light-rail-opens-service-saturday"
-    secondary:
-      name: "HistoryLink"
-      url: "https://www.historylink.org/file/20711"
-
 - year: 2007
   title: "Stone Way Road Diet"
   description: "As part of a repaving project, SDOT converts Stone Way N from four lanes to three (one each direction plus center turn lane), adding bike lanes with the reclaimed space. It was Seattle's 23rd lane reduction project since 1972, but the first to be rigorously studied for safety outcomes."
@@ -157,7 +133,7 @@
 - year: 1996
   title: "Sound Transit Created"
   description: "Voters approve Sound Move (later called ST1), creating Sound Transit and funding the first light rail line, commuter rail (Sounder), and express buses."
-  legacy: "After decades of failed transit proposals, this vote finally committed the region to building rail. Everything in Seattle's current transit expansion traces back to this decision."
+  legacy: "After decades of failed transit proposals, this vote finally committed the region to building rail. Everything in Seattle's current transit expansion traces back to this decision. For a detailed regional transit timeline covering all modes, see the Link Light Rail guide."
   sources:
     primary:
       name: "Sound Transit - Our History"

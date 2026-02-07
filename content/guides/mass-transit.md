@@ -1,6 +1,6 @@
 ---
 title: "Mass Transit"
-weight: 3
+weight: 4
 bookToc: true
 ---
 
@@ -12,13 +12,7 @@ The Seattle region operates one of the most extensive public transit networks on
 
 ### Link light rail
 
-**Link light rail** is the backbone of the region's transit system, operated by [Sound Transit](https://www.soundtransit.org/). As of early 2026, the system has three lines, 48 stations, and approximately 55 miles of track. Link is the 4th-highest ridership light rail system in the United States. ([The Urbanist](https://www.theurbanist.org/2024/12/13/link-light-rail-smashes-ridership-record-in-october/))
-
-**[1 Line](https://www.soundtransit.org/ride-with-us/routes-schedules/1-line)** (Lynnwood -- Federal Way): The original and busiest line runs 41 miles through 26 stations, connecting Lynnwood City Center in Snohomish County to Federal Way Downtown in south King County. Key stops include Northgate, the University District, Capitol Hill, downtown Seattle (Westlake, Symphony, Pioneer Square), the International District, Beacon Hill, the Rainier Valley, SeaTac Airport, and Federal Way. Service runs approximately every 6 minutes at peak. ([Sound Transit 1 Line](https://www.soundtransit.org/ride-with-us/routes-schedules/1-line))
-
-**[2 Line](https://www.soundtransit.org/system-expansion/east-link-extension)** (Downtown Redmond -- Lynnwood via Seattle): The 2 Line currently operates 10 stations on the Eastside from South Bellevue to Downtown Redmond. On **March 28, 2026**, the cross-lake segment opens, extending the 2 Line across the I-90 floating bridge -- the first light rail line on a floating bridge anywhere in the world -- with new stations at Mercer Island and Judkins Park. The 2 Line will then run from Redmond to Lynnwood, sharing tracks with the 1 Line north of International District/Chinatown. Combined headways between Lynnwood and downtown Seattle will be approximately every 4 minutes. ([The Urbanist](https://www.theurbanist.org/2026/01/23/sound-transits-2-line-will-finally-connect-across-i-90-on-march-28/))
-
-**[T Line](https://www.soundtransit.org/ride-with-us/routes-schedules/t-line)** (Tacoma): A streetcar-style line connecting downtown Tacoma, the Hilltop neighborhood, and Tacoma Dome Station.
+**[Link light rail]({{< relref "light-rail" >}})** is the backbone of the region's transit system, operated by Sound Transit. As of early 2026, the system has three lines (1 Line, 2 Line, T Line), 48 stations, and approximately 55 miles of track. Link is the 4th-highest ridership light rail system in the United States, carrying 30.8 million passengers in 2024. See the **[Link Light Rail guide]({{< relref "light-rail" >}})** for detailed coverage of the system, a comprehensive regional transit timeline, and future expansion plans.
 
 ### King County Metro buses
 
@@ -137,83 +131,19 @@ FRS Clipper is a private, unsubsidized service -- not part of the regional trans
 
 ## History
 
-### 1996: Sound Move (ST1) approved
-
-Voters approved the region's first major transit investment package, authorizing **$3.9 billion** for Link light rail from downtown Seattle to SeaTac Airport, Sounder commuter rail, and ST Express bus service. The Central Puget Sound Regional Transit Authority (later renamed Sound Transit) had been created by the state legislature in 1993. ([Sound Transit History](https://www.soundtransit.org/system-expansion/building-system/history-voter-approved-plans))
-
-### 2000-2003: First rail service
-
-Sounder S Line commuter rail began service in September 2000, connecting Seattle to Tacoma. Tacoma Link (now the T Line) opened in 2003 as Sound Transit's first rail service.
-
-### 2007: South Lake Union Streetcar opens
-
-Seattle's first modern streetcar line began operating in December 2007, running 1.3 miles through the rapidly developing South Lake Union neighborhood.
-
-### 2008: Sound Transit 2 approved
-
-Voters approved **$13.5 billion** in capital projects (ST2) to extend light rail to Lynnwood, Redmond, and Federal Way, expanding the system from 14 to 55 miles. A similar measure had failed in 2007. ([Sound Transit 2](https://www.soundtransit.org/get-to-know-us/documents-reports/sound-transit-2))
-
-### 2009: Link light rail opens
-
-Central Link light rail began revenue service on **July 18, 2009**, running 14 miles from Westlake station in downtown Seattle to Tukwila International Boulevard. SeaTac Airport station opened later that year in December.
-
-### 2016: Landmark year for transit expansion
-
-Three major events in 2016 transformed the system:
-
-- **March**: Capitol Hill and University of Washington stations opened, the first northward expansion of Link
-- **September**: Angle Lake station opened, extending the line south
-- **November**: Voters approved **Sound Transit 3** (ST3), a **$54 billion** package authorizing 62 more miles of light rail to Ballard, West Seattle, Tacoma Dome, Everett, and the Eastside, plus Stride BRT and Sounder improvements. It was the largest transit investment in the region's history. ([Sound Transit ST3](https://www.soundtransit.org/get-to-know-us/documents-reports/sound-transit-3))
-
-### 2021: Northgate Link Extension
-
-Three new stations (Northgate, Roosevelt, U District) opened in October 2021, connecting north Seattle and triggering the first of several major bus network restructures feeding light rail.
-
-### 2024: Rapid expansion
-
-- **April**: 2 Line opened its initial Eastside segment from South Bellevue to Redmond Technology, bringing light rail to the Eastside for the first time
-- **August**: Lynnwood Link Extension opened with 4 new stations, extending the 1 Line into Snohomish County and triggering bus restructures across Community Transit and King County Metro
-- **August**: Sound Transit introduced a **$3 flat fare** on Link, replacing the previous distance-based system. Tap-off was eliminated.
-- **September**: RapidRide G Line opened on Madison Street, Seattle's first true BRT with dedicated transit lanes
-- **October**: Link set an all-time monthly ridership record of **3.08 million boardings**
-
-([The Urbanist](https://www.theurbanist.org/2024/12/13/link-light-rail-smashes-ridership-record-in-october/))
-
-### 2025: Continued growth
-
-- **May**: 2 Line extended to Downtown Redmond with two new stations (Marymoor Village, Downtown Redmond)
-- **December**: Federal Way Link Extension opened with 3 new stations (Kent Des Moines, Star Lake, Federal Way Downtown), extending the 1 Line by 7.8 miles
-
-### 2026: Cross-lake connection
-
-On **March 28, 2026**, the 2 Line extends across the I-90 floating bridge to Seattle, adding Mercer Island and Judkins Park stations. The 2 Line will then operate from Downtown Redmond to Lynnwood City Center via downtown Seattle. A **Pinehurst infill station** (NE 130th Street) is also expected to open in 2026. ([Sound Transit](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/crosslake-connection-opens-march-28))
+For a comprehensive regional transit timeline covering all modes -- from the 1962 monorail through the 2026 cross-lake light rail connection -- see the **[Link Light Rail guide]({{< relref "light-rail" >}})**.
 
 ## Future expansion
 
-Sound Transit is building several major extensions under the ST3 program, though timelines and budgets have shifted significantly since the 2016 vote due to inflation, construction cost increases (71.5% since 2020), and pandemic-related revenue shortfalls. A **$20-25 billion affordability gap** was announced in August 2025. ([The Urbanist](https://www.theurbanist.org/2025/10/10/how-ballard-and-west-seattle-light-rail-became-a-30-billion-undertaking/))
+For details on Sound Transit's ST3 expansion program -- including the West Seattle, Ballard, Tacoma Dome, and Everett Link extensions and Stride BRT -- see the **[Link Light Rail guide]({{< relref "light-rail" >}})**.
 
-| Project | Description | Target Opening |
-|---------|-------------|----------------|
-| [West Seattle Link Extension](https://www.soundtransit.org/system-expansion/west-seattle-ballard-link-extensions) | 4.1 miles from SODO to Alaska Junction; 4 new stations | ~2032 |
-| [Ballard Link Extension](https://www.soundtransit.org/system-expansion/ballard-link-extension) | 7.7 miles from downtown Seattle to Ballard; 9 new stations; includes a second downtown transit tunnel | ~2039 |
-| Tacoma Dome Link Extension | Extends the 1 Line south from Federal Way to Tacoma Dome | ~2035 |
-| Everett Link Extension | 16 miles and 6 stations extending the 1 Line north from Lynnwood to Everett | ~2037-2041 |
-| Graham Street infill station | Fills a 1.6-mile gap on the 1 Line between Columbia City and Othello | ~2031 |
-| [Stride BRT](https://www.soundtransit.org/system-expansion/stride-bus-rapid-transit) | Three BRT lines (S1, S2, S3) on I-405 and SR-522 corridors | 2028-2029 |
-
-At full build-out, the Link system is projected to have approximately 116 miles, 70 stations, and 5 lines serving Everett to Tacoma with branches to Redmond, Ballard, and West Seattle.
+Four additional **RapidRide** BRT lines are planned: **I Line** (Renton-Kent-Auburn, 2027), **J Line** (downtown Seattle-Eastlake-U District, 2027), **K Line** (Totem Lake-Bellevue-Eastgate, 2030), and **R Line** (downtown Seattle-Rainier Beach, 2031). ([King County Metro RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride))
 
 ## How the region funds and plans transit
 
-### Voter-approved packages
+### Sound Transit
 
-Sound Transit's capital program is funded primarily through three voter-approved tax packages:
-
-- **Sound Move / ST1** (1996): $3.9 billion for initial Link, Sounder, and ST Express
-- **Sound Transit 2** (2008): $13.5 billion in capital projects for Link extensions to Lynnwood, Redmond, and Federal Way
-- **Sound Transit 3** (2016): $54 billion for Ballard, West Seattle, Tacoma Dome, and Everett extensions plus Stride BRT
-
-These packages are funded by a combination of sales tax (currently 1.4% across the Sound Transit district), motor vehicle excise tax, and property tax (up to 25 cents per $1,000 assessed value). Between 1996 and 2023, the three packages generated over **$21.8 billion** in tax revenue. ([Sound Transit Funding](https://www.soundtransit.org/get-to-know-us/paying-regional-transit))
+Sound Transit's capital program is funded through three voter-approved tax packages (ST1, ST2, ST3) totaling over $71 billion in authorized spending, funded by sales tax, motor vehicle excise tax, and property tax. For details, see the **[Link Light Rail guide]({{< relref "light-rail" >}})**. ([Sound Transit Funding](https://www.soundtransit.org/get-to-know-us/paying-regional-transit))
 
 ### King County Metro funding
 
@@ -297,6 +227,7 @@ These restructures create tension between **frequency** (running fewer routes mo
 
 ## Related resources
 
+- [Link Light Rail]({{< relref "light-rail" >}}) -- Link system details, regional transit timeline, future expansion, and Sound Transit funding
 - [Bike Network]({{< relref "bike-network" >}}) -- Protected bike lanes, neighborhood greenways, and trails connecting to transit
 - [Micro Mobility]({{< relref "micro-mobility" >}}) -- E-scooters, bike share, and first/last-mile transit connections
 - [Transportation Glossary]({{< relref "/glossary/transportation" >}}) -- Terms like "RapidRide," "TOD," "ST3," and "mode share"
