@@ -76,6 +76,22 @@ Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land 
 
 ---
 
+### Growth and Equity Analysis
+
+Displacement risk analysis by neighborhood, combining socio-demographics, housing market pressures, and access to opportunity. Used to shape the One Seattle Comprehensive Plan and anti-displacement investments.
+
+**Access:** [Growth and Equity Analysis (PDF)](https://www.seattle.gov/Documents/Departments/OPCD/OngoingInitiatives/SeattlesComprehensivePlan/FinalGrowthandEquityAnalysis.pdf)
+
+---
+
+### Race and Social Equity Index
+
+Demographic data, equity indicators, and population trends mapped at the census-tract level. Includes displacement risk indicators and community health metrics used by the Race and Social Justice Initiative.
+
+**Access:** [Population & Demographics](https://www.seattle.gov/opcd/population-and-demographics)
+
+---
+
 ## King County
 
 ### Metro Performance Reports
@@ -159,3 +175,39 @@ Statewide comparison tool showing how different cities zone for housing. See whi
 Housing needs projections, GMA compliance data, and planning resources from the Department of Commerce. Includes countywide housing targets and methodology.
 
 **Access:** [Commerce Housing Planning](https://www.commerce.wa.gov/growth-management/housing-planning/)
+
+---
+
+### Environmental Health Disparities Map
+
+Census-tract-level rankings of environmental and health disparities statewide. Combines environmental exposures, socioeconomic factors, and health outcomes on a 1–10 scale. Required under the HEAL Act to identify overburdened communities for state agency decision-making.
+
+**Access:** [WA DOH Environmental Health Disparities Map](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/washington-environmental-health-disparities-map)
+
+---
+
+## Federal
+
+### EPA Superfund Site Profile: Lower Duwamish Waterway
+
+Cleanup status, contaminant data, responsible party information, and site documents for Seattle's Duwamish River Superfund site. Track the progress of the multi-decade, $668 million cleanup.
+
+**Access:** [EPA Superfund Site Profile](https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.cleanup&id=1002020)
+
+---
+
+## Research & Academic
+
+### Mapping Inequality (University of Richmond)
+
+Digitized 1930s HOLC redlining maps and area descriptions for Seattle and 238 other U.S. cities. Essential for understanding the historical roots of segregation and environmental disparities.
+
+**Access:** [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/)
+
+---
+
+### UW Racial Restrictive Covenants Project
+
+Searchable database of more than 50,000 racially restrictive property covenants documented across western Washington. Maps covenant locations and links to original deed records.
+
+**Access:** [Racial Restrictive Covenants Project](https://depts.washington.edu/covenants/)
