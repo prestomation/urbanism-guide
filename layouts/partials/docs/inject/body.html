@@ -1,5 +1,10 @@
 {{ with .Site.Params.goatCounterCode }}
 <!-- GoatCounter Analytics -->
+<script>
+    // Disable GoatCounter on PR preview deployments.
+    if (window.location.pathname.startsWith('/pr-preview/'))
+        window.goatcounter = {no_onload: true}
+</script>
 <script data-goatcounter="https://{{ . }}.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 <script>
