@@ -244,7 +244,7 @@ Front matter includes:
 
 ## Common Tasks for AI Assistants
 
-**Content ideas:** See `ideas.md` in the project root for prioritized suggestions for new guides, glossary terms, timeline entries, and blog posts. Consult this file when planning new content.
+**Content ideas:** See `ideas.md` in the project root for prioritized suggestions for new guides, glossary terms, timeline entries, and blog posts. Consult this file when planning new content. After implementing an idea, remove it from the list entirely.
 
 ### Adding a glossary term
 1. Identify the correct category file in `content/glossary/`
