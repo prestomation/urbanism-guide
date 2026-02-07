@@ -21,6 +21,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Car Share]({{< relref "car-share" >}}) -- The rise and fall of free-floating car sharing in Seattle
 - [Pedestrian Safety & Infrastructure]({{< relref "pedestrian" >}}) -- Sidewalks, crossings, Vision Zero, and how the city builds for walkers
 - [Waterfront & Pike Place Market]({{< relref "waterfront-pike-place" >}}) -- Viaduct removal, Waterfront Park, Overlook Walk, and Pike Place Market history and governance
+- [Parks, Open Space & Urban Tree Canopy]({{< relref "parks-tree-canopy" >}}) -- Park District funding, open space planning, tree canopy loss, and green infrastructure
 
 ---
 
