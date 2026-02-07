@@ -7,17 +7,8 @@ Suggested new content for the Seattle Urbanism Guide, organized by priority.
 ### Seattle Housing Authority & Public Housing
 SHA's portfolio, Yesler Terrace and HOPE VI redevelopment model, mixed-income strategy, Section 8 voucher landscape. Connects to existing MHA and affordable housing glossary terms.
 
-### Station Area Planning & TOD Projects
-Neighborhood-level planning around future light rail stations (Ballard, West Seattle, Graham St, 130th). Where zoning, housing, and transit policy converge. Builds on the existing TOD glossary entry and light rail guide.
-
 ### Environmental Justice & Equitable Development
 Redlining history, environmental racism (Duwamish Valley, Georgetown), the city's equity frameworks, and anti-displacement tools. Expands on existing displacement and EDI glossary entries.
-
-### Seattle Waterfront & Public Space Design
-Viaduct removal, Waterfront Seattle program, overlook walk, Pike Place Market connection. One of the largest urban design projects in the city's history with no current coverage.
-
-### Parks, Open Space & Urban Tree Canopy
-Parks District levy funding, open space planning, tree canopy loss, green infrastructure. Referenced on the data page but has no dedicated guide.
 
 ## Tier 2: Valuable Additions
 
