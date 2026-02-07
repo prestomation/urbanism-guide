@@ -8,10 +8,6 @@ bookToc: true
 
 Access public data on transportation, housing, and planning from city, county, regional, and state sources. These dashboards help urbanists track progress, identify trends, and make evidence-based arguments.
 
-### Interactive Analysis
-
-- [Pedestrian Collision Analysis]({{< relref "ped-collisions" >}}) -- Live charts from SDOT collision data (2004–present), updated weekly
-
 ---
 
 ## City of Seattle
