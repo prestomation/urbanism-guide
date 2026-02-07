@@ -29,6 +29,18 @@ A Growth Management Act requirement that infrastructure (roads, water, sewer, sc
 
 ---
 
+## Cumulative Impacts
+
+The combined effect of multiple environmental, health, and socioeconomic stressors on a community. Rather than assessing a single pollution source in isolation, cumulative impacts analysis considers how overlapping hazards — air pollution, contaminated land, proximity to highways, lack of green space, poverty, and poor housing quality — compound health outcomes in neighborhoods already under stress.
+
+**Why it matters:** Cumulative impacts analysis explains why neighborhoods like Georgetown and South Park face dramatically worse health outcomes than the Seattle average, even though no single polluter may exceed its individual permit limits. A 2013 Cumulative Health Impacts Analysis of the Duwamish Valley found life expectancy 13 years shorter than Laurelhurst, double the youth asthma rate, and only 40 square feet of green space per resident versus 387 square feet citywide. Washington's HEAL Act (2021) now requires state agencies to consider cumulative impacts in environmental justice assessments, and advocates are pushing for a cumulative air toxics law similar to Oregon's.
+
+**See also:** [Environmental Racism](#environmental-racism), [EIS](#eis-environmental-impact-statement), [SEPA](#sepa-state-environmental-policy-act)
+
+**Learn more:** [DRCC: Cumulative Health Impacts Analysis](https://www.drcc.org/chia) | [The Urbanist: Washington State Needs a Cumulative Air Toxics Law](https://www.theurbanist.org/2023/06/13/op-ed-washington-state-needs-a-cumulative-air-toxics-law/)
+
+---
+
 ## Displacement Risk Index
 
 A composite mapping tool created by Seattle's Office of Planning and Community Development (OPCD) that forecasts which neighborhoods face elevated risk of displacing marginalized populations. The index combines five categories of indicators: socio-demographics, transportation qualities, neighborhood characteristics, housing market pressures, and civic engagement levels.
@@ -50,6 +62,18 @@ A detailed study of a project's or plan's environmental effects, required under 
 **See also:** [SEPA](#sepa-state-environmental-policy-act)
 
 **Learn more:** [WA Ecology: Overview of SEPA](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview)
+
+---
+
+## Environmental Racism
+
+The disproportionate siting of environmental hazards — polluting industries, highways, waste facilities, and contaminated land — in communities of color, and the systemic exclusion of those communities from environmental decision-making. In Seattle, environmental racism is inseparable from the history of redlining and racially restrictive covenants that confined communities of color to specific neighborhoods, which were then targeted for industrial zoning and highway construction.
+
+**Why it matters:** The Duwamish Valley — Georgetown and South Park — is Seattle's clearest example. The neighborhood is approximately 70% people of color, hosts a federal Superfund site, sits at the intersection of three freeways, and has life expectancy 13 years shorter than Laurelhurst. A 2023 UW study found that modern air pollution disparities in Seattle mirror the 1936 HOLC redlining maps. Understanding environmental racism connects seemingly separate policy areas — zoning, transportation, environmental regulation, and public health — and is the foundation of Seattle's environmental justice programs including the Duwamish Valley Program and Environmental Justice Fund.
+
+**See also:** [Cumulative Impacts](#cumulative-impacts), [Displacement Risk Index](#displacement-risk-index), [Equitable Transit-Oriented Development](#equitable-transit-oriented-development-etod)
+
+**Learn more:** [Seattle.gov: Equity and Environment Initiative](https://www.seattle.gov/environment/about-us/equity-and-environment-initiative) | [The Urbanist: Community Development Counters Eco-Gentrification from Duwamish Valley Cleanup](https://www.theurbanist.org/2024/05/01/duwamish-valley-cleanup/)
 
 ---
 

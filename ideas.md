@@ -2,11 +2,6 @@
 
 Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
-## Tier 1: High-Impact Guides
-
-### Environmental Justice & Equitable Development
-Redlining history, environmental racism (Duwamish Valley, Georgetown), the city's equity frameworks, and anti-displacement tools. Expands on existing displacement and EDI glossary entries.
-
 ## Tier 2: Valuable Additions
 
 ### Regional Governance & Agency Coordination
@@ -40,7 +35,7 @@ Commercial gentrification, commercial affordability programs, community benefit 
 
 ## Glossary Expansions
 
-- **Environmental justice terms:** redlining, environmental racism, cumulative impacts, green gentrification
+- **Environmental justice terms:** green gentrification
 - **Real estate terms:** rent burden, cost burden, housing production, absorption rate
 - **Governance terms:** PSRC, Growth Plan Committee (GPC), council districts, community planning committees
 - **Climate terms:** embodied carbon, building electrification, urban heat island

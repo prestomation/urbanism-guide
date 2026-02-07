@@ -267,8 +267,29 @@ Front matter includes:
 4. Research content using WebSearch; aim for a mix of government sources and journalism
 5. **Verify every external URL** using WebFetch or `python3 scripts/check-external-links.py` before committing
 6. Add cross-links: link to related glossary pages using `{{< relref "/glossary/category" >}}` and to other guides using `{{< relref "guide-name" >}}`
-7. Update `content/guides/_index.md` to add the new guide under "Available Guides"
-8. End the page with `*Last updated: Month Year*`
+7. **Add glossary entries** for key urbanist terms introduced or heavily used in the guide (see "Glossary integration" below)
+8. **Add data sources** to `content/data/_index.md` for any primary/public data dashboards, portals, or datasets referenced in the guide (see "Data page integration" below)
+9. Update `content/guides/_index.md` to add the new guide under "Available Guides"
+10. End the page with `*Last updated: Month Year*`
+
+### Glossary integration
+When creating or editing guides, any urbanist term that has a glossary entry should be linked to it using `relref` on first mention in the guide. If a key urbanist term used in a guide does **not** yet have a glossary entry, create one:
+1. Identify the correct category file (`housing-zoning.md`, `transportation.md`, `land-use.md`, or `funding-policy.md`)
+2. Add the entry in alphabetical order following the standard format (Term Name / Definition / Why it matters / See also / Learn more)
+3. Link back to the term from the guide using `{{< relref "/glossary/category#term-anchor" >}}`
+
+This ensures the glossary stays comprehensive and readers can always jump from a guide to a plain-language definition.
+
+### Data page integration
+When a guide references a primary, public data source — a government dashboard, open data portal, interactive map, or public API — add it to `content/data/_index.md` under the appropriate geographic section (City of Seattle, King County, Regional, or State). Follow the existing format:
+```markdown
+### Dashboard Name
+
+One-sentence description of what data it provides and how urbanists can use it.
+
+**Access:** [Link Text](url)
+```
+This keeps the Data page as the single reference for all public data sources across the site.
 
 ### Creating a blog post
 1. Run `hugo new blog/post-title.md` or manually create file
