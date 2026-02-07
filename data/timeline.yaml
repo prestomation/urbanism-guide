@@ -1,3 +1,15 @@
+- year: 2025
+  title: "Washington State Ferries Launches First Hybrid-Electric Vessel"
+  description: "Washington State Ferries converts the MV Wenatchee, a 202-car Jumbo Mark II class vessel, into a hybrid-electric ferry as part of a legislatively mandated program to electrify the fleet. The conversion replaces diesel-mechanical propulsion with a hybrid system using lithium-ion battery packs charged by shoreside power, supplemented by onboard diesel generators."
+  legacy: "The electrification program, authorized by the Washington State Legislature in 2019, aims to convert or replace WSF's entire 21-vessel fleet. WSF operates the largest ferry system in the United States, carrying over 24 million passengers annually, making its electrification one of the largest marine decarbonization efforts in the country."
+  sources:
+    primary:
+      name: "WSDOT - Ferry Electrification"
+      url: "https://wsdot.wa.gov/travel/washington-state-ferries/about-us/electrification"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2024/01/19/washington-state-ferries-gets-green-light-on-hybrid-electric-conversions/"
+
 - year: 2024
   title: "One Seattle Comprehensive Plan Update"
   description: "Seattle adopts a major update to its comprehensive plan, allowing more housing types across the city, strengthening TOD requirements, and moving away from the urban village framework."
@@ -9,6 +21,18 @@
     secondary:
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2024/03/05/seattle-releases-comprehensive-plan-with-growth-target-lower-than-bellevue/"
+
+- year: 2024
+  title: "RapidRide G Line Opens on Madison Street"
+  description: "Seattle's first true bus rapid transit line opens on Madison Street, running from downtown to Madison Valley. The G Line features center-running dedicated bus lanes, raised platforms with level boarding, off-board fare payment, and signal priority -- making it the most BRT-like RapidRide line in the system. The $240 million project was funded primarily through the Seattle Transit Benefit District and Federal Transit Administration grants."
+  legacy: "The G Line set a new standard for RapidRide, moving beyond the branded-bus-service model of earlier lines toward genuine BRT with dedicated right-of-way. Its design became the template for future RapidRide investments and demonstrated that high-quality bus transit could work on Seattle's steep corridors."
+  sources:
+    primary:
+      name: "Seattle DOT - RapidRide G"
+      url: "https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program/transit-plus-multimodal-corridor-program/madison-rapidride-g-line"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2024/03/12/rapidride-g-line-opens-this-saturday/"
 
 - year: 2023
   title: "Social Housing Initiative (I-135)"
@@ -34,6 +58,18 @@
       name: "SDOT Blog"
       url: "https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/"
 
+- year: 2023
+  title: "RapidRide H Line Opens in Delridge and Burien"
+  description: "The RapidRide H Line begins service on October 14, replacing the Route 120 along Delridge Way SW and connecting downtown Seattle, Delridge, White Center, and Burien. The line features new stations with real-time arrival displays, improved frequency, and transit signal priority. It is the seventh RapidRide line in King County Metro's system."
+  legacy: "The H Line brought RapidRide-level service to underserved communities in southwest Seattle and unincorporated King County, improving transit access in neighborhoods with high proportions of low-income residents and people of color."
+  sources:
+    primary:
+      name: "King County Metro - RapidRide H"
+      url: "https://kingcounty.gov/en/dept/metro/rider-tools/rapidride/h-line"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2023/10/13/rapidride-h-line-launches-saturday/"
+
 - year: 2019
   title: "MHA and ADU Reforms"
   description: "Seattle implements Mandatory Housing Affordability (MHA) with upzones in many neighborhoods. ADU/DADU rules are also loosened, allowing backyard cottages on most single-family lots."
@@ -45,6 +81,18 @@
     secondary:
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/"
+
+- year: 2017
+  title: "Amtrak Cascades Derails on Inaugural Point Defiance Bypass Run"
+  description: "On December 18, Amtrak Cascades Train 501 derailed near DuPont, Washington during the first revenue run on the newly constructed $181 million Point Defiance Bypass. The train was traveling at 78 mph through a curve with a 30 mph speed limit. Three passengers were killed and 65 were injured. The NTSB found inadequate engineer training and absence of Positive Train Control as primary factors."
+  legacy: "The derailment led to 26 NTSB safety recommendations and accelerated Positive Train Control implementation on all passenger rail corridors in Washington state. Service on the bypass was halted for nearly four years, resuming in November 2021 only after full PTC implementation."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20901"
+    secondary:
+      name: "NTSB Investigation"
+      url: "https://www.ntsb.gov/investigations/Pages/RRD18MR001.aspx"
 
 - year: 2016
   title: "First Hill Streetcar Opens"
@@ -82,6 +130,30 @@
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2014/05/01/casual-disregard-the-unspoken-case-for-15/"
 
+- year: 2014
+  title: "RapidRide E and F Lines Complete Initial Six-Line Network"
+  description: "King County Metro launches the RapidRide E Line on Aurora Avenue North (February 2014) and the F Line between Burien and Renton (June 2014), completing the initial six-line RapidRide network. The E Line replaced Route 358, one of Metro's highest-ridership routes, serving the Aurora corridor between downtown Seattle and Shoreline. The F Line connected two suburban centers without routing through downtown."
+  legacy: "The E Line quickly became the highest-ridership bus route in the state, carrying over 17,000 daily riders. The six initial RapidRide lines (A through F, launched 2010-2014) established a new tier of frequent, branded bus service for King County, though critics noted they fell short of true BRT standards due to limited dedicated lanes."
+  sources:
+    primary:
+      name: "King County Metro - RapidRide"
+      url: "https://kingcounty.gov/en/dept/metro/rider-tools/rapidride"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2014/02/12/rapidride-e-line-starts-saturday/"
+
+- year: 2013
+  title: "King Street Station Restoration Completed"
+  description: "Seattle's King Street Station was rededicated on April 24, completing a $56 million restoration that reversed decades of damaging mid-century modernizations. The project restored original ornamental plasterwork, mosaic floors, brass chandeliers, and arched windows hidden since the 1960s. Seismic retrofitting accounted for nearly half the cost. The city had acquired the station from BNSF Railway in 2008 for $10."
+  legacy: "The restored station now appears largely as it did when it opened in 1906. It serves as the hub for Amtrak Cascades, Coast Starlight, and Empire Builder routes, as well as Sound Transit Sounder commuter rail, anchoring a major multimodal transit hub in Pioneer Square."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/11124"
+    secondary:
+      name: "Seattle.gov - King Street Station"
+      url: "https://www.seattle.gov/transportation/projects-and-programs/programs/transit-program/king-street-station"
+
 - year: 2012
   title: "Parking Minimums Removed Near Transit"
   description: "Seattle eliminates off-street parking requirements for multifamily housing in urban centers (downtown, Capitol Hill, South Lake Union, Uptown, U District) and urban villages near high-frequency transit. Reduced requirements apply elsewhere."
@@ -93,6 +165,66 @@
     secondary:
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2017/09/19/sdci-takes-stab-parking-reform/"
+
+- year: 2012
+  title: "RapidRide C and D Lines Launch in Seattle"
+  description: "King County Metro launches the RapidRide C Line (September 2012) connecting downtown Seattle to West Seattle via the Alaska Junction, and the D Line (October 2012) connecting downtown to Ballard via Uptown and Crown Hill. These were the first RapidRide lines serving Seattle proper, following the A Line in Tukwila/SeaTac and B Line on the Eastside."
+  legacy: "The C and D Lines brought frequent, all-day transit service to two of Seattle's densest corridors outside downtown. The C Line became a critical lifeline for West Seattle commuters, especially during the 2020-2022 West Seattle Bridge closure. Both lines demonstrated demand for high-frequency bus service that later informed planning for the RapidRide G and H lines."
+  sources:
+    primary:
+      name: "King County Metro - RapidRide"
+      url: "https://kingcounty.gov/en/dept/metro/rider-tools/rapidride"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2012/10/01/rapidride-d-line-begins-this-weekend/"
+
+- year: 2010
+  title: "First RapidRide Line Launches"
+  description: "King County Metro launches the RapidRide A Line on June 5, connecting Federal Way Transit Center to the Tukwila International Boulevard Link light rail station along Pacific Highway South (SR 99). The line featured 10-minute frequency, real-time arrival signs, off-board fare payment at stations, and branded vehicles -- King County's first step toward bus rapid transit."
+  legacy: "RapidRide A was the first of six initial lines (A through F) launched between 2010 and 2014. While critics noted the early lines lacked dedicated bus lanes and other true BRT features, RapidRide established a new tier of frequent, branded service that expanded King County's transit network beyond the traditional hub-and-spoke model."
+  sources:
+    primary:
+      name: "King County Metro - RapidRide A"
+      url: "https://kingcounty.gov/en/dept/metro/rider-tools/rapidride/a-line"
+    secondary:
+      name: "The Urbanist"
+      url: "https://www.theurbanist.org/2016/06/06/happy-sixth-birthday-rapidride/"
+
+- year: 2009
+  title: "ORCA Card Launches Across Puget Sound Transit Agencies"
+  description: "On April 18, the ORCA (One Regional Card for All) smart card system launched, replacing paper transfers and multiple fare media with a single contactless card accepted across seven Puget Sound transit agencies: King County Metro, Sound Transit, Community Transit, Pierce Transit, Kitsap Transit, Everett Transit, and Washington State Ferries."
+  legacy: "ORCA unified a fragmented fare system that had required separate passes for each agency, making multi-agency trips practical for the first time. The system was upgraded to ORCA Next Generation (with mobile payment) in 2023. Over 2 million cards have been issued, handling hundreds of millions of transit trips."
+  sources:
+    primary:
+      name: "Sound Transit - ORCA"
+      url: "https://www.soundtransit.org/ride-with-us/how-to-pay/orca-card"
+    secondary:
+      name: "MyORCA.com"
+      url: "https://myorca.com/"
+
+- year: 2009
+  title: "King County Water Taxi Launches Vashon Island Route"
+  description: "On September 28, the King County Water Taxi began passenger-only ferry service between downtown Seattle and Vashon Island, taking over a route discontinued by Washington State Ferries in 2007. The King County Ferry District, created in April 2007, leased the catamaran M/V Melissa Ann, which reduced crossing time to 22 minutes. The West Seattle route was also formally renamed from the Elliott Bay Water Taxi to the King County Water Taxi."
+  legacy: "The Vashon route carried over 110,000 passengers in its first year. Community activist Sally Fox, who led the campaign to restore service after the state eliminated it, later had the county-owned M/V Sally Fox vessel named in her honor when purpose-built Water Taxi boats entered service in 2015."
+  sources:
+    primary:
+      name: "King County Metro Blog"
+      url: "https://kingcountymetro.blog/2024/12/27/smooth-sailing-15-years-of-the-king-county-water-taxi/"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/11139"
+
+- year: 2009
+  title: "Community Transit Launches Swift Blue Line BRT"
+  description: "On November 22, Community Transit launched the Swift Blue Line, the first bus rapid transit service in Washington state. The 17-mile line runs along SR 99 (Pacific Highway/Aurora Avenue) from Everett Station to the Aurora Village Transit Center near Shoreline. It features dedicated stations with off-board fare payment, real-time arrival information, level boarding, and 10-12 minute frequencies."
+  legacy: "Swift Blue demonstrated that BRT could succeed in the Puget Sound region, carrying over 4,000 daily riders by its second year. It became the model for Community Transit's expanding Swift network (Green Line in 2019, Orange Line in 2024) and influenced King County Metro's RapidRide improvements."
+  sources:
+    primary:
+      name: "Community Transit - Swift"
+      url: "https://www.communitytransit.org/getting-around/swift"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
 
 - year: 2007
   title: "Stone Way Road Diet"
@@ -130,6 +262,66 @@
       name: "HistoryLink"
       url: "https://www.historylink.org/File/2524"
 
+- year: 2003
+  title: "Sounder North Line Begins Service to Everett"
+  description: "On December 22, Sound Transit inaugurated Sounder commuter rail service on the North Line between Seattle's King Street Station and Everett Station, with intermediate stops at Edmonds and Mukilteo. The 35-mile route runs along the BNSF Railway mainline on the scenic Puget Sound waterfront."
+  legacy: "The North Line has been plagued by reliability problems due to mudslides along the unstable coastal bluffs between Seattle and Everett, leading to frequent service suspensions. Sound Transit has studied alternatives including rerouting trains inland, but the North Line remains limited to peak-hour service with lower ridership than the South Line."
+  sources:
+    primary:
+      name: "Sound Transit - Sounder North"
+      url: "https://www.soundtransit.org/ride-with-us/routes-schedules/n-line"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
+
+- year: 2000
+  title: "Sounder South Line Launches Commuter Rail"
+  description: "On September 18, Sound Transit inaugurated Sounder commuter rail service on the South Line between Seattle's King Street Station and Tacoma. The initial segment included stops at Tukwila, Kent, Auburn, Sumner, Puyallup, and Tacoma. Sounder uses diesel locomotive-hauled bilevel coaches operating on BNSF Railway freight tracks under a long-term access agreement."
+  legacy: "Sounder South became one of the most successful commuter rail launches in the country, growing from 2,700 daily riders in its first year to over 19,000 daily riders before the pandemic. The line was later extended south to Lakewood in 2012. It remains a backbone of the region's peak-hour transit network, carrying more riders per train than any other commuter rail system in the western United States."
+  sources:
+    primary:
+      name: "Sound Transit - Sounder Stations"
+      url: "https://www.soundtransit.org/ride-with-us/stations/sounder-train-stations"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
+
+- year: 1999
+  title: "ST Express Bus Service Launches"
+  description: "Sound Transit launched its first service on September 19, 1999: ST Express buses connecting Seattle, the Eastside, and South King County. Initial routes included the 550 (Seattle-Bellevue), 545 (Seattle-Redmond), and several South King County routes. ST Express provided the region's first all-day, direct express bus connections between major urban centers outside of peak-hour commuter service."
+  legacy: "ST Express carried 8 million riders in its first full year and grew to over 18 million annual riders before the pandemic. The 550 became one of the highest-ridership bus routes in the region. ST Express demonstrated that Sound Transit could deliver transit service while light rail was under construction, building public confidence in the agency."
+  sources:
+    primary:
+      name: "Sound Transit - Our History"
+      url: "https://www.soundtransit.org/get-to-know-us/our-history"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
+
+- year: 1999
+  title: "Amtrak Cascades Brand Launches with Talgo Trains"
+  description: "The Amtrak Cascades brand formally launched on January 12, introducing Spanish-built Talgo Series VI trainsets with tilting technology that passively leans into curves, allowing higher speeds on the winding Pacific Northwest corridor. Washington state and Amtrak each owned two of the first four trainsets, named Mount Baker, Mount Hood, Mount Rainier, and Mount Olympus. The tilting technology reduced Seattle-Portland travel time by 25 minutes compared to conventional equipment."
+  legacy: "Cascades unified previously separate corridor trains into a single recognizable Pacific Northwest service spanning from Vancouver, BC to Eugene, Oregon. The state-supported corridor model, in which Washington and Oregon fund operations beyond what fares cover, became a template for intercity rail partnerships nationwide."
+  sources:
+    primary:
+      name: "WSDOT - Amtrak Cascades"
+      url: "https://wsdot.wa.gov/travel/passenger-rail/how-we-manage-trains"
+    secondary:
+      name: "Amtrak Cascades"
+      url: "https://amtrakcascades.com/"
+
+- year: 1997
+  title: "Elliott Bay Water Taxi Pilot Service Begins"
+  description: "King County Metro launched seasonal water taxi service between downtown Seattle's Pier 54 and Seacrest Park in West Seattle as a pilot project to give commuters an alternative to the congested West Seattle Bridge and Highway 99. The summer-only service used the leased M/V Admiral Pete from Argosy Cruises, retracing a crossing first served by the steam-powered sidewheeler City of Seattle beginning in 1888."
+  legacy: "The pilot demonstrated demand for passenger-only ferry service across Elliott Bay. After a hiatus around 2000 due to budget constraints, the service was relaunched in 2001 and eventually evolved into the permanent King County Water Taxi system, which expanded to Vashon Island in 2009 and now operates year-round with county-owned vessels."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/11139"
+    secondary:
+      name: "King County Metro Blog"
+      url: "https://kingcountymetro.blog/2024/12/27/smooth-sailing-15-years-of-the-king-county-water-taxi/"
+
 - year: 1996
   title: "Sound Transit Created"
   description: "Voters approve Sound Move (later called ST1), creating Sound Transit and funding the first light rail line, commuter rail (Sounder), and express buses."
@@ -165,6 +357,42 @@
     secondary:
       name: "The Urbanist"
       url: "https://www.theurbanist.org/2016/02/07/sunday-video-25-years-of-the-growth-management-act/"
+
+- year: 1990
+  title: "Downtown Seattle Transit Tunnel Opens"
+  description: "On September 15, the Downtown Seattle Transit Tunnel (DSTT) opened for bus service, running 1.3 miles beneath Third Avenue from the International District to Convention Place Station. The $455 million project, built by King County Metro, featured five underground stations and was designed from the start to accommodate future light rail conversion. Dual-mode buses powered by overhead trolley wire inside the tunnel and diesel on surface streets."
+  legacy: "The DSTT was the largest public works project in Seattle history at the time. Its foresighted design for rail conversion proved critical: Sound Transit's Link light rail began sharing the tunnel in 2009, and buses were fully removed in 2019. The tunnel now forms the core of the Link system through downtown Seattle."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
+    secondary:
+      name: "Sound Transit"
+      url: "https://www.soundtransit.org/get-to-know-us/our-history"
+
+- year: 1973
+  title: "King County Metro Transit Created"
+  description: "On January 1, Metro Transit began operations after King County voters approved a 0.3% sales tax in September 1972 to fund a new countywide bus system. Metro merged the struggling Seattle Transit System (which had operated since 1919) with the privately owned Metropolitan Transit Corporation's suburban routes into a single public agency. The Municipality of Metropolitan Seattle (Metro), originally created in 1958 for sewage treatment, took on transit responsibility."
+  legacy: "Metro Transit unified a fragmented system of city and suburban bus routes into a single countywide network. Ridership more than doubled within seven years. Metro went on to build the Downtown Seattle Transit Tunnel (1990) and later merged into King County government in 1994. Today King County Metro operates over 175 bus routes and the RapidRide system."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20968"
+    secondary:
+      name: "King County Metro"
+      url: "https://kingcounty.gov/en/dept/metro/about"
+
+- year: 1971
+  title: "Amtrak Takes Over Intercity Passenger Rail"
+  description: "On May 1, the National Railroad Passenger Corporation (Amtrak), created by the Rail Passenger Service Act of 1970, took over virtually all intercity passenger rail service in the United States. In Seattle, Amtrak consolidated operations at King Street Station, closing Union Station which had served Union Pacific. Initial Seattle service consisted of a tri-weekly Seattle-San Diego train (later named Coast Starlight) and two Seattle-Portland round trips."
+  legacy: "Amtrak's creation saved intercity passenger rail from extinction as private railroads abandoned money-losing routes. King Street Station was listed on the National Register of Historic Places in 1973, a designation that proved critical to its later preservation. Today three Amtrak routes serve Seattle: the Cascades (to Portland/Vancouver BC), the Empire Builder (to Chicago), and the Coast Starlight (to Los Angeles)."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/11124"
+    secondary:
+      name: "HistoryLink - Union Station"
+      url: "https://www.historylink.org/File/7751"
 
 - year: 1970
   title: "Freeway Revolts"
@@ -226,6 +454,18 @@
       name: "HistoryLink"
       url: "https://www.historylink.org/File/2524"
 
+- year: 1951
+  title: "Washington State Ferries Begins Operations"
+  description: "On June 1, the State of Washington took over the Puget Sound ferry system from the Black Ball Line (Puget Sound Navigation Company), which had operated cross-Sound routes since the early 1900s. Captain Alexander Peabody's Black Ball Line had sought a 30% fare increase; when the state refused, Peabody threatened to cease operations. The state purchased the fleet of ferries and terminals for $4.75 million, creating Washington State Ferries under the Department of Highways."
+  legacy: "WSF grew into the largest ferry system in the United States and the third largest in the world, operating 21 vessels on 10 routes serving 20 terminals across Puget Sound. The system carries over 24 million passengers and 10 million vehicles annually, functioning as a marine highway that connects island and peninsula communities to the mainland transportation network."
+  sources:
+    primary:
+      name: "WSDOT - WSF History"
+      url: "https://wsdot.wa.gov/travel/washington-state-ferries/about-us"
+    secondary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/5081"
+
 - year: 1941
   title: "Seattle Streetcar Era Ends"
   description: "On April 13, Seattle's last streetcar completes its final run along 8th Avenue NW in Ballard and rolls into the Fremont car barn. The city replaces 48 miles of streetcar lines with trackless trolleys and diesel buses after a federal loan paid off debts to private operators."
@@ -274,6 +514,30 @@
       name: "Queen Anne Historical Society"
       url: "https://www.qahistory.org/articles/counterbalance-streetcars"
 
+- year: 1940
+  title: "Seattle Launches Trolleybus System"
+  description: "Seattle began operating electric trolleybuses (trackless trolleys) on April 28, replacing streetcar lines with rubber-tired vehicles powered by overhead wires. The conversion, funded by a $10 million federal Reconstruction Finance Corporation loan, transformed 125 miles of streetcar routes into trolleybus service. Seattle became the first major U.S. city to rely primarily on trolleybuses for public transit."
+  legacy: "Seattle's trolleybus network has operated continuously for over 85 years, making it one of the oldest surviving trolleybus systems in North America. Today King County Metro operates 14 trolleybus routes in Seattle using a fleet of 174 electric trolleybuses, the largest trolleybus fleet in the United States. The overhead wire infrastructure has been rebuilt multiple times but the core network still follows many original streetcar routes."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/File/20751"
+    secondary:
+      name: "King County Metro"
+      url: "https://kingcounty.gov/en/dept/metro/about"
+
+- year: 1935
+  title: "MV Kalakala Enters Service on Seattle-Bremerton Route"
+  description: "On July 2, the streamlined ferry MV Kalakala entered service on the Seattle-Bremerton route, becoming the world's first aerodynamically designed vessel. Built by reusing the hull of the burned ferry Peralta, the Kalakala's Art Deco silver exterior was designed by Boeing industrial designer Louis Proctor. The Black Ball Line vessel carried 2,000 passengers and 90 cars, making the 60-minute crossing between Colman Dock and Bremerton."
+  legacy: "The Kalakala became Seattle's most recognizable ferry and an icon of Puget Sound maritime culture. At its peak it carried over 1.5 million passengers annually. After Washington State Ferries retired it in 1967, the vessel served as a seafood processing plant in Alaska before returning to Seattle in 1998 for a failed restoration effort. It was scrapped in 2015."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/312"
+    secondary:
+      name: "HistoryLink - Kalakala Begins Service"
+      url: "https://historylink.org/File/5261"
+
 - year: 1932
   title: "Aurora Bridge Opens"
   description: "On February 22—the bicentennial of George Washington's birth—15,000 people attend the dedication of the George Washington Memorial Bridge (Aurora Bridge). President Hoover triggered the ceremony by telegraph from Washington D.C. The nearly 3,000-foot cantilever bridge completed the final link of Highway 99 from Canada to Mexico."
@@ -285,6 +549,18 @@
     secondary:
       name: "Seattle Times"
       url: "https://www.seattletimes.com/pacific-nw-magazine/to-open-seattles-aurora-bridge-the-president-and-a-telegraph-were-key/"
+
+- year: 1929
+  title: "Great Northern Railway Inaugurates the Empire Builder"
+  description: "On June 10, the Great Northern Railway launched the Empire Builder, its premier passenger train between Chicago and Seattle, named after railroad founder James J. Hill. The luxury heavyweight train operated on a 63-hour westbound schedule. Its launch coincided with the opening of the new 7.8-mile Cascade Tunnel under Stevens Pass, which replaced a shorter 1909 bore."
+  legacy: "The Empire Builder has operated continuously for over 95 years, making it one of the longest-running named trains in North America. Amtrak took over operations in 1971 and continues to run the Empire Builder daily between Chicago and Seattle/Portland (splitting at Spokane), covering 2,205 miles in approximately 46 hours. It remains one of Amtrak's highest-ridership long-distance routes."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://www.historylink.org/file/8115"
+    secondary:
+      name: "Great Northern Railway Historical Society"
+      url: "https://www.gnrhs.org/empire_builder.php"
 
 - year: 1928
   title: "First Comprehensive Zoning Ordinance"
@@ -310,6 +586,18 @@
       name: "HistoryLink"
       url: "https://www.historylink.org/file/160"
 
+- year: 1906
+  title: "King Street Station Opens"
+  description: "Seattle's King Street Station opened on May 10, serving as the union depot for James J. Hill's Great Northern Railway and Northern Pacific Railway. Designed by Reed & Stem, architects who later worked on New York's Grand Central Terminal, the station featured a 242-foot clock tower modeled on Venice's Campanile di San Marco, making it Seattle's tallest structure at the time."
+  legacy: "King Street Station has served continuously as Seattle's primary passenger rail station for over 118 years. After decades of decline and damaging mid-century renovations, the city acquired it in 2008 and completed a $56 million restoration in 2013. It remains the hub for Amtrak and Sound Transit Sounder service."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://historylink.org/File/3643"
+    secondary:
+      name: "HistoryLink - King Street Station"
+      url: "https://www.historylink.org/file/11124"
+
 - year: 1901
   title: "Queen Anne Counterbalance Opens"
   description: "The Seattle Electric Company converts the Queen Anne cable car line to electric operation, adding an ingenious counterbalance system for the steep five blocks between Roy Street and Comstock Street. Underground tunnels housed 16-ton rail cars that assisted trolleys up the 19% grade."
@@ -321,6 +609,18 @@
     secondary:
       name: "Queen Anne Historical Society"
       url: "https://www.qahistory.org/articles/counterbalance-streetcars"
+
+- year: 1890
+  title: "Mosquito Fleet Era on Puget Sound"
+  description: "By the 1890s, a vast network of privately operated steamboats -- known as the Mosquito Fleet -- connected Seattle to dozens of communities around Puget Sound. Small steam-powered vessels served as the region's primary transportation network, linking waterfront towns from Olympia to Bellingham before roads existed. At its peak, the fleet numbered over 2,500 vessels operated by competing private companies, with Seattle's waterfront serving as the central hub."
+  legacy: "The Mosquito Fleet established Puget Sound's water-based transportation patterns that persist in today's Washington State Ferries system. Many modern WSF routes follow paths first served by Mosquito Fleet steamers. The fleet declined after World War I as automobiles and roads expanded, with the last independent operators absorbed by the Puget Sound Navigation Company (Black Ball Line)."
+  sources:
+    primary:
+      name: "HistoryLink"
+      url: "https://historylink.org/File/869"
+    secondary:
+      name: "HistoryLink - Puget Sound Navigation Company"
+      url: "https://www.historylink.org/File/22662"
 
 - year: 1889
   title: "Seattle's First Electric Streetcars"
@@ -357,3 +657,15 @@
     secondary:
       name: "HistoryLink - Street Railways"
       url: "https://www.historylink.org/File/2707"
+
+- year: 1882
+  title: "Colman Dock Built on Seattle's Waterfront"
+  description: "Scottish immigrant James Colman built a 40-by-60-foot shipping dock at the foot of Columbia Street on Seattle's Elliott Bay waterfront. The modest timber structure served steamships connecting Seattle to other Puget Sound communities. Colman expanded the dock in 1908 into a major ferry terminal that became the primary departure point for cross-Sound ferry service."
+  legacy: "Colman Dock has served continuously as Seattle's central waterfront ferry terminal for over 140 years, making it one of the oldest active transit facilities in the Pacific Northwest. Today it is the Seattle terminal for Washington State Ferries routes to Bainbridge Island and Bremerton, serving over 9 million passengers annually. The terminal was rebuilt in 2023 as part of the Seattle waterfront renovation."
+  sources:
+    primary:
+      name: "HistoryLink - Colman Dock"
+      url: "https://www.historylink.org/File/2474"
+    secondary:
+      name: "WSDOT - Colman Dock"
+      url: "https://wsdot.wa.gov/construction-planning/search-projects/ferries-seattle-multimodal-terminal-colman-dock-project"
