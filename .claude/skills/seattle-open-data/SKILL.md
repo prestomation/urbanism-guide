@@ -71,9 +71,3 @@ To discover all fields, query with `outFields=*&resultRecordCount=1`.
 1. **`gisdata.seattle.gov` is unreliable.** Services there may be stopped ("Service not started" error). Always use `services.arcgis.com` endpoint.
 2. **URL-encode `where` clauses.** `>=` must be `%3E%3D`, or use `URLSearchParams` in JS / `--data-urlencode` with curl.
 3. **Socrata catalog search needs the `domains` parameter** to limit to Seattle, otherwise you get NYC/SF/etc results. But even then, federated datasets may not appear — use `api/search/views.json` over `api/catalog/v1`.
-
-## Existing analysis in this repo
-
-- `scripts/ped-collision-analysis.py` — Python script, fetches ped collisions, generates static PNG charts to `static/analysis/`
-- `layouts/shortcodes/ped-analysis.html` — Client-side Chart.js dashboard (Hugo shortcode), fetches and renders live
-- `content/data/ped-collisions.md` — Page that uses the shortcode
