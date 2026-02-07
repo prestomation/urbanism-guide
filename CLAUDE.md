@@ -40,6 +40,7 @@ urbanism-guide/
 │   └── pr-preview-cleanup.yml
 ├── hugo.toml             # Main Hugo configuration
 ├── .htmltest.yml         # Link validation config
+├── ideas.md              # Content ideas and suggestions for new guides, glossary, timeline, blog
 └── README.md             # User-facing documentation
 ```
 
@@ -242,6 +243,8 @@ Front matter includes:
 - Merge triggers production deployment
 
 ## Common Tasks for AI Assistants
+
+**Content ideas:** See `ideas.md` in the project root for prioritized suggestions for new guides, glossary terms, timeline entries, and blog posts. Consult this file when planning new content.
 
 ### Adding a glossary term
 1. Identify the correct category file in `content/glossary/`
