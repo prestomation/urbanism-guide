@@ -22,6 +22,61 @@ The **[2 Line](https://www.soundtransit.org/system-expansion/east-link-extension
 
 The **[T Line](https://www.soundtransit.org/ride-with-us/routes-schedules/t-line)** is a streetcar-style line connecting downtown Tacoma, the Hilltop neighborhood, and Tacoma Dome Station.
 
+## Infrastructure
+
+Link light rail uses a mix of tunnels, elevated guideways, at-grade surface segments, and a floating bridge crossing. Understanding the physical infrastructure helps explain the system's operating characteristics, speed variations, and expansion challenges.
+
+### Tunnels
+
+Link has four major tunneled segments totaling roughly 14 miles of twin-bore tunnel.
+
+**Downtown Seattle Transit Tunnel (DSTT).** The 1.3-mile [Downtown Seattle Transit Tunnel](https://www.soundtransit.org/blog/platform/underground-seattle-transit-goes-rail-only-march-23) runs west under Pine Street and south under 3rd Avenue, serving four underground stations: Westlake, Symphony (formerly University Street), Pioneer Square, and International District/Chinatown. Originally built in 1987-1990 as a bus tunnel by King County Metro, it was [retrofitted for joint bus-and-rail operations](https://www.soundtransit.org/blog/platform/underground-seattle-transit-goes-rail-only-march-23) in 2005-2007 at a cost of approximately $94 million. Buses and trains shared the tunnel from 2009 to 2019, when it became rail-only. The DSTT has a theoretical capacity of 40 trains per hour per direction with 90-second headways.
+
+**Beacon Hill Tunnel.** A roughly one-mile twin-bore tunnel passes under [Beacon Hill](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/tunnel-boring-machine-completes-second-beacon-hill-light) between SODO and the Rainier Valley. The tunnel was bored by a 360-ton Mitsubishi tunnel boring machine nicknamed the "Emerald Mole," featuring a 21-foot-diameter cutterhead. Launched in January 2006, it completed the first 4,300-foot tube in May 2007 and the second in March 2008, emerging within 5 millimeters of its target. Beacon Hill station sits 160 feet underground, making it the system's deepest station, accessed by four high-speed elevators from two shafts excavated to 185 feet. ([Sound Transit](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/tunnel-boring-machine-completes-second-beacon-hill-light))
+
+**University Link Tunnel.** The [3.15-mile tunnel](https://www.soundtransit.org/blog/platform/9-quick-facts-about-how-u-link-was-built) connects the DSTT to the University of Washington via Capitol Hill station. Three tunnel boring machines excavated 21-foot-wide tunnels from 2009 to 2012: two Herrenknecht machines named Balto and Togo (launched from UW station southward) and a Hitachi Zosen machine named Brenda (launched from Capitol Hill toward downtown). The tunnel reaches 300 feet below the surface under Volunteer Park and passes just 15 feet beneath Interstate 5 and the Montlake Cut. The extension opened in March 2016, six months early and $200 million under its $1.9 billion budget. ([Sound Transit](https://www.soundtransit.org/blog/platform/9-quick-facts-about-how-u-link-was-built))
+
+**Northgate Link Tunnel.** The [3.5-mile twin-bore tunnel](https://www.soundtransit.org/blog/platform/8-facts-about-northgate-link-tunneling-project) extends from the University of Washington to Northgate, passing beneath the Lake Washington Ship Canal. Two 600-ton tunnel boring machines with 21.5-foot cutterheads bored the tunnels from 2014 to 2016, mining 20-40 feet per day at depths of 60 to 140 feet. The tunnel serves Roosevelt and U District stations. The extension opened in October 2021 and cost $1.9 billion. ([Sound Transit](https://www.soundtransit.org/blog/platform/8-facts-about-northgate-link-tunneling-project))
+
+A [second downtown transit tunnel](https://www.soundtransit.org/blog/platform/digging-details-new-downtown-seattle-light-rail-tunnel) is planned as part of the Ballard Link Extension (ST3), with six new underground stations. This tunnel is needed because the existing DSTT will reach capacity with two lines operating at peak frequency.
+
+### Bridges and elevated segments
+
+**I-90 Floating Bridge crossing.** The 2 Line crosses Lake Washington on the [Homer M. Hadley Memorial Bridge](https://www.soundtransit.org/blog/platform/crossing-lake-washington), a 1.1-mile floating span built in 1989 with provisions for future light rail in its center express lanes. This is the first light rail line on a floating bridge anywhere in the world. Engineers designed a [specialized "track bridge"](https://www.soundtransit.org/blog/platform/bridging-gap-making-tracks-to-connect-eastside-with-link-light-rail) system to accommodate six degrees of motion from changing lake levels, wind, waves, and traffic loading. Rails rest on approximately 9,000 lightweight concrete blocks attached to the bridge deck with a shock-absorbing material called corkelast, held in place by polymers that require no drilling into the deck. The blocks and polymers were tested at the University of Washington, and the track bridge prototypes were validated at the Transportation Technology Center in Pueblo, Colorado at speeds up to 55 mph. *Popular Science* named the floating bridge rail technology [one of the most important engineering innovations of 2017](https://www.soundtransit.org/blog/platform/crossing-lake-washington). A cathodic protection system prevents stray electrical current from corroding the bridge's steel anchor cables. ([Sound Transit](https://www.soundtransit.org/blog/platform/bridging-gap-making-tracks-to-connect-eastside-with-link-light-rail))
+
+**I-405 bridge.** An 810-foot bridge carries the 2 Line across Interstate 405 in Bellevue, connecting the Bellevue Downtown and Wilburton stations.
+
+**Elevated guideways.** Significant elevated segments include the guideway through SODO and Tukwila, the approach to SeaTac Airport, the Lynnwood and Federal Way extensions, and the Eastside guideway through South Bellevue. The elevated alignment north of Northgate carries the 1 Line to Lynnwood City Center.
+
+### At-grade segments
+
+The 1 Line runs [at-grade for 4.5 miles](https://www.theurbanist.org/2024/12/02/sound-transit-rainier-valley-safety-plan/) in the median of Martin Luther King Jr. Way South through the Rainier Valley, serving Columbia City, Othello, and Rainier Beach stations. This segment has 28 signalized crossings with partial gates where trains share the right-of-way with vehicles, cyclists, and pedestrians. The at-grade alignment was a cost-saving decision in the original Sound Move plan; other parts of the system are tunneled or elevated. Since 2009, this stretch has been the site of [136 collisions](https://www.theurbanist.org/2024/12/02/sound-transit-rainier-valley-safety-plan/) between trains and vehicles, people, or objects. Sound Transit is spending $14-21 million to add pedestrian gates at Columbia City and Othello stations by mid-2026. Sound Transit has stated that all future Link extensions will be grade-separated (elevated or tunneled). ([The Urbanist](https://www.theurbanist.org/2024/12/02/sound-transit-rainier-valley-safety-plan/))
+
+### Light rail vehicles
+
+Sound Transit operates two generations of light rail vehicles on the 1 and 2 Lines, plus a smaller fleet on the T Line.
+
+**Series 1 (Kinkisharyo).** The original fleet of [62 low-floor vehicles](https://www.soundtransit.org/get-to-know-us/news-events/news-releases/first-new-link-light-rail-vehicles-enter-passenger-service), manufactured by Kinkisharyo in Japan and assembled in Everett, Washington. Each car is 95 feet long, 70% low-floor, with 74 seats and a crush-load capacity of 252 passengers. Delivered in three orders from 2006 to 2011 at approximately $4.2 million per unit.
+
+**Series 2 (Siemens S700).** Sound Transit awarded Siemens Mobility a [$554 million contract](https://www.soundtransit.org/blog/platform/new-link-light-rail-trains-rolling-service) in 2016 for 122 S700 low-floor vehicles, later expanded to 162. Each car is approximately 95 feet long with 74 seats (70 in some configurations), larger windows, a wider center aisle, four bicycle hooks (twice the Series 1), dynamic passenger information displays, and LED lighting. Assembled at Siemens' plant in Sacramento, California, the first entered service in May 2021. The Series 2 vehicles are not compatible for coupled operations with Series 1 cars; trains are composed entirely of one type or the other. ([Sound Transit](https://www.soundtransit.org/blog/platform/new-link-light-rail-trains-rolling-service))
+
+**Series 3 (future).** Sound Transit plans to procure approximately 236 additional vehicles through a competitive bid process to support ST3 extensions. The first Series 3 vehicles are expected to enter service around 2032.
+
+**Operating characteristics.** Trains run at up to 55 mph in tunnels and on elevated segments and 35 mph on surface sections. Revenue service uses two-car, three-car, or four-car consists depending on demand. The system runs on 750V DC overhead catenary power. As of early 2026, the total fleet across all lines is approximately 226 vehicles.
+
+### Operations and maintenance facilities
+
+Sound Transit maintains its fleet at **Operations and Maintenance Facilities (OMFs)** — large rail yards where trains are stored, cleaned, inspected, and repaired.
+
+| Facility | Location | Size | Vehicle capacity | Status |
+|----------|----------|------|-----------------|--------|
+| **OMF Central** | S. Forest Street, SODO (Seattle) | 25 acres | 104 vehicles | Operating (original facility) |
+| **[OMF East](https://dbia.org/project/sound-transit-operations-and-maintenance-facility-east/)** | Spring District, Bellevue | 28 acres (6.9 reserved for TOD) | 96 vehicles | Operating (opened 2024, $236M, LEED Gold) |
+| **[OMF South](https://www.soundtransit.org/system-expansion/operations-maintenance-facility-south)** | S. 336th Street, Federal Way | ~66-70 acres | 144 vehicles | Design phase (target opening ~2031) |
+| **OMF North** | Location TBD (north of Seattle) | TBD | TBD | Early planning |
+
+OMF Central in SODO has served the fleet since the system opened in 2009. OMF East in Bellevue's Spring District opened in 2024 to support 2 Line operations and includes a [transit-oriented development](https://dbia.org/project/sound-transit-operations-and-maintenance-facility-east/) component with planned housing, retail, and office space on 6.9 acres. OMF South in Federal Way will include a 1.4-mile connecting track from the mainline and a 24-hour vehicle testing track; it is expected to create over 610 jobs with an average wage of $45/hour. ([Sound Transit](https://www.soundtransit.org/system-expansion/operations-maintenance-facility-south))
+
 ## Regional transit timeline
 
 This timeline tracks the openings and notable expansions of all major transit modes in the Seattle region.
