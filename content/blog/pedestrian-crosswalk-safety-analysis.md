@@ -62,36 +62,75 @@ Across all pedestrian collisions, the vehicle action breaks down as:
 
 But LPIs don't eliminate the conflict. After the head start expires, vehicles turn through the crosswalk on a concurrent green while pedestrians are still crossing. A driver who is focused on finding a gap in oncoming traffic before turning left may not see a pedestrian already in the crosswalk.
 
-## The trend: LPIs help, but crashes persist
+## What happens at LPI intersections specifically?
 
-Seattle began installing LPIs around 2009 and accelerated deployment after adopting Vision Zero in 2015. By [2023, SDOT was adding 100 LPIs per year](https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/). Here is the year-by-year count of pedestrians hit while crossing with the signal:
+The analysis above uses collision records alone, which don't record signal phasing type. But SDOT publishes a separate dataset -- [Vision Zero Signals LPI/NTOR](https://experience.arcgis.com/experience/26fc62bba1a942f1bfbc0f0ef4d9458e/) -- that identifies which of Seattle's 1,240 signalized intersections have LPIs installed. As of the January 2024 snapshot, **642 intersections have LPIs** and 506 do not.
 
-| Year | Peds hit with signal | Fatal | Serious injury |
-|---|---|---|---|
-| 2006 | 216 | 1 | 25 |
-| 2007 | 185 | 0 | 12 |
-| 2008 | 180 | 2 | 13 |
-| 2009 | 169 | 1 | 15 |
-| 2010 | 200 | 0 | 11 |
-| 2011 | 147 | 1 | 10 |
-| 2012 | 180 | 1 | 18 |
-| 2013 | 146 | 1 | 11 |
-| 2014 | 198 | 1 | 17 |
-| 2015 | 162 | 4 | 4 |
-| 2016 | 180 | 1 | 15 |
-| 2017 | 184 | 6 | 15 |
-| 2018 | 223 | 1 | 21 |
-| 2019 | 213 | 0 | 16 |
-| 2020 | 104 | 0 | 9 |
-| 2021 | 117 | 1 | 14 |
-| 2022 | 110 | 0 | 20 |
-| 2023 | 114 | 2 | 21 |
-| 2024 | 123 | 1 | 9 |
-| 2025 | 92 | 2 | 21 |
+By joining collision locations to this inventory using the shared `INTKEY` intersection identifier, we can see what's happening at LPI intersections directly.
 
-Total volumes dropped after 2019, largely due to reduced traffic during and after the pandemic. But serious injuries have not declined with them. In 2022 and 2023, there were 20-21 serious injuries per year among pedestrians crossing with the signal -- matching or exceeding pre-pandemic levels despite fewer total incidents.
+### Pedestrians hit while crossing with signal: LPI vs. non-LPI
 
-As a share of all pedestrian collisions, crashes at signalized intersections during the walk phase have held steady at roughly 32-38% across the entire period. LPI deployment has not measurably reduced this share.
+| | LPI intersections (642) | Non-LPI signalized (506) |
+|---|---|---|
+| Peds hit crossing with signal | **2,462** | 774 |
+| Fatal | 21 (0.9%) | 7 (0.9%) |
+| Serious injury | 225 (9.1%) | 62 (8.0%) |
+| **Fatal + serious** | **246 (10.0%)** | 69 (8.9%) |
+| In marked crosswalk | 2,056 (83.5%) | 645 (83.3%) |
+
+**2,462 pedestrians were struck while crossing with the walk signal at intersections that have LPIs.** Of those, 246 suffered fatal or serious injuries. The fatality rate (0.9%) and serious injury rate (9.1%) are comparable to non-LPI signalized intersections.
+
+The higher absolute numbers at LPI intersections reflect selection bias: SDOT installs LPIs at the busiest, highest-conflict intersections first. Per-intersection rates confirm this -- LPI locations average 3.8 pedestrians hit while crossing with the signal per intersection vs. 1.5 at non-LPI locations. But the critical finding is not the rate comparison. It's that **crashes persist at LPI intersections at scale**.
+
+### Turning vehicles dominate at LPI intersections
+
+At LPI intersections, the collision type breakdown for all pedestrian crashes is:
+
+| Vehicle action | LPI intersections | Non-LPI signalized |
+|---|---|---|
+| Turning left | 1,550 (45.6%) | 529 (45.0%) |
+| Turning right | 785 (23.1%) | 250 (21.3%) |
+| **Total turning** | **2,335 (68.6%)** | **779 (66.3%)** |
+| Going straight | 889 (26.1%) | 335 (28.5%) |
+
+**Nearly 7 in 10 pedestrian crashes at LPI intersections involve turning vehicles** -- the exact conflict LPIs are designed to mitigate. The turning share is virtually identical at LPI and non-LPI intersections, suggesting that while LPIs may reduce the absolute number of turning crashes (consistent with SDOT's 48% reduction finding), they have not changed the fundamental pattern. Turning vehicles remain the dominant threat to pedestrians at signalized intersections with or without an LPI.
+
+### The trend: crashes persist year after year
+
+Seattle began installing LPIs around 2009 and accelerated deployment after adopting Vision Zero in 2015. By [2023, SDOT was adding 100 LPIs per year](https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/). Here is the year-by-year count of pedestrians hit while crossing with the signal, broken down by LPI status of the intersection:
+
+| Year | At LPI intersections | Fatal + serious | At non-LPI | Fatal + serious |
+|---|---|---|---|---|
+| 2006 | 163 | 19 | 44 | 7 |
+| 2007 | 132 | 8 | 41 | 3 |
+| 2008 | 114 | 8 | 55 | 4 |
+| 2009 | 120 | 12 | 31 | 4 |
+| 2010 | 138 | 6 | 48 | 4 |
+| 2011 | 102 | 8 | 39 | 1 |
+| 2012 | 146 | 19 | 27 | 0 |
+| 2013 | 110 | 10 | 24 | 1 |
+| 2014 | 141 | 16 | 40 | 1 |
+| 2015 | 107 | 7 | 46 | 1 |
+| 2016 | 120 | 12 | 43 | 3 |
+| 2017 | 135 | 15 | 37 | 6 |
+| 2018 | 155 | 11 | 46 | 6 |
+| 2019 | 137 | 9 | 48 | 3 |
+| 2020 | 65 | 7 | 25 | 0 |
+| 2021 | 79 | 11 | 20 | 3 |
+| 2022 | 73 | 12 | 20 | 5 |
+| 2023 | 69 | 15 | 30 | 5 |
+| 2024 | 80 | 9 | 25 | 0 |
+| 2025 | 58 | 14 | 19 | 5 |
+
+Total volumes at LPI intersections dropped after 2019, largely due to reduced traffic during and after the pandemic. But fatal and serious injuries have not followed. In 2023, there were 15 fatal or serious injuries at LPI intersections among pedestrians crossing with the signal. In the first portion of 2025, there are already 14.
+
+### Since 2020: the LPI era
+
+By 2020, the majority of Seattle's LPIs were already installed. Looking at just the 2020-2025 period:
+
+- **424 pedestrians** were hit while crossing with the signal at LPI intersections
+- **5 were killed** and **63 suffered serious injuries**
+- That's 68 fatal or serious injuries in roughly six years -- about one per month -- at intersections that already have the city's primary pedestrian safety treatment installed
 
 ## The case for exclusive pedestrian phases
 
@@ -110,29 +149,32 @@ SDOT's own [Seattle Streets Illustrated](https://streetsillustrated.seattle.gov/
 
 Exclusive pedestrian phases add delay. When pedestrians get their own phase, the total signal cycle gets longer, and vehicles wait more. This is the primary reason cities default to concurrent signals with LPIs instead.
 
-But the collision data quantifies the cost of that choice. In Seattle, **3,550 pedestrians** were hit at signalized intersections during the walk phase. **283** of those crossing in a marked crosswalk suffered fatal or serious injuries. These crashes happen because the system allows vehicles and pedestrians to occupy the crosswalk at the same time.
+But the collision data quantifies the cost of that choice. At Seattle's 642 LPI-equipped intersections, **2,462 pedestrians** were hit while crossing with the signal, and **246** suffered fatal or serious injuries. Since 2020, with most LPIs already deployed, pedestrians crossing legally at LPI intersections have been killed or seriously injured at a rate of about one per month. Turning vehicles cause 69% of all pedestrian crashes at these locations.
 
 At intersections on the [High Injury Network]({{< relref "/glossary/transportation#high-injury-network" >}}) -- particularly along corridors like Rainier Avenue, Aurora Avenue, and MLK Jr Way -- the volume of turning conflicts and the severity of outcomes argue for exclusive phases as a next step beyond LPIs.
 
-Adding 15-20 seconds of vehicle delay per signal cycle is a measurable cost. So is 283 people with life-altering injuries who were following every rule.
+Adding 15-20 seconds of vehicle delay per signal cycle is a measurable cost. So is one fatal or serious pedestrian injury per month at intersections that already have the city's primary safety treatment installed.
 
 ## Data source and methodology
 
-This analysis uses two public datasets from SDOT, accessed via the [Seattle ArcGIS REST API](https://data-seattlecitygis.opendata.arcgis.com/):
+This analysis uses three public datasets from SDOT, accessed via the [Seattle ArcGIS REST API](https://data-seattlecitygis.opendata.arcgis.com/):
 
-- **[SDOT Collisions All Years](https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-all-years)** -- 9,921 collision records involving pedestrians, with fields for collision type (`ST_COLCODE`), severity, and right-of-way (`PEDROWNOTGRNT`).
-- **SDOT Collisions Persons** -- Per-person detail records for each collision, with fields for pedestrian action (`ST_PED_ACT_CD`), facility used (`ST_PED_WAS_USING_CD`), injury class (`ST_INJRY_CLSS`), and contributing circumstances.
+- **[SDOT Collisions All Years](https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-all-years)** -- 9,921 collision records involving pedestrians, with fields for collision type (`ST_COLCODE`), severity, right-of-way (`PEDROWNOTGRNT`), and intersection key (`INTKEY`).
+- **SDOT Collisions Persons** -- Per-person detail records for each collision, with fields for pedestrian action (`ST_PED_ACT_CD`), facility used (`ST_PED_WAS_USING_CD`), injury class (`ST_INJRY_CLSS`), and contributing circumstances. Joined to the collision table via `COLDETKEY`.
+- **[Vision Zero Signals LPI/NTOR](https://experience.arcgis.com/experience/26fc62bba1a942f1bfbc0f0ef4d9458e/)** -- Inventory of all 1,240 signalized intersections with `LPI_Status` indicating whether an LPI is installed (January 2024 snapshot). Joined to the collision table via `INTKEY`.
 
-Key filters: pedestrian persons were identified with `ST_PARTCPNT_TYPE IN ('07','7')`. "Crossing with signal" uses `ST_PED_ACT_CD = 1`. "Marked crosswalk" uses `ST_PED_WAS_USING_CD = 4`.
+Key filters: pedestrian persons were identified with `ST_PARTCPNT_TYPE IN ('07','7')`. "Crossing with signal" uses `ST_PED_ACT_CD = 1`. "Marked crosswalk" uses `ST_PED_WAS_USING_CD = 4`. LPI intersections were identified with `LPI_Status = 'Ex'`.
 
 **Limitations:**
 
-- The collision data does not record signal phasing type (LPI vs. concurrent vs. exclusive). We cannot directly compare crash rates at LPI intersections vs. non-LPI intersections from this dataset alone.
-- `ST_PED_ACT_CD = 1` ("crossing at intersection with signal") records that the pedestrian was crossing during the walk phase at a signalized intersection. It does not distinguish between the LPI head-start period and the concurrent green.
-- The `PEDROWNOTGRNT` field only records the negative case (pedestrian did NOT have right of way). A null value is ambiguous -- it could mean the pedestrian had ROW or that the field wasn't recorded.
+- **LPI status is a snapshot, not a timeline.** The LPI inventory reflects installations as of January 2024. We cannot determine when each LPI was installed, so collisions from earlier years at "LPI intersections" may have occurred before the LPI was active. This means the pre-2015 data at LPI locations includes years without LPIs. The 2020-2025 analysis is the most reliable period, as the majority of LPIs were already installed.
+- **Selection bias.** SDOT installs LPIs at the busiest, highest-conflict intersections first. Higher collision counts at LPI intersections do not mean LPIs are ineffective -- these intersections had more crashes to begin with. The analysis does not attempt to estimate LPI effectiveness (SDOT's [before/after study](https://sdotblog.seattle.gov/2018/12/06/leading-pedestrian-intervals-every-second-counts/) already does that). It shows that crashes continue at treated intersections at a level that warrants further intervention.
+- **No pedestrian volume data.** Without intersection-level pedestrian counts, we cannot calculate per-exposure crash rates. The per-intersection comparisons in this analysis are a rough proxy.
+- `ST_PED_ACT_CD = 1` records that the pedestrian was crossing during the walk phase. It does not distinguish between the LPI head-start period and the concurrent green.
 - Injury severity is reported by the responding officer and may not reflect final medical outcomes.
+- 3,249 of 9,921 pedestrian collisions had no `INTKEY` and could not be matched to any signalized intersection.
 
-A more precise analysis would require joining collision locations against SDOT's signal phasing inventory (which intersections have LPIs, which have exclusive phases) using the `INTKEY` foreign key. SDOT has done this internally -- their published [48% reduction figure](https://sdotblog.seattle.gov/2018/12/06/leading-pedestrian-intervals-every-second-counts/) confirms the methodology is feasible -- but the joined dataset is not publicly available.
+The analysis scripts are available in the [project repository](https://github.com/prestomation/urbanism-guide/tree/main/scripts).
 
 ---
 
