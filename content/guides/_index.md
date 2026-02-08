@@ -26,6 +26,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Environmental Justice & Equitable Development]({{< relref "environmental-justice" >}}) -- Redlining history, Duwamish Valley, equity frameworks, and anti-displacement tools
 - [Renter Protections & Tenant Rights]({{< relref "renter-protections" >}}) -- Just cause eviction, rent stabilization, RRIO, relocation assistance, and right to counsel
 - [Earthquake Preparedness & Seismic Risk]({{< relref "earthquake" >}}) -- Seismic hazards, unreinforced masonry buildings, liquefaction zones, and preparedness programs
+- [Regional Governance & Agency Coordination]({{< relref "regional-governance" >}}) -- PSRC, Sound Transit, King County Metro, WSDOT, and how regional decisions get made
 
 ---
 
