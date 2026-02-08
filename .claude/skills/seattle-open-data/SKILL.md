@@ -68,6 +68,19 @@ To discover all fields, query with `outFields=*&resultRecordCount=1`.
 
 ## SDOT Intersection Signals — LPI, NTOR, and signal inventory
 
+A ready-made CLI script is included in this skill folder:
+
+```bash
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action lpi_summary
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action lpi_list
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action ntor_list
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action recent_installs --years 5
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action signal_details --unit-id SGL-1207
+python3 .claude/skills/seattle-open-data/sdot_intersection_signals.py --action search --street RAINIER
+```
+
+It uses only stdlib (`urllib`), handles ArcGIS pagination, and exposes reusable helpers (`query_arcgis`, `query_all_features`, `count_features`, `epoch_ms_to_date`).
+
 Three FeatureServer layers cover intersection signal changes. All use Seattle's org ID.
 
 ### Vision_Zero_Signals_LPI_NTOR — LPI and No-Turn-On-Red status
