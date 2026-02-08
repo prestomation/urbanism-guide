@@ -80,20 +80,27 @@ By joining collision locations to this inventory using the shared `INTKEY` inter
 
 **2,462 pedestrians were struck while crossing with the walk signal at intersections that have LPIs.** Of those, 246 suffered fatal or serious injuries. The fatality rate (0.9%) and serious injury rate (9.1%) are comparable to non-LPI signalized intersections.
 
-The higher absolute numbers at LPI intersections reflect selection bias: SDOT installs LPIs at the busiest, highest-conflict intersections first. Per-intersection rates confirm this -- LPI locations average 3.8 pedestrians hit while crossing with the signal per intersection vs. 1.5 at non-LPI locations. But the critical finding is not the rate comparison. It's that **crashes persist at LPI intersections at scale**.
+The higher absolute numbers at LPI intersections reflect selection bias: SDOT installs LPIs at the busiest, highest-conflict intersections first. Per-intersection rates confirm this -- LPI locations average 3.8 pedestrians hit while crossing with the signal per intersection vs. 1.5 at non-LPI locations.
 
-### Turning vehicles dominate at LPI intersections
+### LPIs don't change the character of crashes
 
-At LPI intersections, the collision type breakdown for all pedestrian crashes is:
+The more revealing comparison is not the volume of crashes but their *profile*. If LPIs were fundamentally changing the pedestrian-vehicle conflict, we'd expect to see different severity rates and a lower share of turning-vehicle crashes at LPI intersections compared to non-LPI. The data shows neither.
 
-| Vehicle action | LPI intersections | Non-LPI signalized |
+| Metric | LPI intersections | Non-LPI signalized |
 |---|---|---|
-| Turning left | 1,550 (45.6%) | 529 (45.0%) |
-| Turning right | 785 (23.1%) | 250 (21.3%) |
-| **Total turning** | **2,335 (68.6%)** | **779 (66.3%)** |
-| Going straight | 889 (26.1%) | 335 (28.5%) |
+| **Severity (crossing with signal)** | | |
+| Fatal rate | 0.9% | 0.9% |
+| Serious injury rate | 9.1% | 8.0% |
+| Fatal + serious rate | 10.0% | 8.9% |
+| **Vehicle action (all ped collisions)** | | |
+| Turning left | 45.6% | 45.0% |
+| Turning right | 23.1% | 21.3% |
+| Total turning | 68.6% | 66.3% |
+| Going straight | 26.1% | 28.5% |
 
-**Nearly 7 in 10 pedestrian crashes at LPI intersections involve turning vehicles** -- the exact conflict LPIs are designed to mitigate. The turning share is virtually identical at LPI and non-LPI intersections, suggesting that while LPIs may reduce the absolute number of turning crashes (consistent with SDOT's 48% reduction finding), they have not changed the fundamental pattern. Turning vehicles remain the dominant threat to pedestrians at signalized intersections with or without an LPI.
+The severity profile is virtually identical. A pedestrian hit while crossing with the signal is just as likely to be killed or seriously injured at an LPI intersection as at one without an LPI.
+
+The turning-vehicle share is also indistinguishable -- 68.6% vs. 66.3%. LPIs may reduce the *count* of turning crashes (consistent with SDOT's published 48% reduction), but the crashes that still happen look exactly the same. The 3-7 second head start does not change the fundamental conflict: vehicles and pedestrians occupy the crosswalk at the same time during the concurrent green phase.
 
 ### The trend: crashes persist year after year
 
