@@ -25,6 +25,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Public Housing & the Seattle Housing Authority]({{< relref "public-housing" >}}) -- SHA's portfolio, HOPE VI redevelopments, Yesler Terrace, Section 8 vouchers, and mixed-income strategy
 - [Environmental Justice & Equitable Development]({{< relref "environmental-justice" >}}) -- Redlining history, Duwamish Valley, equity frameworks, and anti-displacement tools
 - [Renter Protections & Tenant Rights]({{< relref "renter-protections" >}}) -- Just cause eviction, rent stabilization, RRIO, relocation assistance, and right to counsel
+- [Earthquake Preparedness & Seismic Risk]({{< relref "earthquake" >}}) -- Seismic hazards, unreinforced masonry buildings, liquefaction zones, and preparedness programs
 
 ---
 

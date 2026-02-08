@@ -5,6 +5,18 @@ weight: 3
 
 # Land Use & Planning Terms
 
+## Cascadia Subduction Zone
+
+A roughly 1,100-kilometer fault running offshore from northern California to Vancouver Island, where the Juan de Fuca tectonic plate dives beneath the North American plate. The CSZ is capable of producing magnitude 9.0+ megathrust earthquakes. The last full-rupture event occurred on January 26, 1700; USGS estimates a 10-15% probability of another magnitude 9 event in the next 50 years.
+
+**Why it matters:** A CSZ earthquake would produce prolonged, violent shaking across the entire Puget Sound region and generate a tsunami along the Pacific coast. The Cascadia Rising exercises revealed that federal and state assistance could take days to reach affected areas, leading to revised preparedness guidance recommending two weeks of emergency supplies. The CSZ threat also drives building code updates, infrastructure investments (such as the SR 99 tunnel replacing the Alaskan Way Viaduct), and seismic retrofit programs for unreinforced masonry buildings.
+
+**See also:** [Liquefaction](#liquefaction), [Unreinforced Masonry (URM)](#unreinforced-masonry-urm)
+
+**Learn more:** [USGS Earthquake Probabilities](https://pubs.usgs.gov/publication/fs20253050/full) | [DNR: Earthquakes and Faults](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/earthquakes-and-faults)
+
+---
+
 ## Comprehensive Plan
 
 A city's long-range plan for growth, land use, transportation, parks, and utilities. Required by Washington's Growth Management Act. Seattle's comp plan is updated on major cycles (most recently 2024) and guides zoning and investment decisions for 20+ years.
@@ -125,6 +137,18 @@ Seattle's combined land use permit that bundles zoning approvals, environmental 
 
 ---
 
+## Liquefaction
+
+A phenomenon in which water-saturated, loosely packed soil loses its strength during earthquake shaking and behaves like a liquid. Buildings, roads, and utilities on liquefied ground can sink, tilt, or collapse. About 15% of Seattle's total land area is prone to liquefaction, primarily in areas built on artificial fill over former tideflats and estuaries.
+
+**Why it matters:** Seattle's most vulnerable liquefaction zones -- SODO, Georgetown, Pioneer Square, Interbay, and portions of Rainier Valley -- contain critical transportation corridors (I-5, SR 99), rail and marine terminals, and Boeing Field. During the 2001 Nisqually earthquake, SODO experienced pervasive liquefaction including sand boils and ground cracking. SDCI updated Seattle's liquefaction-prone area map in 2023, and the Growth Management Act requires cities to identify and regulate development in geologically hazardous areas including liquefaction zones.
+
+**See also:** [Cascadia Subduction Zone](#cascadia-subduction-zone), [Unreinforced Masonry (URM)](#unreinforced-masonry-urm)
+
+**Learn more:** [Seattle OEM: Earthquake Hazards](https://www.seattle.gov/emergency-management/hazards/earthquake) | [DNR: Geologic Hazard Maps](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/geologic-hazard-maps)
+
+---
+
 ## Middle Housing Model Ordinance
 
 A state-created zoning code developed by the Washington Department of Commerce that automatically supersedes local regulations if cities fail to comply with HB 1110's middle housing requirements by their deadline. The model ordinance establishes development standards for duplexes through sixplexes, townhouses, courtyard apartments, cottage housing, and stacked flats.
@@ -206,6 +230,18 @@ Seattle's planning designation for neighborhood centers that are targeted for gr
 **See also:** [Comprehensive Plan](#comprehensive-plan)
 
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle 2035 Comprehensive Plan](https://www.seattle.gov/opcd/current-projects/seattle-2035-comprehensive-plan)
+
+---
+
+## Unreinforced Masonry (URM)
+
+A building constructed of brick, stone, or concrete block without steel reinforcement or structural connections between walls, floors, and roof. Most URMs in Seattle were built before 1945. During earthquakes, URM walls can separate from floor and roof structures and collapse outward. Seattle has approximately 1,100 identified URMs housing over 22,000 people.
+
+**Why it matters:** URMs are the most dangerous building type in earthquakes and the focus of Seattle's most significant seismic safety policy debate. The city adopted a voluntary retrofit code in November 2024 and plans to adopt a mandatory retrofit ordinance with compliance timelines of 7-13 years. Pioneer Square and the Chinatown-International District contain a concentration of URMs, many housing affordable units and small businesses. The retrofit program intersects with historic preservation, affordable housing, and equitable development -- retrofitting these buildings is essential for preserving both lives and neighborhood character.
+
+**See also:** [Cascadia Subduction Zone](#cascadia-subduction-zone), [Liquefaction](#liquefaction), [SDCI](#sdci-seattle-department-of-construction-and-inspections)
+
+**Learn more:** [Seattle SDCI: URM Buildings](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings) | [ASAP! Coalition](https://www.upgradeasap.com/)
 
 ---
 

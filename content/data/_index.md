@@ -76,6 +76,22 @@ Central resource for tenant rights, landlord obligations, and rental regulations
 
 ---
 
+### Unreinforced Masonry (URM) Building Inventory
+
+Interactive map and dataset of all identified unreinforced masonry buildings in Seattle, including retrofit status. Use it to identify URM buildings in specific neighborhoods and track the city's progress toward seismic safety.
+
+**Access:** [SDCI URM Program](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings) | [URM Map (ArcGIS)](https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::unreinforced-masonry-buildings-urm/about)
+
+---
+
+### SHIVA Earthquake Hazard Assessment
+
+Seattle's hazard identification and vulnerability analysis for earthquakes. Covers fault sources, liquefaction zones, expected damage scenarios, and secondary hazards like landslides and tsunamis.
+
+**Access:** [SHIVA Earthquake Assessment (PDF)](https://www.seattle.gov/documents/Departments/Emergency/PlansOEM/SHIVA/SHIVAv7.0-Earthquake.pdf)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -136,6 +152,14 @@ System-wide ridership and reliability data for Link light rail, Sounder commuter
 
 ---
 
+### Pacific Northwest Seismic Network (PNSN)
+
+Real-time seismograms, earthquake catalogs, hazard maps, and notable earthquake information from a network of approximately 400 seismometers across Washington and Oregon. Operated by the University of Washington and University of Oregon.
+
+**Access:** [PNSN](https://pnsn.org/)
+
+---
+
 ### PSRC Community Profiles
 
 Demographic, housing, employment, and transportation data for every city and county in the four-county region. Compare jurisdictions and track changes over time.
@@ -167,6 +191,22 @@ Statewide traffic counts, volumes, and speed data for state routes. Includes the
 Statewide bicycle and pedestrian count data from jurisdictions across Washington. Compare active transportation trends across communities.
 
 **Access:** [Bike/Ped Count Portal](https://wsdot.wa.gov/data/tools/bikepedcounts/)
+
+---
+
+### DNR Geologic Hazard Maps
+
+Liquefaction susceptibility maps, seismic site class maps, seismic design category maps, and active fault maps for all Washington counties. The Seismic Scenario Catalog provides loss estimates for 20 earthquake scenarios statewide.
+
+**Access:** [Geologic Hazard Maps](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/geologic-hazard-maps) | [Seismic Scenarios](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/earthquakes-and-faults/seismic-scenarios)
+
+---
+
+### Washington State URM Dashboard
+
+Statewide inventory of known or suspected unreinforced masonry buildings, compiled from DAHP's WISAARD database, Seattle's inventory, and county assessor data.
+
+**Access:** [WA URM Dashboard](https://fortress.wa.gov/com/urmasonary/urmasonary/)
 
 ---
 
