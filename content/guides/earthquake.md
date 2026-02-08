@@ -6,7 +6,7 @@ bookToc: true
 
 # Earthquake Preparedness & Seismic Risk in Seattle
 
-Seattle faces the second-highest earthquake risk of any major U.S. metropolitan area, behind only Los Angeles. The city sits near three distinct seismic sources capable of producing damaging earthquakes, and approximately 15% of its land area is built on soil prone to ground failure during shaking. ([Seattle OEM](https://www.seattle.gov/emergency-management/hazards/earthquake)) This guide covers the seismic hazards, the city's vulnerable building stock, preparedness programs, and what urbanists and advocates should know.
+Washington has the second-highest earthquake risk in the United States, after California, with more than 1,000 earthquakes occurring in the state each year. ([DNR](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/earthquakes-and-faults) | [MRSC](https://mrsc.org/stay-informed/mrsc-insight/october-2025/earthquake-preparedness)) Seattle sits near three distinct seismic sources capable of producing damaging earthquakes, and approximately 15% of the city's land area is built on soil prone to ground failure during shaking. ([Seattle OEM](https://www.seattle.gov/emergency-management/hazards/earthquake)) This guide covers the seismic hazards, the city's vulnerable building stock, preparedness programs, and what urbanists and advocates should know.
 
 ## Seismic hazard sources
 
@@ -18,7 +18,7 @@ The **Cascadia Subduction Zone** (CSZ) is an approximately 1,100-kilometer fault
 
 ### Seattle Fault Zone
 
-The **Seattle Fault Zone** is an east-west trending zone of shallow thrust faults running directly beneath the city, from Bainbridge Island through the area near I-90. It is capable of producing magnitude 7.0-7.5 earthquakes at shallow depths (less than 25 km). The most recent large event occurred around 900-930 CE, generating approximately 3 meters of uplift and a tsunami on Elliott Bay. A 2026 USGS study found that secondary faults within the zone rupture approximately every 350 years, more frequently than previously understood. USGS estimates a 17% probability of a magnitude 6.5+ crustal fault earthquake in the Puget Sound region in the next 50 years. ([USGS Earthquake Probabilities](https://pubs.usgs.gov/publication/fs20253050/full))
+The **Seattle Fault Zone** is an east-west trending zone of shallow thrust faults running directly beneath the city, from Bainbridge Island through the area near I-90. It is capable of producing magnitude 7.0-7.5 earthquakes at shallow depths (less than 25 km). The most recent large event occurred around 900-930 CE, causing significant land-level changes and a tsunami on Elliott Bay. ([WA State Geology News](https://washingtonstategeology.wordpress.com/2022/07/07/new-tsunami-hazard-maps-and-simulation-videos-from-a-seattle-fault-earthquake-scenario/)) A 2026 USGS study found that secondary faults within the zone rupture approximately every 350 years over the past 2,500 years, more frequently than the main fault. ([USGS](https://pubs.usgs.gov/publication/70273781)) USGS estimates a 17% probability of a magnitude 6.5+ crustal fault earthquake in the Puget Sound region in the next 50 years. ([USGS Earthquake Probabilities](https://pubs.usgs.gov/publication/fs20253050/full))
 
 ### Deep intraplate earthquakes
 
@@ -40,12 +40,10 @@ On February 28, 2001, a deep intraplate earthquake struck beneath Anderson Islan
 
 Key damage included:
 
-- **Unreinforced masonry buildings** in Pioneer Square sustained the worst structural damage
+- **Unreinforced masonry buildings** in Pioneer Square sustained the worst structural damage, with brick shedding from parapets and diagonal cracking in walls ([PNSN](https://pnsn.org/education/pnw-earthquakes/notable/nisqually))
 - The **Alaskan Way Viaduct** sank several inches, catalyzing the $3.35 billion SR 99 tunnel replacement project ([WSDOT](https://wsdot.wa.gov/construction-planning/major-projects/alaskan-way-viaduct-replacement-program))
-- **Sand boils and liquefaction** occurred in SODO and Harbor Island
-- The Sea-Tac Airport air traffic control tower was heavily damaged
-
-The Nisqually earthquake was a moderate event at a relatively deep focal depth. A shallow Seattle Fault earthquake of similar magnitude would produce substantially greater damage.
+- **Sand boils and liquefaction** occurred in SODO and Harbor Island, on tidal flats that had been filled and built upon ([UW News](https://www.washington.edu/news/2001/04/17/damaged-chimneys-and-unexpected-liquefaction-from-nisqually-temblor-yield-earthquake-insights-uw-scientists-say/))
+- The **Sea-Tac Airport** air traffic control tower sustained shattered windows and internal damage, forcing controllers to a temporary structure within 36 minutes ([Port of Seattle](https://www.portseattle.org/blog/shaking-and-quaking-2001-earthquake))
 
 ## Liquefaction zones
 
@@ -53,9 +51,9 @@ The Nisqually earthquake was a moderate event at a relatively deep focal depth. 
 
 ### Most vulnerable areas
 
-Seattle's highest-risk liquefaction zones sit on artificial fill placed over estuarine mud during the city's early 20th-century regrades, when hillsides were sluiced and fill was dumped into Elliott Bay and the Duwamish estuary. The most vulnerable neighborhoods include:
+Seattle's highest-risk liquefaction zones sit on artificial fill placed over estuarine mud during the city's early 20th-century regrades, when hillsides were sluiced and fill was dumped into Elliott Bay and the Duwamish estuary. ([Seattle SHIVA Earthquake Assessment (PDF)](https://www.seattle.gov/documents/Departments/Emergency/PlansOEM/SHIVA/SHIVAv7.0-Earthquake.pdf)) The most vulnerable neighborhoods include:
 
-- **Duwamish Valley** (SODO, Georgetown, Harbor Island) -- experienced pervasive liquefaction during the 2001 Nisqually earthquake, including sand boils, ground cracking, and pavement settlement
+- **Duwamish Valley** (SODO, Georgetown, Harbor Island) -- experienced pervasive liquefaction during the 2001 Nisqually earthquake, on tidal flats that had been filled and built upon ([UW News](https://www.washington.edu/news/2001/04/17/damaged-chimneys-and-unexpected-liquefaction-from-nisqually-temblor-yield-earthquake-insights-uw-scientists-say/))
 - **Pioneer Square** -- built on filled tideflats; sustained the worst building damage in 2001
 - **Interbay** -- low-lying area between Queen Anne and Magnolia, built partly on fill
 - **Rainier Valley** -- portions built on soft alluvial soils
@@ -63,7 +61,7 @@ Seattle's highest-risk liquefaction zones sit on artificial fill placed over est
 
 ### Infrastructure at risk
 
-Both major north-south corridors (I-5 and SR 99/SR 509) pass through liquefaction zones. King County International Airport (Boeing Field) sits entirely within a liquefaction zone, as do most rail and marine terminals.
+Both major north-south corridors (I-5 and SR 99/SR 509) pass through liquefaction zones. King County International Airport (Boeing Field) sits entirely within the liquefaction zone, as do most of the city's rail and marine terminals. ([Seattle SHIVA Earthquake Assessment (PDF)](https://www.seattle.gov/documents/Departments/Emergency/PlansOEM/SHIVA/SHIVAv7.0-Earthquake.pdf))
 
 SDCI updated Seattle's Environmentally Critical Areas liquefaction-prone area map in 2023, replacing a map based on 1962 data with one using a 2005 geologic map and updated earthquake ground motions. ([SDCI Building Connections](https://buildingconnections.seattle.gov/2023/09/01/updated-liquefaction-prone-area-map/))
 
@@ -77,16 +75,14 @@ SDCI estimates Seattle has an 86% chance of experiencing a damaging earthquake w
 
 Seattle's path toward mandatory URM retrofits has been gradual:
 
-- **2001:** The Nisqually earthquake causes over $8 million in URM damage, renewing urgency
+- **2001:** The Nisqually earthquake causes over $8 million in URM damage, renewing urgency ([Seattle SDCI URM Timeline](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/timeline))
 - **2017:** URM Policy Committee recommends the "Bolts Plus" retrofit standard ([The Urbanist](https://www.theurbanist.org/2017/10/10/unreinforced-masonry-buildings-madrona-rezone/))
-- **2021:** City Council passes Resolution 32033, directing SDCI to pursue a mandatory retrofit ordinance
-- **November 2024:** Voluntary URM retrofit code adopted as part of the 2021 Seattle Existing Building Code, introducing an **Alternate Method for Retrofit** that reduces estimated costs by up to 70%
-- **February 2025:** The Poll Building at 110 Union Street becomes the first building to receive official "Retrofitted" URM status
+- **2021:** City Council passes Resolution 32033, directing SDCI to pursue a mandatory retrofit ordinance ([Seattle SDCI URM Timeline](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/timeline))
+- **November 2024:** Voluntary URM retrofit code adopted as part of the 2021 Seattle Existing Building Code, introducing an **Alternate Method for Retrofit** that reduces estimated costs by up to 70% ([SDCI Building Connections](https://buildingconnections.seattle.gov/2026/01/05/cutting-costs-increasing-safety-new-fee-reductions-make-fixing-the-bricks-more-affordable-in-2026/))
+- **February 2025:** The Poll Building at 110 Union Street becomes the first building to receive official "Retrofitted" URM status ([SDCI Building Connections](https://buildingconnections.seattle.gov/2025/12/01/76-unreinforced-masonry-buildings-officially-recognized-as-retrofitted/))
 - **December 2025:** 76 URM buildings officially recognized as retrofitted (approximately 7% of all URMs) ([SDCI Building Connections](https://buildingconnections.seattle.gov/2025/12/01/76-unreinforced-masonry-buildings-officially-recognized-as-retrofitted/))
 - **January 2026:** SDCI implements a 50% reduction in permit and plan review fees for seismic retrofit projects ([SDCI Building Connections](https://buildingconnections.seattle.gov/2026/01/05/cutting-costs-increasing-safety-new-fee-reductions-make-fixing-the-bricks-more-affordable-in-2026/))
-- **Future:** Mandatory retrofit ordinance planned, with compliance timelines of 7 years (critical risk), 10 years (high vulnerability), and 13 years (medium vulnerability) after adoption
-
-([Seattle SDCI URM Timeline](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/timeline))
+- **Future:** Mandatory retrofit ordinance planned, with compliance timelines of 7 years (critical risk), 10 years (high vulnerability), and 13 years (medium vulnerability) after adoption ([Seattle SDCI FAQ](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/frequently-asked-questions))
 
 ### What a retrofit involves
 
@@ -99,9 +95,9 @@ Retrofit costs in Seattle can exceed $100 per square foot. The Alternate Method 
 Current and proposed funding mechanisms include:
 
 - **FEMA grants** -- SDCI received a 2023 FEMA grant for retrofit cost-benefit analyses in the Chinatown-ID and Pioneer Square ([SDCI Project Documents](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/project-documents))
-- **C-PACER financing** -- authorized by state HB 2405, allows property owners to finance seismic upgrades through their property tax bill
-- **Transfer of Development Rights (TDR)** -- proposed program to generate retrofit credits by selling unused development capacity from URM properties
-- **Fee reductions** -- 50% permit and plan review fee reductions effective January 2026
+- **C-PACER financing** -- authorized by state HB 2405 (signed 2020), allows property owners to finance seismic upgrades through their property tax bill ([Shift Zero](https://shiftzero.org/pace/) | [WA Legislature](https://app.leg.wa.gov/billsummary?BillNumber=2405&Year=2019&Initiative=false))
+- **Transfer of Development Rights (TDR)** -- proposed program to generate retrofit credits by selling unused development capacity from URM properties ([ASAP!](https://www.upgradeasap.com/))
+- **Fee reductions** -- 50% permit and plan review fee reductions effective January 2026 ([SDCI Building Connections](https://buildingconnections.seattle.gov/2026/01/05/cutting-costs-increasing-safety-new-fee-reductions-make-fixing-the-bricks-more-affordable-in-2026/))
 
 ### Comparison with other cities
 
@@ -112,6 +108,8 @@ Current and proposed funding mechanisms include:
 | Current status | Voluntary code adopted Nov 2024 | Working group disbanded 2020 | ~95% compliance by 1996 |
 | Proposed compliance timelines | 7-13 years once mandatory | 20-30 years (proposed) | Phased, building-specific |
 
+**Sources:** [Seattle SDCI](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings) | [Portland Permitting & Development](https://www.portland.gov/ppd/unreinforced-masonry-urm-buildings) | [LA Division 88 (UpCodes)](https://up.codes/viewer/los_angeles/ca-building-code-2016/chapter/new_88/earthquake-hazard-reduction-in-existing-buildings)
+
 Studies of California cities found voluntary retrofit programs achieved only 19% compliance, while mandatory programs achieved substantially higher rates. ([Seattle SDCI FAQ](https://www.seattle.gov/sdci/codes/changes-to-code/unreinforced-masonry-buildings/frequently-asked-questions))
 
 ## Major seismic infrastructure investments
@@ -119,7 +117,7 @@ Studies of California cities found voluntary retrofit programs achieved only 19%
 The Nisqually earthquake catalyzed two of Seattle's largest infrastructure projects:
 
 - **Alaskan Way Viaduct replacement:** The $3.35 billion SR 99 tunnel, opened February 2019, replaced the seismically vulnerable double-deck viaduct. The tunnel meets standards for a 2,500-year earthquake. ([WSDOT](https://wsdot.wa.gov/construction-planning/major-projects/alaskan-way-viaduct-replacement-program))
-- **Seawall rebuild:** A $350 million project to replace the deteriorating 1934 Alaskan Way Seawall, funded by a 2012 voter-approved bond. The original wooden supports had been consumed by marine organisms.
+- **Seawall rebuild:** A roughly $350 million project to replace the deteriorating 1934 Alaskan Way Seawall, anchored by a $290 million voter-approved bond in 2012 with additional funding from King County and the city general fund. ([Seattle City Council](https://council.seattle.gov/2012/07/02/seattle-city-councilmembers-approve-seawall-replacement-bond-levy/))
 
 ## State legislation
 
@@ -129,9 +127,9 @@ HB 1810 directs the Department of Commerce to study financial incentives for URM
 
 ### Other seismic legislation
 
-- **Growth Management Act** (RCW 36.70A) requires cities and counties to identify geologically hazardous areas, including seismic hazard zones, and establish protective regulations
-- **RCW 70.86** establishes earthquake standards for construction in Washington
-- The **Resilient Washington State** framework, developed by the Emergency Management Council's Seismic Safety Subcommittee, provides a roadmap for minimizing earthquake losses
+- **Growth Management Act** (RCW 36.70A) requires cities and counties to identify geologically hazardous areas, including seismic hazard zones, and establish protective regulations ([MRSC](https://mrsc.org/explore-topics/environment/regulations/critical-areas))
+- **RCW 70.86** establishes earthquake standards for construction in Washington, requiring hospitals, schools, and public assembly buildings to withstand specified lateral forces ([RCW 70.86](https://app.leg.wa.gov/RCW/default.aspx?cite=70.86))
+- The **Resilient Washington State** framework, developed by the Emergency Management Council's Seismic Safety Subcommittee, provides a roadmap for minimizing earthquake losses ([DNR (PDF)](https://dnr.wa.gov/sites/default/files/2025-03/ger_ic114_resilient_washington_state.pdf))
 
 ## Preparedness programs
 
@@ -153,7 +151,7 @@ Seattle has over **136 designated gathering points** throughout the city, with o
 
 ### Cascadia Rising exercises
 
-The **Cascadia Rising** exercise series simulates a magnitude 9.0 CSZ earthquake and tsunami. The 2016 exercise involved thousands of participants including military personnel across multiple states. The 2022 follow-up focused on critical transportation and mass care services. A key finding was that assistance would take days, not hours, to reach affected areas -- leading to the revised recommendation of two weeks of preparedness supplies.
+The **Cascadia Rising** exercise series simulates a magnitude 9.0 CSZ earthquake and tsunami. The 2016 exercise brought together more than 20,000 federal, state, tribal, and local participants including military personnel across multiple states. ([DVIDS](https://www.dvidshub.net/feature/cascadiarising16)) The 2022 follow-up focused on critical transportation and mass care services. A key finding was that assistance would take days, not hours, to reach affected areas -- leading to the revised recommendation of two weeks of preparedness supplies.
 
 ### Great Washington ShakeOut
 
@@ -165,10 +163,10 @@ Standard homeowners and renters insurance policies do **not** cover earthquake d
 
 Key facts:
 
-- Only about 11% of Washington residents have earthquake insurance coverage
-- Deductibles typically range from 10-25% of the coverage amount
-- Insurers may require property inspections or structural improvements (such as foundation bolting) before providing coverage
-- Earthquake insurance does not typically cover floods, tsunamis, or landslides triggered by earthquakes
+- Only about 11% of Washington residents have earthquake insurance coverage ([Seattle Times](https://www.seattletimes.com/seattle-news/science/survey-finds-only-11-3-of-washington-homes-have-earthquake-insurance/))
+- Deductibles typically range from 10-25% of the coverage amount ([WA Insurance Commissioner](https://www.insurance.wa.gov/earthquake-insurance))
+- Insurers may require property inspections or structural improvements (such as foundation bolting) before providing coverage ([WA Insurance Commissioner](https://www.insurance.wa.gov/earthquake-insurance))
+- Earthquake insurance does not typically cover floods, tsunamis, or landslides triggered by earthquakes ([WA Insurance Commissioner](https://www.insurance.wa.gov/earthquake-insurance))
 
 ## Advocacy organizations
 
