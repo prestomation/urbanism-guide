@@ -112,9 +112,20 @@ Entries are in **reverse chronological order** (newest first). Each entry:
 
 Guides are in-depth pages covering a specific urbanism topic in Seattle. Each guide lives as a single Markdown file in `content/guides/`.
 
-**Existing guides:**
-- `micro-mobility.md` - E-scooters, bike share, operators, permits, data
+**Existing guides** (keep this list up to date when adding or removing guides):
 - `bike-network.md` - Protected bike lanes, neighborhood greenways, trails
+- `car-share.md` - Car sharing services, operators, regulations
+- `earthquake.md` - Earthquake preparedness and seismic risk
+- `environmental-justice.md` - Environmental justice and equitable development
+- `light-rail.md` - Link Light Rail system
+- `mass-transit.md` - Mass transit overview
+- `micro-mobility.md` - E-scooters, bike share, operators, permits, data
+- `parks-tree-canopy.md` - Parks, open space, and urban tree canopy
+- `pedestrian.md` - Pedestrian safety and infrastructure
+- `public-housing.md` - Public housing and the Seattle Housing Authority
+- `renter-protections.md` - Renter protections and tenant rights
+- `station-area-planning.md` - Station area planning and transit-oriented development
+- `waterfront-pike-place.md` - Waterfront and Pike Place Market
 
 **Front matter:**
 ```yaml
