@@ -117,6 +117,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 - `car-share.md` - Car sharing services, operators, regulations
 - `earthquake.md` - Earthquake preparedness and seismic risk
 - `environmental-justice.md` - Environmental justice and equitable development
+- `historic-preservation.md` - Historic preservation, landmark districts, and the Landmarks Preservation Board
 - `light-rail.md` - Link Light Rail system
 - `mass-transit.md` - Mass transit overview
 - `micro-mobility.md` - E-scooters, bike share, operators, permits, data

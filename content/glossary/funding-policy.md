@@ -191,6 +191,18 @@ A Sound Transit policy requiring that tax revenue collected in each of the agenc
 
 ---
 
+## TDR (Transfer of Development Rights)
+
+A market-based tool that allows owners of landmark properties in Seattle's downtown core to sell unused development capacity to nearby sites that can accept additional density. Because landmark designation typically prevents an owner from building to the full height or bulk that zoning would otherwise allow, TDR lets them monetize that "lost" capacity. Receiving sites in downtown, Pioneer Square, the Chinatown-International District, and the University District can purchase these rights to build larger than baseline zoning permits.
+
+**Why it matters:** TDR is the primary financial incentive for downtown landmark owners. In theory, it makes preservation economically viable by providing revenue to maintain historic buildings. In practice, Seattle's TDR market has been limited by a surplus of available rights and prices too low to cover the cost of major rehabilitation, especially seismic retrofitting. Downtown zoning requires that a portion of any bonus floor area come from Landmark TDR when rights are available, creating guaranteed demand but not always adequate pricing.
+
+**See also:** [TIF](#tif-tax-increment-financing), [Incentive Zoning](#incentive-zoning-iz)
+
+**Learn more:** [Seattle.gov: Preservation Incentives](https://seattle.gov/neighborhoods/historic-preservation/preservation-incentives) | [Sightline: When Historic Preservation Clashes with Housing Affordability](https://www.sightline.org/2017/12/19/when-historic-preservation-clashes-with-housing-affordability/)
+
+---
+
 ## TIF (Tax Increment Financing)
 
 A financing tool where future property tax increases in a designated area are used to pay for current infrastructure investments in that area. Washington authorized TIF in 2021 (HB 1189, codified as chapter 39.114 RCW), making it available to cities, counties, and port districts.

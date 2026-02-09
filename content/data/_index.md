@@ -100,6 +100,14 @@ Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land 
 
 ---
 
+### City Landmarks Inventory
+
+Searchable list and interactive map of Seattle's 400+ designated city landmarks, including property names, addresses, designating ordinance numbers, and related documents. Also covers the eight historic districts.
+
+**Access:** [Landmarks List](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks/landmarks-list) | [Landmarks Map](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks/landmarks-map)
+
+---
+
 ### Growth and Equity Analysis
 
 Displacement risk analysis by neighborhood, combining socio-demographics, housing market pressures, and access to opportunity. Used to shape the One Seattle Comprehensive Plan and anti-displacement investments.
@@ -207,6 +215,14 @@ Liquefaction susceptibility maps, seismic site class maps, seismic design catego
 Statewide inventory of known or suspected unreinforced masonry buildings, compiled from DAHP's WISAARD database, Seattle's inventory, and county assessor data.
 
 **Access:** [WA URM Dashboard](https://fortress.wa.gov/com/urmasonary/urmasonary/)
+
+---
+
+### WISAARD Historic Property Database
+
+The Washington Department of Archaeology and Historic Preservation (DAHP) maintains WISAARD (Washington Information System for Architectural and Archaeological Records Data), a statewide database of surveyed historic properties, National Register listings, local landmark designations, and heritage resources. Use it to research the history and designation status of specific properties.
+
+**Access:** [WISAARD](https://wisaard.dahp.wa.gov/)
 
 ---
 

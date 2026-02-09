@@ -125,6 +125,30 @@ Washington state law (1990) requiring urban areas to plan for growth, protect ru
 
 ---
 
+## Historic District
+
+A geographically defined area designated by the city to protect a concentration of historically, architecturally, or culturally significant buildings and public spaces. Seattle has eight historic districts: Pioneer Square (1970), Pike Place Market (1971), International Special Review District (1973), Ballard Avenue (1976), Columbia City (1978), Harvard-Belmont (1979), Fort Lawton (2011), and Sand Point (2011). Changes to the exterior of any building within a district require a Certificate of Approval from the district review board or the Landmarks Preservation Board.
+
+**Why it matters:** Historic districts impose the broadest preservation controls in the city — every exterior alteration within their boundaries requires review, not just changes to individually designated landmarks. The districts protect neighborhood character and architectural heritage, but can also limit the type and scale of new construction. In areas like Pioneer Square and the Chinatown-International District, district regulations intersect with seismic retrofit requirements for unreinforced masonry buildings, affordable housing preservation, and equitable development goals.
+
+**See also:** [Unreinforced Masonry (URM)](#unreinforced-masonry-urm), [Zoning](#zoning)
+
+**Learn more:** [Seattle.gov: Historic Districts](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts) | [Historic Preservation & Landmarks Guide](/guides/historic-preservation/)
+
+---
+
+## Landmark Designation
+
+The legal process by which Seattle's Landmarks Preservation Board designates a building, site, object, or vessel as a protected city landmark. Any property at least 25 years old can be nominated by any person or group. The board evaluates nominations against criteria covering historical, architectural, cultural, and social significance, then negotiates controls and incentives with the property owner. Designation is finalized by a City Council ordinance. Since 2025, state law (HB 1576) requires written owner consent for properties less than 100 years old outside existing historic districts.
+
+**Why it matters:** Landmark designation triggers the Certificate of Approval requirement — any change to a designated feature must be approved by the Landmarks Preservation Board. This protects significant buildings from demolition and inappropriate alteration, but can also block housing development on designated sites. The 2025 owner-consent law (HB 1576) was a direct response to cases where landmark nominations were used to halt permitted housing projects, particularly as the state's middle housing law (HB 1110) made duplexes, triplexes, and townhomes legal on more lots.
+
+**See also:** [Historic District](#historic-district), [SDCI](#sdci-seattle-department-of-construction-and-inspections)
+
+**Learn more:** [Seattle.gov: City Landmarks](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks) | [SHB 1576 Bill Report](https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bill%20Reports/House/1576-S%20HBR%20FBR%2025.pdf)
+
+---
+
 ## MUP (Master Use Permit)
 
 Seattle's combined land use permit that bundles zoning approvals, environmental review, and design review into a single application. Required for most new construction and major alterations.
