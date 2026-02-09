@@ -4,9 +4,6 @@ Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
 ## Tier 2: Valuable Additions
 
-### Historic Preservation & Landmarks
-Landmark districts (Pioneer Square, Pike Place, International District), the Landmarks Preservation Board, tension between preservation and density.
-
 ### Commercial Zoning, Office Space & Retail Corridors
 Commercial development, office vacancy, ground-floor retail requirements, neighborhood business districts. Fills a gap in the current residential-heavy focus.
 

@@ -92,6 +92,22 @@ Seattle's hazard identification and vulnerability analysis for earthquakes. Cove
 
 ---
 
+### City Landmarks Map
+
+Interactive map of all 400+ designated landmarks in Seattle, maintained by the Department of Neighborhoods. Underlying data is also available through the Seattle Open Data Portal.
+
+**Access:** [Landmarks Map](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks/landmarks-map)
+
+---
+
+### Historic Resources Survey Database
+
+Searchable database of over 5,000 surveyed historic properties across Seattle. Search by address, year built, architectural style, neighborhood, or architect. Listing in the survey does not restrict property use — only formal landmark designation carries regulatory weight.
+
+**Access:** [Historic Resources Survey](https://www.seattle.gov/neighborhoods/historic-preservation/historic-resources-survey)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -207,6 +223,14 @@ Liquefaction susceptibility maps, seismic site class maps, seismic design catego
 Statewide inventory of known or suspected unreinforced masonry buildings, compiled from DAHP's WISAARD database, Seattle's inventory, and county assessor data.
 
 **Access:** [WA URM Dashboard](https://fortress.wa.gov/com/urmasonary/urmasonary/)
+
+---
+
+### WISAARD Historic Property Inventory
+
+Washington State's digital repository for architectural and archaeological records, maintained by the Department of Archaeology and Historic Preservation (DAHP). Searchable without an account for architectural records. Includes inventory forms, survey reports, photos, and National Register nominations.
+
+**Access:** [WISAARD](https://dahp.wa.gov/project-review/wisaard-washington-information-system-for-architectural-and-archaeological-records-data)
 
 ---
 

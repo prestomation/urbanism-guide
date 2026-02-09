@@ -17,6 +17,18 @@ A roughly 1,100-kilometer fault running offshore from northern California to Van
 
 ---
 
+## Certificate of Approval
+
+A written authorization, similar to a permit, that must be issued before any changes can be made to the designated features of a City Landmark or to properties within one of Seattle's eight historic districts. Certificates are issued by the Landmarks Preservation Board or the relevant district board after a public review process.
+
+**Why it matters:** The Certificate of Approval process is the primary regulatory mechanism through which historic preservation is enforced in Seattle. Property owners in historic districts must obtain approval before modifying exteriors, changing signage, adding awnings, demolishing structures, or altering public spaces. The process ensures that changes are compatible with a district's historic character, but it also adds time and cost to renovations and development.
+
+**See also:** [Landmarks Preservation Board](#landmarks-preservation-board), [SDCI](#sdci-seattle-department-of-construction-and-inspections)
+
+**Learn more:** [Seattle Department of Neighborhoods: Certificate of Approval](https://www.seattle.gov/neighborhoods/historic-preservation/certificate-of-approval) | [Historic Preservation FAQ](https://www.seattle.gov/neighborhoods/historic-preservation/frequently-asked-questions)
+
+---
+
 ## Comprehensive Plan
 
 A city's long-range plan for growth, land use, transportation, parks, and utilities. Required by Washington's Growth Management Act. Seattle's comp plan is updated on major cycles (most recently 2024) and guides zoning and investment decisions for 20+ years.
@@ -122,6 +134,18 @@ Washington state law (1990) requiring urban areas to plan for growth, protect ru
 **See also:** [Comprehensive Plan](#comprehensive-plan), [Urban Growth Boundary](#urban-growth-boundary-ugb)
 
 **Learn more:** [MRSC: Growth Management Act Basics](https://mrsc.org/explore-topics/planning/gma/growth-management-act-basics) | [WA Commerce: Growth Management](https://www.commerce.wa.gov/growth-management/)
+
+---
+
+## Landmarks Preservation Board
+
+Seattle's city body responsible for designating and protecting structures, sites, and objects of historic significance. Established in 1973 under SMC 25.12, the board is appointed by the Mayor and confirmed by the City Council, and includes architects, historians, a structural engineer, and representatives from finance and real estate. The board has designated more than 400 individual landmarks and administers eight historic districts.
+
+**Why it matters:** The Landmarks Preservation Board determines which buildings receive legal protection from alteration or demolition. Its decisions directly affect what can be built and where — making it a key player in the tension between preservation and housing production. Under current rules, any person can nominate a building at least 25 years old for landmark status without the owner's consent, a provision that housing advocates have argued is used to block development. State legislation (SB 5554, 2025) would require owner consent for buildings under 125 years old and raise the minimum age for nomination to 40 years.
+
+**See also:** [Certificate of Approval](#certificate-of-approval), [SDCI](#sdci-seattle-department-of-construction-and-inspections), [Zoning](#zoning)
+
+**Learn more:** [Seattle Department of Neighborhoods: City Landmarks](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks) | [The Urbanist: Washington Legislature Wants to Rein In Historic Landmarking](https://www.theurbanist.org/2025/02/19/washington-legislature-wants-to-rein-in-historic-landmarking/)
 
 ---
 
@@ -242,6 +266,18 @@ Seattle's planning designation for neighborhood centers that are targeted for gr
 **See also:** [Comprehensive Plan](#comprehensive-plan)
 
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle 2035 Comprehensive Plan](https://www.seattle.gov/opcd/current-projects/seattle-2035-comprehensive-plan)
+
+---
+
+## Transfer of Development Rights (TDR)
+
+A mechanism that allows property owners to sell unused development capacity from one site (the "sending site") to another site (the "receiving site") where additional density is desired. In Seattle, owners of designated landmarks in downtown zones can sell their unused floor area to developers building elsewhere downtown. The city operates a TDR bank to facilitate transactions.
+
+**Why it matters:** TDR is one of the primary financial incentives for landmark property owners in Seattle. By allowing them to monetize development rights they cannot use (because landmark controls limit alterations), TDR makes preservation more financially viable. Since 2004, 74% of extra floor area in downtown Seattle was achieved through TDR purchases, and 36% of all TDR came from landmark sending sites. The program is central to the economics of downtown historic preservation and is often cited as a model for incentive-based preservation.
+
+**See also:** [Landmarks Preservation Board](#landmarks-preservation-board), [Zoning](#zoning), [FAR](/glossary/housing-zoning/#far-floor-area-ratio)
+
+**Learn more:** [Seattle Department of Neighborhoods: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives) | [MRSC: Development Regulations and Zoning](https://mrsc.org/explore-topics/planning/development-regulations/development-regulations-and-zoning)
 
 ---
 
