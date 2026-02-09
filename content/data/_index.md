@@ -92,6 +92,14 @@ Seattle's hazard identification and vulnerability analysis for earthquakes. Cove
 
 ---
 
+### Seattle Historical Sites Search
+
+Searchable database of designated city landmarks and surveyed historic properties maintained by the Department of Neighborhoods. Look up individual landmarks, contributing buildings in historic districts, and properties documented through historic resources surveys.
+
+**Access:** [Seattle Historical Sites Search](https://web.seattle.gov/DPD/HistoricalSite/Default.aspx)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -207,6 +215,14 @@ Liquefaction susceptibility maps, seismic site class maps, seismic design catego
 Statewide inventory of known or suspected unreinforced masonry buildings, compiled from DAHP's WISAARD database, Seattle's inventory, and county assessor data.
 
 **Access:** [WA URM Dashboard](https://fortress.wa.gov/com/urmasonary/urmasonary/)
+
+---
+
+### WISAARD (Historic Property Inventory)
+
+The Washington Information System for Architectural and Archaeological Records Data is DAHP's statewide database of historic properties, including those on the National Register of Historic Places, Washington Heritage Register, and Heritage Barn Register. Search by address, property name, or map location without creating an account.
+
+**Access:** [WISAARD](https://wisaard.dahp.wa.gov/) | [DAHP: Find a Historic Place](https://dahp.wa.gov/find-a-historic-place)
 
 ---
 
