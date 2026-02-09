@@ -17,6 +17,18 @@ The median household income for a metropolitan area, calculated annually by HUD.
 
 ---
 
+## Business Improvement Area (BIA)
+
+A self-taxing district where property owners and businesses collectively fund maintenance, marketing, safety, and beautification for their commercial area. Seattle has 11 established BIAs, including the Metropolitan Improvement District downtown (operated by the Downtown Seattle Association), Pioneer Square, Chinatown/International District, University District, Ballard, Broadway, Columbia City, West Seattle Junction, 15th Avenue East, SODO, and the Seattle Tourism Improvement Area.
+
+**Why it matters:** BIAs are the primary mechanism through which Seattle's neighborhood business districts organize, fund, and manage themselves. Every property owner in a BIA is required to pay an assessment, and the funds are used locally for services like street cleaning, security ambassadors, marketing, and public space activation. Understanding BIAs helps advocates engage with the governance of their neighborhood's commercial areas and influence how district resources are spent. BIAs also serve as key partners for the city's Office of Economic Development on issues like commercial vacancy and small business support.
+
+**See also:** [Linkage Fees](#linkage-fees), [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability)
+
+**Learn more:** [Seattle OED: Business Improvement Areas](https://www.seattle.gov/economic-development/business-districts/business-improvement-areas-) | [The Urbanist: Business Improvement Areas Provide Community-Driven Approach](https://bottomline.seattle.gov/2025/11/20/business-improvement-areas-provide-community-driven-approach-to-support-seattles-business-districts/)
+
+---
+
 ## BEPS (Building Emissions Performance Standard)
 
 Seattle's policy requiring large commercial and multifamily buildings (over 20,000 square feet) to meet greenhouse gas emissions performance targets by 2050, with interim milestones. Buildings must either reduce emissions or pay an alternative compliance fee. It's one of the first building performance standards in the nation.

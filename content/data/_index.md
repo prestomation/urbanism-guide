@@ -100,6 +100,14 @@ Searchable database of designated city landmarks and surveyed historic propertie
 
 ---
 
+### One Seattle Plan Zoning Map
+
+Interactive map showing proposed and adopted zoning changes under the One Seattle Comprehensive Plan, including new Neighborhood Centers, expanded Urban Centers, and corridor rezones. Compare current zoning to proposed changes.
+
+**Access:** [One Seattle Plan Zoning Map](https://one-seattle-plan-zoning-implementation-seattlecitygis.hub.arcgis.com/pages/zoning-map)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -151,6 +159,14 @@ County datasets including Metro ridership, assessor data, elections, and public 
 ---
 
 ## Regional (Puget Sound)
+
+### Seattle-Bellevue Office & Retail Market Reports
+
+Quarterly reports from commercial brokerage firms tracking office vacancy rates, retail vacancy, net absorption, rental trends, and leasing activity across the Seattle-Bellevue market. Essential for understanding the post-pandemic office vacancy crisis and its effects on commercial districts.
+
+**Access:** [Kidder Mathews: Seattle Office Report](https://kidder.com/market-reports/seattle-office-market-report/) | [Kidder Mathews: Seattle Retail Report](https://kidder.com/market-reports/seattle-retail-market-report/) | [Cushman & Wakefield: Seattle-Bellevue MarketBeats](https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/seattle-bellevue-marketbeats)
+
+---
 
 ### Sound Transit Performance Tracker
 

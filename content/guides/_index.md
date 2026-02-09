@@ -27,6 +27,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Renter Protections & Tenant Rights]({{< relref "renter-protections" >}}) -- Just cause eviction, rent stabilization, RRIO, relocation assistance, and right to counsel
 - [Earthquake Preparedness & Seismic Risk]({{< relref "earthquake" >}}) -- Seismic hazards, unreinforced masonry buildings, liquefaction zones, and preparedness programs
 - [Historic Preservation & Landmarks]({{< relref "historic-preservation" >}}) -- Landmark districts, the Landmarks Preservation Board, designation process, and preservation vs. density
+- [Commercial Zoning, Office Space & Retail Corridors]({{< relref "commercial-zoning" >}}) -- Commercial zoning types, neighborhood business districts, the office vacancy crisis, and storefront activation
 - [Regional Governance & Agency Coordination]({{< relref "regional-governance" >}}) -- PSRC, Sound Transit, King County Metro, WSDOT, and how regional decisions get made
 
 ---
