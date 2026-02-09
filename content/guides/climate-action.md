@@ -30,7 +30,7 @@ Seattle's **Energy Code** is updated every three years and sets efficiency stand
 
 The **Clean Heat Program** helps households switch from oil heating to energy-efficient heat pumps. Since 2017, the program has helped more than 2,000 households convert, and the city is on track to eliminate heating oil use by 2030. ([Seattle OSE: Buildings & Energy](https://www.seattle.gov/environment/climate-change/buildings-and-energy))
 
-State-level electrification policy has been contested. In November 2024, voters passed **Initiative 2066**, an industry-backed measure intended to block restrictions on natural gas service. In March 2025, a court ruled I-2066 unconstitutional on single-subject grounds, though litigation continues.
+State-level electrification policy has been contested. In November 2024, voters passed **Initiative 2066** (51.7% Yes), an industry-backed measure intended to block restrictions on natural gas service. On March 21, 2025, King County Superior Court ruled I-2066 unconstitutional on single-subject grounds; the case is now before the Washington Supreme Court. ([Ballotpedia: I-2066](https://ballotpedia.org/Washington_Initiative_2066,_Natural_Gas_Policies_Measure_(2024)))
 
 ### Transportation emissions
 
@@ -38,13 +38,15 @@ Transportation is Seattle's largest source of greenhouse gas emissions, responsi
 
 Seattle's **Climate Change Response Framework** (2023) set a target of increasing transit mode share from 11% to 24% of all trips by 2030 — requiring a transformation of how residents move through the city. ([The Urbanist: 2030 Mode Shift Goals](https://www.theurbanist.org/2023/10/10/seattle-lays-out-2030-mode-shift-goals-in-climate-framework/))
 
-The **Transportation Electrification Blueprint** sets goals for electrifying the city's vehicle fleet and supporting private EV adoption. The **Low Pollution Neighborhoods** initiative targets emissions reductions in communities most burdened by traffic pollution.
+The **Transportation Electrification Blueprint** (2021) sets goals for electrifying the city's vehicle fleet and supporting private EV adoption, including a target of 100% fossil-fuel-free city fleet by 2030. ([Seattle OSE: Transportation Electrification Blueprint](https://www.seattle.gov/environment/climate-change/transportation-emissions/transportation-electrification-blueprint))
+
+The **Low Pollution Neighborhoods** initiative, launched by mayoral executive order in December 2022, targets emissions reductions in communities most burdened by traffic pollution, with candidate neighborhoods including Georgetown, South Park, and Beacon Hill. ([SDOT: Low Pollution Neighborhoods](https://www.seattle.gov/transportation/about-us/climate-response/low-pollution-neighborhoods) | [The Urbanist: Low Pollution Neighborhood Pledge](https://www.theurbanist.org/2024/09/23/seattles-low-pollution-neighborhood-pledge-remains-in-planning-mode/))
 
 ### Green New Deal
 
 Seattle's **Green New Deal**, established through Resolution 31895 (2019) and Executive Order 2020-01, is the city's overarching climate justice framework. Funded in part by the [JumpStart Payroll Expense Tax]({{< relref "/glossary/funding-policy#jumpstart-payroll-expense-tax" >}}), it focuses on three pillars: addressing climate and environmental injustice, promoting healthy communities, and investing in an inclusive green economy. ([Seattle OSE: Green New Deal](https://www.seattle.gov/environment/climate-change/climate-justice/green-new-deal))
 
-The **Green New Deal Oversight Board** provides community oversight and policy recommendations to ensure implementation centers communities of color and frontline neighborhoods.
+The **Green New Deal Oversight Board** provides community oversight and policy recommendations to ensure implementation centers communities of color and frontline neighborhoods. ([Seattle OSE: Green New Deal](https://www.seattle.gov/environment/climate-change/climate-justice/green-new-deal))
 
 ### Urban heat island
 
@@ -56,7 +58,7 @@ The city uses heat mapping data to prioritize tree planting and cooling infrastr
 
 ### 2005: U.S. Mayors Climate Protection Agreement
 
-Seattle Mayor Greg Nickels spearheaded the U.S. Conference of Mayors Climate Protection Agreement, which committed participating cities to meet the targets of the Kyoto Protocol. The effort put Seattle at the forefront of municipal climate action.
+Seattle Mayor Greg Nickels launched the **U.S. Conference of Mayors Climate Protection Agreement** on February 16, 2005 — the day the Kyoto Protocol took effect internationally — pledging that Seattle would meet the Protocol's emission reduction targets. Over 1,000 mayors eventually signed the agreement. ([U.S. Conference of Mayors: Climate Protection Center](https://www.usmayors.org/programs/mayors-climate-protection-center/) | [Harvard IOP: Greg Nickels](https://iop.harvard.edu/fellows/greg-nickels))
 
 ### 2013: Climate Action Plan
 
@@ -72,11 +74,11 @@ Seattle Utilities partnered with King County and OSE to create a **Heat Watch Ma
 
 ### 2023: BEPS enacted
 
-The Seattle City Council unanimously passed the **Building Emissions Performance Standard** in December 2023. The law makes Seattle one of the first cities in the nation to require large existing buildings to meet greenhouse gas performance targets on a path to net-zero. Implementation rulemaking was finalized in December 2025. ([The Urbanist: Harrell Signs BEPS Into Law](https://www.theurbanist.org/2023/12/14/harrell-signs-building-emissions-standard-into-law-queuing-up-green-retrofits/))
+The Seattle City Council unanimously passed the **Building Emissions Performance Standard** on December 12, 2023, and Mayor Harrell signed it into law the following day. The law makes Seattle one of the first cities in the nation to require large existing buildings to meet greenhouse gas performance targets on a path to net-zero. OSE published the final Director's Rule on December 9, 2025, establishing the compliance framework with reporting obligations starting October 1, 2027. ([Seattle City Council: BEPS Passage](https://council.seattle.gov/2023/12/12/seattle-city-council-passes-landmark-building-emissions-standards-law-to-combat-climate-crisis-pollution/) | [Seattle OSE: BEPS Rulemaking](https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard/beps-rulemaking))
 
 ### 2024: Climate Commitment Act preserved; Buy Clean Buy Fair enacted
 
-In November 2024, Washington voters rejected **Initiative 2117** (62% No), preserving the state's **Climate Commitment Act** cap-and-invest program that funds many Seattle climate programs. In March 2024, Governor Inslee signed the **Buy Clean Buy Fair Act** (HB 1282), making Washington the first state to require [embodied carbon]({{< relref "/glossary/land-use#embodied-carbon" >}}) reporting for concrete, steel, and wood in state building projects. ([WA Commerce: Buy Clean Buy Fair](https://www.commerce.wa.gov/seep/bcbf/) | [Carbon Leadership Forum: BCBF](https://carbonleadershipforum.org/buy-clean-buy-fair-bill-signed-into-law-in-washington-state/))
+In November 2024, Washington voters rejected **Initiative 2117** (61.95% No), preserving the state's **Climate Commitment Act** cap-and-invest program that funds many Seattle climate programs. ([Ballotpedia: I-2117](https://ballotpedia.org/Washington_Initiative_2117,_Prohibit_Carbon_Tax_Credit_Trading_and_Repeal_Carbon_Cap-and-Invest_Program_Measure_(2024))) In March 2024, Governor Inslee signed the **Buy Clean Buy Fair Act** (HB 1282), making Washington the first state to require [embodied carbon]({{< relref "/glossary/land-use#embodied-carbon" >}}) reporting for concrete, steel, and wood in state building projects. ([WA Commerce: Buy Clean Buy Fair](https://www.commerce.wa.gov/seep/bcbf/) | [Carbon Leadership Forum: BCBF](https://carbonleadershipforum.org/buy-clean-buy-fair-bill-signed-into-law-in-washington-state/))
 
 ### 2025: Climate Action Plan progress report and new plan ordered
 
@@ -92,9 +94,9 @@ The September 2025 **2013 CAP Progress Report** found that Seattle completed or 
 
 Seattle's climate programs are funded through multiple sources:
 
-- **[JumpStart Payroll Expense Tax]({{< relref "/glossary/funding-policy#jumpstart-payroll-expense-tax" >}}):** Approximately $300 million annually; funds Green New Deal programs, affordable housing, and the Environmental Justice Fund
+- **[JumpStart Payroll Expense Tax]({{< relref "/glossary/funding-policy#jumpstart-payroll-expense-tax" >}}):** Generated $315 million in 2023; funds Green New Deal programs, affordable housing, and the Environmental Justice Fund ([Cascade PBS: JumpStart Revenue](https://www.cascadepbs.org/news/2024/10/jumpstart-fight-over-how-spend-seattles-big-business-tax))
 - **Washington Climate Commitment Act:** State cap-and-invest revenues fund local transit, electrification, and resilience projects
-- **Seattle City Light:** The city's municipally owned electric utility provides 90%+ carbon-free electricity (primarily hydropower), making building electrification an effective decarbonization strategy
+- **Seattle City Light:** The city's municipally owned electric utility delivers approximately 90% carbon-free electricity — 88% from hydropower — making building electrification an effective decarbonization strategy ([Seattle City Light: Hydropower](https://powerlines.seattle.gov/2025/03/07/hydropower-is-the-foundation-of-seattles-energy-past-present-and-future/))
 - **Federal grants:** Inflation Reduction Act and other federal programs fund building retrofits and EV infrastructure
 
 ### Interagency coordination
