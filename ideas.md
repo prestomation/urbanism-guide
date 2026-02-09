@@ -4,9 +4,6 @@ Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
 ## Tier 2: Valuable Additions
 
-### Regional Governance & Agency Coordination
-How PSRC, Sound Transit, King County Metro, Community Transit, and WSDOT interact. Who does what and how decisions get made.
-
 ### Historic Preservation & Landmarks
 Landmark districts (Pioneer Square, Pike Place, International District), the Landmarks Preservation Board, tension between preservation and density.
 
@@ -34,7 +31,7 @@ Commercial gentrification, commercial affordability programs, community benefit 
 
 - **Environmental justice terms:** green gentrification
 - **Real estate terms:** housing production, absorption rate
-- **Governance terms:** PSRC, Growth Plan Committee (GPC), council districts, community planning committees
+- **Governance terms:** Growth Plan Committee (GPC), council districts, community planning committees
 - **Climate terms:** embodied carbon, building electrification, urban heat island
 
 ## Timeline Additions

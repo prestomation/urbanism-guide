@@ -173,6 +173,18 @@ A new land use designation in Seattle's One Seattle Plan, applied to approximate
 
 ---
 
+## PSRC (Puget Sound Regional Council)
+
+The federally designated Metropolitan Planning Organization (MPO) for the four-county central Puget Sound region (King, Snohomish, Pierce, and Kitsap counties). PSRC coordinates regional growth planning through VISION 2050, allocates approximately $300 million per year in federal transportation funding, and adopts the Regional Transportation Plan. PSRC has more than 100 member entities including counties, cities, tribal nations, transit agencies, and port districts.
+
+**Why it matters:** PSRC shapes where growth goes in the region through VISION 2050's growth targets, which every city's comprehensive plan must accommodate. Its control over federal transportation dollars gives it significant influence over which projects get built. For urbanists, PSRC's planning processes -- especially the Regional Transportation Plan updates and federal funding competitions -- are key intervention points for advocating for transit, bike, and pedestrian investments.
+
+**See also:** [Comprehensive Plan](#comprehensive-plan), [GMA](#gma-growth-management-act), [Urban Growth Boundary](#urban-growth-boundary-ugb)
+
+**Learn more:** [PSRC](https://www.psrc.org/about-us) | [The Urbanist: Vision 2050 Has Passed](https://www.theurbanist.org/2020/11/05/vision-2050-has-passed-on-to-visions-2024/)
+
+---
+
 ## Regional Centers / Urban Centers
 
 The new hierarchy of growth centers in Seattle's One Seattle Plan. Regional Centers (Downtown, Northgate, University District, etc.) are the most intensive growth areas. Urban Centers are the next tier, including places like the Central District, Fremont, and Columbia City. These replace the old "urban center" and "hub urban village" designations.

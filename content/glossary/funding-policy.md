@@ -179,6 +179,18 @@ Publicly or cooperatively owned housing that remains permanently affordable and 
 
 ---
 
+## Subarea Equity
+
+A Sound Transit policy requiring that tax revenue collected in each of the agency's five geographic subareas -- North King, South King, East King, Snohomish, and Pierce -- be spent on projects and services that benefit that subarea. The policy is legally binding and independently audited.
+
+**Why it matters:** Subarea equity ensures that communities receive transit investments proportional to their tax contributions, but it also means wealthier subareas like East King County generate more revenue per capita than lower-income areas like South King County. This creates a tension between equity of investment and equity of need -- the areas with the most transit-dependent riders are not necessarily the areas generating the most tax revenue. Subarea equity has shaped every major Sound Transit decision, from project lists in ballot measures to the 2021 realignment of project timelines.
+
+**See also:** [ST3](/glossary/transportation/#st3-sound-transit-3), [Move Seattle Levy](#move-seattle-levy)
+
+**Learn more:** [Sound Transit: Regional Tax Information](https://www.soundtransit.org/get-to-know-us/paying-regional-transit/regional-tax-information) | [The Urbanist: Sound Transit Board Pledges Stronger Commitment to Regionalism](https://www.theurbanist.org/2024/03/01/sound-transit-board-pledges-stronger-commitment-to-regionalism/)
+
+---
+
 ## TIF (Tax Increment Financing)
 
 A financing tool where future property tax increases in a designated area are used to pay for current infrastructure investments in that area. Washington authorized TIF in 2021 (HB 1189, codified as chapter 39.114 RCW), making it available to cities, counties, and port districts.
