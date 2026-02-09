@@ -6,7 +6,7 @@ bookToc: true
 
 # Historic Preservation & Landmarks in Seattle
 
-Seattle's historic preservation program protects over 450 individually designated landmarks and eight historic districts. The program is administered by the **Department of Neighborhoods** through the **Landmarks Preservation Board**, an 11-member body established in 1973. Preservation policy in Seattle involves balancing the protection of architecturally and culturally significant buildings with the city's need to build housing and accommodate growth.
+Seattle's historic preservation program protects over 450 individually designated landmarks and eight historic districts. The program is administered by the **Department of Neighborhoods** through the **Landmarks Preservation Board**, an 11-member body established in 1973. Preservation policy in Seattle involves balancing the protection of architecturally and culturally significant buildings with the city's need to build housing and accommodate growth. ([Seattle DON: Historic Preservation](https://www.seattle.gov/neighborhoods/historic-preservation))
 
 ## How landmark designation works
 
@@ -31,7 +31,7 @@ A **Certificate of Approval** is required before any changes can be made to a de
 
 ### Landmarks Preservation Board composition
 
-The Board's 11 members are appointed by the Mayor and confirmed by the City Council. By ordinance, the Board must include two architects, two historians, one member of the City Planning Commission, one structural engineer, and one member each representing finance and real estate management.
+The Board's 11 members are appointed by the Mayor and confirmed by the City Council. By ordinance ([SMC 25.12.270](https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=TIT25ENPRHIPR_CH25.12LAPR)), the Board must include two architects, two historians, one member of the City Planning Commission, one structural engineer, and one member each representing finance and real estate management.
 
 ## Seattle's eight historic districts
 
@@ -39,31 +39,31 @@ Since 1970, Seattle has established eight historic districts, each with its own 
 
 ### Pioneer Square Preservation District (1970)
 
-Seattle's first preservation district, covering approximately 88 acres of the city's original downtown. The neighborhood was rebuilt after the Great Seattle Fire of 1889 and contains one of the nation's largest collections of **Richardsonian Romanesque** architecture. By the 1960s, city plans called for a ring road that would have demolished many of these buildings. Architects Ralph Anderson and Victor Steinbrueck led efforts to document and protect the district. In 1970, the City Council designated it as a preservation district and it was listed on the National Register of Historic Places. The boundaries were expanded in 1978 and 1987. ([Seattle DON: Pioneer Square](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pioneer-square-preservation-district))
+Seattle's first preservation district, covering approximately 88 acres of the city's original downtown. The neighborhood was rebuilt after the Great Seattle Fire of 1889 and contains one of the nation's largest collections of **Richardsonian Romanesque** architecture. By the 1960s, city plans called for a ring road that would have demolished many of these buildings. Architects Ralph Anderson and Victor Steinbrueck led efforts to document and protect the district. In 1970, the City Council designated it as a preservation district and it was listed on the National Register of Historic Places. The boundaries were expanded in 1978 and 1987. ([Seattle DON: Pioneer Square](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pioneer-square-preservation-district) | [HistoryLink](https://www.historylink.org/file/3392))
 
 ### Pike Place Market Historical District (1971)
 
-In 1971, Seattle voters approved an initiative creating the Pike Place Market Historical District, blocking a city urban renewal plan that would have demolished much of the market. Victor Steinbrueck was a leading advocate for preservation. The district protects the market's historic structures, uses, and character, with review of both exterior and interior changes by a 12-member Historical Commission. ([Seattle DON: Pike Place Market](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pike-place-market-historical-district))
+In 1971, Seattle voters approved an initiative creating the Pike Place Market Historical District, blocking a city urban renewal plan that would have demolished much of the market. Victor Steinbrueck was a leading advocate for preservation. The district protects the market's historic structures, uses, and character, with review of both exterior and interior changes by a 12-member Historical Commission. ([Seattle DON: Pike Place Market](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pike-place-market-historical-district) | [HistoryLink](https://www.historylink.org/File/1426))
 
 ### International Special Review District (1973)
 
-The historic center of Seattle's Asian and Pacific Islander community, with many buildings dating from the early 1900s. The district was established to protect the neighborhood's cultural and architectural character during a period of pressure from stadiums and highway construction. A seven-member board (five elected, two appointed) reviews changes in the district. ([Seattle DON: International Special Review District](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/international-special-review-district))
+The historic center of Seattle's Asian and Pacific Islander community, with many buildings dating from the early 1900s. The district was established to protect the neighborhood's cultural and architectural character during a period of pressure from stadiums and highway construction. A seven-member board (five elected, two appointed) reviews changes in the district. ([Seattle DON: International Special Review District](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/international-special-review-district) | [HistoryLink](https://www.historylink.org/file/1058))
 
 ### Ballard Avenue Landmark District (1976)
 
-A two-block commercial corridor in the former independent city of Ballard, designated to preserve its turn-of-the-century commercial architecture. Ballard was annexed by Seattle in 1907. The district was listed on the National Register of Historic Places in 1976. ([Seattle DON: Ballard Avenue](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/ballard-avenue-landmark-district))
+A two-block commercial corridor in the former independent city of Ballard, designated to preserve its turn-of-the-century commercial architecture. Ballard was annexed by Seattle in 1907. The district was listed on the National Register of Historic Places in 1976. ([Seattle DON: Ballard Avenue](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/ballard-avenue-landmark-district) | [HistoryLink](https://historylink.org/File/1423))
 
 ### Columbia City Landmark District (1978)
 
-The historic commercial core of Columbia City, another former independent city annexed by Seattle in 1907. The district was designated in 1978 and added to the National Register in 1980. It is one of the most racially diverse neighborhoods in Seattle. ([Seattle DON: Columbia City](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/columbia-city-landmark-district))
+The historic commercial core of Columbia City, another former independent city annexed by Seattle in 1907. The district was designated in 1978 and added to the National Register in 1980. It is one of the most racially diverse neighborhoods in Seattle. ([Seattle DON: Columbia City](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/columbia-city-landmark-district) | [HistoryLink](https://www.historylink.org/File/3327))
 
 ### Harvard-Belmont Landmark District (1980)
 
-A residential district on Capitol Hill containing early 20th-century homes, including some of Seattle's most architecturally significant residential buildings. Designated in 1980. ([Seattle DON: Harvard-Belmont](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/harvard-belmont-landmark-district))
+A residential district on Capitol Hill containing early 20th-century homes, including some of Seattle's most architecturally significant residential buildings. Designated in 1980. ([Seattle DON: Harvard-Belmont](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/harvard-belmont-landmark-district) | [HistoryLink: Capitol Hill](https://www.historylink.org/File/3188))
 
 ### Fort Lawton Landmark District (1988)
 
-The best-preserved collection of early buildings from Fort Lawton, a U.S. Army post established in 1900 in Magnolia. The fort was largely decommissioned in the 1970s and much of the land became Discovery Park. Designated in 1988. ([Seattle DON: Fort Lawton](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/fort-lawton-landmark-district))
+The best-preserved collection of early buildings from Fort Lawton, a U.S. Army post established in 1900 in Magnolia. The fort was largely decommissioned in the 1970s and much of the land became Discovery Park. Designated in 1988. ([Seattle DON: Fort Lawton](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/fort-lawton-landmark-district) | [HistoryLink](https://www.historylink.org/file/8772))
 
 ### Sand Point Naval Air Station Landmark District (2011)
 
@@ -73,11 +73,11 @@ Seattle's newest historic district, covering the former Naval Air Station at San
 
 ### 1966: National Historic Preservation Act
 
-The federal **National Historic Preservation Act** established the National Register of Historic Places and created the framework for state and local preservation programs. It spurred preservation consciousness nationwide, including in Seattle.
+The federal **National Historic Preservation Act** established the National Register of Historic Places and created the framework for state and local preservation programs. It spurred preservation consciousness nationwide, including in Seattle. ([NPS: National Historic Preservation Act](https://www.nps.gov/subjects/historicpreservation/national-historic-preservation-act.htm))
 
 ### 1970-1971: Pioneer Square and Pike Place Market saved
 
-Citizen campaigns led by Victor Steinbrueck, Ralph Anderson, Bill Speidel, and others blocked demolition plans for Pioneer Square and Pike Place Market. The City Council designated Pioneer Square as Seattle's first preservation district in 1970. Voters approved the Pike Place Market initiative in 1971. These were among the first National Register districts in the country. ([Seattle DON: Pioneer Square](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pioneer-square-preservation-district))
+Citizen campaigns led by Victor Steinbrueck, Ralph Anderson, Bill Speidel, and others blocked demolition plans for Pioneer Square and Pike Place Market. The City Council designated Pioneer Square as Seattle's first preservation district in 1970. Voters approved the Pike Place Market initiative in 1971. These were among the first National Register districts in the country. ([Seattle DON: Pioneer Square](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pioneer-square-preservation-district) | [HistoryLink: Pike Place Market](https://www.historylink.org/File/1426))
 
 ### 1973: Landmarks Preservation Ordinance
 
@@ -89,7 +89,7 @@ The city created the **Office of Urban Conservation** within the Department of C
 
 ### 1976-2011: Six more districts designated
 
-Between 1976 and 2011, Seattle established six additional historic districts: Ballard Avenue (1976), Columbia City (1978), Harvard-Belmont (1980), Fort Lawton (1988), and Sand Point (2011). The International Special Review District was established in 1973.
+Between 1976 and 2011, Seattle established six additional historic districts: Ballard Avenue (1976), Columbia City (1978), Harvard-Belmont (1980), Fort Lawton (1988), and Sand Point (2011). The International Special Review District was established in 1973. ([Seattle DON: Historic Districts](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts))
 
 ### 2025: SHB 1576 requires owner consent
 
@@ -119,19 +119,19 @@ Seattle offers several financial and regulatory incentives to encourage landmark
 
 ### Transfer of Development Rights (TDR)
 
-Owners of designated landmarks can sell their unused development rights to developers building in downtown and other receiving zones. This generates revenue for preservation while allowing density elsewhere. Seattle launched its TDR program in 1985. A portion of bonus floor area in downtown projects must be obtained through **Landmark TDR** if any are available in the city's TDR Bank.
+Owners of designated landmarks can sell their unused development rights to developers building in downtown and other receiving zones. This generates revenue for preservation while allowing density elsewhere. Seattle launched its TDR program in 1985. A portion of bonus floor area in downtown projects must be obtained through **Landmark TDR** if any are available in the city's TDR Bank. ([Seattle DON: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives))
 
 ### Special Tax Valuation
 
-Under a 1985 state law, owners of designated landmarks or contributing buildings in National Register or local historic districts can subtract approved rehabilitation costs from their assessed property value for up to 10 years. The rehabilitation must equal at least 25% of the assessed improvement value.
+Under [RCW 84.26](https://app.leg.wa.gov/RCW/default.aspx?cite=84.26), owners of designated landmarks or contributing buildings in National Register or local historic districts can subtract approved rehabilitation costs from their assessed property value for up to 10 years. The rehabilitation must equal at least 25% of the assessed improvement value. ([Seattle DON: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives))
 
 ### Federal Historic Tax Credit
 
-A 20% income tax credit on rehabilitation costs for buildings listed on the National Register, available for commercial, industrial, or rental residential uses. This can be combined with the state Special Tax Valuation.
+A 20% income tax credit on rehabilitation costs for buildings listed on the National Register, available for commercial, industrial, or rental residential uses. This can be combined with the state Special Tax Valuation. ([NPS: Historic Preservation Tax Incentives](https://www.nps.gov/subjects/taxincentives/about.htm))
 
 ### Building and zoning code relief
 
-The Director of SDCI can modify building code requirements for landmark buildings and authorize uses not otherwise permitted in a zone to encourage preservation and adaptive reuse of historic structures.
+The Director of SDCI can modify building code requirements for landmark buildings and authorize uses not otherwise permitted in a zone to encourage preservation and adaptive reuse of historic structures. ([Seattle DON: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives))
 
 ### 4Culture Landmarks Capital Grants
 
