@@ -43,23 +43,23 @@ Seattle's first preservation district, covering approximately 88 acres of the ci
 
 ### Pike Place Market Historical District (1971)
 
-In 1971, Seattle voters approved an initiative creating the Pike Place Market Historical District, blocking a city urban renewal plan that would have demolished much of the market. Victor Steinbrueck was a leading advocate for preservation. The district protects the market's historic structures, uses, and character, with review of both exterior and interior changes.
+In 1971, Seattle voters approved an initiative creating the Pike Place Market Historical District, blocking a city urban renewal plan that would have demolished much of the market. Victor Steinbrueck was a leading advocate for preservation. The district protects the market's historic structures, uses, and character, with review of both exterior and interior changes by a 12-member Historical Commission. ([Seattle DON: Pike Place Market](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pike-place-market-historical-district))
 
 ### International Special Review District (1973)
 
-The historic center of Seattle's Asian and Pacific Islander community, with many buildings dating from the early 1900s. The district was established to protect the neighborhood's cultural and architectural character during a period of pressure from stadiums and highway construction.
+The historic center of Seattle's Asian and Pacific Islander community, with many buildings dating from the early 1900s. The district was established to protect the neighborhood's cultural and architectural character during a period of pressure from stadiums and highway construction. A seven-member board (five elected, two appointed) reviews changes in the district. ([Seattle DON: International Special Review District](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/international-special-review-district))
 
 ### Ballard Avenue Landmark District (1976)
 
-A two-block commercial corridor in the former independent city of Ballard, designated to preserve its turn-of-the-century commercial architecture. Ballard was annexed by Seattle in 1907. The district was listed on the National Register of Historic Places in 1976.
+A two-block commercial corridor in the former independent city of Ballard, designated to preserve its turn-of-the-century commercial architecture. Ballard was annexed by Seattle in 1907. The district was listed on the National Register of Historic Places in 1976. ([Seattle DON: Ballard Avenue](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/ballard-avenue-landmark-district))
 
 ### Columbia City Landmark District (1978)
 
-The historic commercial core of Columbia City, another former independent city annexed by Seattle in 1907. The district was designated in 1978 and added to the National Register in 1980. It is one of the most racially diverse neighborhoods in Seattle.
+The historic commercial core of Columbia City, another former independent city annexed by Seattle in 1907. The district was designated in 1978 and added to the National Register in 1980. It is one of the most racially diverse neighborhoods in Seattle. ([Seattle DON: Columbia City](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/columbia-city-landmark-district))
 
 ### Harvard-Belmont Landmark District (1980)
 
-A residential district on Capitol Hill containing early 20th-century homes, including some of Seattle's most architecturally significant residential buildings. Designated in 1980.
+A residential district on Capitol Hill containing early 20th-century homes, including some of Seattle's most architecturally significant residential buildings. Designated in 1980. ([Seattle DON: Harvard-Belmont](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/harvard-belmont-landmark-district))
 
 ### Fort Lawton Landmark District (1988)
 
@@ -67,7 +67,7 @@ The best-preserved collection of early buildings from Fort Lawton, a U.S. Army p
 
 ### Sand Point Naval Air Station Landmark District (2011)
 
-Seattle's newest historic district, covering the former Naval Air Station at Sand Point (now Magnuson Park). The station operated from 1920 to 1970 and contains mid-century military buildings. Listed on the National Register in 2010 and designated as a Seattle landmark district in 2011.
+Seattle's newest historic district, covering the former Naval Air Station at Sand Point (now Magnuson Park). The station operated from 1920 to 1970 and contains mid-century military buildings. Listed on the National Register in 2010 and designated as a Seattle landmark district in 2011. ([Seattle DON: Sand Point](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/sand-point-naval-air-station-landmark-district))
 
 ## History
 
