@@ -201,4 +201,16 @@ A financing tool where future property tax increases in a designated area are us
 
 ---
 
+## Transfer of Development Rights (TDR)
+
+A market-based tool that allows owners of designated landmarks or other protected properties to sell their unused development capacity to developers building in designated receiving zones. Seattle launched its TDR program in 1985, initially for downtown. The city has since expanded TDR to South Lake Union, University District, Uptown, and North Rainier. A portion of bonus floor area in downtown projects must be obtained through **Landmark TDR** if any are available in the city's TDR Bank, which is managed by the Department of Housing.
+
+**Why it matters:** TDR is the primary financial incentive for landmark preservation in Seattle. It allows owners of low-rise historic buildings in high-value zones to monetize their unused development rights without demolishing the building. For developers, purchasing TDR is one of several options for gaining additional floor area beyond base zoning. The program also includes **South Downtown Historic TDR**, which supports preservation in the Pioneer Square and International District historic districts.
+
+**See also:** [Incentive Zoning](#incentive-zoning-iz), [FAR](/glossary/housing-zoning/#far-floor-area-ratio)
+
+**Learn more:** [Seattle DON: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives) | [MRSC: Historic Preservation](https://mrsc.org/explore-topics/planning/specific-planning-subjects-plan-elements/historic-preservation)
+
+---
+
 *This page is a work in progress. [Suggest additions](https://github.com/prestomation/urbanism-guide/issues).*

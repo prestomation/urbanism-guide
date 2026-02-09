@@ -125,6 +125,18 @@ Washington state law (1990) requiring urban areas to plan for growth, protect ru
 
 ---
 
+## Landmark District
+
+A geographically defined area designated by the Seattle City Council to protect the architectural character and historic integrity of a neighborhood. Each of Seattle's eight landmark districts has its own review board or committee and set of design guidelines. Any exterior changes to buildings within a district require a **Certificate of Approval** from the review board. Seattle's eight districts are Pioneer Square (1970), Pike Place Market (1971), International District (1973), Ballard Avenue (1976), Columbia City (1978), Harvard-Belmont (1980), Fort Lawton (1988), and Sand Point (2011).
+
+**Why it matters:** Landmark districts regulate what can be changed in some of Seattle's most historically significant neighborhoods. The Certificate of Approval process adds a layer of review beyond standard building permits, which can affect project timelines and costs. Properties within designated landmark districts are exempt from SHB 1576's owner-consent requirement, meaning the districts themselves remain protected even as the state limits new individual landmark designations.
+
+**See also:** [Zoning](#zoning), [SDCI](#sdci-seattle-department-of-construction-and-inspections), [Unreinforced Masonry (URM)](#unreinforced-masonry-urm)
+
+**Learn more:** [Seattle DON: Historic Districts](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts) | [The Urbanist: Legislature Wants to Rein In Historic Landmarking](https://www.theurbanist.org/2025/02/19/washington-legislature-wants-to-rein-in-historic-landmarking/)
+
+---
+
 ## MUP (Master Use Permit)
 
 Seattle's combined land use permit that bundles zoning approvals, environmental review, and design review into a single application. Required for most new construction and major alterations.
