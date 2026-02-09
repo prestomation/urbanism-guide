@@ -4,9 +4,6 @@ Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
 ## Tier 2: Valuable Additions
 
-### Commercial Zoning, Office Space & Retail Corridors
-Commercial development, office vacancy, ground-floor retail requirements, neighborhood business districts. Fills a gap in the current residential-heavy focus.
-
 ### Climate Action & Building Decarbonization
 Climate Action Plan, building electrification, embodied carbon, land use and emissions. Expands on the existing BEPS glossary entry.
 

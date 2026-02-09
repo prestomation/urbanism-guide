@@ -185,6 +185,18 @@ A new land use designation in Seattle's One Seattle Plan, applied to approximate
 
 ---
 
+## Pedestrian Zone (P-zone)
+
+A zoning overlay applied to Neighborhood Commercial (NC) zones that designates an area as "an intensely retail and pedestrian-oriented shopping district where non-auto modes of transportation to and within the district are strongly favored." Pedestrian zones prohibit drive-through lanes, restrict parking to behind buildings or within structures, and discourage driveways crossing sidewalks on principal pedestrian streets. Seattle had 33 P-zones before a 2015 expansion (Ordinance 124770) added or expanded the designation in 42 neighborhoods, bringing the total to roughly 73.
+
+**Why it matters:** P-zones are the city's strongest zoning tool for maintaining walkable commercial character. They directly shape what new development looks like at street level — ensuring that buildings front the sidewalk with active uses rather than parking lots or blank walls. When a neighborhood's commercial area has a P-zone designation, auto-oriented businesses like drive-throughs and gas stations are prohibited, and new construction must create a pedestrian-friendly streetscape. Understanding P-zone designations helps advocates evaluate whether proposed developments are compatible with their neighborhood's commercial character.
+
+**See also:** [Neighborhood Centers](#neighborhood-centers), [Zoning](#zoning), [Form-Based Code](#form-based-code)
+
+**Learn more:** [Seattle OPCD: Pedestrian Retail Areas](https://www.seattle.gov/opcd/vault/pedestrian-retail-areas) | [The Urbanist: A Big Revision: Seattle's Pedestrian-Oriented Commercial Districts](https://www.theurbanist.org/2015/07/15/a-big-revision-seattles-pedestrian-oriented-commercial-districts/)
+
+---
+
 ## PSRC (Puget Sound Regional Council)
 
 The federally designated Metropolitan Planning Organization (MPO) for the four-county central Puget Sound region (King, Snohomish, Pierce, and Kitsap counties). PSRC coordinates regional growth planning through VISION 2050, allocates approximately $300 million per year in federal transportation funding, and adopts the Regional Transportation Plan. PSRC has more than 100 member entities including counties, cities, tribal nations, transit agencies, and port districts.
