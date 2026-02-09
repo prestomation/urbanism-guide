@@ -115,6 +115,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 **Existing guides** (keep this list up to date when adding or removing guides):
 - `bike-network.md` - Protected bike lanes, neighborhood greenways, trails
 - `car-share.md` - Car sharing services, operators, regulations
+- `climate-action.md` - Climate Action Plan, BEPS, building electrification, Green New Deal, urban heat island
 - `commercial-zoning.md` - Commercial zoning types, office vacancy, retail corridors, neighborhood business districts
 - `earthquake.md` - Earthquake preparedness and seismic risk
 - `environmental-justice.md` - Environmental justice and equitable development

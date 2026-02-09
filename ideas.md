@@ -2,11 +2,6 @@
 
 Suggested new content for the Seattle Urbanism Guide, organized by priority.
 
-## Tier 2: Valuable Additions
-
-### Climate Action & Building Decarbonization
-Climate Action Plan, building electrification, embodied carbon, land use and emissions. Expands on the existing BEPS glossary entry.
-
 ## Tier 3: Nice to Have
 
 ### How to Read a Planning Document
@@ -26,7 +21,6 @@ Commercial gentrification, commercial affordability programs, community benefit 
 - **Environmental justice terms:** green gentrification
 - **Real estate terms:** housing production, absorption rate
 - **Governance terms:** Growth Plan Committee (GPC), council districts, community planning committees
-- **Climate terms:** embodied carbon, building electrification, urban heat island
 
 ## Timeline Additions
 

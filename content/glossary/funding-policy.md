@@ -41,6 +41,18 @@ Seattle's policy requiring large commercial and multifamily buildings (over 20,0
 
 ---
 
+## Building Electrification
+
+The transition of buildings from fossil fuel systems — primarily natural gas furnaces, boilers, and water heaters — to electric alternatives such as heat pumps. In Seattle, building electrification is a central climate strategy because over 90% of building emissions come from on-site fossil fuel combustion, and the city's electricity supply (Seattle City Light) is over 90% carbon-free, primarily from hydropower.
+
+**Why it matters:** Because Seattle's electric grid is already largely clean, switching a building from gas to electric heating achieves an immediate emissions reduction — unlike cities that rely on coal or gas for electricity generation. The city's **Clean Heat Program** has helped over 2,000 households convert from oil to heat pumps since 2017. Seattle's **Energy Code** has progressively tightened requirements for new buildings, pushing toward all-electric construction. At the state level, building electrification has been politically contested: voters passed **Initiative 2066** in November 2024 to block gas-to-electric transition policies, but a court ruled it unconstitutional in March 2025 (litigation ongoing).
+
+**See also:** [BEPS](#beps-building-emissions-performance-standard), [Housing Levy](#housing-levy)
+
+**Learn more:** [Seattle OSE: Buildings & Energy](https://www.seattle.gov/environment/climate-change/buildings-and-energy) | [The Urbanist: Harrell Signs BEPS Into Law](https://www.theurbanist.org/2023/12/14/harrell-signs-building-emissions-standard-into-law-queuing-up-green-retrofits/)
+
+---
+
 ## Community Land Trust (CLT)
 
 A nonprofit organization that owns land permanently and leases it to homeowners or developers, keeping housing affordable in perpetuity. The trust controls resale prices to maintain long-term affordability while still allowing residents to build equity.
