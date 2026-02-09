@@ -101,6 +101,18 @@ A planning approach that combines transit-oriented development with explicit ant
 
 ---
 
+## Historic District
+
+A geographically defined area designated by city ordinance to preserve the architectural and historical integrity of its buildings and public spaces. Seattle has eight historic districts, each governed by a citizens board and/or the Landmarks Preservation Board. Property owners within a district must obtain a **Certificate of Approval** before making exterior changes — a written authorization similar to a building permit, reviewed against district-specific design guidelines.
+
+**Why it matters:** Historic districts are among the strongest preservation tools available, providing regulatory protection that individual landmark designation and state/federal register listing do not. They are also at the center of Seattle's preservation-vs.-density debate: some neighborhood groups have explored creating new historic districts to limit the density increases required by [HB 1110](/glossary/housing-zoning/#hb-1110) and the One Seattle Plan. Understanding how districts work — and how they differ from National Register listing, which offers no protection against demolition — is essential for following these debates.
+
+**See also:** [Landmark Designation](#landmark-designation), [Zoning](#zoning), [Comprehensive Plan](#comprehensive-plan)
+
+**Learn more:** [Seattle Department of Neighborhoods: Historic Districts](https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts) | [The Urbanist: Washington Legislature Wants to Rein In Historic Landmarking](https://www.theurbanist.org/2025/02/19/washington-legislature-wants-to-rein-in-historic-landmarking/)
+
+---
+
 ## Form-Based Code
 
 A zoning approach that regulates building form (height, setbacks, facade design) rather than use (residential, commercial, industrial). Emphasizes how buildings relate to streets and public spaces rather than what happens inside them.
@@ -110,6 +122,18 @@ A zoning approach that regulates building form (height, setbacks, facade design)
 **See also:** [Zoning](#zoning), [Design Review](/glossary/housing-zoning/#design-review)
 
 **Learn more:** [MRSC: Development Regulations and Zoning](https://mrsc.org/explore-topics/planning/zoning/development-regulations-and-zoning) | [Form-Based Codes Institute](https://formbasedcodes.org/)
+
+---
+
+## Landmark Designation
+
+The process by which Seattle designates buildings, sites, objects, and vessels as city landmarks under [SMC Chapter 25.12](https://library.municode.com/wa/seattle/codes/municipal_code/243570?nodeId=TIT25ENPRHIPR_CH25.12LAPR). A property must be at least 25 years old and meet one of six criteria related to historical significance, architectural distinction, or visual prominence. The process has four steps: nomination, designation by the Landmarks Preservation Board, negotiation of controls and incentives with the property owner, and adoption of a designating ordinance by City Council. Any person or group may submit a nomination.
+
+**Why it matters:** Seattle has designated more than 450 landmarks since 1973, and the designation process is a major flashpoint in the housing debate. Because anyone can nominate a property, landmark nominations have been used to delay or block permitted housing projects — including a 49-unit Central District apartment building halted by an eleventh-hour nomination in 2024. In the 2025 legislative session, bills (HB 1576 / SB 5554) were introduced to require owner consent statewide, aligning Seattle with the three-quarters of Washington cities that already have this requirement.
+
+**See also:** [Historic District](#historic-district), [SDCI](#sdci-seattle-department-of-construction-and-inspections)
+
+**Learn more:** [Seattle.gov: City Landmarks](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks) | [The Urbanist: Washington Legislature Wants to Rein In Historic Landmarking](https://www.theurbanist.org/2025/02/19/washington-legislature-wants-to-rein-in-historic-landmarking/)
 
 ---
 

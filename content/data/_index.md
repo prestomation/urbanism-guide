@@ -92,6 +92,14 @@ Seattle's hazard identification and vulnerability analysis for earthquakes. Cove
 
 ---
 
+### Seattle Landmarks Dataset
+
+Point locations for all designated city landmarks, including site name, designation date, and geographic coordinates. Use it to identify landmarks in specific neighborhoods, map preservation activity, and cross-reference with other datasets like zoning and URM inventories.
+
+**Access:** [Seattle GeoData: Landmarks](https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::landmarks-1) | [Landmarks List](https://www.seattle.gov/neighborhoods/historic-preservation/city-landmarks/landmarks-list)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
@@ -199,6 +207,14 @@ Statewide bicycle and pedestrian count data from jurisdictions across Washington
 Liquefaction susceptibility maps, seismic site class maps, seismic design category maps, and active fault maps for all Washington counties. The Seismic Scenario Catalog provides loss estimates for 20 earthquake scenarios statewide.
 
 **Access:** [Geologic Hazard Maps](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/geologic-hazard-maps) | [Seismic Scenarios](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/earthquakes-and-faults/seismic-scenarios)
+
+---
+
+### DAHP WISAARD Historic Properties Database
+
+Statewide inventory of historic and archaeological properties maintained by the Department of Archaeology and Historic Preservation. Searchable by location, property type, and register status (National Register, Washington Heritage Register, Heritage Barn Register). Over 10,300 properties across more than 2,400 listings.
+
+**Access:** [DAHP: Find a Historic Place](https://dahp.wa.gov/find-a-historic-place)
 
 ---
 

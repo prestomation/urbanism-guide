@@ -167,6 +167,18 @@ Seattle's citywide initiative to end racial disparities and achieve racial equit
 
 ---
 
+## Special Tax Valuation (Historic Preservation)
+
+A Washington State property tax incentive ([RCW 84.26](https://app.leg.wa.gov/RCW/default.aspx?cite=84.26)) that allows owners of designated historic properties to subtract approved rehabilitation costs from their property's assessed value for up to 10 years. The rehabilitation must cost at least 25% of the property's assessed improvement value. In Seattle, the Landmarks Preservation Board serves as the local review board.
+
+**Why it matters:** Special Tax Valuation is the primary financial incentive for landmark owners to invest in rehabilitation rather than defer maintenance or seek demolition. Before the 1985 law, owners who improved historic buildings faced increased property taxes — a disincentive for preservation. Combined with the 20% federal rehabilitation tax credit for income-producing properties on the National Register, these incentives make preservation financially viable for many property owners.
+
+**See also:** [MFTE](#mfte-multifamily-tax-exemption), [Housing Levy](#housing-levy)
+
+**Learn more:** [Seattle.gov: Preservation Incentives](https://seattle.gov/neighborhoods/historic-preservation/preservation-incentives) | [MRSC: Historic Preservation](https://mrsc.org/explore-topics/planning/specific-planning-subjects-plan-elements/historic-preservation)
+
+---
+
 ## Social Housing
 
 Publicly or cooperatively owned housing that remains permanently affordable and serves residents across a range of incomes, not just the lowest-income households. Rents are typically set as a percentage of income. Residents have a voice in governance.
