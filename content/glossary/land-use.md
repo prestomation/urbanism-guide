@@ -65,6 +65,18 @@ A composite mapping tool created by Seattle's Office of Planning and Community D
 
 ---
 
+## Embodied Carbon
+
+The greenhouse gas emissions associated with manufacturing, transporting, and installing building materials — as distinct from the "operational" emissions produced by heating, cooling, and powering a building after construction. Concrete, steel, and aluminum are among the most carbon-intensive materials. Embodied carbon accounts for approximately 11% of global greenhouse gas emissions.
+
+**Why it matters:** As buildings become more energy-efficient, the share of lifetime emissions attributable to materials grows. Washington passed the **Buy Clean Buy Fair Act** (HB 1282) in 2024, becoming the first state to require embodied carbon reporting for concrete, steel, and wood in state building projects. The law was informed by research from the University of Washington's **Carbon Leadership Forum**. For Seattle urbanists, embodied carbon connects zoning and density debates to climate: denser construction that uses materials efficiently can reduce per-unit embodied carbon compared to low-density sprawl.
+
+**See also:** [BEPS](/glossary/funding-policy/#beps-building-emissions-performance-standard), [SEPA](#sepa-state-environmental-policy-act)
+
+**Learn more:** [WA Commerce: Buy Clean Buy Fair](https://www.commerce.wa.gov/seep/bcbf/) | [Carbon Leadership Forum: BCBF Signed Into Law](https://carbonleadershipforum.org/buy-clean-buy-fair-bill-signed-into-law-in-washington-state/)
+
+---
+
 ## EIS (Environmental Impact Statement)
 
 A detailed study of a project's or plan's environmental effects, required under SEPA for major actions. Covers traffic, noise, shadow, displacement, and more.
@@ -266,6 +278,18 @@ Seattle's planning designation for neighborhood centers that are targeted for gr
 **See also:** [Comprehensive Plan](#comprehensive-plan)
 
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle 2035 Comprehensive Plan](https://www.seattle.gov/opcd/current-projects/seattle-2035-comprehensive-plan)
+
+---
+
+## Urban Heat Island
+
+The phenomenon where urban areas experience significantly higher temperatures than surrounding rural or less-developed areas due to the concentration of heat-absorbing surfaces — buildings, roads, parking lots, and rooftops — combined with reduced tree canopy and vegetation. In Seattle, heat mapping data shows that formerly redlined neighborhoods with less tree canopy and more impervious surfaces are consistently the hottest areas of the city.
+
+**Why it matters:** A 2020 Seattle/King County heat mapping study documented large temperature disparities across the city: 54% of Seattle residents live in areas that are at least 8°F warmer than surrounding areas. During the June 2021 heat dome, when temperatures reached 108°F in Seattle, heat-related deaths were concentrated in older buildings without air conditioning in the city's hottest neighborhoods. Urban heat island data now guides the city's tree planting priorities and cooling infrastructure investments. Understanding the urban heat island effect connects climate adaptation, tree canopy, environmental justice, and public health.
+
+**See also:** [Cumulative Impacts](#cumulative-impacts), [Environmental Racism](#environmental-racism)
+
+**Learn more:** [Seattle Trees: Urban Heat](https://seattle.gov/trees/management/urban-heat) | [Axios Seattle: Heat Islands](https://www.axios.com/local/seattle/2024/07/19/heat-islands-boost-temperatures-seattle)
 
 ---
 

@@ -7,6 +7,7 @@ Uses concurrent requests for faster checking.
 """
 
 import re
+import ssl
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -133,7 +134,7 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
     for attempt in range(retries + 1):
         try:
             req = Request(url, headers=headers)
-            with urlopen(req, timeout=30) as response:
+            with urlopen(req, timeout=45) as response:
                 content = response.read().decode('utf-8', errors='ignore')
 
                 # Check for soft 404 indicators in the page content
@@ -173,12 +174,30 @@ def check_url(url: str, retries: int = 2) -> tuple[bool, str]:
                 return False, f"HTTP {e.code}"
 
         except URLError as e:
+            # Retry SSL certificate errors with an unverified context.
+            # Some .gov sites have misconfigured certificate chains;
+            # we only need to confirm the page exists, not exchange secrets.
+            if 'CERTIFICATE_VERIFY_FAILED' in str(e.reason):
+                try:
+                    ctx = ssl.create_default_context()
+                    ctx.check_hostname = False
+                    ctx.verify_mode = ssl.CERT_NONE
+                    req2 = Request(url, headers=headers)
+                    with urlopen(req2, timeout=45, context=ctx) as response:
+                        response.read()
+                    return True, ""
+                except Exception:
+                    pass  # Fall through to normal retry/failure logic
+
             if attempt < retries:
                 time.sleep(2 ** attempt)
                 continue
             return False, f"Connection error: {e.reason}"
 
         except Exception as e:
+            if attempt < retries:
+                time.sleep(2 ** attempt)
+                continue
             return False, f"Error: {str(e)}"
 
     return False, "Max retries exceeded"

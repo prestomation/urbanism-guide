@@ -108,6 +108,30 @@ Interactive map showing proposed and adopted zoning changes under the One Seattl
 
 ---
 
+### Climate Data & GHG Inventory
+
+Seattle tracks greenhouse gas emissions across transportation, buildings, and waste sectors every two years. The Climate Portal provides map-based emissions data, and the 2013 Climate Action Plan Progress Report provides sector-by-sector analysis of reduction progress.
+
+**Access:** [Climate Data & Planning](https://www.seattle.gov/environment/climate-change/climate-planning-and-data) | [2013 CAP Progress Report](https://www.seattle.gov/environment/climate-change/climate-planning-and-data/seattle-climate-action-plan/2013-climate-action-plan-progress-report)
+
+---
+
+### Energy Benchmarking Data
+
+Published building-level energy performance data for Seattle's 3,700+ largest nonresidential and multifamily buildings. Searchable by address and published publicly to increase market transparency.
+
+**Access:** [Energy Benchmarking](https://www.seattle.gov/environment/climate-change/buildings-and-energy/energy-benchmarking)
+
+---
+
+### Heat Watch Map
+
+Air temperature data from the 2020 Seattle/King County heat mapping campaign, showing neighborhood-level heat variations during extreme heat events. Used to prioritize tree planting and cooling infrastructure.
+
+**Access:** [Urban Heat and Trees](https://seattle.gov/trees/management/urban-heat)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.
