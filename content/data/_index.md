@@ -156,6 +156,14 @@ Demographic data, equity indicators, and population trends mapped at the census-
 
 ---
 
+### Displacement Risk Indicators
+
+Census-tract-level displacement risk data combining demographic vulnerability, housing market pressures, and development capacity. Used to identify high-displacement-risk areas and shape anti-displacement investments in the One Seattle Comprehensive Plan.
+
+**Access:** [Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk)
+
+---
+
 ## King County
 
 ### Metro Performance Reports
