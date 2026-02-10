@@ -8,7 +8,7 @@ Suggested new content for the Seattle Urbanism Guide, organized by priority.
 Practical guide to interpreting EIS documents, comp plan amendments, SEPA checklists, and DCI permits. Directly serves the site's audience of people preparing for public hearings.
 
 ### Neighborhood-Specific Profiles
-Mini-guides for areas undergoing major change: Rainier Valley, Central District, Lake City, Northgate, South Lake Union. Connects policy content to real places.
+Mini-guides for areas undergoing major change: Central District, Lake City, Northgate, South Lake Union. Connects policy content to real places.
 
 ### Disability Access & Universal Design
 Accessible transit, ADA compliance in new development, universal design standards. Goes beyond curb ramps.

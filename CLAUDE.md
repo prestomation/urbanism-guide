@@ -129,6 +129,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 - `renter-protections.md` - Renter protections and tenant rights
 - `station-area-planning.md` - Station area planning and transit-oriented development
 - `waterfront-pike-place.md` - Waterfront and Pike Place Market
+- `rainier-valley.md` - Rainier Valley neighborhood profile: demographics, light rail, displacement, anti-displacement
 
 **Front matter:**
 ```yaml
