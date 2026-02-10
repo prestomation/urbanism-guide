@@ -30,6 +30,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Climate Action & Building Decarbonization]({{< relref "climate-action" >}}) -- Climate Action Plan, BEPS, building electrification, Green New Deal, and transportation emissions
 - [Commercial Zoning, Office Space & Retail Corridors]({{< relref "commercial-zoning" >}}) -- Commercial zoning types, neighborhood business districts, the office vacancy crisis, and storefront activation
 - [Regional Governance & Agency Coordination]({{< relref "regional-governance" >}}) -- PSRC, Sound Transit, King County Metro, WSDOT, and how regional decisions get made
+- [How to Read a Planning Document]({{< relref "planning-documents" >}}) -- Navigating EIS documents, SEPA checklists, comp plan amendments, and SDCI permits
 
 ---
 

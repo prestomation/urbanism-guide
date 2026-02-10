@@ -52,6 +52,22 @@ Monthly summaries of issued building permits from SDCI. Track new construction, 
 
 ---
 
+### Shaping Seattle: Property & Building Activity
+
+Interactive map of active construction and land use permits across Seattle. Each map pin links to project images, descriptions, milestones, related documents, and public comment options for land use projects.
+
+**Access:** [SDCI Research a Project](https://www.seattle.gov/sdci/resources/research-a-project)
+
+---
+
+### Permit & Property Records (EDMS)
+
+Digitized permits, plan sets, and property records from 1894 to present. Search by address or permit number to find historical and current building documentation.
+
+**Access:** [Permit & Property Records](https://web.seattle.gov/dpd/edms/)
+
+---
+
 ### Office of Housing Reports
 
 Annual reports on affordable housing investments, MHA contributions, MFTE participation, and housing levy outcomes. Essential for tracking Seattle's housing production.

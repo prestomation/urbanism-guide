@@ -129,6 +129,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 - `renter-protections.md` - Renter protections and tenant rights
 - `station-area-planning.md` - Station area planning and transit-oriented development
 - `waterfront-pike-place.md` - Waterfront and Pike Place Market
+- `planning-documents.md` - How to read EIS documents, SEPA checklists, comp plan amendments, and SDCI permits
 
 **Front matter:**
 ```yaml
