@@ -6,11 +6,11 @@ bookToc: true
 
 # Parking & Car Dependency in Seattle
 
-Seattle has more than 1.6 million parking spaces — over five spaces for every household in the city — yet debates over parking availability dominate neighborhood land use discussions. This guide covers how parking requirements shape development, how vehicle ownership is changing, and the reforms aimed at reducing the cost and land-use burden of mandatory parking.
+Seattle has more than [1.6 million parking spaces](https://www.seattletimes.com/seattle-news/transportation/study-shows-seattle-has-plenty-of-parking-so-why-cant-you-find-a-spot/) — over five spaces for every household in the city — yet debates over parking availability dominate neighborhood land use discussions. This guide covers how parking requirements shape development, how vehicle ownership is changing, and the reforms aimed at reducing the cost and land-use burden of mandatory parking.
 
 ## Vehicle ownership trends
 
-Seattle is one of nine major U.S. cities where at least 20% of households do not own a car, and the gap between population growth and vehicle growth is widening.
+Seattle is one of [nine of the 50 largest U.S. cities](https://www.seattletimes.com/seattle-news/data/car-ownership-rate-hits-record-low-in-seattle-census-data-shows/) where at least 20% of households do not own a car, and the gap between population growth and vehicle growth is widening.
 
 ### Declining cars per household
 
@@ -28,11 +28,11 @@ Car-free rates vary sharply by neighborhood. The International District and Univ
 
 ## Commute mode share
 
-Seattle experienced a decade-long decline in solo driving to work through 2019. That trend reversed after the COVID-19 pandemic as remote work decreased.
+Seattle experienced a [decade-long decline in solo driving](https://www.commuteseattle.com/2024survey/) to work through 2019. That trend reversed after the COVID-19 pandemic as remote work decreased.
 
 The **2024 Seattle Commute Survey** — conducted by **Commute Seattle**, SDOT, and the University of Washington's Mobility Innovation Center with over 75,000 respondents — found that center-city drive-alone commuting rose to 27% in fall 2024, up from 21% in 2022 and above the pre-pandemic level. City-wide, drive-alone trips increased 6 percentage points since 2022, marking the first upward trend in a decade. ([Commute Seattle: 2024 Survey](https://www.commuteseattle.com/2024survey/) | [Downtown Seattle Association](https://downtownseattle.org/2025/04/commute-seattles-2024-survey-shifting-travel-patterns-citywide/))
 
-For historical context, 50% of center-city commuters drove alone in 2000, dropping to 34% by 2012. Census ACS data shows that city-wide, the share of Seattle workers commuting by car alone fell from 53% in 2010 to 44% in 2018, the largest decline among the 100 most-populous U.S. cities. ([Seattle Times](https://www.seattletimes.com/seattle-news/data/seattle-sees-nations-biggest-drop-in-solo-car-commuters-as-transit-walking-surge/))
+For historical context, 50% of center-city commuters drove alone in 2000, dropping to 34% by 2012. ([Commute Seattle: 2024 Survey](https://www.commuteseattle.com/2024survey/)) Census ACS data shows that city-wide, the share of Seattle workers commuting by car alone fell from 53% in 2010 to 44% in 2018, the largest decline among the 100 most-populous U.S. cities. ([Seattle Times](https://www.seattletimes.com/seattle-news/data/seattle-sees-nations-biggest-drop-in-solo-car-commuters-as-transit-walking-surge/))
 
 ## Parking supply
 
@@ -54,11 +54,11 @@ The **Restricted Parking Zone (RPZ)** program limits commuter parking in residen
 
 ### Pre-2012 requirements
 
-Before 2012, Seattle required at least one off-street parking space per dwelling unit for virtually all multifamily housing outside downtown. These requirements applied regardless of proximity to transit, lot size, or actual demand for parking.
+Before 2012, Seattle required at least one off-street parking space per dwelling unit for virtually all multifamily housing outside downtown. These requirements applied regardless of proximity to transit, lot size, or actual demand for parking. ([Seattle City Council](https://council.seattle.gov/2012/05/10/removing-minimum-parking-requirements/))
 
 ### 2012: First major reform
 
-In 2012, Seattle became one of the first U.S. cities to significantly reduce parking mandates:
+In 2012, Seattle became one of the first U.S. cities to significantly reduce parking mandates. The City Council added approximately 540 acres to areas exempt from parking minimums and reduced requirements by 50% across another 2,590 acres with frequent transit access. ([Seattle City Council](https://council.seattle.gov/2012/05/10/removing-minimum-parking-requirements/)) Specifically:
 
 - **Eliminated** all off-street parking requirements for multifamily housing in high-density urban centers (downtown, Capitol Hill, South Lake Union, Uptown, and the University District)
 - **Eliminated** parking requirements in medium-density neighborhood centers ("urban villages") within a quarter-mile of transit stops with at least 15-minute frequency
