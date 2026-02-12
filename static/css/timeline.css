@@ -176,11 +176,16 @@ body.book-kind-home .book-columns > .flex-even h3 a[href] {
   transition: color 0.15s ease;
 }
 
-body.book-kind-home .book-columns > .flex-even h3 a[href]::after {
+body.book-kind-home .book-columns > .flex-even h3 a[href]:not(.anchor)::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 1;
+}
+
+/* Hide the theme's heading anchor icon inside cards */
+body.book-kind-home .book-columns > .flex-even h3 a.anchor {
+  display: none;
 }
 
 body.book-kind-home .book-columns > .flex-even h3 a[href]:hover {
