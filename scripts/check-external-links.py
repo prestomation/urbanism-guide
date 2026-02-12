@@ -406,8 +406,13 @@ def main():
             elif diff_added_urls is not None and url in diff_added_urls:
                 # Appears in the git diff as an added line
                 is_new_url = True
-            elif url not in state:
-                # Never seen before in the state file
+            elif diff_added_urls is None and url not in state:
+                # No diff info available AND never tracked in state —
+                # only treat as new when we have no diff to consult
+                # (local runs without --diff-base).  When --diff-base
+                # is provided, the diff is the source of truth for
+                # "new"; URLs simply absent from state are seeded into
+                # the failure counter instead.
                 is_new_url = True
 
             if is_new_url:
