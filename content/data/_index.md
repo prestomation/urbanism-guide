@@ -132,6 +132,22 @@ Air temperature data from the 2020 Seattle/King County heat mapping campaign, sh
 
 ---
 
+### SDOT Parking Maps and Data
+
+On-street paid parking occupancy data, rate maps, off-street parking studies for downtown, and neighborhood business district parking surveys. Use it to understand parking utilization patterns and evaluate whether parking supply matches demand.
+
+**Access:** [SDOT Parking Maps and Data](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/maps-and-data)
+
+---
+
+### Commute Seattle Survey Results
+
+Biennial survey of over 75,000 Seattle workers and students capturing commute mode share, satisfaction, and travel behavior by neighborhood. Conducted in partnership with SDOT and the UW Mobility Innovation Center.
+
+**Access:** [Commute Seattle: 2024 Survey](https://www.commuteseattle.com/2024survey/)
+
+---
+
 ### Seattle GeoData (GIS)
 
 Spatial data layers, interactive maps, and GIS downloads. Includes zoning, land use, parcels, bike facilities, transit routes, and more.

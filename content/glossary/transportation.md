@@ -173,6 +173,18 @@ A network of residential streets with traffic calming, wayfinding signs, and cro
 
 ---
 
+## Performance-Based Parking Pricing
+
+A parking management strategy that adjusts meter rates based on real-time occupancy data, with the goal of maintaining one to two open spaces per block at all times. Seattle's program covers approximately 12,000 metered on-street spaces across about 30 paid parking areas, with rates adjusted three times per year.
+
+**Why it matters:** Performance-based pricing replaces flat-rate meters with a market-responsive system that reduces circling for parking (which generates traffic and emissions) while keeping spaces available for customers. SDOT's program is guided by the Curbside Management Element of the 2024 Seattle Transportation Plan. The approach draws on economist Donald Shoup's research showing that mispriced curb parking causes up to 30% of traffic in commercial districts. Understanding the program helps advocates evaluate whether parking is being managed efficiently before calls for more supply.
+
+**See also:** [Induced Demand](#induced-demand), [VMT](#vmt-vehicle-miles-traveled)
+
+**Learn more:** [SDOT: Performance-Based Parking Pricing](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/performance-based-parking-pricing-program) | [SDOT: Paid Parking Information](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/paid-parking-information)
+
+---
+
 ## Protected Bike Lane (PBL)
 
 A bike lane physically separated from car traffic by barriers, planters, parked cars, or grade separation -- not just paint. Also called "cycle tracks" or "separated bike lanes."
@@ -194,6 +206,18 @@ King County Metro's bus rapid transit (BRT) network featuring frequent service (
 **See also:** [TOD](#tod-transit-oriented-development), [HB 1110](/glossary/housing-zoning/#hb-1110)
 
 **Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride) | [The Urbanist: Metro Launches RapidRide G](https://www.theurbanist.org/2024/09/13/metro-launches-rapidride-g/)
+
+---
+
+## Restricted Parking Zone (RPZ)
+
+A residential parking management program that limits the time non-residents can park on neighborhood streets near major commuter destinations. Residents within an RPZ purchase annual permits ($95; $10 for income-eligible households) allowing them to park beyond posted time limits. Seattle has RPZs near hospitals, universities, business districts, and light rail stations.
+
+**Why it matters:** RPZs are the city's main tool for managing spillover parking from dense employment and transit centers into surrounding residential streets. As light rail expands, new RPZs are frequently requested near stations. Creating an RPZ requires at least 10 connected blocks with at least 35% of spaces occupied by non-residents, plus broad community support. Having an RPZ permit does not guarantee a parking space — some zones have more active permits than available on-street spaces, highlighting the broader tension between parking demand and supply.
+
+**See also:** [Performance-Based Parking Pricing](#performance-based-parking-pricing), [TOD](#tod-transit-oriented-development)
+
+**Learn more:** [SDOT: Restricted Parking Zone Program](https://www.seattle.gov/transportation/permits-and-services/permits/parking-permits/rpz-permits) | [SDOT: RPZ FAQ](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/restricted-parking-zone-program/rpz-faq)
 
 ---
 

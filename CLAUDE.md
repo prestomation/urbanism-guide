@@ -123,6 +123,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 - `light-rail.md` - Link Light Rail system
 - `mass-transit.md` - Mass transit overview
 - `micro-mobility.md` - E-scooters, bike share, operators, permits, data
+- `parking-car-dependency.md` - Parking minimums, vehicle ownership, parking reform, car dependency
 - `parks-tree-canopy.md` - Parks, open space, and urban tree canopy
 - `pedestrian.md` - Pedestrian safety and infrastructure
 - `public-housing.md` - Public housing and the Seattle Housing Authority

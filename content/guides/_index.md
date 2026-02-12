@@ -29,6 +29,7 @@ In-depth guides on specific urbanism topics in Seattle. Each guide provides back
 - [Historic Preservation & Landmarks]({{< relref "historic-preservation" >}}) -- Landmark districts, the Landmarks Preservation Board, designation process, and preservation vs. density
 - [Climate Action & Building Decarbonization]({{< relref "climate-action" >}}) -- Climate Action Plan, BEPS, building electrification, Green New Deal, and transportation emissions
 - [Commercial Zoning, Office Space & Retail Corridors]({{< relref "commercial-zoning" >}}) -- Commercial zoning types, neighborhood business districts, the office vacancy crisis, and storefront activation
+- [Parking & Car Dependency]({{< relref "parking-car-dependency" >}}) -- Parking minimums, vehicle ownership trends, parking reform, and the cost of car dependency
 - [Regional Governance & Agency Coordination]({{< relref "regional-governance" >}}) -- PSRC, Sound Transit, King County Metro, WSDOT, and how regional decisions get made
 
 ---
