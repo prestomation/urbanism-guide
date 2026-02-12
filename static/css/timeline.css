@@ -152,6 +152,7 @@ body.book-kind-home .book-columns > .flex-even {
   box-shadow: var(--card-shadow);
   transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
   margin: 0;
+  cursor: pointer;
 }
 
 body.book-kind-home .book-columns > .flex-even:hover {
@@ -172,6 +173,11 @@ body.book-kind-home .book-columns > .flex-even h3 a[href] {
   color: var(--color-link);
   text-decoration: none;
   transition: color 0.15s ease;
+}
+
+/* Hide the theme's heading anchor icon inside cards */
+body.book-kind-home .book-columns > .flex-even h3 a.anchor {
+  display: none;
 }
 
 body.book-kind-home .book-columns > .flex-even h3 a[href]:hover {
@@ -440,6 +446,7 @@ body.book-kind-home .book-columns > .flex-even p {
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
 }
 
 .blog-entry:hover {
@@ -490,7 +497,8 @@ body.book-kind-home .book-columns > .flex-even p {
   opacity: 0.85;
 }
 
-.blog-entry p:last-child a {
+.blog-entry p:last-child a,
+.blog-entry > a:last-of-type {
   font-weight: 600;
   font-size: 0.85rem;
 }
