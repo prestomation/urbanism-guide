@@ -5,6 +5,10 @@ weight: 4
 
 # Funding & Policy Terms
 
+{{< glossary-filter >}}
+
+<div class="glossary-term" data-tag="federal">
+
 ## AMI (Area Median Income)
 
 The median household income for a metropolitan area, calculated annually by HUD. Seattle's AMI is used as the benchmark for defining affordable housing eligibility -- typically at percentages like 30%, 50%, 60%, or 80% of AMI.
@@ -16,6 +20,10 @@ The median household income for a metropolitan area, calculated annually by HUD.
 **Learn more:** [Seattle Office of Housing: Income and Rent Limits](https://www.seattle.gov/housing/property-managers/income-and-rent-limits) | [HUD: Income Limits](https://www.huduser.gov/portal/datasets/il.html)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Business Improvement Area (BIA)
 
@@ -29,6 +37,10 @@ A self-taxing district where property owners and businesses collectively fund ma
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## BEPS (Building Emissions Performance Standard)
 
 Seattle's policy requiring large commercial and multifamily buildings (over 20,000 square feet) to meet greenhouse gas emissions performance targets by 2050, with interim milestones. Buildings must either reduce emissions or pay an alternative compliance fee. It's one of the first building performance standards in the nation.
@@ -40,6 +52,10 @@ Seattle's policy requiring large commercial and multifamily buildings (over 20,0
 **Learn more:** [Seattle OSE: Building Emissions Performance Standard](https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard) | [The Urbanist: Harrell Signs Building Emissions Standard Into Law](https://www.theurbanist.org/2023/12/14/harrell-signs-building-emissions-standard-into-law-queuing-up-green-retrofits/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Building Electrification
 
@@ -53,6 +69,10 @@ The transition of buildings from fossil fuel systems — primarily natural gas f
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Community Land Trust (CLT)
 
 A nonprofit organization that owns land permanently and leases it to homeowners or developers, keeping housing affordable in perpetuity. The trust controls resale prices to maintain long-term affordability while still allowing residents to build equity.
@@ -64,6 +84,10 @@ A nonprofit organization that owns land permanently and leases it to homeowners 
 **Learn more:** [Homestead Community Land Trust](https://homesteadclt.org/) | [The Urbanist: Role of Community Land Trusts](https://www.theurbanist.org/2016/06/29/the-role-of-community-land-trusts-in-affordability-housing/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Equitable Development Initiative (EDI)
 
@@ -77,6 +101,10 @@ A Seattle program launched in 2016 that provides grants and technical assistance
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Housing Levy
 
 Seattle's voter-approved property tax levy dedicated to affordable housing production, preservation, and services. First passed in 1986 and renewed every 7 years. The 2023 levy was $970 million over seven years -- more than triple the previous levy.
@@ -88,6 +116,10 @@ Seattle's voter-approved property tax levy dedicated to affordable housing produ
 **Learn more:** [Seattle Office of Housing: Housing Levy](https://www.seattle.gov/housing/levy) | [The Urbanist: Mayor Harrell Housing Levy Proposal](https://www.theurbanist.org/2023/03/30/mayor-harrell-unveils-970-million-housing-levy-proposal/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="state">
 
 ## HEAL Act (Healthy Environment for All)
 
@@ -101,6 +133,10 @@ Washington's first statewide environmental justice law (SB 5141), signed in 2021
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Impact Fees
 
 One-time charges on new development to pay for infrastructure (roads, parks, schools) needed to serve new residents. Seattle has been slow to adopt impact fees compared to other cities.
@@ -110,6 +146,10 @@ One-time charges on new development to pay for infrastructure (roads, parks, sch
 **Learn more:** [MRSC: Impact Fees](https://mrsc.org/explore-topics/planning/administration/impact-fees) | [MRSC: Impact Fees Do's and Don'ts](https://mrsc.org/stay-informed/mrsc-insight/march-2023/impact-fees-local-government-dos-and-donts)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Incentive Zoning (IZ)
 
@@ -123,6 +163,10 @@ A zoning tool that grants developers additional building capacity (more height o
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## JumpStart Payroll Expense Tax
 
 Seattle's tax on large businesses (payroll over $8.6 million) that pay employees more than $180,000 annually. Passed in 2020, JumpStart was initially dedicated to COVID response but is now the city's primary progressive revenue source, funding affordable housing, economic development, and the Green New Deal.
@@ -134,6 +178,10 @@ Seattle's tax on large businesses (payroll over $8.6 million) that pay employees
 **Learn more:** [Seattle City Council: JumpStart Seattle](https://council.seattle.gov/2020/07/06/council-passes-mosquedas-jumpstart-seattle-progressive-revenue-plan-to-address-covid-response-essential-city-services-affordable-housing/) | [The Urbanist: Seattle Leaders Eye JumpStart Funds](https://www.theurbanist.org/2024/03/12/seattle-leaders-eye-jumpstart-housing-funds-to-close-230-million-budget-hole/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Linkage Fees
 
@@ -147,6 +195,10 @@ Fees charged on commercial development to fund affordable housing, based on the 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## MFTE (Multifamily Tax Exemption)
 
 A city program that gives property tax breaks to developers who include affordable units in new apartment buildings. The tax exemption lasts 12 years.
@@ -159,6 +211,10 @@ A city program that gives property tax breaks to developers who include affordab
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Move Seattle Levy
 
 A 9-year, $930 million property tax levy (2015-2024) funding transportation projects including bus speed improvements, bike lanes, bridge maintenance, and sidewalk repairs. Succeeded by a new levy proposal.
@@ -169,6 +225,10 @@ A 9-year, $930 million property tax levy (2015-2024) funding transportation proj
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## REET (Real Estate Excise Tax)
 
 A tax on property sales that funds affordable housing, parks, and infrastructure. Washington recently gave cities more flexibility to use REET funds for affordable housing.
@@ -178,6 +238,10 @@ A tax on property sales that funds affordable housing, parks, and infrastructure
 **Learn more:** [MRSC: Real Estate Excise Taxes](https://mrsc.org/explore-topics/finance/revenues/real-estate-excise-tax) | [WA Dept. of Revenue: REET](https://dor.wa.gov/taxes-rates/other-taxes/real-estate-excise-tax)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## RSJI (Race and Social Justice Initiative)
 
@@ -191,6 +255,10 @@ Seattle's citywide initiative to end racial disparities and achieve racial equit
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Social Housing
 
 Publicly or cooperatively owned housing that remains permanently affordable and serves residents across a range of incomes, not just the lowest-income households. Rents are typically set as a percentage of income. Residents have a voice in governance.
@@ -202,6 +270,10 @@ Publicly or cooperatively owned housing that remains permanently affordable and 
 **Learn more:** [Seattle Social Housing Developer](https://seattlesocialhousing.org/) | [The Urbanist: Seattle Social Housing Initiative Recipe for Success](https://www.theurbanist.org/2023/02/22/seattle-social-housing-initiatives-recipe-for-success/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="county">
 
 ## Subarea Equity
 
@@ -215,6 +287,10 @@ A Sound Transit policy requiring that tax revenue collected in each of the agenc
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## TIF (Tax Increment Financing)
 
 A financing tool where future property tax increases in a designated area are used to pay for current infrastructure investments in that area. Washington authorized TIF in 2021 (HB 1189, codified as chapter 39.114 RCW), making it available to cities, counties, and port districts.
@@ -224,6 +300,10 @@ A financing tool where future property tax increases in a designated area are us
 **Learn more:** [MRSC: Tax Increment Financing](https://mrsc.org/explore-topics/finance/revenues/tax-increment-financing) | [MRSC: TIF Now Available in Washington](https://mrsc.org/stay-informed/mrsc-insight/september-2021/tax-increment-financing-now-available-in-wa)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Transfer of Development Rights (TDR)
 
@@ -236,5 +316,7 @@ A market-based tool that allows owners of designated landmarks or other protecte
 **Learn more:** [Seattle DON: Preservation Incentives](https://www.seattle.gov/neighborhoods/historic-preservation/preservation-incentives) | [MRSC: Historic Preservation](https://mrsc.org/explore-topics/planning/specific-planning-subjects-plan-elements/historic-preservation)
 
 ---
+
+</div>
 
 *This page is a work in progress. [Suggest additions](https://github.com/prestomation/urbanism-guide/issues).*

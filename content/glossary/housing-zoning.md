@@ -5,6 +5,10 @@ weight: 1
 
 # Housing & Zoning Terms
 
+{{< glossary-filter >}}
+
+<div class="glossary-term" data-tag="city">
+
 ## ADU (Accessory Dwelling Unit)
 
 A smaller, secondary home on the same lot as a main house. Think backyard cottages or basement apartments. Seattle has been loosening ADU rules since 2019 to allow more housing in single-family zones.
@@ -16,6 +20,10 @@ A smaller, secondary home on the same lot as a main house. Think backyard cottag
 **Learn more:** [Seattle SDCI: Accessory Dwelling Units](https://www.seattle.gov/sdci/permits/common-projects/accessory-dwelling-units) | [Seattle OPCD: Encouraging Backyard Cottages](https://www.seattle.gov/opcd/current-projects/encouraging-backyard-cottages)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Design Review
 
@@ -29,6 +37,10 @@ A public process where volunteer boards and city staff evaluate the design of pr
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Displacement
 
 The involuntary movement of residents from their homes or neighborhoods due to rising costs, redevelopment, or other economic pressures. Often disproportionately affects low-income communities and communities of color.
@@ -41,6 +53,10 @@ The involuntary movement of residents from their homes or neighborhoods due to r
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## DADU (Detached Accessory Dwelling Unit)
 
 An ADU that's a separate structure from the main house -- typically a backyard cottage. As of 2019, Seattle allows both an attached ADU and a DADU on most single-family lots.
@@ -50,6 +66,10 @@ An ADU that's a separate structure from the main house -- typically a backyard c
 **Learn more:** [Seattle SDCI: Accessory Dwelling Units](https://www.seattle.gov/sdci/permits/common-projects/accessory-dwelling-units)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## FAR (Floor Area Ratio)
 
@@ -63,6 +83,10 @@ The ratio of a building's total floor area to the size of its lot. A FAR of 1.0 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="federal">
+
 ## Cost Burden / Rent Burden
 
 A household is **cost-burdened** when it spends more than 30% of its gross income on housing costs (rent or mortgage plus utilities). A household spending more than 50% is considered **severely cost-burdened**. These thresholds are set by HUD and used across federal, state, and local housing programs.
@@ -74,6 +98,10 @@ A household is **cost-burdened** when it spends more than 30% of its gross incom
 **Learn more:** [Seattle Office of Housing: Data and Reports](https://www.seattle.gov/housing/data-and-reports) | [NLIHC: Housing Needs in Washington](https://nlihc.org/housing-needs-by-state/washington)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Grand Bargain
 
@@ -87,6 +115,10 @@ The 2015 agreement between Seattle developers, affordable housing advocates, and
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## HALA (Housing Affordability and Livability Agenda)
 
 Seattle's 2015 comprehensive housing policy framework, developed by a 28-member advisory committee convened by Mayor Ed Murray. HALA produced 65 recommendations aimed at creating 50,000 new housing units over 10 years, including 20,000 affordable units.
@@ -98,6 +130,10 @@ Seattle's 2015 comprehensive housing policy framework, developed by a 28-member 
 **Learn more:** [Seattle HALA Report 2015 (PDF)](https://www.seattle.gov/documents/departments/hala/policy/hala_report_2015.pdf) | [The Urbanist: Top HALA Recommendations](https://www.theurbanist.org/2015/09/08/the-top-hala-recommendations-for-seattles-affordable-housing-future/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="state">
 
 ## HB 1110
 
@@ -111,6 +147,10 @@ Washington's 2023 statewide middle housing law requiring cities to allow duplexe
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## HB 1337 (ADU Reform)
 
 Washington's 2023 statewide ADU law requiring cities to allow at least two accessory dwelling units (one attached, one detached) on any residential lot within urban growth areas. The law eliminates many local barriers including owner-occupancy requirements, excessive setbacks, and parking mandates for ADUs near transit.
@@ -122,6 +162,10 @@ Washington's 2023 statewide ADU law requiring cities to allow at least two acces
 **Learn more:** [WA Legislature: HB 1337](https://app.leg.wa.gov/billsummary?BillNumber=1337&Initiative=false&Year=2023) | [The Urbanist: ADU and Design Review Reforms Pass](https://www.theurbanist.org/2023/04/12/missing-middle-housing-adu-and-design-review-reforms-pass-second-chamber/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="state">
 
 ## HB 1491 (Transit-Oriented Development)
 
@@ -135,6 +179,10 @@ Washington's 2025 transit-oriented development law requiring cities to allow mid
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Just Cause Eviction
 
 A legal framework that prohibits landlords from terminating a tenancy or evicting a tenant without one of the specific reasons enumerated in law. Seattle's Just Cause Eviction Ordinance (SMC 22.206.160C), passed in 1980, lists 16 permitted reasons including nonpayment of rent, lease violations, owner occupancy, and demolition. Washington State enacted statewide just cause eviction through HB 1236 in 2021 (RCW 59.18.650).
@@ -146,6 +194,10 @@ A legal framework that prohibits landlords from terminating a tenancy or evictin
 **Learn more:** [Seattle SDCI: Just Cause Eviction Ordinance](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/just-cause-eviction-ordinance) | [Tenants Union: Just Cause Eviction Protection](https://tenantsunion.org/rights/just-cause-eviction-protection)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Lot Coverage
 
@@ -159,6 +211,10 @@ The percentage of a lot that can be covered by buildings and structures. Seattle
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## MHA (Mandatory Housing Affordability)
 
 Seattle's program requiring developers of commercial and multifamily buildings to include affordable units or pay into a fund for affordable housing. Passed in 2019 alongside upzones in many neighborhoods.
@@ -170,6 +226,10 @@ Seattle's program requiring developers of commercial and multifamily buildings t
 **Learn more:** [Seattle Office of Housing: MHA Program](https://www.seattle.gov/housing/housing-developers/mandatory-housing-affordability) | [Seattle SDCI: MHA Code](https://www.seattle.gov/sdci/codes/codes-we-enforce-(a-z)/mandatory-housing-affordability-(mha)-program)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Missing Middle Housing
 
@@ -183,6 +243,10 @@ Housing types between single-family homes and large apartment buildings: duplexe
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Neighborhood Residential (NR)
 
 Seattle's new zoning designation that replaced "single-family" zones in 2021. NR zones (NR1, NR2, NR3) now allow various housing types including duplexes, triplexes, and other middle housing following HB 1110 implementation.
@@ -194,6 +258,10 @@ Seattle's new zoning designation that replaced "single-family" zones in 2021. NR
 **Learn more:** [Seattle OPCD: Neighborhood Residential Zoning](https://one-seattle-plan-zoning-implementation-seattlecitygis.hub.arcgis.com/pages/neighborhood-residential) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Parking Minimums
 
@@ -207,6 +275,10 @@ Zoning rules that require developers to build a minimum number of off-street par
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Racially Restrictive Covenants
 
 Private deed restrictions that barred non-white residents (and sometimes Jewish residents) from purchasing or occupying homes. The University of Washington's Racial Restrictive Covenants Project has documented more than 50,000 such covenants in western Washington. The first known Seattle covenant was written in 1923; organized campaigns on Capitol Hill added racial restrictions to nearly 1,000 existing deeds in the late 1920s.
@@ -218,6 +290,10 @@ Private deed restrictions that barred non-white residents (and sometimes Jewish 
 **Learn more:** [UW Racial Restrictive Covenants Project](https://depts.washington.edu/civilr/covenants_report.htm) | [The Urbanist: Seven Maps That Capture Seattle's Segregation](https://www.theurbanist.org/2022/06/03/seven-maps-that-capture-seattles-segregation/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="federal">
 
 ## Redlining
 
@@ -231,6 +307,10 @@ The practice of denying or restricting mortgage lending, insurance, and other fi
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## Rent Stabilization
 
 A policy that limits how much landlords can increase rent within a defined period. Washington's HB 1217, signed into law on May 7, 2025, caps annual rent increases for existing tenants at 7% plus the Consumer Price Index (CPI), or 10%, whichever is lower. Manufactured home rents are capped at 5% per year. The law exempts new construction for 12 years and owner-occupied small properties.
@@ -242,6 +322,10 @@ A policy that limits how much landlords can increase rent within a defined perio
 **Learn more:** [WA Legislature: HB 1217](https://app.leg.wa.gov/billsummary?billnumber=1217&year=2025) | [The Urbanist: Rent Stabilization Becomes Law](https://www.theurbanist.org/2025/05/08/rent-stabilization-parking-reforms-become-law-in-washington/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="state">
 
 ## SB 5184 (Parking Reform)
 
@@ -255,6 +339,10 @@ Washington's 2025 statewide parking reform law that caps the minimum parking req
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Setbacks
 
 Required distances between buildings and lot lines (front, side, and rear). Seattle's neighborhood residential zones typically require 20-foot front setbacks, 5-foot side setbacks, and rear setbacks of 20% of lot depth or 25 feet (whichever is less).
@@ -266,6 +354,10 @@ Required distances between buildings and lot lines (front, side, and rear). Seat
 **Learn more:** [Seattle SDCI: Lot Coverage, Height and Yard Standards (Tip 220)](https://web.seattle.gov/dpd/cams/CamDetail.aspx?cn=220) | [The Urbanist: Seattle Just Rezoned Entire City](https://www.theurbanist.org/2025/05/27/seattle-just-rezoned-the-entire-city/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Single-Family Zoning
 
@@ -279,6 +371,10 @@ Zoning that only allows one house per lot. Seattle had roughly 75% of its reside
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Stacked Flats
 
 A middle housing type consisting of dwelling units stacked vertically in a building of no more than three stories, where each unit occupies a single floor. Unlike townhouses where units are side-by-side, stacked flats place units on top of each other, often sharing a central entrance or having individual street-level entries.
@@ -290,6 +386,10 @@ A middle housing type consisting of dwelling units stacked vertically in a build
 **Learn more:** [WA Commerce: Middle Housing Model Ordinances](https://www.commerce.wa.gov/commerce-publishes-model-ordinances-to-support-the-development-of-middle-housing/) | [The Urbanist: The Deck is Stacked Against Stacked Flats](https://www.theurbanist.org/2025/05/09/the-deck-is-stacked-against-stacked-flats-in-seattle/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Upzoning
 
@@ -303,6 +403,10 @@ Changing zoning rules to allow larger or denser buildings than previously permit
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Affordable Housing
 
 Housing where residents pay no more than 30% of their income on rent/mortgage. In Seattle policy, "affordable" usually means affordable to households earning a percentage of Area Median Income (AMI) -- often 60% or 80% AMI.
@@ -315,6 +419,10 @@ Housing where residents pay no more than 30% of their income on rent/mortgage. I
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Community Preference Policy
 
 A voluntary policy (established by Executive Order 2019-02) that allows developers of City-funded affordable housing in high-displacement-risk areas to prioritize applicants with ties to the neighborhood — current residents, former residents, family members of former residents, or people with documented community connections.
@@ -326,5 +434,7 @@ A voluntary policy (established by Executive Order 2019-02) that allows develope
 **Learn more:** [Seattle Office of Housing: Community Preference](https://www.seattle.gov/housing/programs-and-initiatives/community-preference) | [The Urbanist: Community Resident Preference Policy](https://www.theurbanist.org/2018/07/23/community-resident-preference-policy-and-the-fight-against-displacement-in-seattle/)
 
 ---
+
+</div>
 
 *This page is a work in progress. [Suggest additions](https://github.com/prestomation/urbanism-guide/issues).*

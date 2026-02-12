@@ -5,6 +5,10 @@ weight: 2
 
 # Transportation Terms
 
+{{< glossary-filter >}}
+
+<div class="glossary-term" data-tag="concept">
+
 ## 15-Minute City
 
 An urban planning concept where residents can reach daily necessities -- work, school, shopping, healthcare, parks -- within a 15-minute walk or bike ride. Popularized by Paris Mayor Anne Hidalgo and professor Carlos Moreno.
@@ -16,6 +20,10 @@ An urban planning concept where residents can reach daily necessities -- work, s
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [The Urbanist: Seattle's Quest to Become a 15-Minute City](https://www.theurbanist.org/2020/09/18/seattles-quest-to-become-a-15-minute-city/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="county">
 
 ## BAT Lane (Business Access and Transit)
 
@@ -29,6 +37,10 @@ A dedicated lane that prioritizes buses while still allowing other vehicles to u
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Bicycle Master Plan
 
 Seattle's long-range plan for building a citywide network of bike infrastructure, including protected bike lanes, neighborhood greenways, and trail connections. The plan envisions 100+ miles of protected lanes and 250 miles of greenways.
@@ -40,6 +52,10 @@ Seattle's long-range plan for building a citywide network of bike infrastructure
 **Learn more:** [Seattle SDOT: Bicycle Master Plan](https://www.seattle.gov/transportation/document-library/citywide-plans/modal-plans/bicycle-master-plan) | [The Urbanist: Five Key Takeaways from Updated Bike Master Plan](https://www.theurbanist.org/2019/06/18/five-key-takeaways-from-the-updated-bike-master-plan/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Complete Streets
 
@@ -53,6 +69,10 @@ A street design approach that considers all users -- pedestrians, cyclists, tran
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Curb Extension (Bulb-out)
 
 A traffic calming measure that extends the sidewalk into the street at intersections or mid-block crossings, shortening the distance pedestrians must cross and making them more visible to drivers. Also called neckdowns, bump-outs, or curb bulbs.
@@ -64,6 +84,10 @@ A traffic calming measure that extends the sidewalk into the street at intersect
 **Learn more:** [Seattle SDOT: Crosswalks and Curb Bulbs](https://www.seattle.gov/transportation/projects-and-programs/programs/pedestrian-program/crosswalks-and-curb-bulbs) | [FHWA: Curb Extensions](https://safety.fhwa.dot.gov/saferjourney1/Library/countermeasures/23.htm)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Daylighting
 
@@ -77,6 +101,10 @@ The practice of restricting parking near intersections and crosswalks to improve
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Diagonal Crossing (Pedestrian Scramble)
 
 A signal phase that stops all vehicle traffic and allows pedestrians to cross an intersection in any direction, including diagonally. Also called a "Barnes Dance" after traffic engineer Henry Barnes, who popularized the concept in the 1950s and 60s.
@@ -88,6 +116,10 @@ A signal phase that stops all vehicle traffic and allows pedestrians to cross an
 **Learn more:** [FHWA: Pedestrian Safety Guide](https://safety.fhwa.dot.gov/ped_bike/tools_solve/ped_tsp/ch2.cfm) | [SSTI: Return of the Barnes Dance](https://ssti.us/2017/06/05/return-of-the-barnes-dance/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="federal">
 
 ## HAWK Beacon
 
@@ -101,6 +133,10 @@ A pedestrian-activated traffic control device used at uncontrolled crosswalks, o
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## High Injury Network
 
 The subset of streets where the most serious and fatal traffic crashes are concentrated. In Seattle, about 12% of streets account for over 50% of serious injury and fatal crashes. These corridors are the focus of Vision Zero investments.
@@ -112,6 +148,10 @@ The subset of streets where the most serious and fatal traffic crashes are conce
 **Learn more:** [Seattle SDOT: Vision Zero](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero) | [The Urbanist: Accountability in Vision Zero](https://www.theurbanist.org/2023/04/04/accountability-in-vision-zero-a-map-of-recent-road-deaths/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Induced Demand
 
@@ -125,6 +165,10 @@ The phenomenon where adding road capacity generates additional traffic, typicall
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Leading Pedestrian Interval (LPI)
 
 A traffic signal timing strategy that gives pedestrians a 3-7 second head start to enter the crosswalk before vehicles get a green light. The walk signal activates while all vehicle signals remain red, making pedestrians more visible to turning drivers.
@@ -136,6 +180,10 @@ A traffic signal timing strategy that gives pedestrians a 3-7 second head start 
 **Learn more:** [Seattle SDOT: Leading Pedestrian Intervals](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero/leading-pedestrian-intervals) | [SDOT Blog: LPI Rollout Acceleration](https://sdotblog.seattle.gov/2023/08/31/vision-zero-were-accelerating-leading-pedestrian-interval-lpi-signal-rollout-throughout-the-city/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## LOS (Level of Service)
 
@@ -149,6 +197,10 @@ A grading system (A through F) for traffic flow, where A means free-flowing and 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Mode Share
 
 The percentage of trips taken by each transportation mode (driving, transit, biking, walking). Seattle's goal is to reduce the car mode share and increase all other modes.
@@ -160,6 +212,10 @@ The percentage of trips taken by each transportation mode (driving, transit, bik
 **Learn more:** [Commute Seattle: 2021 Mode Split Survey](https://www.commuteseattle.com/2021-center-city-modesplit-survey-results/) | [Seattle SDOT: Commute Trip Reduction Program](https://www.seattle.gov/transportation/projects-and-programs/programs/transportation-options-program/commute-trip-reduction-program)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Neighborhood Greenways
 
@@ -173,6 +229,10 @@ A network of residential streets with traffic calming, wayfinding signs, and cro
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Performance-Based Parking Pricing
 
 A parking management strategy that adjusts meter rates based on real-time occupancy data, with the goal of maintaining one to two open spaces per block at all times. Seattle's program covers approximately 12,000 metered on-street spaces across about 30 paid parking areas, with rates adjusted three times per year.
@@ -184,6 +244,10 @@ A parking management strategy that adjusts meter rates based on real-time occupa
 **Learn more:** [SDOT: Performance-Based Parking Pricing](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/performance-based-parking-pricing-program) | [SDOT: Paid Parking Information](https://www.seattle.gov/transportation/projects-and-programs/programs/parking-program/paid-parking-information)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Protected Bike Lane (PBL)
 
@@ -197,6 +261,10 @@ A bike lane physically separated from car traffic by barriers, planters, parked 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="county">
+
 ## RapidRide
 
 King County Metro's bus rapid transit (BRT) network featuring frequent service (every 10 minutes or better), branded stations, off-board payment, and transit signal priority. Currently includes lines A through H, with more planned.
@@ -208,6 +276,10 @@ King County Metro's bus rapid transit (BRT) network featuring frequent service (
 **Learn more:** [King County Metro: RapidRide](https://kingcounty.gov/en/dept/metro/travel-options/bus/rapidride) | [The Urbanist: Metro Launches RapidRide G](https://www.theurbanist.org/2024/09/13/metro-launches-rapidride-g/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Restricted Parking Zone (RPZ)
 
@@ -221,6 +293,10 @@ A residential parking management program that limits the time non-residents can 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="federal">
+
 ## Rectangular Rapid Flashing Beacon (RRFB)
 
 A pedestrian-activated warning device installed at crosswalks, featuring two rectangular amber LED lights that flash in an alternating "wig-wag" pattern when a pedestrian presses the button. RRFBs are mounted on crosswalk signs at uncontrolled crossings.
@@ -232,6 +308,10 @@ A pedestrian-activated warning device installed at crosswalks, featuring two rec
 **Learn more:** [FHWA: Rectangular Rapid Flashing Beacons](https://highways.dot.gov/safety/proven-safety-countermeasures/rectangular-rapid-flashing-beacons-rrfb) | [Seattle SDOT: Vision Zero](https://www.seattle.gov/transportation/projects-and-programs/safety-first/vision-zero)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Road Diet (Rechannelization)
 
@@ -245,6 +325,10 @@ A street redesign that reduces the number of travel lanes, typically converting 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="county">
+
 ## ST3 (Sound Transit 3)
 
 The $54 billion regional transit expansion plan approved by voters in 2016. Includes light rail extensions to Ballard, West Seattle, Tacoma, Everett, and other areas. Full build-out expected by 2041+.
@@ -256,6 +340,10 @@ The $54 billion regional transit expansion plan approved by voters in 2016. Incl
 **Learn more:** [Sound Transit: ST3 Plan](https://www.soundtransit.org/get-to-know-us/documents-reports/sound-transit-3) | [Sound Transit: Realignment](https://www.soundtransit.org/system-expansion/realignment)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="county">
 
 ## Stride
 
@@ -269,6 +357,10 @@ Sound Transit's bus rapid transit (BRT) brand, consisting of three lines (S1, S2
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## TOD (Transit-Oriented Development)
 
 Higher-density, mixed-use development concentrated near transit stations. The idea is that people living/working near good transit will drive less.
@@ -280,6 +372,10 @@ Higher-density, mixed-use development concentrated near transit stations. The id
 **Learn more:** [Sound Transit: Transit-Oriented Development](https://www.soundtransit.org/system-expansion/creating-vibrant-stations/transit-oriented-development) | [Seattle OPCD: Equitable TOD](https://www.seattle.gov/opcd/current-projects/equitable-transit-oriented-development)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Transit Signal Priority (TSP)
 
@@ -293,6 +389,10 @@ A traffic signal control strategy that gives priority to transit vehicles at int
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Vision Zero
 
 A policy commitment to eliminate all traffic fatalities and serious injuries. Seattle adopted Vision Zero in 2015.
@@ -305,6 +405,10 @@ A policy commitment to eliminate all traffic fatalities and serious injuries. Se
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## VMT (Vehicle Miles Traveled)
 
 Total miles driven by vehicles in an area. An alternative to LOS for measuring transportation system performance that doesn't privilege car throughput.
@@ -316,5 +420,7 @@ Total miles driven by vehicles in an area. An alternative to LOS for measuring t
 **Learn more:** [WSDOT: VMT Targets Report (PDF)](https://wsdot.wa.gov/sites/default/files/2023-06/VMT-Targets-Final-Report-June2023.pdf) | [MRSC: Transportation Planning](https://mrsc.org/explore-topics/planning/plan-elements/transportation-planning)
 
 ---
+
+</div>
 
 *This page is a work in progress. [Suggest additions](https://github.com/prestomation/urbanism-guide/issues).*
