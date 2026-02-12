@@ -250,7 +250,13 @@ Front matter includes:
 `scripts/validate-timeline.py` runs before every build to ensure timeline entries are in reverse chronological order. The build will fail if entries are out of order.
 
 ### Link Validation
-`.htmltest.yml` checks internal and external links. External link failures don't block builds (30s timeout).
+- **Internal links**: `.htmltest.yml` + htmltest checks internal links (anchors, relative paths).
+- **External links**: `scripts/check-external-links.py` checks external URLs with resilient state tracking:
+  - **New links** (detected via `git diff` or absent from state) must pass immediately.
+  - **Existing links** get a failure counter; only fail the build after 3 consecutive failures.
+  - State is persisted via GitHub Actions cache between CI runs.
+  - Run locally without state: `python3 scripts/check-external-links.py`
+  - Run locally with state: `python3 scripts/check-external-links.py --state-file .link-state.json --threshold 3`
 
 ## Important Conventions
 
@@ -268,7 +274,7 @@ Front matter includes:
 
 7. **No node_modules by default**: The project is pure Hugo unless package.json is added for asset processing.
 
-8. **Verify links before adding**: Always use WebFetch to verify that external URLs are valid before adding them to content. The CI runs `python3 scripts/check-external-links.py` which will fail the build on broken links. To check all links locally, run:
+8. **Verify links before adding**: Always use WebFetch to verify that external URLs are valid before adding them to content. The CI uses `check-external-links.py` with state tracking — newly added links must pass immediately, while existing links only fail after 3 consecutive failures. To check all links locally, run:
    ```bash
    python3 scripts/check-external-links.py
    ```

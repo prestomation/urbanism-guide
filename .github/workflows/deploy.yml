@@ -55,10 +55,24 @@ jobs:
       - name: Build search index with Pagefind
         run: npx pagefind --site public
 
-      - name: Validate links
+      - name: Validate internal links
         run: |
           curl -sSL https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz | tar xz -C /tmp
           /tmp/htmltest --conf .htmltest.yml
+
+      - name: Restore link-check state
+        uses: actions/cache@v4
+        with:
+          path: .link-state.json
+          key: link-state-${{ github.run_id }}
+          restore-keys: |
+            link-state-
+
+      - name: Check external links
+        run: |
+          python3 scripts/check-external-links.py \
+            --state-file .link-state.json \
+            --threshold 3
 
       - name: Deploy to gh-pages branch
         run: |

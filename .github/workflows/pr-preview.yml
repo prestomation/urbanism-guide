@@ -116,7 +116,20 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: false
-          fetch-depth: 1
+          fetch-depth: 0
+
+      - name: Restore link-check state
+        uses: actions/cache@v4
+        with:
+          path: .link-state.json
+          key: link-state-${{ github.run_id }}
+          restore-keys: |
+            link-state-
 
       - name: Check for broken external links
-        run: python3 scripts/check-external-links.py
+        run: |
+          git fetch origin main
+          python3 scripts/check-external-links.py \
+            --state-file .link-state.json \
+            --threshold 3 \
+            --diff-base origin/main
