@@ -1,3 +1,27 @@
+<!-- Make card-style containers fully clickable -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Homepage cards: each .flex-even has an h3 > a with the destination
+    document.querySelectorAll('.book-columns > .flex-even').forEach(function(card) {
+      var link = card.querySelector('h3 a[href]:not(.anchor)');
+      if (!link) return;
+      card.addEventListener('click', function(e) {
+        // Don't interfere if user clicked an actual link inside the card
+        if (e.target.closest('a')) return;
+        link.click();
+      });
+    });
+    // Blog entry cards: each .blog-entry has an h2 > a with the destination
+    document.querySelectorAll('.blog-entry').forEach(function(card) {
+      var link = card.querySelector('h2 a[href]');
+      if (!link) return;
+      card.addEventListener('click', function(e) {
+        if (e.target.closest('a')) return;
+        link.click();
+      });
+    });
+  });
+</script>
 {{ with .Site.Params.goatCounterCode }}
 <!-- GoatCounter Analytics -->
 <script>
