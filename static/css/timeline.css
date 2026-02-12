@@ -822,6 +822,19 @@ body.book-kind-home .markdown > hr + p {
   }
 }
 
+.glossary-no-results {
+  text-align: center;
+  color: #6C757D;
+  font-style: italic;
+  padding: 2rem 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .glossary-no-results {
+    color: #ADB5BD;
+  }
+}
+
 /* --------------------------------------------------------------------------
    24. Glossary filter responsive
    -------------------------------------------------------------------------- */

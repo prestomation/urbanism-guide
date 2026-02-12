@@ -7,6 +7,7 @@
   <button class="glossary-filter-btn" data-filter="city">City</button>
   <button class="glossary-filter-btn" data-filter="concept">Concept</button>
 </div>
+<p class="glossary-no-results" id="glossary-no-results" style="display:none;">No terms found for this filter on this page. Try another category or check a different glossary section.</p>
 
 <script>
 (function() {
@@ -16,6 +17,7 @@
 
     var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
     var terms = document.querySelectorAll('.glossary-term');
+    var noResults = document.getElementById('glossary-no-results');
 
     // Add tag badges to each term heading
     var tagLabels = {
@@ -41,6 +43,7 @@
     buttons.forEach(function(btn) {
       btn.addEventListener('click', function() {
         var filter = this.getAttribute('data-filter');
+        var visibleCount = 0;
 
         buttons.forEach(function(b) { b.classList.remove('active'); });
         this.classList.add('active');
@@ -48,10 +51,13 @@
         terms.forEach(function(term) {
           if (filter === 'all' || term.getAttribute('data-tag') === filter) {
             term.style.display = '';
+            visibleCount++;
           } else {
             term.style.display = 'none';
           }
         });
+
+        noResults.style.display = visibleCount === 0 ? '' : 'none';
       });
     });
   });
