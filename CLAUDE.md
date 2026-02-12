@@ -28,7 +28,7 @@ urbanism-guide/
 │   └── timeline.yaml    # Timeline entries (year, title, description, sources)
 ├── layouts/              # Custom Hugo templates
 │   ├── partials/        # Template includes (head injection for CSS)
-│   └── shortcodes/      # timeline.html, blog-list.html
+│   └── shortcodes/      # timeline.html, blog-list.html, glossary-filter.html
 ├── static/               # Static assets served as-is
 │   └── css/timeline.css # Custom styling for timeline and blog
 ├── themes/hugo-book/     # External theme (git submodule - DO NOT EDIT)
@@ -73,9 +73,13 @@ Four category files exist:
 - `land-use.md` - SEPA, comprehensive plan, GMA, etc.
 - `funding-policy.md` - TIF, MFTE, impact fees, etc.
 
+Each glossary page includes the `{{</* glossary-filter */>}}` shortcode at the top (after the H1 heading) and every term is wrapped in a `<div>` with a jurisdiction-level tag for filtering.
+
 **Format for new terms**:
 ```markdown
-### Term Name
+<div class="glossary-term" data-tag="city">
+
+## Term Name
 
 Brief definition in plain language.
 
@@ -84,7 +88,23 @@ Brief definition in plain language.
 **See also:** [Related Term](#related-term)
 
 **Learn more:** [Primary Source](url) | [Secondary Source](url)
+
+---
+
+</div>
 ```
+
+**Tag values** — assign exactly one tag per term based on the primary jurisdiction level:
+
+| Tag | Use for | Examples |
+|---|---|---|
+| `federal` | Federal agencies, HUD definitions, FHWA tools | AMI, Cost Burden, Redlining, HAWK Beacon, RRFB |
+| `state` | WA state laws (HB/SB), GMA, SEPA, state agencies | HB 1110, HB 1337, SB 5184, Rent Stabilization, SEPA |
+| `county` | King County Metro, Sound Transit, PSRC (regional) | RapidRide, ST3, Stride, BAT Lane, Subarea Equity |
+| `city` | Seattle programs, ordinances, city departments | MHA, HALA, Vision Zero, SDCI, Housing Levy |
+| `concept` | General urbanism concepts not tied to a jurisdiction | FAR, TOD, Induced Demand, Zoning, Mode Share |
+
+When a term spans multiple levels, tag it with the level most relevant to Seattle urbanists.
 
 **Source requirements for glossary terms:**
 - **Primary source (required):** Must be a governmental or official institutional source (e.g., seattle.gov, soundtransit.org, wsdot.wa.gov, mrsc.org, commerce.wa.gov)
@@ -216,6 +236,9 @@ Front matter includes:
 ### Blog List Shortcode
 `{{</* blog-list */>}}` auto-generates a list of blog posts with dates, tags, and summaries.
 
+### Glossary Filter Shortcode
+`{{</* glossary-filter */>}}` renders a filter bar with jurisdiction-level tag buttons (Federal, State, County, City, Concept) on glossary pages. Each glossary term must be wrapped in `<div class="glossary-term" data-tag="TAG">` for filtering to work. The shortcode includes inline JavaScript that adds color-coded tag badges to headings and handles show/hide filtering on button click.
+
 ## Build and Deployment
 
 ### Automated (GitHub Actions)
@@ -264,9 +287,11 @@ Front matter includes:
 ### Adding a glossary term
 1. Identify the correct category file in `content/glossary/`
 2. Add the term in alphabetical order within the file
-3. Follow the "Term Name / Definition / Why it matters / See also / Learn more" format
-4. **Verify all URLs using WebFetch before adding them** to ensure they return valid content (not 404s)
-5. Include a primary governmental source and secondary source (preferably The Urbanist) in the "Learn more" section
+3. Wrap the term in `<div class="glossary-term" data-tag="TAG">` ... `</div>` with the appropriate tag (`federal`, `state`, `county`, `city`, or `concept`)
+4. Follow the "Term Name / Definition / Why it matters / See also / Learn more" format with `##` headings
+5. End the term content with `---` (horizontal rule) inside the `</div>`
+6. **Verify all URLs using WebFetch before adding them** to ensure they return valid content (not 404s)
+7. Include a primary governmental source and secondary source (preferably The Urbanist) in the "Learn more" section
 
 ### Adding a timeline event
 1. Edit `data/timeline.yaml`
@@ -290,8 +315,9 @@ Front matter includes:
 ### Glossary integration
 When creating or editing guides, any urbanist term that has a glossary entry should be linked to it using `relref` on first mention in the guide. If a key urbanist term used in a guide does **not** yet have a glossary entry, create one:
 1. Identify the correct category file (`housing-zoning.md`, `transportation.md`, `land-use.md`, or `funding-policy.md`)
-2. Add the entry in alphabetical order following the standard format (Term Name / Definition / Why it matters / See also / Learn more)
-3. Link back to the term from the guide using `{{< relref "/glossary/category#term-anchor" >}}`
+2. Add the entry in alphabetical order, wrapped in `<div class="glossary-term" data-tag="TAG">` with the correct jurisdiction tag
+3. Follow the standard format (Term Name / Definition / Why it matters / See also / Learn more) with `##` headings
+4. Link back to the term from the guide using `{{< relref "/glossary/category#term-anchor" >}}`
 
 This ensures the glossary stays comprehensive and readers can always jump from a guide to a plain-language definition.
 
