@@ -5,6 +5,10 @@ weight: 3
 
 # Land Use & Planning Terms
 
+{{< glossary-filter >}}
+
+<div class="glossary-term" data-tag="concept">
+
 ## Cascadia Subduction Zone
 
 A roughly 1,100-kilometer fault running offshore from northern California to Vancouver Island, where the Juan de Fuca tectonic plate dives beneath the North American plate. The CSZ is capable of producing magnitude 9.0+ megathrust earthquakes. The last full-rupture event occurred on January 26, 1700; USGS estimates a 10-15% probability of another magnitude 9 event in the next 50 years.
@@ -16,6 +20,10 @@ A roughly 1,100-kilometer fault running offshore from northern California to Van
 **Learn more:** [USGS Earthquake Probabilities](https://pubs.usgs.gov/publication/fs20253050/full) | [DNR: Earthquakes and Faults](https://dnr.wa.gov/washington-geological-survey/geologic-hazards-and-environment/earthquakes-and-faults)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Comprehensive Plan
 
@@ -29,6 +37,10 @@ A city's long-range plan for growth, land use, transportation, parks, and utilit
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## Concurrency
 
 A Growth Management Act requirement that infrastructure (roads, water, sewer, schools) must be adequate to serve new development at the time it's built -- or within a set timeframe. Development can be denied if infrastructure isn't available.
@@ -40,6 +52,10 @@ A Growth Management Act requirement that infrastructure (roads, water, sewer, sc
 **Learn more:** [MRSC: Concurrency](https://mrsc.org/explore-topics/planning/gma/concurrency) | [WA Commerce: Growth Management Act](https://www.commerce.wa.gov/serving-communities/growth-management/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Cumulative Impacts
 
@@ -53,6 +69,10 @@ The combined effect of multiple environmental, health, and socioeconomic stresso
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Displacement Risk Index
 
 A composite mapping tool created by Seattle's Office of Planning and Community Development (OPCD) that forecasts which neighborhoods face elevated risk of displacing marginalized populations. The index combines five categories of indicators: socio-demographics, transportation qualities, neighborhood characteristics, housing market pressures, and civic engagement levels.
@@ -64,6 +84,10 @@ A composite mapping tool created by Seattle's Office of Planning and Community D
 **Learn more:** [Seattle OPCD: Displacement Risk Indicators](https://population-and-demographics-seattlecitygis.hub.arcgis.com/pages/displacement-risk) | [The Urbanist: Seattle Releases Comprehensive Plan Less Ambitious Than Bellevue](https://www.theurbanist.org/2024/03/05/seattle-releases-comprehensive-plan-with-growth-target-lower-than-bellevue/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Embodied Carbon
 
@@ -77,6 +101,10 @@ The greenhouse gas emissions associated with manufacturing, transporting, and in
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## EIS (Environmental Impact Statement)
 
 A detailed study of a project's or plan's environmental effects, required under SEPA for major actions. Covers traffic, noise, shadow, displacement, and more.
@@ -88,6 +116,10 @@ A detailed study of a project's or plan's environmental effects, required under 
 **Learn more:** [WA Ecology: Overview of SEPA](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Environmental Racism
 
@@ -101,6 +133,10 @@ The disproportionate siting of environmental hazards — polluting industries, h
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Equitable Transit-Oriented Development (ETOD)
 
 A planning approach that combines transit-oriented development with explicit anti-displacement and community ownership strategies. Unlike conventional TOD, which focuses primarily on density near transit, ETOD prioritizes removing speculative pressures, banking land for community ownership early, and ensuring existing residents benefit from transit investments.
@@ -112,6 +148,10 @@ A planning approach that combines transit-oriented development with explicit ant
 **Learn more:** [Seattle OPCD: Equitable Transit Oriented Development](https://www.seattle.gov/opcd/current-projects/equitable-transit-oriented-development) | [The Urbanist: State Must Pass Transit-Oriented Housing Rules Prioritizing Equity](https://www.theurbanist.org/2024/01/02/state-must-pass-transit-oriented-development-rules-that-prioritize-equity-and-affordability/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Form-Based Code
 
@@ -125,6 +165,10 @@ A zoning approach that regulates building form (height, setbacks, facade design)
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## GMA (Growth Management Act)
 
 Washington state law (1990) requiring urban areas to plan for growth, protect rural land, and provide infrastructure. Mandates comprehensive plans and urban growth boundaries.
@@ -136,6 +180,10 @@ Washington state law (1990) requiring urban areas to plan for growth, protect ru
 **Learn more:** [MRSC: Growth Management Act Basics](https://mrsc.org/explore-topics/planning/gma/growth-management-act-basics) | [WA Commerce: Growth Management](https://www.commerce.wa.gov/growth-management/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Landmark District
 
@@ -149,6 +197,10 @@ A geographically defined area designated by the Seattle City Council to protect 
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## MUP (Master Use Permit)
 
 Seattle's combined land use permit that bundles zoning approvals, environmental review, and design review into a single application. Required for most new construction and major alterations.
@@ -160,6 +212,10 @@ Seattle's combined land use permit that bundles zoning approvals, environmental 
 **Learn more:** [Seattle SDCI: Land Use Division](https://www.seattle.gov/sdci/about-us/who-we-are/land-use) | [Seattle SDCI: How to Get a Permit](https://www.seattle.gov/sdci/permits/how-do-you-get-a-permit)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Liquefaction
 
@@ -173,6 +229,10 @@ A phenomenon in which water-saturated, loosely packed soil loses its strength du
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## Middle Housing Model Ordinance
 
 A state-created zoning code developed by the Washington Department of Commerce that automatically supersedes local regulations if cities fail to comply with HB 1110's middle housing requirements by their deadline. The model ordinance establishes development standards for duplexes through sixplexes, townhouses, courtyard apartments, cottage housing, and stacked flats.
@@ -184,6 +244,10 @@ A state-created zoning code developed by the Washington Department of Commerce t
 **Learn more:** [WA Commerce: Planning for Middle Housing](https://www.commerce.wa.gov/growth-management/housing-planning/middle-housing/) | [The Urbanist: State Improves Model Code to Promote Middle Housing](https://www.theurbanist.org/2024/02/06/state-improves-model-code-to-promote-middle-housing/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## Neighborhood Centers
 
@@ -197,6 +261,10 @@ A new land use designation in Seattle's One Seattle Plan, applied to approximate
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Pedestrian Zone (P-zone)
 
 A zoning overlay applied to Neighborhood Commercial (NC) zones that designates an area as "an intensely retail and pedestrian-oriented shopping district where non-auto modes of transportation to and within the district are strongly favored." Pedestrian zones prohibit drive-through lanes, restrict parking to behind buildings or within structures, and discourage driveways crossing sidewalks on principal pedestrian streets. Seattle had 33 P-zones before a 2015 expansion (Ordinance 124770) added or expanded the designation in 42 neighborhoods, bringing the total to roughly 73.
@@ -208,6 +276,10 @@ A zoning overlay applied to Neighborhood Commercial (NC) zones that designates a
 **Learn more:** [Seattle OPCD: Pedestrian Retail Areas](https://www.seattle.gov/opcd/vault/pedestrian-retail-areas) | [The Urbanist: A Big Revision: Seattle's Pedestrian-Oriented Commercial Districts](https://www.theurbanist.org/2015/07/15/a-big-revision-seattles-pedestrian-oriented-commercial-districts/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="county">
 
 ## PSRC (Puget Sound Regional Council)
 
@@ -221,6 +293,10 @@ The federally designated Metropolitan Planning Organization (MPO) for the four-c
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Regional Centers / Urban Centers
 
 The new hierarchy of growth centers in Seattle's One Seattle Plan. Regional Centers (Downtown, Northgate, University District, etc.) are the most intensive growth areas. Urban Centers are the next tier, including places like the Central District, Fremont, and Columbia City. These replace the old "urban center" and "hub urban village" designations.
@@ -232,6 +308,10 @@ The new hierarchy of growth centers in Seattle's One Seattle Plan. Regional Cent
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [The Urbanist: Seattle Releases Comprehensive Plan](https://www.theurbanist.org/2024/03/05/seattle-releases-comprehensive-plan-with-growth-target-lower-than-bellevue/)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
 
 ## SDCI (Seattle Department of Construction and Inspections)
 
@@ -245,6 +325,10 @@ The city agency that issues building permits, enforces codes, and administers de
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="state">
+
 ## SEPA (State Environmental Policy Act)
 
 Washington's environmental review law. Requires government agencies to evaluate environmental impacts before approving projects, plans, or permits.
@@ -256,6 +340,10 @@ Washington's environmental review law. Requires government agencies to evaluate 
 **Learn more:** [WA Ecology: SEPA Overview](https://ecology.wa.gov/regulations-permits/sepa/environmental-review/sepa-guidance/basic-overview) | [MRSC: State Environmental Policy Act](https://mrsc.org/explore-topics/environment/regulations/state-environmental-policy-act)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="state">
 
 ## Urban Growth Boundary (UGB)
 
@@ -269,6 +357,10 @@ A line on the map separating urban areas (where growth is directed) from rural a
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Urban Village
 
 Seattle's planning designation for neighborhood centers that are targeted for growth. Includes hubs like Capitol Hill, the U-District, and Ballard, as well as smaller "residential urban villages." Created in the 1994 comprehensive plan.
@@ -280,6 +372,10 @@ Seattle's planning designation for neighborhood centers that are targeted for gr
 **Learn more:** [Seattle OPCD: One Seattle Plan](https://www.seattle.gov/opcd/one-seattle-plan) | [Seattle 2035 Comprehensive Plan](https://www.seattle.gov/opcd/current-projects/seattle-2035-comprehensive-plan)
 
 ---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
 
 ## Urban Heat Island
 
@@ -293,6 +389,10 @@ The phenomenon where urban areas experience significantly higher temperatures th
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Unreinforced Masonry (URM)
 
 A building constructed of brick, stone, or concrete block without steel reinforcement or structural connections between walls, floors, and roof. Most URMs in Seattle were built before 1945. During earthquakes, URM walls can separate from floor and roof structures and collapse outward. Seattle has approximately 1,100 identified URMs housing over 22,000 people.
@@ -305,6 +405,10 @@ A building constructed of brick, stone, or concrete block without steel reinforc
 
 ---
 
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
 ## Zoning
 
 Government rules that dictate what can be built where -- building height, density, use (residential, commercial, industrial), setbacks, lot coverage, etc.
@@ -316,5 +420,7 @@ Government rules that dictate what can be built where -- building height, densit
 **Learn more:** [Seattle SDCI: Codes](https://www.seattle.gov/sdci/codes) | [Seattle Interactive Maps (includes zoning layers)](https://maps.seattle.gov/)
 
 ---
+
+</div>
 
 *This page is a work in progress. [Suggest additions](https://github.com/prestomation/urbanism-guide/issues).*

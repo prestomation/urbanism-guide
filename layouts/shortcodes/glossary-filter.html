@@ -1,0 +1,59 @@
+<div class="glossary-filter" id="glossary-filter">
+  <span class="glossary-filter-label">Filter:</span>
+  <button class="glossary-filter-btn active" data-filter="all">All</button>
+  <button class="glossary-filter-btn" data-filter="federal">Federal</button>
+  <button class="glossary-filter-btn" data-filter="state">State</button>
+  <button class="glossary-filter-btn" data-filter="county">County</button>
+  <button class="glossary-filter-btn" data-filter="city">City</button>
+  <button class="glossary-filter-btn" data-filter="concept">Concept</button>
+</div>
+
+<script>
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    var filterBar = document.getElementById('glossary-filter');
+    if (!filterBar) return;
+
+    var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
+    var terms = document.querySelectorAll('.glossary-term');
+
+    // Add tag badges to each term heading
+    var tagLabels = {
+      federal: 'Federal',
+      state: 'State',
+      county: 'County',
+      city: 'City',
+      concept: 'Concept'
+    };
+
+    terms.forEach(function(term) {
+      var tag = term.getAttribute('data-tag');
+      var heading = term.querySelector('h2');
+      if (heading && tag && tagLabels[tag]) {
+        var badge = document.createElement('span');
+        badge.className = 'glossary-tag glossary-tag-' + tag;
+        badge.textContent = tagLabels[tag];
+        heading.appendChild(badge);
+      }
+    });
+
+    // Filter logic
+    buttons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var filter = this.getAttribute('data-filter');
+
+        buttons.forEach(function(b) { b.classList.remove('active'); });
+        this.classList.add('active');
+
+        terms.forEach(function(term) {
+          if (filter === 'all' || term.getAttribute('data-tag') === filter) {
+            term.style.display = '';
+          } else {
+            term.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+})();
+</script>
