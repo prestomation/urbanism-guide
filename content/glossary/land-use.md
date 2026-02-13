@@ -297,6 +297,22 @@ The federally designated Metropolitan Planning Organization (MPO) for the four-c
 
 <div class="glossary-term" data-tag="city">
 
+## Regrade
+
+A large-scale earthmoving project that lowers or levels terrain by cutting away hillsides, typically using hydraulic hoses, steam shovels, or conveyor systems. Between the 1890s and 1930s, Seattle carried out roughly 60 regrades that moved more than 50 million short tons of earth. The largest was the Denny Regrade (1897-1930), which lowered Denny Hill by over 100 feet across 62 city blocks. Other major regrades included Jackson Street (85-foot cut) and Dearborn Street (112-foot cut). The excavated material was used to fill tideflats, extend the waterfront, and build Harbor Island.
+
+**Why it matters:** The regrades created much of the flat, buildable land that forms Seattle's modern downtown, Belltown, SoDo, and the Chinatown-International District. They also created land built on fill that is now prone to liquefaction during earthquakes — a direct concern for seismic retrofit planning and new construction in Pioneer Square, SoDo, and Interbay. Understanding the regrades explains why Seattle's topography abruptly changes between neighborhoods and why certain areas face elevated seismic risk.
+
+**See also:** [Liquefaction](#liquefaction), [Landmark District](#landmark-district)
+
+**Learn more:** [HistoryLink: Denny Regrade](https://www.historylink.org/file/21204) | [The Urbanist: Seattle's Long-Forgotten Hill](https://www.theurbanist.org/2025/01/19/sunday-video-seattles-long-forgotten-hill/)
+
+---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## Regional Centers / Urban Centers
 
 The new hierarchy of growth centers in Seattle's One Seattle Plan. Regional Centers (Downtown, Northgate, University District, etc.) are the most intensive growth areas. Urban Centers are the next tier, including places like the Central District, Fremont, and Columbia City. These replace the old "urban center" and "hub urban village" designations.

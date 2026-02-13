@@ -32,6 +32,7 @@ Usage:
 
 import argparse
 import json
+import os
 import re
 import ssl
 import subprocess
@@ -298,6 +299,79 @@ def save_state(state_path: Path, state: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
+# GitHub Actions summary
+# ---------------------------------------------------------------------------
+
+def _write_github_summary(
+    summary_path: str,
+    broken_new: list,
+    broken_existing: list,
+    warned: list,
+    threshold: int,
+    total: int,
+) -> None:
+    """Append a Markdown summary to $GITHUB_STEP_SUMMARY."""
+    lines: list[str] = []
+
+    ok_count = total - len(broken_new) - len(broken_existing) - len(warned)
+
+    if not broken_new and not broken_existing:
+        lines.append(f"### :white_check_mark: All {ok_count} external links OK")
+        if warned:
+            lines.append("")
+            lines.append(f"{len(warned)} link(s) warned (below "
+                         f"{threshold}-failure threshold).")
+    else:
+        lines.append("### :x: External link check failed")
+        lines.append("")
+
+    if broken_new:
+        lines.append(f"#### New links that failed ({len(broken_new)})")
+        lines.append("")
+        lines.append("> New links must pass on the first check. "
+                     "Fix the URL or verify the site is reachable.")
+        lines.append("")
+        lines.append("| URL | Error | Locations |")
+        lines.append("|-----|-------|-----------|")
+        for url, error, locations in broken_new:
+            locs = ", ".join(f"`{f}:{ln}`" for f, ln in locations)
+            lines.append(f"| {url} | {error} | {locs} |")
+        lines.append("")
+
+    if broken_existing:
+        lines.append(f"#### Existing links that exceeded {threshold} "
+                     f"consecutive failures ({len(broken_existing)})")
+        lines.append("")
+        lines.append("> These links were already in the codebase but have "
+                     f"failed {threshold}+ consecutive CI runs.")
+        lines.append("")
+        lines.append("| URL | Error | Failures | Locations |")
+        lines.append("|-----|-------|----------|-----------|")
+        for url, error, locations, count in broken_existing:
+            locs = ", ".join(f"`{f}:{ln}`" for f, ln in locations)
+            lines.append(f"| {url} | {error} | {count}/{threshold} | {locs} |")
+        lines.append("")
+
+    if warned:
+        lines.append(f"<details><summary>{len(warned)} warned link(s) "
+                     f"(below threshold)</summary>")
+        lines.append("")
+        lines.append("| URL | Error | Failures |")
+        lines.append("|-----|-------|----------|")
+        for url, error, locations, count in warned:
+            lines.append(f"| {url} | {error} | {count}/{threshold} |")
+        lines.append("")
+        lines.append("</details>")
+        lines.append("")
+
+    try:
+        with open(summary_path, "a") as f:
+            f.write("\n".join(lines) + "\n")
+    except OSError:
+        pass  # Non-critical; don't break the build over summary output
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -500,9 +574,22 @@ def main():
                 print(f"    - {file_path}:{line_num}")
             print()
 
+    # ---- GitHub Actions summary ----
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        _write_github_summary(
+            summary_path, broken_new, broken_existing, warned, threshold,
+            total)
+
     if has_failures:
-        total_failures = len(broken_new) + len(broken_existing)
-        print(f"BUILD FAILED: {total_failures} broken link(s)")
+        parts = []
+        if broken_new:
+            parts.append(f"{len(broken_new)} newly added link(s) "
+                         f"(new links must pass immediately)")
+        if broken_existing:
+            parts.append(f"{len(broken_existing)} existing link(s) "
+                         f"exceeded {threshold} consecutive failures")
+        print(f"BUILD FAILED: {' + '.join(parts)}")
         sys.exit(1)
     else:
         ok_count = total - len(warned)
