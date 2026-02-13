@@ -107,6 +107,30 @@ The century of terraforming had lasting environmental costs that Seattle is stil
 - **Seismic vulnerability:** Land built on fill — including Pioneer Square, SoDo, Interbay, and Harbor Island — is prone to [liquefaction]({{< relref "/glossary/land-use#liquefaction" >}}) during earthquakes. During the 2001 Nisqually earthquake, SoDo experienced pervasive liquefaction including sand boils and ground cracking.
 - **Watershed disruption:** Lowering Lake Washington eliminated the Black River and reshaped the Green-Duwamish watershed. Burying creeks added strain to the sewer system and eliminated fish habitat.
 
+## Impact on urbanism and land use
+
+Seattle's terraforming didn't just change the terrain — it determined the city's land use patterns, neighborhood boundaries, transportation corridors, and equity challenges for the next century.
+
+### Downtown expansion and Belltown
+
+The Denny Regrades created roughly 200 acres of flat, buildable land across 65 blocks north of the original business district. Thomson and boosters expected this land to become a high-value commercial extension of downtown, but for decades the cheap, flat lots attracted marginal uses: flophouses, car dealerships, warehouses, and parking lots. The area — known as the Denny Regrade or Belltown — remained relatively stagnant until the late 20th century, when proximity to downtown made it attractive for apartment towers and mixed-use development. Amazon's decision to build its headquarters campus on former Regrade land in South Lake Union transformed the area into one of Seattle's densest employment centers. ([HistoryLink: Belltown-Denny Regrade](https://www.historylink.org/File/1123) | [Historic Seattle: The Regrade Disasters](https://historicseattle.org/the-regrade-disasters/))
+
+### Industrial land base
+
+Filling the Duwamish tideflats and building Harbor Island created Seattle's industrial core. The approximately 2,000 acres of manufactured land south of downtown were zoned industrial and became home to the Port of Seattle, Boeing's first plant (1916), rail yards, and shipping terminals. Today, Seattle's industrial lands account for about 12% of the city's total land area and support approximately 100,000 jobs. The ongoing debate over rezoning SoDo's stadium district for housing — with the Port of Seattle filing a legal challenge in 2025 — is a direct descendant of decisions made when this land was created from tideflats a century ago. ([Seattle OPCD: Industrial Lands](https://www.seattle.gov/opcd/vault/industrial-lands) | [Cascade PBS: Maritime vs. Real Estate](https://www.cascadepbs.org/politics/2023/07/maritime-vs-real-estate-seattles-decades-long-rezoning-fight/))
+
+### Transportation corridors
+
+The Jackson and Dearborn Street regrades cut through the ridge between First Hill and Beacon Hill, opening the east-west corridors that connect downtown to the Rainier Valley. These corridors became the routes for Jackson Street (a major transit arterial), Interstate 90, and the future Judkins Park light rail station. Without the regrades, the steep grades would have limited connectivity between downtown and southeast Seattle. The Ship Canal similarly defined the city's major north-south divide, with the Fremont, Ballard, University, and Montlake bridges becoming chokepoints that shape commute patterns to this day. ([HistoryLink: Jackson Street Regrade](https://www.historylink.org/file/23118))
+
+### Neighborhood boundaries and identity
+
+Many of Seattle's neighborhood boundaries trace directly to terraforming decisions. Pioneer Square's character comes from the post-fire street raising. Belltown's flat grid reflects the Denny Regrade. SoDo and Georgetown sit on filled tideflats. The Ship Canal separates "north Seattle" from "south Seattle" along a line that did not exist before 1917. Fremont, Wallingford, and the University District developed as distinct neighborhoods partly because the canal and its bridges created natural separations between communities.
+
+### Equity and environmental justice
+
+The communities most affected by terraforming bear lasting consequences. The Duwamish people were displaced from their ancestral tideflats. The industrial land created by filling those tideflats was zoned to attract polluting industries, and the neighborhoods that grew up alongside them — Georgetown, South Park — are now among Seattle's most environmentally burdened communities with life expectancy 13 years shorter than wealthier neighborhoods. The land-use patterns established by a century of terraforming — where industrial zones sit, which neighborhoods are on fill, which communities were displaced — remain central to Seattle's [environmental justice]({{< relref "environmental-justice" >}}) work today. ([HistoryLink: Straightening of Duwamish River](https://www.historylink.org/File/2986))
+
 ## Modern legacy and ongoing projects
 
 ### Seawall replacement (2013-2017)
@@ -123,7 +147,7 @@ The EPA-led cleanup of the Lower Duwamish Waterway Superfund site covers approxi
 
 ### Waterfront redevelopment
 
-Following the 2019 demolition of the Alaskan Way Viaduct and the seawall replacement, Seattle is rebuilding the central waterfront with parks, a protected bike lane, and public spaces. In 2023, the **Elliott Bay Connections** public-private partnership was announced to connect and restore parks along the waterfront, funded by donations from Melinda French Gates, MacKenzie Scott, and others, with a target completion of 2026.
+Following the 2019 demolition of the Alaskan Way Viaduct and the seawall replacement, Seattle is rebuilding the central waterfront with parks, a protected bike lane, and public spaces. In August 2023, the city and Port of Seattle announced **Elliott Bay Connections**, a $45 million public-private partnership to build a pedestrian and bicycle greenway from the new Waterfront Park to the Olympic Sculpture Park and restore Myrtle Edwards and Centennial Parks. The project is funded by donations from Melinda French Gates, MacKenzie Scott, the Diller-Von Furstenberg Family Foundation, and the Expedia Group, with a target completion of June 2026. ([Seattle Mayor's Office: Elliott Bay Connections](https://harrell.seattle.gov/2023/08/23/city-of-seattle-and-port-of-seattle-announce-visionary-new-public-private-partnership-to-connect-and-revitalize-parks-on-the-elliott-bay-waterfront/) | [The Urbanist: Waterfront Park Makeover](https://www.theurbanist.org/2023/09/30/seattle-waterfront-park-makeover-promises-new-greenway-native-plants-and-public-fishing/))
 
 ## Data sources
 
