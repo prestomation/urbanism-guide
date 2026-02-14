@@ -1,13 +1,13 @@
 {{ $timeline := site.Data.timeline }}
 {{ if $timeline }}
-<div class="timeline">
+<ol class="timeline" role="list" aria-label="Seattle urbanism timeline, newest events first">
   {{ range $timeline }}
-  <div class="timeline-entry" data-year="{{ .year }}">
-    <div class="timeline-marker">
+  <li class="timeline-entry" data-year="{{ .year }}">
+    <div class="timeline-marker" aria-hidden="true">
       <span class="timeline-year">{{ .year }}</span>
     </div>
     <div class="timeline-content">
-      <h3>{{ .title }}</h3>
+      <h3><time datetime="{{ .year }}">{{ .year }}</time>: {{ .title }}</h3>
       <p>{{ .description }}</p>
       {{ with .legacy }}
       <p class="timeline-legacy">{{ . }}</p>
@@ -24,7 +24,7 @@
       </div>
       {{ end }}
     </div>
-  </div>
+  </li>
   {{ end }}
-</div>
+</ol>
 {{ end }}

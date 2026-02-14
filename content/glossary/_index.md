@@ -23,11 +23,16 @@ Browse by category below, or use the site search to find a specific term. Each t
 
 ## Categories
 
-- [Housing & Zoning]({{< relref "housing-zoning" >}}) -- ADU, FAR, MHA, upzoning, and more
-- [Transportation]({{< relref "transportation" >}}) -- LOS, mode share, complete streets, and more
-- [Land Use & Planning]({{< relref "land-use" >}}) -- SEPA, comprehensive plan, GMA, and more
-- [Funding & Policy]({{< relref "funding-policy" >}}) -- TIF, MFTE, impact fees, and more
+- [Housing & Zoning]({{< relref "housing-zoning" >}}) -- What's an ADU? Why can't apartments be built on my street? (ADU, FAR, MHA, upzoning, and more)
+- [Transportation]({{< relref "transportation" >}}) -- What does "level of service" mean? What are complete streets? (LOS, mode share, complete streets, and more)
+- [Land Use & Planning]({{< relref "land-use" >}}) -- What's SEPA? How does the comprehensive plan affect my neighborhood? (SEPA, GMA, zoning, and more)
+- [Funding & Policy]({{< relref "funding-policy" >}}) -- How does the city pay for affordable housing? What are impact fees? (TIF, MFTE, impact fees, and more)
 
 ---
+
+<div class="page-nav-bottom">
+<a href="/quick-start/">&larr; Quick Start</a>
+<a href="/guides/">Guides: Deep dives &rarr;</a>
+</div>
 
 *Don't see a term? [Open an issue](https://github.com/prestomation/urbanism-guide/issues) or submit a PR.*
