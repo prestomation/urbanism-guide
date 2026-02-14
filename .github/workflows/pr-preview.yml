@@ -159,6 +159,7 @@ jobs:
               glossaryRows,
               `| Timeline entries | ${pr.timeline_entries} | ${diff(pr.timeline_entries, base.timeline_entries)} | ${diff(pr.timeline_entries, parent.timeline_entries)} |`,
               `| Blog posts | ${pr.blog_posts} | ${diff(pr.blog_posts, base.blog_posts)} | ${diff(pr.blog_posts, parent.blog_posts)} |`,
+              `| External links | ${pr.external_links} | ${diff(pr.external_links, base.external_links)} | ${diff(pr.external_links, parent.external_links)} |`,
               `| **Total words** | **${pr.total_words.toLocaleString()}** | ${diff(pr.total_words, base.total_words)} | ${diff(pr.total_words, parent.total_words)} |`,
               `| **Total paragraphs** | **${pr.total_paragraphs.toLocaleString()}** | ${diff(pr.total_paragraphs, base.total_paragraphs)} | ${diff(pr.total_paragraphs, parent.total_paragraphs)} |`,
             ].join('\n');

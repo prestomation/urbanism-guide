@@ -46,6 +46,48 @@ def count_blog_posts(blog_dir: Path) -> int:
     return sum(1 for f in blog_dir.glob("*.md") if f.name != "_index.md")
 
 
+def count_external_links(repo_root: Path) -> int:
+    """Count unique external URLs across content and data files."""
+    markdown_link = re.compile(r'\]\((https?://(?:[^()\s]|\([^)]*\))+)\)')
+    yaml_url = re.compile(r'url:\s*["\']?(https?://[^\s"\']+)["\']?')
+    bare_url = re.compile(r'(?<![(\["\'])(https?://[^\s"\'<>\)\]]+)')
+
+    skip_domains = {
+        'localhost', '127.0.0.1', 'example.com', 'example.org',
+    }
+
+    unique_urls: set[str] = set()
+    search_paths = [repo_root / "content", repo_root / "data"]
+    extensions = {'.md', '.yaml', '.yml', '.html'}
+
+    for search_path in search_paths:
+        if not search_path.exists():
+            continue
+        for file_path in search_path.rglob('*'):
+            if file_path.suffix not in extensions or not file_path.is_file():
+                continue
+            try:
+                content = file_path.read_text(encoding='utf-8')
+            except Exception:
+                continue
+            for line in content.splitlines():
+                urls_found: list[str] = []
+                for match in markdown_link.finditer(line):
+                    urls_found.append(match.group(1).rstrip('.,;:'))
+                for match in yaml_url.finditer(line):
+                    urls_found.append(match.group(1).rstrip('.,;:'))
+                for match in bare_url.finditer(line):
+                    url = match.group(1).rstrip('.,;:')
+                    if not any(f.startswith(url) and f != url for f in urls_found):
+                        if url not in urls_found:
+                            urls_found.append(url)
+                for url in urls_found:
+                    if not any(d in url for d in skip_domains):
+                        unique_urls.add(url)
+
+    return len(unique_urls)
+
+
 def count_words_and_paragraphs(content_dir: Path) -> dict:
     """Count total words and paragraphs across all Markdown content."""
     total_words = 0
@@ -100,6 +142,7 @@ def main():
     guides = count_guides(guides_dir)
     blog_posts = count_blog_posts(blog_dir)
     text_stats = count_words_and_paragraphs(content_dir)
+    external_links = count_external_links(repo_root)
 
     metrics = {
         "guides": guides,
@@ -109,6 +152,7 @@ def main():
         "blog_posts": blog_posts,
         "total_words": text_stats["words"],
         "total_paragraphs": text_stats["paragraphs"],
+        "external_links": external_links,
     }
 
     output_format = "text"
@@ -126,6 +170,7 @@ def main():
             print(f"  {cat}: {count}")
         print(f"Timeline entries: {timeline}")
         print(f"Blog posts:       {blog_posts}")
+        print(f"External links:   {external_links}")
         print(f"Total words:      {text_stats['words']:,}")
         print(f"Total paragraphs: {text_stats['paragraphs']:,}")
 
