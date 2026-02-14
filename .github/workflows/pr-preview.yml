@@ -33,6 +33,19 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Collect content metrics (PR branch)
+        id: pr-metrics
+        run: echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
+
+      - name: Collect content metrics (base branch)
+        id: base-metrics
+        run: |
+          git stash --include-untracked || true
+          git checkout origin/${{ github.event.pull_request.base.ref }} -- content/ data/ 2>/dev/null
+          echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
+          git checkout -- . 2>/dev/null
+          git stash pop 2>/dev/null || true
+
       - name: Validate timeline order
         run: python3 scripts/validate-timeline.py
 
@@ -78,8 +91,11 @@ jobs:
           git commit -m "Update PR #${{ github.event.number }} preview" || exit 0
           git push origin gh-pages --force
 
-      - name: Comment PR with preview link
+      - name: Comment PR with preview link and metrics
         uses: actions/github-script@v7
+        env:
+          PR_METRICS: ${{ steps.pr-metrics.outputs.json }}
+          BASE_METRICS: ${{ steps.base-metrics.outputs.json }}
         with:
           script: |
             const { data: comments } = await github.rest.issues.listComments({
@@ -94,21 +110,55 @@ jobs:
 
             const previewUrl = `https://seattle.urbanism-guide.com/pr-preview/${{ github.event.number }}/`;
 
-            const body = `## Site Preview\n\n**Preview:** ${previewUrl}\n**Commit:** \`${{ github.event.pull_request.head.sha }}\`\n\n> It may take a minute for GitHub Pages to update after this comment appears.`;
+            const pr = JSON.parse(process.env.PR_METRICS);
+            const base = JSON.parse(process.env.BASE_METRICS);
+
+            function diff(current, previous) {
+              const d = current - previous;
+              if (d === 0) return '';
+              return d > 0 ? ` (+${d})` : ` (${d})`;
+            }
+
+            const glossaryRows = Object.keys(pr.glossary_by_category).sort().map(cat => {
+              const prVal = pr.glossary_by_category[cat] || 0;
+              const baseVal = (base.glossary_by_category && base.glossary_by_category[cat]) || 0;
+              return `| &nbsp;&nbsp;${cat} | ${prVal}${diff(prVal, baseVal)} |`;
+            }).join('\n');
+
+            const metrics = [
+              `## Site Preview`,
+              ``,
+              `**Preview:** ${previewUrl}`,
+              `**Commit:** \`${{ github.event.pull_request.head.sha }}\``,
+              ``,
+              `> It may take a minute for GitHub Pages to update after this comment appears.`,
+              ``,
+              `### Content Metrics`,
+              ``,
+              `| Metric | Count |`,
+              `|--------|------:|`,
+              `| Guides | ${pr.guides}${diff(pr.guides, base.guides)} |`,
+              `| Glossary terms | ${pr.glossary_terms}${diff(pr.glossary_terms, base.glossary_terms)} |`,
+              glossaryRows,
+              `| Timeline entries | ${pr.timeline_entries}${diff(pr.timeline_entries, base.timeline_entries)} |`,
+              `| Blog posts | ${pr.blog_posts}${diff(pr.blog_posts, base.blog_posts)} |`,
+              `| **Total words** | **${pr.total_words.toLocaleString()}**${diff(pr.total_words, base.total_words)} |`,
+              `| **Total paragraphs** | **${pr.total_paragraphs.toLocaleString()}**${diff(pr.total_paragraphs, base.total_paragraphs)} |`,
+            ].join('\n');
 
             if (botComment) {
               await github.rest.issues.updateComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 comment_id: botComment.id,
-                body: body
+                body: metrics
               });
             } else {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
-                body: body
+                body: metrics
               });
             }
 
