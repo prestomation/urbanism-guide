@@ -60,6 +60,14 @@ Annual reports on affordable housing investments, MHA contributions, MFTE partic
 
 ---
 
+### OED Small Business Programs & Reports
+
+Annual year-in-review reports, program data, and policy updates from Seattle's Office of Economic Development covering small business grants, commercial affordability programs, Business Community Ownership Fund progress, and Business Improvement Area activity.
+
+**Access:** [OED Bottom Line Blog](https://bottomline.seattle.gov/) | [Seattle OED](https://www.seattle.gov/economic-development)
+
+---
+
 ### Seattle Open Data Portal
 
 Over 500 datasets across all city departments including transportation, permits, utilities, and demographics. Download raw data for your own analysis.

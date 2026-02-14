@@ -41,6 +41,22 @@ A self-taxing district where property owners and businesses collectively fund ma
 
 <div class="glossary-term" data-tag="city">
 
+## Business Community Ownership Fund (BCO Fund)
+
+A first-in-the-nation program launched in 2024 by Seattle's Office of Economic Development, Grow America, and JPMorgan Chase that helps small business owners collectively purchase and own the commercial real estate they occupy. The fund creates an LLC for each property, and multiple business owners become members who collectively own the building. Participating businesses secure lease rates below market value with no future increases. The program is backed by a combined $20 million investment.
+
+**Why it matters:** The BCO Fund addresses the root cause of commercial displacement — the lack of ownership. When small businesses rent, they are vulnerable to rent increases, lease non-renewals, and building sales. By putting business owners on a path to property ownership through a shared model, the BCO Fund creates permanent affordability and wealth-building opportunities. The program prioritizes BIPOC, immigrant, women, and LGBTQIA+ business owners in high-displacement-risk neighborhoods. As of 2024, the fund has opened two properties: La Union Studio in Mt. Baker and Marjorie's restaurant in the Central District.
+
+**See also:** [Business Improvement Area](#business-improvement-area-bia), [Equitable Development Initiative](#equitable-development-initiative-edi), [Legacy Business Program](#legacy-business-program)
+
+**Learn more:** [Seattle OED: Business Community Ownership Fund](https://www.seattle.gov/economic-development/grants-and-funding/business-community-ownership-fund) | [Mayor's Office: BCO Fund Launch](https://harrell.seattle.gov/2024/03/19/city-of-seattle-grow-america-and-jpmorgan-chase-celebrate-first-in-the-nation-business-property-ownership-program-business-community-ownership-fund/)
+
+---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
+
 ## BEPS (Building Emissions Performance Standard)
 
 Seattle's policy requiring large commercial and multifamily buildings (over 20,000 square feet) to meet greenhouse gas emissions performance targets by 2050, with interim milestones. Buildings must either reduce emissions or pay an alternative compliance fee. It's one of the first building performance standards in the nation.
@@ -82,6 +98,22 @@ A nonprofit organization that owns land permanently and leases it to homeowners 
 **See also:** [Displacement](/glossary/housing-zoning/#displacement), [Equitable Development Initiative](#equitable-development-initiative-edi)
 
 **Learn more:** [Homestead Community Land Trust](https://homesteadclt.org/) | [The Urbanist: Role of Community Land Trusts](https://www.theurbanist.org/2016/06/29/the-role-of-community-land-trusts-in-affordability-housing/)
+
+---
+
+</div>
+
+<div class="glossary-term" data-tag="concept">
+
+## Community Benefit Agreement (CBA)
+
+A legally binding contract between a developer and a community coalition in which the developer commits to specific obligations — such as affordable housing, local hiring, small business support, or restrictions on chain retail — in exchange for the community's support of a development project. CBAs are negotiated directly between developers and organized community groups, not mandated by government.
+
+**Why it matters:** CBAs give community members a direct seat at the negotiation table for major development projects. Seattle's most significant CBA was the 2008 Dearborn Street agreement, negotiated between Puget Sound Sage, Little Saigon small businesses, neighborhood councils, and labor unions on one side, and the developer of a proposed $300 million mall at S. Dearborn and Rainier Avenue on the other. Although that project was canceled during the 2009 recession, the agreement — which included 200 units of low-income housing, $1.8 million for small business support, and chain retail restrictions — established the first legally binding CBA in the Puget Sound region and remains a model for future negotiations.
+
+**See also:** [Equitable Development Initiative](#equitable-development-initiative-edi), [Business Community Ownership Fund](#business-community-ownership-fund-bco-fund)
+
+**Learn more:** [Puget Sound Sage: Dearborn CBA](https://pugetsoundsage.org/programs/equitable-development/dearborn-cba/) | [PolicyLink: Community Benefits Agreements](https://www.policylink.org/resources-tools/tools/all-in-cities/good-jobs/community-benefits-agreements)
 
 ---
 
@@ -192,6 +224,22 @@ Fees charged on commercial development to fund affordable housing, based on the 
 **See also:** [MHA](/glossary/housing-zoning/#mha-mandatory-housing-affordability), [Grand Bargain](/glossary/housing-zoning/#grand-bargain)
 
 **Learn more:** [Seattle Office of Housing: MHA Commercial](https://www.seattle.gov/housing/housing-developers/mandatory-housing-affordability) | [The Urbanist: A Brief History of MHA](https://www.theurbanist.org/2019/03/18/how-we-got-here-a-brief-history-of-mandatory-housing-affordability-in-seattle/)
+
+---
+
+</div>
+
+<div class="glossary-term" data-tag="city">
+
+## Legacy Business Program
+
+A Seattle Office of Economic Development program launched in 2019 that recognizes small businesses that have operated for at least 10 years and made significant cultural contributions to their neighborhoods. One business is selected from each of the seven council districts annually and receives public recognition, a commercial lease and succession planning toolkit, and marketing and legal consultation.
+
+**Why it matters:** Legacy businesses — the corner grocery, the family restaurant, the neighborhood barbershop — anchor community identity but face the same displacement pressures as residential tenants: rising rents, lease non-renewals, and redevelopment. The program grew out of the 2016 Commercial Affordability Advisory Committee's recommendation to study legacy business support, followed by a 2017 study funded at the initiative of Councilmember Herbold. While the program provides recognition and technical assistance rather than direct financial subsidy, it raises the visibility of displacement risk and connects legacy businesses to city resources. The program is consistent with the Race and Social Justice Initiative's emphasis on supporting women- and minority-owned businesses.
+
+**See also:** [Business Community Ownership Fund](#business-community-ownership-fund-bco-fund), [Business Improvement Area](#business-improvement-area-bia)
+
+**Learn more:** [OED Bottom Line: Legacy Business Program Launch](https://bottomline.seattle.gov/2019/12/02/oed-launches-first-annual-seattle-legacy-business-program/) | [The Urbanist: What Could Rapidly Growing Seattle Do to Reduce Small Business Displacement?](https://www.theurbanist.org/2019/08/02/what-could-rapidly-growing-seattle-do-to-reduce-small-businesses-displacement/)
 
 ---
 

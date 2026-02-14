@@ -29,6 +29,7 @@ Pick the question closest to what you're curious about, or browse by category be
 - [Public Housing & the Seattle Housing Authority]({{< relref "public-housing" >}}) -- SHA's portfolio, HOPE VI redevelopments, Yesler Terrace, Section 8 vouchers, and mixed-income strategy
 - [Renter Protections & Tenant Rights]({{< relref "renter-protections" >}}) -- Just cause eviction, rent stabilization, RRIO, relocation assistance, and right to counsel
 - [Commercial Zoning, Office Space & Retail Corridors]({{< relref "commercial-zoning" >}}) -- Commercial zoning types, neighborhood business districts, the office vacancy crisis, and storefront activation
+- [Small Business & Anti-Displacement Economics]({{< relref "small-business-economics" >}}) -- Commercial gentrification, affordability programs, community benefit agreements, and business ownership models
 
 ## What's the city planning for the future?
 
