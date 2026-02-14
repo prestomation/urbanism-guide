@@ -93,8 +93,9 @@ jobs:
           git rm -rf . 2>/dev/null || true
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
 
-          # Restore everything from gh-pages
-          git checkout gh-pages -- . 2>/dev/null || true
+          # Restore everything from remote gh-pages (not local branch,
+          # which may be stale or empty after an orphan checkout)
+          git checkout origin/gh-pages -- . 2>/dev/null || true
 
           # Replace just this PR's preview dir
           rm -rf "pr-preview/${{ github.event.number }}"
