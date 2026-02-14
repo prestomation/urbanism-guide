@@ -40,25 +40,21 @@ jobs:
       - name: Collect content metrics (parent commit)
         id: parent-metrics
         run: |
-          git stash --include-untracked || true
           PARENT_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
           if [ -n "$PARENT_SHA" ]; then
             git checkout "$PARENT_SHA" -- content/ data/ 2>/dev/null
             echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
-            git checkout -- . 2>/dev/null
+            git checkout HEAD -- . 2>/dev/null
           else
             echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
           fi
-          git stash pop 2>/dev/null || true
 
       - name: Collect content metrics (base branch)
         id: base-metrics
         run: |
-          git stash --include-untracked || true
           git checkout origin/${{ github.event.pull_request.base.ref }} -- content/ data/ 2>/dev/null
           echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
-          git checkout -- . 2>/dev/null
-          git stash pop 2>/dev/null || true
+          git checkout HEAD -- . 2>/dev/null
 
       - name: Validate timeline order
         run: python3 scripts/validate-timeline.py
