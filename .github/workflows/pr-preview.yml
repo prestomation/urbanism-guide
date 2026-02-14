@@ -93,10 +93,18 @@ jobs:
           # which may be stale or empty after an orphan checkout)
           git checkout origin/gh-pages -- . 2>/dev/null || true
 
+          # Ensure root-level GitHub Pages files exist even if production
+          # hasn't deployed yet (e.g. after gh-pages was reset)
+          touch .nojekyll
+          echo "seattle.urbanism-guide.com" > CNAME
+
           # Replace just this PR's preview dir
           rm -rf "pr-preview/${{ github.event.number }}"
           mkdir -p "pr-preview/${{ github.event.number }}"
           cp -r /tmp/pr-preview-${{ github.event.number }}/* "pr-preview/${{ github.event.number }}/"
+
+          # Remove CNAME from preview subdir so it doesn't conflict with root
+          rm -f "pr-preview/${{ github.event.number }}/CNAME"
 
           git add -A
           git commit -m "Update PR #${{ github.event.number }} preview" || exit 0
