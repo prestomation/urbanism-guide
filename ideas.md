@@ -13,9 +13,6 @@ Mini-guides for areas undergoing major change: Rainier Valley, Central District,
 ### Disability Access & Universal Design
 Accessible transit, ADA compliance in new development, universal design standards. Goes beyond curb ramps.
 
-### Small Business & Anti-Displacement Economics
-Commercial gentrification, commercial affordability programs, community benefit agreements.
-
 ## Glossary Expansions
 
 - **Environmental justice terms:** green gentrification

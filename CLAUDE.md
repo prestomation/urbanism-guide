@@ -148,6 +148,7 @@ Guides are in-depth pages covering a specific urbanism topic in Seattle. Each gu
 - `pedestrian.md` - Pedestrian safety and infrastructure
 - `public-housing.md` - Public housing and the Seattle Housing Authority
 - `renter-protections.md` - Renter protections and tenant rights
+- `small-business-economics.md` - Small business displacement, commercial affordability programs, community benefit agreements
 - `station-area-planning.md` - Station area planning and transit-oriented development
 - `terraforming.md` - Hill regrades, tideland filling, Ship Canal, Duwamish channelization, urban land creation
 - `waterfront-pike-place.md` - Waterfront and Pike Place Market
