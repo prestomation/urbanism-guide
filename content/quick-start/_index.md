@@ -11,9 +11,20 @@ You want to understand what's going on with urban development in Seattle. Here's
 
 ## The basics: how Seattle is governed
 
-Seattle uses a **mayor-council** form of government. The [Mayor](https://seattle.gov/mayor) runs city departments like SDOT, SDCI, and the Office of Housing, and proposes the budget each year. The [City Council](https://seattle.gov/council), made up of seven district seats and two at-large positions, passes laws, approves the budget, and confirms mayoral appointments. The [Planning Commission](https://seattle.gov/planningcommission) advises on long-range planning but doesn't have binding authority.
+Seattle uses a **mayor-council** form of government. The [Mayor](https://seattle.gov/mayor) runs city departments and proposes the budget each year. The [City Council](https://seattle.gov/council), made up of seven district seats and two at-large positions, passes laws, approves the budget, and confirms mayoral appointments. The [Planning Commission](https://seattle.gov/planningcommission) advises on long-range planning but doesn't have binding authority.
 
-Most of the urbanist action happens through a handful of key agencies. **[SDOT](https://seattle.gov/transportation)** (Seattle Department of Transportation) handles streets, bikes, and transit priority. **[SDCI](https://seattle.gov/sdci)** (Seattle Department of Construction & Inspections) manages building permits and code enforcement. The **[Office of Planning & Community Development (OPCD)](https://seattle.gov/opcd)** shapes comprehensive planning and zoning policy, while the **[Office of Housing](https://seattle.gov/housing)** runs affordable housing programs and funding. It's worth noting that **[Sound Transit](https://www.soundtransit.org/)**—which operates Link light rail, Sounder commuter rail, and ST Express buses—is a *regional* agency, not a city one. Similarly, **[King County Metro](https://kingcounty.gov/en/dept/metro)** operates the region's bus network at the county level.
+### Key agencies
+
+Don't worry about memorizing these -- use this as a reference when you see an acronym in the news or at a meeting.
+
+| Agency | What they handle |
+|---|---|
+| **[SDOT](https://seattle.gov/transportation)** (Dept. of Transportation) | Streets, bikes, transit lanes, Vision Zero |
+| **[SDCI](https://seattle.gov/sdci)** (Dept. of Construction & Inspections) | Building permits, code enforcement |
+| **[OPCD](https://seattle.gov/opcd)** (Office of Planning & Community Development) | Comprehensive planning, zoning policy |
+| **[Office of Housing](https://seattle.gov/housing)** | Affordable housing programs and funding |
+| **[Sound Transit](https://www.soundtransit.org/)** *(regional)* | Link light rail, Sounder commuter rail, ST Express buses |
+| **[King County Metro](https://kingcounty.gov/en/dept/metro)** *(regional)* | Bus network across the county |
 
 ## The big picture: Seattle's growth story
 
@@ -56,5 +67,10 @@ Several outlets cover Seattle urbanism in depth. [The Urbanist](https://www.theu
 Most city processes have formal comment periods, and written comments count—you don't always need to show up in person. Contacting your councilmember directly can be effective, as district representatives tend to be responsive to constituent input, especially on land use issues. The most effective approach, though, is joining a local advocacy organization that aligns with your goals. These groups coordinate action, amplify individual voices, and know how to navigate city processes. Check out [Get Involved](/get-involved/) to find the group that most resonates with what you care about.
 
 ---
+
+<div class="page-nav-bottom">
+<a href="/">&larr; Home</a>
+<a href="/glossary/">Glossary: Learn the terms &rarr;</a>
+</div>
 
 *Next: Check out the [Glossary](/glossary/) to learn the terms, or browse the [Timeline](/timeline/) to see how we got here.*
