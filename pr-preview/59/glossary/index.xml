@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Glossary on Seattle Urbanism Guide</title><link>https://seattle.urbanism-guide.com/pr-preview/59/glossary/</link><description>Recent content in Glossary on Seattle Urbanism Guide</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://seattle.urbanism-guide.com/pr-preview/59/glossary/index.xml" rel="self" type="application/rss+xml"/><item><title>Housing &amp; Zoning</title><link>https://seattle.urbanism-guide.com/pr-preview/59/glossary/housing-zoning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/59/glossary/housing-zoning/</guid><description>&lt;h1 id="housing--zoning-terms">Housing &amp;amp; Zoning Terms&lt;a class="anchor" href="#housing--zoning-terms">#&lt;/a>&lt;/h1>
+&lt;div class="glossary-filter" id="glossary-filter" role="toolbar" aria-label="Filter glossary terms by jurisdiction level">
+ &lt;span class="glossary-filter-label" id="glossary-filter-label">Filter:&lt;/span>
+ &lt;button class="glossary-filter-btn active" data-filter="all" aria-pressed="true">All&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="federal" aria-pressed="false">Federal&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="state" aria-pressed="false">State&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="county" aria-pressed="false">County&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="city" aria-pressed="false">City&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="concept" aria-pressed="false">Concept&lt;/button>
+&lt;/div>
+&lt;p class="glossary-no-results" id="glossary-no-results" style="display:none;" role="status" aria-live="polite">No terms found for this filter on this page. Try another category or check a different glossary section.&lt;/p>
+
+&lt;script>
+(function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ var filterBar = document.getElementById('glossary-filter');
+ if (!filterBar) return;
+
+ var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
+ var terms = document.querySelectorAll('.glossary-term');
+ var noResults = document.getElementById('glossary-no-results');
+
+ 
+ var tagLabels = {
+ federal: 'Federal',
+ state: 'State',
+ county: 'County',
+ city: 'City',
+ concept: 'Concept'
+ };
+
+ terms.forEach(function(term) {
+ var tag = term.getAttribute('data-tag');
+ var heading = term.querySelector('h2');
+ if (heading &amp;&amp; tag &amp;&amp; tagLabels[tag]) {
+ var badge = document.createElement('span');
+ badge.className = 'glossary-tag glossary-tag-' + tag;
+ badge.textContent = tagLabels[tag];
+ badge.setAttribute('aria-label', tagLabels[tag] + ' level');
+ heading.appendChild(badge);
+ }
+ });
+
+ 
+ buttons.forEach(function(btn) {
+ btn.addEventListener('click', function() {
+ var filter = this.getAttribute('data-filter');
+ var visibleCount = 0;
+
+ buttons.forEach(function(b) {
+ b.classList.remove('active');
+ b.setAttribute('aria-pressed', 'false');
+ });
+ this.classList.add('active');
+ this.setAttribute('aria-pressed', 'true');
+
+ terms.forEach(function(term) {
+ if (filter === 'all' || term.getAttribute('data-tag') === filter) {
+ term.style.display = '';
+ visibleCount++;
+ } else {
+ term.style.display = 'none';
+ }
+ });
+
+ noResults.style.display = visibleCount === 0 ? '' : 'none';
+ });
+
+ 
+ btn.addEventListener('keydown', function(e) {
+ var btnsArray = Array.from(buttons);
+ var idx = btnsArray.indexOf(this);
+ if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+ e.preventDefault();
+ btnsArray[(idx + 1) % btnsArray.length].focus();
+ } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+ e.preventDefault();
+ btnsArray[(idx - 1 + btnsArray.length) % btnsArray.length].focus();
+ }
+ });
+ });
+ });
+})();
+&lt;/script>
+
+&lt;div class="glossary-term" data-tag="city">
+&lt;h2 id="adu-accessory-dwelling-unit">ADU (Accessory Dwelling Unit)&lt;a class="anchor" href="#adu-accessory-dwelling-unit">#&lt;/a>&lt;/h2>
+&lt;p>A smaller, secondary home on the same lot as a main house. Think backyard cottages or basement apartments. Seattle has been loosening ADU rules since 2019 to allow more housing in single-family zones.&lt;/p></description></item><item><title>Transportation</title><link>https://seattle.urbanism-guide.com/pr-preview/59/glossary/transportation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/59/glossary/transportation/</guid><description>&lt;h1 id="transportation-terms">Transportation Terms&lt;a class="anchor" href="#transportation-terms">#&lt;/a>&lt;/h1>
+&lt;div class="glossary-filter" id="glossary-filter" role="toolbar" aria-label="Filter glossary terms by jurisdiction level">
+ &lt;span class="glossary-filter-label" id="glossary-filter-label">Filter:&lt;/span>
+ &lt;button class="glossary-filter-btn active" data-filter="all" aria-pressed="true">All&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="federal" aria-pressed="false">Federal&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="state" aria-pressed="false">State&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="county" aria-pressed="false">County&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="city" aria-pressed="false">City&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="concept" aria-pressed="false">Concept&lt;/button>
+&lt;/div>
+&lt;p class="glossary-no-results" id="glossary-no-results" style="display:none;" role="status" aria-live="polite">No terms found for this filter on this page. Try another category or check a different glossary section.&lt;/p>
+
+&lt;script>
+(function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ var filterBar = document.getElementById('glossary-filter');
+ if (!filterBar) return;
+
+ var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
+ var terms = document.querySelectorAll('.glossary-term');
+ var noResults = document.getElementById('glossary-no-results');
+
+ 
+ var tagLabels = {
+ federal: 'Federal',
+ state: 'State',
+ county: 'County',
+ city: 'City',
+ concept: 'Concept'
+ };
+
+ terms.forEach(function(term) {
+ var tag = term.getAttribute('data-tag');
+ var heading = term.querySelector('h2');
+ if (heading &amp;&amp; tag &amp;&amp; tagLabels[tag]) {
+ var badge = document.createElement('span');
+ badge.className = 'glossary-tag glossary-tag-' + tag;
+ badge.textContent = tagLabels[tag];
+ badge.setAttribute('aria-label', tagLabels[tag] + ' level');
+ heading.appendChild(badge);
+ }
+ });
+
+ 
+ buttons.forEach(function(btn) {
+ btn.addEventListener('click', function() {
+ var filter = this.getAttribute('data-filter');
+ var visibleCount = 0;
+
+ buttons.forEach(function(b) {
+ b.classList.remove('active');
+ b.setAttribute('aria-pressed', 'false');
+ });
+ this.classList.add('active');
+ this.setAttribute('aria-pressed', 'true');
+
+ terms.forEach(function(term) {
+ if (filter === 'all' || term.getAttribute('data-tag') === filter) {
+ term.style.display = '';
+ visibleCount++;
+ } else {
+ term.style.display = 'none';
+ }
+ });
+
+ noResults.style.display = visibleCount === 0 ? '' : 'none';
+ });
+
+ 
+ btn.addEventListener('keydown', function(e) {
+ var btnsArray = Array.from(buttons);
+ var idx = btnsArray.indexOf(this);
+ if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+ e.preventDefault();
+ btnsArray[(idx + 1) % btnsArray.length].focus();
+ } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+ e.preventDefault();
+ btnsArray[(idx - 1 + btnsArray.length) % btnsArray.length].focus();
+ }
+ });
+ });
+ });
+})();
+&lt;/script>
+
+&lt;div class="glossary-term" data-tag="concept">
+&lt;h2 id="15-minute-city">15-Minute City&lt;a class="anchor" href="#15-minute-city">#&lt;/a>&lt;/h2>
+&lt;p>An urban planning concept where residents can reach daily necessities &amp;ndash; work, school, shopping, healthcare, parks &amp;ndash; within a 15-minute walk or bike ride. Popularized by Paris Mayor Anne Hidalgo and professor Carlos Moreno.&lt;/p></description></item><item><title>Land Use &amp; Planning</title><link>https://seattle.urbanism-guide.com/pr-preview/59/glossary/land-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/59/glossary/land-use/</guid><description>&lt;h1 id="land-use--planning-terms">Land Use &amp;amp; Planning Terms&lt;a class="anchor" href="#land-use--planning-terms">#&lt;/a>&lt;/h1>
+&lt;div class="glossary-filter" id="glossary-filter" role="toolbar" aria-label="Filter glossary terms by jurisdiction level">
+ &lt;span class="glossary-filter-label" id="glossary-filter-label">Filter:&lt;/span>
+ &lt;button class="glossary-filter-btn active" data-filter="all" aria-pressed="true">All&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="federal" aria-pressed="false">Federal&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="state" aria-pressed="false">State&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="county" aria-pressed="false">County&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="city" aria-pressed="false">City&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="concept" aria-pressed="false">Concept&lt;/button>
+&lt;/div>
+&lt;p class="glossary-no-results" id="glossary-no-results" style="display:none;" role="status" aria-live="polite">No terms found for this filter on this page. Try another category or check a different glossary section.&lt;/p>
+
+&lt;script>
+(function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ var filterBar = document.getElementById('glossary-filter');
+ if (!filterBar) return;
+
+ var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
+ var terms = document.querySelectorAll('.glossary-term');
+ var noResults = document.getElementById('glossary-no-results');
+
+ 
+ var tagLabels = {
+ federal: 'Federal',
+ state: 'State',
+ county: 'County',
+ city: 'City',
+ concept: 'Concept'
+ };
+
+ terms.forEach(function(term) {
+ var tag = term.getAttribute('data-tag');
+ var heading = term.querySelector('h2');
+ if (heading &amp;&amp; tag &amp;&amp; tagLabels[tag]) {
+ var badge = document.createElement('span');
+ badge.className = 'glossary-tag glossary-tag-' + tag;
+ badge.textContent = tagLabels[tag];
+ badge.setAttribute('aria-label', tagLabels[tag] + ' level');
+ heading.appendChild(badge);
+ }
+ });
+
+ 
+ buttons.forEach(function(btn) {
+ btn.addEventListener('click', function() {
+ var filter = this.getAttribute('data-filter');
+ var visibleCount = 0;
+
+ buttons.forEach(function(b) {
+ b.classList.remove('active');
+ b.setAttribute('aria-pressed', 'false');
+ });
+ this.classList.add('active');
+ this.setAttribute('aria-pressed', 'true');
+
+ terms.forEach(function(term) {
+ if (filter === 'all' || term.getAttribute('data-tag') === filter) {
+ term.style.display = '';
+ visibleCount++;
+ } else {
+ term.style.display = 'none';
+ }
+ });
+
+ noResults.style.display = visibleCount === 0 ? '' : 'none';
+ });
+
+ 
+ btn.addEventListener('keydown', function(e) {
+ var btnsArray = Array.from(buttons);
+ var idx = btnsArray.indexOf(this);
+ if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+ e.preventDefault();
+ btnsArray[(idx + 1) % btnsArray.length].focus();
+ } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+ e.preventDefault();
+ btnsArray[(idx - 1 + btnsArray.length) % btnsArray.length].focus();
+ }
+ });
+ });
+ });
+})();
+&lt;/script>
+
+&lt;div class="glossary-term" data-tag="concept">
+&lt;h2 id="cascadia-subduction-zone">Cascadia Subduction Zone&lt;a class="anchor" href="#cascadia-subduction-zone">#&lt;/a>&lt;/h2>
+&lt;p>A roughly 1,100-kilometer fault running offshore from northern California to Vancouver Island, where the Juan de Fuca tectonic plate dives beneath the North American plate. The CSZ is capable of producing magnitude 9.0+ megathrust earthquakes. The last full-rupture event occurred on January 26, 1700; USGS estimates a 10-15% probability of another magnitude 9 event in the next 50 years.&lt;/p></description></item><item><title>Funding &amp; Policy</title><link>https://seattle.urbanism-guide.com/pr-preview/59/glossary/funding-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://seattle.urbanism-guide.com/pr-preview/59/glossary/funding-policy/</guid><description>&lt;h1 id="funding--policy-terms">Funding &amp;amp; Policy Terms&lt;a class="anchor" href="#funding--policy-terms">#&lt;/a>&lt;/h1>
+&lt;div class="glossary-filter" id="glossary-filter" role="toolbar" aria-label="Filter glossary terms by jurisdiction level">
+ &lt;span class="glossary-filter-label" id="glossary-filter-label">Filter:&lt;/span>
+ &lt;button class="glossary-filter-btn active" data-filter="all" aria-pressed="true">All&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="federal" aria-pressed="false">Federal&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="state" aria-pressed="false">State&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="county" aria-pressed="false">County&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="city" aria-pressed="false">City&lt;/button>
+ &lt;button class="glossary-filter-btn" data-filter="concept" aria-pressed="false">Concept&lt;/button>
+&lt;/div>
+&lt;p class="glossary-no-results" id="glossary-no-results" style="display:none;" role="status" aria-live="polite">No terms found for this filter on this page. Try another category or check a different glossary section.&lt;/p>
+
+&lt;script>
+(function() {
+ document.addEventListener('DOMContentLoaded', function() {
+ var filterBar = document.getElementById('glossary-filter');
+ if (!filterBar) return;
+
+ var buttons = filterBar.querySelectorAll('.glossary-filter-btn');
+ var terms = document.querySelectorAll('.glossary-term');
+ var noResults = document.getElementById('glossary-no-results');
+
+ 
+ var tagLabels = {
+ federal: 'Federal',
+ state: 'State',
+ county: 'County',
+ city: 'City',
+ concept: 'Concept'
+ };
+
+ terms.forEach(function(term) {
+ var tag = term.getAttribute('data-tag');
+ var heading = term.querySelector('h2');
+ if (heading &amp;&amp; tag &amp;&amp; tagLabels[tag]) {
+ var badge = document.createElement('span');
+ badge.className = 'glossary-tag glossary-tag-' + tag;
+ badge.textContent = tagLabels[tag];
+ badge.setAttribute('aria-label', tagLabels[tag] + ' level');
+ heading.appendChild(badge);
+ }
+ });
+
+ 
+ buttons.forEach(function(btn) {
+ btn.addEventListener('click', function() {
+ var filter = this.getAttribute('data-filter');
+ var visibleCount = 0;
+
+ buttons.forEach(function(b) {
+ b.classList.remove('active');
+ b.setAttribute('aria-pressed', 'false');
+ });
+ this.classList.add('active');
+ this.setAttribute('aria-pressed', 'true');
+
+ terms.forEach(function(term) {
+ if (filter === 'all' || term.getAttribute('data-tag') === filter) {
+ term.style.display = '';
+ visibleCount++;
+ } else {
+ term.style.display = 'none';
+ }
+ });
+
+ noResults.style.display = visibleCount === 0 ? '' : 'none';
+ });
+
+ 
+ btn.addEventListener('keydown', function(e) {
+ var btnsArray = Array.from(buttons);
+ var idx = btnsArray.indexOf(this);
+ if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+ e.preventDefault();
+ btnsArray[(idx + 1) % btnsArray.length].focus();
+ } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+ e.preventDefault();
+ btnsArray[(idx - 1 + btnsArray.length) % btnsArray.length].focus();
+ }
+ });
+ });
+ });
+})();
+&lt;/script>
+
+&lt;div class="glossary-term" data-tag="federal">
+&lt;h2 id="ami-area-median-income">AMI (Area Median Income)&lt;a class="anchor" href="#ami-area-median-income">#&lt;/a>&lt;/h2>
+&lt;p>The median household income for a metropolitan area, calculated annually by HUD. Seattle&amp;rsquo;s AMI is used as the benchmark for defining affordable housing eligibility &amp;ndash; typically at percentages like 30%, 50%, 60%, or 80% of AMI.&lt;/p></description></item></channel></rss>
