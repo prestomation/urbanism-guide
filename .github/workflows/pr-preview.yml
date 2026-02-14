@@ -37,6 +37,20 @@ jobs:
         id: pr-metrics
         run: echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
 
+      - name: Collect content metrics (parent commit)
+        id: parent-metrics
+        run: |
+          git stash --include-untracked || true
+          PARENT_SHA=$(git rev-parse HEAD~1 2>/dev/null || echo "")
+          if [ -n "$PARENT_SHA" ]; then
+            git checkout "$PARENT_SHA" -- content/ data/ 2>/dev/null
+            echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
+            git checkout -- . 2>/dev/null
+          else
+            echo "json=$(python3 scripts/content-metrics.py --json)" >> "$GITHUB_OUTPUT"
+          fi
+          git stash pop 2>/dev/null || true
+
       - name: Collect content metrics (base branch)
         id: base-metrics
         run: |
@@ -96,6 +110,7 @@ jobs:
         env:
           PR_METRICS: ${{ steps.pr-metrics.outputs.json }}
           BASE_METRICS: ${{ steps.base-metrics.outputs.json }}
+          PARENT_METRICS: ${{ steps.parent-metrics.outputs.json }}
         with:
           script: |
             const { data: comments } = await github.rest.issues.listComments({
@@ -112,6 +127,7 @@ jobs:
 
             const pr = JSON.parse(process.env.PR_METRICS);
             const base = JSON.parse(process.env.BASE_METRICS);
+            const parent = JSON.parse(process.env.PARENT_METRICS);
 
             function diff(current, previous) {
               const d = current - previous;
@@ -122,7 +138,8 @@ jobs:
             const glossaryRows = Object.keys(pr.glossary_by_category).sort().map(cat => {
               const prVal = pr.glossary_by_category[cat] || 0;
               const baseVal = (base.glossary_by_category && base.glossary_by_category[cat]) || 0;
-              return `| &nbsp;&nbsp;${cat} | ${prVal}${diff(prVal, baseVal)} |`;
+              const parentVal = (parent.glossary_by_category && parent.glossary_by_category[cat]) || 0;
+              return `| &nbsp;&nbsp;${cat} | ${prVal} | ${diff(prVal, baseVal)} | ${diff(prVal, parentVal)} |`;
             }).join('\n');
 
             const metrics = [
@@ -135,15 +152,15 @@ jobs:
               ``,
               `### Content Metrics`,
               ``,
-              `| Metric | Count |`,
-              `|--------|------:|`,
-              `| Guides | ${pr.guides}${diff(pr.guides, base.guides)} |`,
-              `| Glossary terms | ${pr.glossary_terms}${diff(pr.glossary_terms, base.glossary_terms)} |`,
+              `| Metric | Count | vs base | vs prev commit |`,
+              `|--------|------:|--------:|---------------:|`,
+              `| Guides | ${pr.guides} | ${diff(pr.guides, base.guides)} | ${diff(pr.guides, parent.guides)} |`,
+              `| Glossary terms | ${pr.glossary_terms} | ${diff(pr.glossary_terms, base.glossary_terms)} | ${diff(pr.glossary_terms, parent.glossary_terms)} |`,
               glossaryRows,
-              `| Timeline entries | ${pr.timeline_entries}${diff(pr.timeline_entries, base.timeline_entries)} |`,
-              `| Blog posts | ${pr.blog_posts}${diff(pr.blog_posts, base.blog_posts)} |`,
-              `| **Total words** | **${pr.total_words.toLocaleString()}**${diff(pr.total_words, base.total_words)} |`,
-              `| **Total paragraphs** | **${pr.total_paragraphs.toLocaleString()}**${diff(pr.total_paragraphs, base.total_paragraphs)} |`,
+              `| Timeline entries | ${pr.timeline_entries} | ${diff(pr.timeline_entries, base.timeline_entries)} | ${diff(pr.timeline_entries, parent.timeline_entries)} |`,
+              `| Blog posts | ${pr.blog_posts} | ${diff(pr.blog_posts, base.blog_posts)} | ${diff(pr.blog_posts, parent.blog_posts)} |`,
+              `| **Total words** | **${pr.total_words.toLocaleString()}** | ${diff(pr.total_words, base.total_words)} | ${diff(pr.total_words, parent.total_words)} |`,
+              `| **Total paragraphs** | **${pr.total_paragraphs.toLocaleString()}** | ${diff(pr.total_paragraphs, base.total_paragraphs)} | ${diff(pr.total_paragraphs, parent.total_paragraphs)} |`,
             ].join('\n');
 
             if (botComment) {
